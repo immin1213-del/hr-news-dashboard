@@ -1,0 +1,55 @@
+name: Daily HR News Crawler
+
+on:
+  schedule:
+      # KST 오전 8시 = UTC 전날 23시
+          - cron: '0 23 * * *'
+
+            # 수동 실행 버튼 (테스트용 - 매우 유용)
+              workflow_dispatch:
+
+              jobs:
+                crawl-and-update:
+                    runs-on: ubuntu-latest
+
+                        steps:
+                              # 1. 레포지토리 체크아웃
+                                    - name: Checkout Repository
+                                            uses: actions/checkout@v4
+                                                    with:
+                                                              # PAT로 체크아웃해야 이후 push 권한이 생깁니다
+                                                                        token: ${{ secrets.GH_PAT }}
+
+                                                                              # 2. Python 환경 세팅
+                                                                                    - name: Set up Python 3.11
+                                                                                            uses: actions/setup-python@v5
+                                                                                                    with:
+                                                                                                              python-version: '3.11'
+                                                                                                              
+                                                                                                                    # 3. 의존성 설치 (쮨싱으로 속도 향상)
+                                                                                                                          - name: Install Dependencies
+                                                                                                                                  run: |
+                                                                                                                                            python -m pip install --upgrade pip
+                                                                                                                                                      pip install -r requirements.txt
+                                                                                                                                                      
+                                                                                                                                                            # 4. 크롤링 스크립트 실행
+                                                                                                                                                                  - name: Run News Crawler
+                                                                                                                                                                          run: |
+                                                                                                                                                                                    python crawler/crawl_news.py
+                                                                                                                                                                                    
+                                                                                                                                                                                          # 5. 변경된 news_data.json을 레포지토리에 자동 코밋 & 푸시
+                                                                                                                                                                                                - name: Commit and Push Updated Data
+                                                                                                                                                                                                        run: |
+                                                                                                                                                                                                                  git config --global user.name  "github-actions[bot]"
+                                                                                                                                                                                                                            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                      # 변경사항이 있을 때만 코밋 (불필요한 코밋 방지)
+                                                                                                                                                                                                                                                git add news_data.json
+                                                                                                                                                                                                                                                          if git diff --staged --quiet; then
+                                                                                                                                                                                                                                                                      echo "No changes to commit. Data is already up to date."
+                                                                                                                                                                                                                                                                                else
+                                                                                                                                                                                                                                                                                            git commit -m "[Auto] Update news_data.json - $(date +'%Y-%m-%d %H:%M KST')"
+                                                                                                                                                                                                                                                                                                        git push
+                                                                                                                                                                                                                                                                                                                    echo "Successfully pushed updated news data."
+                                                                                                                                                                                                                                                                                                                              fi
+                                                                                                                                                                                                                                                                                                                              
