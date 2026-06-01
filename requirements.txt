@@ -10,5 +10,8 @@ beautifulsoup4>=4.12.0
 lxml>=5.0.0
 feedparser>=6.0.0
 
+# ── AI 분석 (추가) ──
+google-genai>=1.0.0
+
 # ── 기타 유틸 ──
 python-dateutil>=2.8.0
