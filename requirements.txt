@@ -1,0 +1,14 @@
+# ── Streamlit 대시보드 ──
+streamlit>=1.35.0
+
+# ── 데이터 처리 ──
+pandas>=2.0.0
+
+# ── 크롤링 ──
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+feedparser>=6.0.0
+
+# ── 기타 유틸 ──
+python-dateutil>=2.8.0
