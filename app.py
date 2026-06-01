@@ -208,22 +208,34 @@ def extract_categories(item: dict) -> tuple[list[str], str]:
     return unique_categories[:2], clean_title
 
 
-def render_hero(news_count: int, last_updated: str):
-    display_date = last_updated if last_updated else datetime.now().strftime("%Y년 %m월 %d일 %H:%M KST")
-    st.markdown(f"""
-    <div class="hero-banner">
-        <div class="hero-left">
-            <p class="hero-title">📋 HR 뉴스 모니터링 대시보드</p>
-            <p class="hero-subtitle">고용노동부 · 대법원 · 글로벌 컨설팅 — 인사 실무자를 위한 핵심 이슈 브리핑</p>
-        </div>
-        <div class="hero-right">
-            <p class="hero-date">🗓 최종 업데이트: {display_date}</p>
-            <p class="hero-count">{news_count}</p>
-            <p class="hero-count-label">수집된 뉴스 건수</p>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+def render_news_card(item: dict, index: int):
+    source_name = item.get("source", "알 수 없는 출처")
+    source_url  = item.get("link", "")
+    summary     = item.get("summary", "")
+    categories, clean_title = extract_categories(item)
 
+    # 🚨 수정된 부분: expander 제목은 HTML을 지원하지 않으므로 순수 텍스트(대괄호)로 처리합니다.
+    cat_str = "".join(f"[{cat}] " for cat in categories)
+    expander_label = f"{cat_str}{clean_title} - {source_name}"
+
+    with st.expander(expander_label, expanded=False):
+        pub_date = item.get("pubDate", "")
+        date_str = f" | 🕒 {pub_date}" if pub_date else ""
+        
+        st.markdown('<p class="section-label">📅 출처 및 링크</p>', unsafe_allow_html=True)
+        if source_url:
+            st.markdown(
+                f'<div class="source-box">🔗 <a href="{source_url}" target="_blank">{source_name}</a>{date_str}</div>',
+                unsafe_allow_html=True,
+            )
+        else:
+            st.markdown(f'<div class="source-box">📌 {source_name}{date_str}</div>', unsafe_allow_html=True)
+
+        if summary:
+            st.markdown('<hr class="divider">', unsafe_allow_html=True)
+            st.markdown('<p class="section-label">📝 원문 요약(발췌)</p>', unsafe_allow_html=True)
+            summary_html = summary.replace(". ", ".<br>").replace("됨.", "됨.<br>").replace("함.", "함.<br>")
+            st.markdown(f'<div class="summary-box">{summary_html}</div>', unsafe_allow_html=True)
 
 def render_news_card(item: dict, index: int):
     source_name = item.get("source", "알 수 없는 출처")
