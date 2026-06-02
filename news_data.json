@@ -1,23 +1,367 @@
-[
-  {
-    "title": "[고용노동부 정책] 대륜, ‘2026 노동정책’ 세미나 성료…“기업 인사·보상 전략 점검”",
-    "source": "경기일보 | https://news.google.com/rss/articles/CBMiW0FVX3lxTE02OEctZERMWjNIVWpXcE0tcnRTOHZobHJKZjFCNHVSVmNGTXNCeG5TRHhCTmRWNlMzNGVwNXU4eDZBaGlELXlId29zejRlZURPSVhwWjFpRXFBVkU?oc=5",
-    "summary": "법무법인 대륜이 2026년 노동정책 변화에 대한 기업의 선제적 대응을 위한 세미나를 개최했습니다. 기업은 다가올 노동정책에 맞춰 인사 및 보상 전략을 미리 점검하고 재정비해야 할 시점입니다.",
-    "novelty_impact": "현재 법규 준수 외에 2026년으로 예정된 미래 노동정책 변화에 대한 선제적 준비의 중요성을 강조합니다. 이는 단순한 법규 준수를 넘어 기업의 중장기적인 인사·보상 전략 수립에 대한 로드맵을 제시합니다.",
-    "action_point": [
-      "2026년 노동정책 변화에 대한 상세 동향을 지속적으로 모니터링하고 정보수집 계획을 수립합니다.",
-      "현재 운영 중인 인사 및 보상 제도(임금 체계, 복리후생, 평가 제도 등)가 다가올 정책 변화에 어떻게 영향을 받을지 분석하고 예상 시나리오를 작성합니다.",
-      "정책 변화에 대비한 인사·보상 전략 재정비 로드맵을 수립하고, 필요한 경우 내부 규정 개정 및 예산 확보 계획을 준비합니다."
-    ]
-  },
-  {
-    "title": "[고용노동부 정책] “동네 사장님, 힘내세요”…인사관리 플랫폼 이용료 180만원까지 지원",
-    "source": "농민신문 | https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEaUtpY244UV9ZWERJblh0eFVfc3NidXgybE5TbGZRRnFzN29GQTJGcmE5TXpOWm9zaTI5X21KV3VKWEstZ3NZR2pmYUJ6OEZxbGNYb3dIeGQ1QQ?oc=5",
-    "summary": "소상공인을 대상으로 인사관리 플랫폼 도입 및 운영 비용을 최대 180만원까지 지원하는 사업이 시행됩니다. 이는 영세 사업주의 인사관리 부담을 경감하고, 효율적인 인력 운영을 돕기 위한 고용노동부 정책의 일환입니다.",
-    "novelty_impact": "영세 사업주가 고비용 부담 없이 전문 인사관리 시스템을 도입할 수 있도록 직접적인 재정 지원을 제공한다는 점에서 기존의 간접적인 정보 제공 정책과 차별화됩니다. 이는 소상공인의 HR 관리 디지털 전환을 가속화하고, 주먹구구식 운영에서 벗어나 효율적인 인력 관리를 가능하게 할 것입니다.",
-    "action_point": [
-      "이용 중이거나 도입을 고려하는 HR 플랫폼이 지원 대상에 해당하는지 확인하고, 해당 프로그램의 상세 지원 요건 및 신청 방법을 즉시 파악해야 합니다.",
-      "내부적으로 지원 가능한 사업장(예: 관계사, 협력사 중 소상공인)이 있는지 파악하여 해당 제도를 적극 활용하도록 안내하고, 이를 통해 효율적인 HR 시스템 구축을 장려해야 합니다."
-    ]
-  }
-]
+{
+  "last_updated": "2026년 06월 02일 01:35 KST",
+  "articles": [
+    {
+      "title": "노동부, 심각한 산업안전 위반 현장 적발 및 전담팀 수사 착수",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBoMFRNY053bFk5YjlNNkp4R1pVeks3MDRVOEVmQkZGdnNRWnhyc2FoTlNQdndfR2tNTVoyZ1F5OE0xZGx4ZF9GR2ZGRXdiME0?oc=5",
+      "source": "v.daum.net",
+      "summary": "고용노동부가 현장 점검 중 심각한 산업안전보건법 위반 사항이 확인된 사업장에 대해 전담팀을 꾸려 수사에 착수했습니다. 이는 정부가 사업장의 안전 불감증에 강력히 대응하겠다는 의지를 보여주는 사례로, 기업들의 경각심이 요구됩니다.",
+      "novelty_impact": "노동부가 직접 현장을 포착하고 전담팀을 투입하여 수사에 나서는 것은 기업의 산업안전보건 의무 이행에 대한 정부의 강력한 의지를 나타내며, 향후 산업안전 감독 강화의 신호로 해석될 수 있습니다.",
+      "action_point": [
+        "현재 사업장의 산업안전보건법 준수 여부 및 주요 위험성 평가 결과를 신속히 재점검하고 미비점을 보완해야 합니다.",
+        "모든 임직원을 대상으로 하는 안전보건 교육을 강화하고, 안전 관리 시스템(위험성 평가 포함)이 실효성 있게 작동하는지 재점검하고 개선해야 합니다.",
+        "노동부의 현장 감독 및 수사 강화 추세에 대비하여, 관련 부서와 협력하여 선제적으로 법규 준수 태세를 확립하고 위법 요소는 없는지 면밀히 확인해야 합니다."
+      ],
+      "collected_at": "2026-06-02 01:30"
+    },
+    {
+      "title": "고용노동부, 청년 첫걸음 보장 지원 확대 시행",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1nZUFoaHRMQWEzQlc5UUpHQXotb3dZUHVQZ3RNLUFnTXhFWnBsWEVRWnpwYVRsZXNLWHZMRG1nb0xsSmNTTEtJUlU2MkhkSVY4UV8tdkNGaWtEaWY1cWZ1Ym5fY0htVWFNTjlSQU8ybWJJanhnN0xv?oc=5",
+      "source": "고용노동부",
+      "summary": "고용노동부가 청년들의 안정적인 사회 첫걸음을 돕기 위한 '청년 첫걸음 보장 지원' 사업을 확대 시행합니다. 이는 청년들의 직무 역량 강화와 기업의 청년 채용을 장려하기 위한 다양한 지원 프로그램을 포함하며, 특히 중소·중견기업의 청년 고용에 대한 지원이 강화될 예정입니다.",
+      "novelty_impact": "이번 지원 확대는 기업이 우수 청년 인력을 채용하고 안정적인 일자리를 제공하는 데 실질적인 재정적 지원을 받을 수 있다는 점에서 매우 중요한 변화입니다.",
+      "action_point": [
+        "기업은 신규 청년 채용 계획 수립 시 본 지원 사업의 조건 및 혜택을 면밀히 검토하여 활용 방안을 모색해야 합니다.",
+        "고용노동부 공식 발표 자료나 관련 지자체 웹사이트를 통해 구체적인 지원 대상, 내용, 신청 절차 및 기간을 확인하고 HR 채용 전략에 반영합니다.",
+        "내부 채용 프로세스 및 직무 요건과 연계하여 지원 요건에 맞는 청년 인재 채용을 적극적으로 고려하고 관련 담당 부서와 협력합니다."
+      ],
+      "collected_at": "2026-06-02 01:30"
+    },
+    {
+      "title": "중대재해 재해조사보고서 51건 선제적 공개",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GNzZUanRHQXU3UWViLVBMVzRMcEVXdDJ3X2ZqN1hHdTF4dHpGTFZXNDIxNVI2OXpsaU9oTU5Cc3l1WFhyZ182bmhhUjdXY3F0VTNzRlZMbHFFTGI5M2dULV9GZU42THFY?oc=5",
+      "source": "환경일보",
+      "summary": "고용노동부가 중대재해 발생 사업장의 재해조사보고서 51건을 선제적으로 공개했습니다. 이는 기업들이 실제 재해 사례를 통해 유사 사고를 예방하고 안전 보건 조치 개선에 활용할 수 있도록 돕기 위함입니다.",
+      "novelty_impact": "중대재해 발생 기업의 재해조사보고서 공개를 통해 타 기업들이 재발 방지 대책을 수립하고 안전 보건 시스템을 개선할 수 있는 실질적인 학습 기회가 제공되어 선제적 예방 효과가 기대됩니다.",
+      "action_point": [
+        "공개된 중대재해 재해조사보고서 51건을 면밀히 검토하여 자사 사업장의 잠재적 위험 요인 및 개선 필요 사항을 파악합니다.",
+        "보고서 분석 결과를 토대로 현재 운영 중인 안전보건관리체계의 취약점을 보완하고, 중대재해 예방을 위한 구체적인 조치 계획을 수립 및 실행합니다.",
+        "재해 사례와 분석 내용을 안전보건 교육 자료로 활용하여 현장 관리자 및 근로자들의 안전 의식과 역량을 강화합니다."
+      ],
+      "collected_at": "2026-06-02 01:31"
+    },
+    {
+      "title": "고용노동부 주요 정책 발표 및 안내",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GSE1Dblk0ZjJXbzJ1RFVxRnk0bVdIWTNKcW1vN3ZCRXlDMHE0eVhkV2VXVnlmbDR3Y2NJSng0ODBOSGNmT3ZNeVFfWnZiVEJkYzYyTEdZOFBXekRiTWdtR2pQQ0E5cUXSAWtBVV95cUxPNS1yMjc2Wk1RSjBmT01MNGdBaTdPS0p4RlRoazF0UDhGMG9nXzgtVmszVGFqLVZUWmRaWktfSFlGVkFaWlhoQVZZa194bmh1Uk4xX1h5Szl1b1NDcXpLM3Q3ZXRUcVFOR0xjNA?oc=5",
+      "source": "이투뉴스",
+      "summary": "고용노동부에서 기업의 HR 운영과 밀접하게 관련된 신규 정책 발표 및 기존 정책의 변경 사항을 안내했습니다. 이는 인사 담당자들이 최신 노동 환경 변화에 선제적으로 대응하고 법적 준수 사항을 점검하는 데 중요합니다.",
+      "novelty_impact": "정부의 고용노동 정책은 기업의 인사 운영 전반에 직접적인 영향을 미치므로, 최신 정보를 빠르게 파악하고 적용하는 것이 핵심입니다.",
+      "action_point": [
+        "고용노동부 홈페이지 또는 관련 보도자료를 통해 발표된 구체적인 정책 내용 확인 및 세부 지침 숙지",
+        "자사 HR 규정 및 실무에 미치는 영향 분석 후 필요한 경우 내부 규정 개정 또는 프로세스 개선 계획 수립",
+        "정책 변화에 대한 사내 직원 교육 필요성 검토 및 실행"
+      ],
+      "collected_at": "2026-06-02 01:31"
+    },
+    {
+      "title": "부산신보, 고용노동부 '남녀고용평등 우수기업' 선정 및 장관 표창",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pYzVDZzExV2x1OV93eExVQmRIb0QyUWZTTGJyRVZsNnFnMUdIOS14bUpJZVVCV3VtMEl4SWJkT1MxbnNRTUlObkxVQkJ1OE1aN2VucmdGT3pkeFg3RHRpQ1BaUlI1eVcxb1pV?oc=5",
+      "source": "내외경제TV",
+      "summary": "부산신용보증재단이 남녀고용평등 실현에 크게 기여한 공로를 인정받아 고용노동부 장관 표창을 수상하며 '남녀고용평등 우수기업'으로 선정되었습니다. 이는 성별에 관계없이 공정한 고용 환경과 기회를 제공하는 기업 문화와 제도가 우수하다는 것을 대외적으로 인정받은 결과입니다.",
+      "novelty_impact": "정부가 남녀고용평등 모범 기업을 적극적으로 발굴하고 표창함으로써, 기업의 성평등 노력은 단순한 법규 준수를 넘어 대외적 이미지 제고 및 조직문화 혁신에 중요한 기회가 될 수 있음을 시사합니다.",
+      "action_point": [
+        "현재 사내 남녀고용평등 관련 제도(채용, 승진, 보상, 유연근무 등)의 실효성 및 법규 준수 여부를 점검하고 개선 방안을 모색합니다.",
+        "우수 기업 사례를 벤치마킹하여 자사의 성평등 정책 및 프로그램을 고도화하고, 직원들의 만족도를 높일 수 있는 방안을 강구합니다.",
+        "고용노동부의 남녀고용평등 관련 지원 제도나 표창 프로그램 참여 가능성을 검토하여 기업의 노력을 대외적으로 인정받을 기회를 모색합니다."
+      ],
+      "collected_at": "2026-06-02 01:31"
+    },
+    {
+      "title": "한국산업인력공단, 상담번호 1644-8000으로 통합",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPekdOLTlGNjQ4cTVaVUZBaUZDT2FTakd2NHZDS1N0MnhxMzh6NlJ3dmlWdHdCR1pWQ18tNkwwaW9jQVc2eUVMREF0TlR5SUEtZlB4dWhKY2g4a2p5Mi02ZUswRHZfWXFfSDFtS3NETzRJWVZHWkJCd1BVUVdHaktKckVsSmxPbGRSbVkzVV9HNHF5WmJIVzNnZ1ZNdHVCSS1ycWtkZHoyN1ItR3lRUjdESVNmOGdfMTg0N3oyQXItVE5rWUthVDdfbDFhSFRpczIwZ21oZWZxOU1IZHNDTnhjZzhicUhHbThqcnBwMjQzTQ?oc=5",
+      "source": "대한민국 정책브리핑",
+      "summary": "한국산업인력공단이 국민 및 기업의 상담 편의를 높이기 위해 분산되어 운영되던 여러 상담번호를 1644-8000번으로 통합 운영합니다. 직업훈련, 국가자격시험, 외국인력 고용 등 공단 관련 모든 문의를 이제 하나의 번호로 해결할 수 있게 됩니다.",
+      "novelty_impact": "공단 업무 관련 정보 접근성이 크게 개선되어 HR 담당자들의 업무 효율성을 높이고, 필요한 정보를 더 빠르고 쉽게 얻을 수 있게 됩니다.",
+      "action_point": [
+        "내부 연락망 및 HR 관련 가이드에 한국산업인력공단 통합 상담번호(1644-8000)를 즉시 업데이트하고 공유합니다.",
+        "직업훈련, 국가자격시험, 외국인력 고용허가제 등 공단 관련 문의 발생 시 통합 번호를 적극 활용하도록 내부 구성원들에게 안내합니다.",
+        "기존에 사용하던 개별 상담번호는 더 이상 유효하지 않음을 인지하고 혼선이 없도록 직원들에게 공지합니다."
+      ],
+      "collected_at": "2026-06-02 01:31"
+    },
+    {
+      "title": "2025년 노동법 판례 주요 동향 및 인사 실무 시사점",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9OZFNabmtBd2tNUFVDSnBOVnp6Q1dGRU93WE40aUdRbkI2blN4ejlSaFdFbEFiTm9US09ibzJzT19ta2MzY0Rsa0tYbVh4dFFUQlRyOGtLSEFTbGtqRU5wbHdfRjBvbHQyTnFVeG930gFyQVVfeXFMTmloYm1aZERiNXBNNHNLWW45ZS10a25JS1NxZHo2UE1FMG1vWUFubVVWSFR1c0tmTmZTaUJ2MFlmN0s4cmEtS2NyMVpCNHg2NmZ5bVJQcFR3ZXZHeDQzTTkxdGtKTXVaOXdDTFhoQmpmNjJn?oc=5",
+      "source": "법률신문",
+      "summary": "2025년 예상되는 노동법 판례 동향을 분석하고, 기업 인사 실무에 미칠 영향을 예측합니다. 특히 부당해고, 직장 내 괴롭힘, 임금체계 개편 등 주요 쟁점 관련 판결 변화에 주목하여 법적 리스크에 대한 선제적 대비를 강조합니다.",
+      "novelty_impact": "미리 판례 동향을 파악하여 선제적으로 법적 리스크를 관리하고, 인사 제도 개선 방향을 수립하여 기업의 안정적인 운영에 기여할 수 있는 실질적인 가이드를 제공합니다.",
+      "action_point": [
+        "주요 노동법 판례 동향 및 관련 법규 개정 사항을 주기적으로 점검하고 내부 규정에 반영.",
+        "부당해고 및 징계 관련 판례 분석을 통해 절차의 적법성과 정당성 확보 방안 재수립 및 교육 강화.",
+        "직장 내 괴롭힘, 차별 등 관련 판례를 바탕으로 예방 교육 및 고충처리 시스템의 실효성 점검 및 보완.",
+        "임금체계 개편, 유연근무 등 새로운 HR 제도 도입 시 법적 리스크를 사전에 검토하고 대응 전략 수립."
+      ],
+      "collected_at": "2026-06-02 01:31"
+    },
+    {
+      "title": "2025년 주요 노동법 판례 분석 및 기업 실무 대응 전략",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GeFpoUTFvMjdyQmd6aGxQWEp0cDhnNzlPQzNveVRHWkt4d1RvaTJPVTRBTmNGTE9uQkVNTFFNRGxxX1ZYNEFiSV9TY3JOck9LRVlBY0tIb0lKM3h1YUdDLUxEaU54MUlsNjkyd0VB0gFyQVVfeXFMTXl4blh3cEN3RjBiZFNMdzRzM3M0cGczVm1jTlZ6SVZ1Z0VrNlpOdnpjNWhWRGtBUTRERkY1Y2FXdkVDUGlhU3NnX3A3UFNhbXFpd0F5ZVd2dDI0SUl0bjRZT01acHBlbEQ0SGJrMnp0UDhn?oc=5",
+      "source": "법률신문",
+      "summary": "2025년에 예상되는 주요 노동법 판례들을 미리 분석하고, 기업이 이에 대비하여 효율적으로 인사 관리를 할 수 있는 실무적 대응 방안을 제시합니다. 인사 담당자들이 미래의 법률 변화를 예측하고 선제적으로 리스크를 관리하는 데 필요한 핵심 정보를 제공합니다.",
+      "novelty_impact": "다가올 노동법 관련 판례 변화에 대한 선제적 이해를 통해 기업이 법률 위반 리스크를 사전에 최소화하고 안정적인 노사 관계를 유지할 수 있도록 실질적인 가이드를 제공합니다.",
+      "action_point": [
+        "2025년 예상되는 노동법 판례 동향을 바탕으로 현행 인사 제도 및 규정의 적법성 검토 및 보완 계획 수립",
+        "주요 판례 변화 내용 및 실무 대응 방안에 대한 내부 교육 프로그램 기획 및 실시",
+        "잠재적 법률 리스크를 최소화하기 위한 선제적 조치 마련 및 필요시 법률 전문가와 상담 진행"
+      ],
+      "collected_at": "2026-06-02 01:31"
+    },
+    {
+      "title": "대법원, 경영성과급의 임금성 판단 기준 제시: '근로 대가성'",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85LUtaTnNRYjNBLXJNRWtjRWVONkNSeDNHSDk2eU1IRlViWHFCT3A1dHJ6Z3VWcUV2ZU9sX19uRHBqSmVtcWhydTFuaTBJLXFfZ1ZwemFYd0FHNGk2RnVPQWJjbXVkSjZ5bGtvamZTRQ?oc=5",
+      "source": "ilyoseoul.co.kr",
+      "summary": "대법원은 경영성과급이 임금에 해당하는지 여부를 판단할 때, 회사의 재량권 행사 및 경영 성과 달성에 대한 보상 여부뿐만 아니라 '근로의 대가'로 지급되었는지를 핵심 기준으로 삼아야 한다고 판시했다. 이는 설령 경영 성과와 연동되어 지급되더라도, 개별 근로자의 근로 제공과 밀접하게 연관되어 정기적·계속적으로 지급된다면 임금으로 인정될 수 있음을 시사한다.",
+      "novelty_impact": "이번 판례는 경영성과급의 임금성 판단에 대한 모호성을 줄이고 '근로 대가성'이라는 구체적인 기준을 제시함으로써, 기업의 성과급 설계 및 임금 총액 산정 방식에 실질적인 변화를 가져올 수 있다.",
+      "action_point": [
+        "현재 운영 중인 경영성과급 제도가 '근로 대가성' 기준에 따라 임금으로 분류될 여지가 없는지 면밀히 법률 검토한다.",
+        "성과급 지급 규정 및 취업규칙 등을 재정비하여, 지급 목적, 산정 방식, 재원 등을 명확히 하고 임금성이 인정되지 않도록 보완한다.",
+        "퇴직금, 평균임금 산정 등 노동관계법상 임금의 영향을 받는 제반 규정에 대한 파급효과를 분석하고 필요한 조치를 수립한다."
+      ],
+      "collected_at": "2026-06-02 01:32"
+    },
+    {
+      "title": "근로자추정제 학술대회: 주요 쟁점 논의",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBWTRGLXJMS3o4Ukdid2pzQVY3TWhaU0JwcE9ueFRscnRmWkZxZUM0WU1HWHd0MEFHTTN6eFc3TWViNzhZckFfOUk1b3Z1c1g1a1FkOS1JclJuUdIBVEFVX3lxTFBRRUFTNXl1NS1IOER6ZTB6a2NDNE9FUlZ5SE0zdTZsMjZXVUtqaHVyeFhnaWsyd1pJRXB3dFNEM0RyN3FHZ2l6TXBVUmVwVm9nTFU1UQ?oc=5",
+      "source": "한국경제",
+      "summary": "한국사회법학회에서 '근로자추정제' 도입 및 운영의 법적 쟁점과 실무적 문제점에 대한 학술대회가 개최됩니다. 이 제도는 근로기준법상 근로자 여부 판단에 있어 사용자 측의 입증 책임을 강화하는 내용을 담고 있어 기업 노무 관리에 중요한 영향을 미칠 수 있습니다.",
+      "novelty_impact": "근로자추정제는 기업의 인력 운영 및 노무 관리 방식에 근본적인 변화를 가져올 수 있는 중요한 법률적 쟁점으로, 도입 시 독립 계약자 및 프리랜서 고용 형태에 대한 재검토가 필수적입니다.",
+      "action_point": [
+        "근로자추정제 관련 법안 발의 및 판례 동향을 지속적으로 모니터링하여 법률 변화에 대비해야 합니다.",
+        "현재 운영 중인 특수고용형태 근로자 및 프리랜서 계약에 대한 근로자성 리스크를 점검하고, 필요시 법률 검토 및 계약 조건 조정을 고려해야 합니다.",
+        "제도 도입 시 발생할 수 있는 노무비 상승, 4대 보험 의무, 퇴직금 지급 등 재정적 및 법률적 영향에 대한 사전 분석 및 대비책을 마련해야 합니다."
+      ],
+      "collected_at": "2026-06-02 01:32"
+    },
+    {
+      "title": "2019년 노동법 전문가 선정 핵심 판례 분석",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rVzVIMnV6UXQyM19sMFpBMVdUbGFtdXlNOV8zX2ZMR0ZzT2JVZWphNWlGRUV5X3phUWliS0pOUWpoQXlFREE2cUJDTnZhWXBIYWVZYS1TenBLZ3lnRVlsVlhVNThoZ0JTRVdhXy0wUQ?oc=5",
+      "source": "월간노동법률",
+      "summary": "노동법 전문가 12명이 2019년에 발생한 주요 노동판례들을 엄선하여 그 배경과 HR 실무에 미치는 영향에 대해 분석했습니다. 본 자료는 기업의 인사담당자들이 반드시 알아야 할 법률적 쟁점들을 판례 중심으로 이해하고 법적 리스크를 예방하는 데 실질적인 도움을 줄 것입니다.",
+      "novelty_impact": "노동법 전문가들이 직접 선정한 핵심 판례를 통해 2019년 노동법 분야의 주요 흐름과 기업에 미칠 파급효과를 한눈에 파악할 수 있는 실무적 가이드라인을 제공합니다.",
+      "action_point": [
+        "2019년 주요 노동판례 내용을 파악하여 회사 내부 규정(취업규칙, 인사규정 등) 및 운영 현황과의 정합성을 검토합니다.",
+        "판례에서 다룬 핵심 쟁점들을 바탕으로 잠재적 법률 리스크를 식별하고, 사전 예방 조치 및 대응 방안을 마련합니다.",
+        "주요 판례의 시사점을 바탕으로 부서장 및 관리자 대상의 노동법 교육을 강화하여 법규 준수 문화를 확립합니다."
+      ],
+      "collected_at": "2026-06-02 01:32"
+    },
+    {
+      "title": "2024년 주요 노동판결: '노동법 밖' 노동자 판단 및 통상임금 기준 재정립",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSaU5xWkJ4ZGFIMG5US1VwUXg0V241SlNTYmtpU3dfeHFOU3Jqbk4yeHJrcE1IbTl0dVRmQlNPVlNfeUItLXRWUUR4TV9NYUlDbE9Mdi1kSWw2bmdpdkJCc3pGSWRZVmZTbzYwVlR1YTM?oc=5",
+      "source": "매일노동뉴스",
+      "summary": "2024년 법원 판결을 통해 근로기준법 적용을 받지 않던 특수형태근로종사자 등 '노동법 밖' 노동자의 근로자성 판단 기준이 구체화되었으며, 통상임금의 범위와 관련하여 새로운 산정 기준이 제시되었다. 이는 기업의 인사 및 노무 관리 전반에 중대한 영향을 미칠 중요한 판례들이다.",
+      "novelty_impact": "이번 판결들은 기존의 모호했던 근로자성 판단 및 통상임금 산정 기준에 대한 명확한 지침을 제시하여 기업의 법적 리스크 관리에 새로운 접근을 요구한다.",
+      "action_point": [
+        "회사의 다양한 고용 형태(프리랜서, 플랫폼 종사자, 특수고용직 등)에 대한 근로자성 판단 기준을 재검토하고, 필요시 근로계약 및 운영 방식 수정 검토.",
+        "통상임금에 포함되는 수당 및 금품의 범위를 새 판례에 맞춰 재정비하고, 임금 산정 방식(초과근로수당, 연차수당, 퇴직금 등)에 미치는 영향을 분석하여 급여 시스템 업데이트.",
+        "관련 부서(회계, 법무 등)와 협의하여 변경된 노동법 적용 기준 및 통상임금 가이드라인을 공유하고, 내부 교육 시행 검토."
+      ],
+      "collected_at": "2026-06-02 01:32"
+    },
+    {
+      "title": "포항상의, 기업 인사·노무 실무 역량 강화 교육 개최",
+      "category": "채용/조직문화",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1uV1FHVW5VdVhPV2g2SUx6SXl2c0tHN0pTTTdGUjlKOGJwQl81bEkwd0EyMDlqZU8tZjJCeDd1U0ktZw?oc=5",
+      "source": "브레이크뉴스",
+      "summary": "포항상공회의소가 지역 기업의 인사 및 노무 담당자를 대상으로 실무 아카데미를 개최합니다. 이 아카데미는 최신 노동법규 및 인사제도 변화에 대한 이해를 돕고, 실질적인 기업의 대응 역량을 강화하는 데 목적이 있습니다. 이를 통해 기업들이 변화하는 HR 환경에 효과적으로 대처하고 안정적인 노사 관계를 구축할 수 있도록 지원합니다.",
+      "novelty_impact": "지역 상공회의소 주도로 HR 실무 역량 강화를 위한 정기 교육 프로그램을 제공하여, 기업의 법적 리스크 관리 및 인적 자원 관리 효율성을 높이는 데 기여합니다.",
+      "action_point": [
+        "HR 담당자는 지역 상공회의소 등 유관 기관의 교육 프로그램을 적극적으로 탐색하고 참여하여 최신 법규 및 실무 동향을 습득합니다.",
+        "사내 인사·노무 현안 분석을 통해 필요한 교육 내용을 파악하고, 아카데미 수료 후 사내 적용 방안을 모색하여 HR 시스템을 고도화합니다."
+      ],
+      "collected_at": "2026-06-02 01:33"
+    },
+    {
+      "title": "인사노무 대응 역량 강화를 위한 지역 세미나 개최 소식",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xakdFM1JEcWJ0cDZCcUxjU2NiU3RkQml6REJjREVFY09DNF8waXhpUFFRUU9iOUJMWkRiQzNUeUNJams0cWd0dVozV0N4TTJNalpKS2xId1lpREdGOUExdklzeXJTRzBWeWfSAW5BVV95cUxQSzF0MVQ4WGI0VmpqclBYeWJDVEljYmF5SnlmUXljR0JETVllWjJXblVEZUlDTDduc3RNMnNGXzJ1X2pKdXhSaDBHcm9RS2ZkRlFhblRMd1hvVVVSbFVKN3ZjSkNwOTVLTmZ4QjFIdw?oc=5",
+      "source": "중부매일",
+      "summary": "청주상공회의소가 시앤피컨설팅그룹과 손잡고 지역 기업들을 위한 인사노무 대응 세미나를 개최했습니다. 이번 세미나는 변화하는 인사노무 환경 속에서 기업들이 실질적인 문제 해결 능력과 HR 역량을 강화할 수 있도록 지원하는 데 주력했습니다.",
+      "novelty_impact": "지역 상공회의소를 통한 인사노무 세미나는 중소기업을 포함한 지역 기업들이 최신 법규 변화와 HR 트렌드에 발맞춰 실질적인 대응 전략을 수립하는 데 필수적인 지식 공유의 장을 제공한다는 점에서 중요합니다.",
+      "action_point": [
+        "지역 상공회의소 및 관련 단체의 HR/노무 교육 프로그램을 정기적으로 확인하고, 자사 실정에 맞는 세미나 참여를 검토한다.",
+        "세미나에서 다뤄지는 주요 노동법 개정사항 및 인사노무 이슈가 우리 회사에 미치는 잠재적 영향을 분석하고, 필요한 경우 내부 규정 및 프로세스 업데이트 계획을 수립한다."
+      ],
+      "collected_at": "2026-06-02 01:33"
+    },
+    {
+      "title": "고용노동부 HR플랫폼 구축지원 사업, 노무사랑(노무로) 2년 연속 공급기업 선정",
+      "category": "HR테크/AI",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5QYkkxY0lqVGQ5TGNvZnFER2dxWkFjTDFlRkxDcE5nTDF5TFhIYVpmd1ZpYkxTR3BmaDE0ekRzQ25rUXNrNkZ1YXQ3X0tyWDQw?oc=5",
+      "source": "프랜차이즈월드",
+      "summary": "HR 솔루션 기업 노무사랑(노무로)이 고용노동부의 'HR 플랫폼 구축 지원 사업' 공급기업으로 2년 연속 선정되었습니다. 이 사업은 기업들이 고용노동부의 지원을 받아 검증된 HR 플랫폼을 도입할 수 있도록 하며, 특히 중소기업의 HR 시스템 구축 부담을 줄이는 데 기여할 것으로 보입니다.",
+      "novelty_impact": "고용노동부가 공식적으로 검증하고 지원하는 HR 플랫폼 솔루션으로, 정부 지원을 통한 HR 시스템 도입을 고려하는 기업에게 실질적인 선택지를 제공한다는 점에서 중요합니다.",
+      "action_point": [
+        "고용노동부의 HR 플랫폼 구축 지원 사업 상세 내용과 '노무사랑(노무로)' 플랫폼의 주요 기능을 파악하여 자사 HR 시스템 고도화 또는 도입 가능성을 검토하라.",
+        "정부 지원사업 혜택을 활용할 수 있는 중소기업은 지원 조건 및 절차를 구체적으로 확인하여 HR 시스템 도입 비용 부담을 경감할 방안을 모색하라."
+      ],
+      "collected_at": "2026-06-02 01:33"
+    },
+    {
+      "title": "HR 트렌드: AI 및 디지털 HR 혁신 동향",
+      "category": "HR테크/AI",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9uVlpJN3hqbF9YMjVhV192NW9TemstWTMzWm15NXduWEFMYS1YckowTVNTVUE2VVozYXkxcGVXdWNvRmRXWERHbGx1TQ?oc=5",
+      "source": "브런치",
+      "summary": "최신 HR 트렌드로 인공지능(AI)과 디지털 기술의 HR 분야 혁신 동향을 다루는 기사입니다. 데이터 기반 의사결정, 효율적인 업무 자동화 등 HR 기능 전반의 변화와 발전 방향을 제시합니다.",
+      "novelty_impact": "AI와 디지털 전환은 이제 HR의 효율성 및 전략적 역할을 강화하기 위한 필수적인 요소로 자리매김하고 있음을 시사합니다.",
+      "action_point": [
+        "AI 기반 채용, 성과관리, 교육 솔루션 등 실제 업무에 적용 가능한 HR Tech 솔루션 도입을 적극적으로 검토하세요.",
+        "HR 팀원들의 디지털 리터러시 및 데이터 분석 역량 강화를 위한 교육 프로그램을 마련하고 지원하세요."
+      ],
+      "collected_at": "2026-06-02 01:33"
+    },
+    {
+      "title": "AI 시대, HR의 전략적 역할 및 생산성 향상 방안",
+      "category": "HR테크/AI",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HNjNjX3dPS0x4dUdSVDJLTUlsWjF4T2lkaEZ2ekFIcVNZVDh0UzdOMXhUcVFHUHZOZDNiTXdmVVNwSUwzckdwam9OZEU2RHp0WG5lWVM3bGh2azJMa1pRMmRhMGdoRThJUzdWd2dxMA?oc=5",
+      "source": "월간노동법률",
+      "summary": "경총은 AI가 한국의 생산성 향상에 핵심적인 역할을 할 것이며, 디지털 전환 시대에 HR의 전략적 역할 변화를 강조했습니다. HR은 AI 도입을 통해 업무 효율성을 높이고, 미래 인재 육성 및 조직 문화 혁신을 주도해야 합니다.",
+      "novelty_impact": "이 뉴스는 AI가 HR의 단순 업무 자동화를 넘어, 전략적 의사결정 지원 및 전사적 생산성 향상을 위한 핵심 동력임을 시사하며 HR의 역할을 재정의합니다.",
+      "action_point": [
+        "AI 기술 도입을 통한 HR 업무 자동화 및 효율성 증대 방안 검토",
+        "AI 시대에 필요한 신규 직무 역량 발굴 및 맞춤형 교육 프로그램 기획",
+        "AI 활용 문화 확산을 위한 직원 소통 강화 및 변화 관리 전략 수립"
+      ],
+      "collected_at": "2026-06-02 01:33"
+    },
+    {
+      "title": "강화되는 성과 중심 보상체계, 직원 불만 관리 방안",
+      "category": "보상/평가",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLVJrcUUyd1lTdEN4bnQwclRWRGlXd3JNVWQ2XzgxWnZka2hnbDF0NFIxV3hSZ1BWWmYwNG0yMzJNSUM2RWQ2bDhJcEhxVkIwY0FwU3cwbmE3RnQ3S1pYbTctVFZwTzhmNXpoUGlrd1dJdUMxWXk2TXFQYzdac1doZERGYXhodWFxUGtn?oc=5",
+      "source": "월간노동법률",
+      "summary": "기업들이 성과주의 보상체계를 강화하는 추세이나, 이는 직원들의 불만과 저항으로 이어질 수 있습니다. 본 기사는 이러한 변화 속에서 직원들의 공정성 인식을 높이고 불만을 효과적으로 관리하며, 보상체계의 긍정적인 효과를 극대화하기 위한 인사 실무적 접근 방안을 모색합니다.",
+      "novelty_impact": "성과주의 강화라는 거스를 수 없는 흐름 속에서, 제도의 정착과 성공적인 운영을 위해 직원들의 불만을 예방하고 해소하는 선제적이고 실질적인 전략 마련이 시급함을 일깨워주는 뉴스입니다.",
+      "action_point": [
+        "평가 기준과 절차의 투명성을 확보하고, 보상 결정 과정에 대한 명확한 커뮤니케이션을 통해 직원들의 수용도를 높여야 합니다.",
+        "금전적 보상 외에 직무 만족도, 경력 개발 기회 등 비금전적 요소를 함께 고려한 통합적 보상 전략을 수립하여 직원 동기 부여 및 만족도를 제고해야 합니다."
+      ],
+      "collected_at": "2026-06-02 01:34"
+    },
+    {
+      "title": "전략적 도구로 진화하는 인사평가",
+      "category": "보상/평가",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1HeHBiaDZmNnJKcV9qNktzN0VoSDMxOUp0MHYxdVlBT0hXZlExNTVqUEhudGZOQmtCRU1DOUFMczhzalhEeDluQXR3?oc=5",
+      "source": "브런치",
+      "summary": "인사평가가 단순히 개인의 성과를 측정하는 것을 넘어, 조직의 비전과 전략 달성을 위한 핵심 도구로 진화하고 있습니다. 이는 인재 육성과 성과 향상에 기여하며, 궁극적으로 기업의 경쟁력을 강화하는 데 중요한 역할을 합니다.",
+      "novelty_impact": "이 변화는 인사평가가 단순한 연봉 책정 도구가 아닌, 인재 성장과 조직 성과를 견인하는 전략적 프레임워크로 재정립되고 있음을 의미합니다.",
+      "action_point": [
+        "현재 인사평가 제도가 조직의 전략적 목표와 얼마나 연계되어 있는지 점검하고 개선 방안을 모색해야 합니다.",
+        "평가자들이 단순히 성과를 판단하는 것을 넘어, 평가를 통해 구성원의 성장을 지원하고 비즈니스 성과를 창출할 수 있도록 역량 강화 교육을 실시해야 합니다.",
+        "인사평가 결과를 인재 개발 계획, 보상 전략 및 조직 문화 개선과 연동하여 시너지를 창출하는 방안을 강구해야 합니다."
+      ],
+      "collected_at": "2026-06-02 01:34"
+    },
+    {
+      "title": "한화투자증권, 성과 중심 보상 강화 인사규정 개정 중 임직원 이견 발생",
+      "category": "보상/평가",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tMTF6VExSa2lPaVJYaDg4MHE3bVhhRGZfdkZ2MjVXMTFGMXZBY1ZuOHdKSHZzRHN6QVM3YUI4bUs2Q3ZBTXdmNmN0NGNRQXExUFpZLXN5bjFmQdIBWEFVX3lxTE1TQmtWWjROMkdEU2x2MjEzcFJNMzBBSTU4bUdyQUgyV0pJSVVFUDYxMkxjdTdvVFh1d3djWWtXY1BxbkVfUDNqWE55M3Z4WktFZlpZT2IwR1g?oc=5",
+      "source": "아주경제",
+      "summary": "한화투자증권이 성과 중심의 보상 체계를 강화하기 위해 인사규정 개정을 추진하고 있습니다. 하지만 이 과정에서 임직원들 간 이견이 발생하여 제도 변화에 대한 내부 갈등이 표면화되고 있습니다.",
+      "novelty_impact": "성과주의 보상 강화는 기업의 경쟁력 확보에 필수적이나, 제도 도입 또는 개정 시 임직원 동의와 공감대 형성 과정의 중요성을 다시 한번 상기시키는 사례입니다.",
+      "action_point": [
+        "성과주의 보상 체계 도입 및 강화를 검토하는 경우, 현행 인사규정 및 보상 시스템의 적절성 재검토 및 면밀한 법적 검토를 진행해야 합니다.",
+        "제도 개정 전 임직원 대상 충분한 설명회 개최 및 의견 수렴 절차 마련을 통해 이해관계자 공감대 형성 노력을 강화하고, 변화 관리 커뮤니케이션 전략을 수립해야 합니다.",
+        "노동조합 또는 근로자 대표와의 사전 협의를 통해 규정 개정의 적법성을 확보하고, 발생 가능한 갈등을 최소화하기 위한 방안을 모색해야 합니다."
+      ],
+      "collected_at": "2026-06-02 01:34"
+    },
+    {
+      "title": "롯데백화점, 연차 기반 직급 폐지 및 성과 중심 보상 강화",
+      "category": "보상/평가",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96cmZIZDNxWkpvTFhCZlRLSEpUWTItTDBVOXd6Q0JjQWxWc1BkTkFLd0ZkaHNhTE5sTzRPSnh5NjVPcUZST3VMY3JHaTh0TE5oVE5GTlBSZWtGTXN3Y1JfOTJENDZCTWp6NlE?oc=5",
+      "source": "서울파이낸스",
+      "summary": "롯데백화점이 기존 사원-대리-과장-차장-부장으로 이어지는 연차 중심 직급 체계를 폐지하고, 책임-수석 직위로 통합하는 새로운 인사 제도를 도입합니다. 이는 성과 우수자에게 더 많은 보상을 제공하고 수평적인 조직 문화를 조성하기 위함입니다.",
+      "novelty_impact": "국내 주요 유통 대기업의 직급 파괴 선언으로, 연공서열 중심의 보상체계에서 성과주의로의 전환을 가속화하는 상징적 사례가 될 수 있습니다.",
+      "action_point": [
+        "현행 직급 및 보상 체계가 성과와 얼마나 연동되어 있는지 점검하고, 변화 필요성 검토",
+        "직급 통합 또는 폐지 시 발생할 수 있는 직원의 동기 부여 및 조직 문화 변화 영향 분석",
+        "성과주의 강화에 따른 공정하고 객관적인 평가 시스템 고도화 방안 마련",
+        "인사 제도 변경 추진 시, 명확한 목표 설정 및 이해관계자 커뮤니케이션 전략 수립"
+      ],
+      "collected_at": "2026-06-02 01:34"
+    },
+    {
+      "title": "롯데웰푸드, 신규 '직무기반 HR' 제도 도입 검토",
+      "category": "보상/평가",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBPVEFUM0JSZF9TWURUUkExT09uWXFMRHBVY2Z5emdiWGhOaGpmZ3BiQkZXbXNvTFhrLXhzeDNYVTdSUHZZU1R0NzIxVG1oVXlHbW1vZFA0VU9BTlJkRlQ5QU5KR09WOHV4bUV4VFpPSQ?oc=5",
+      "source": "위키리크스한국",
+      "summary": "롯데웰푸드가 새로운 '직무기반 HR 제도' 도입을 검토 중이며, 관련 내부 설명회를 진행했습니다. 이는 직무의 가치와 난이도에 따라 보상 및 평가가 결정되는 시스템으로의 전환을 의미하며, 기존 연공서열 중심에서 벗어나 직무 성과와 역량에 집중하는 방향으로 인사 시스템을 개편하려는 움직임입니다.",
+      "novelty_impact": "대기업의 직무기반 인사제도 도입 움직임을 보여주는 사례로, 국내 기업들이 연공서열 중심에서 직무가치 중심으로 전환하는 최신 HR 트렌드를 반영합니다.",
+      "action_point": [
+        "우리 회사 직무분석 및 직무평가 현황을 점검하고, 직무기술서 및 직무명세서 정비 필요성을 검토하라.",
+        "직무기반 보상 및 평가 시스템 도입 시 예상되는 장단점과 내부 직원들의 수용성을 분석하여 선제적 대응 방안을 마련하라."
+      ],
+      "collected_at": "2026-06-02 01:34"
+    },
+    {
+      "title": "성과평가 및 보상 권한 팀장 위임의 명암",
+      "category": "보상/평가",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Na2hiZEZkd3dhR2NkMDk4XzZkVzd5Z0JubmlMb0JsOXZ0ZnlTN3NPVXRVNWRlckVrLWZ5NmVZV01VMEtuN3ZmSXdxQkpiazFLSUxHVmV2X2VkQdIBVEFVX3lxTFB3ZG1pSkR0LVFUSEl1ZWZzdnRfWU5vS1EySzg2eEVvM3JqNDAwTkcxdlNmZ3RZcVNjVTJjLTZtVFRSLWcyQWluRnBVYi1zTDRoMHRsTg?oc=5",
+      "source": "한국경제",
+      "summary": "최근 많은 기업이 공정성과 직원 몰입도 향상을 위해 인사평가와 성과 보상 권한을 팀장에게 위임하고 있습니다. 이는 현업의 전문성을 활용해 평가의 객관성을 높일 수 있으나, 팀장별 평가 역량 차이로 인한 일관성 부족이나 과도한 업무 부담 등의 문제도 발생할 수 있습니다. 성공적인 제도 안착을 위해서는 명확한 가이드라인과 충분한 지원이 필수적입니다.",
+      "novelty_impact": "이 뉴스는 팀장에게 평가·보상 권한을 위임하는 트렌드의 실제적 효과와 주의할 점을 다루며, HR 부서의 역할 변화 및 역량 강화 필요성을 시사합니다.",
+      "action_point": [
+        "팀장 대상 평가 역량 강화 교육 및 보상 원칙 가이드라인 제공 검토",
+        "평가 일관성 확보를 위한 시스템 및 제도적 장치 마련 (예: 다면평가 도입, 교차 검토)",
+        "팀장 및 팀원 피드백을 통해 제도 운영상의 개선점 지속 발굴 및 보완"
+      ],
+      "collected_at": "2026-06-02 01:34"
+    },
+    {
+      "title": "[고용노동부 정책] 대륜, ‘2026 노동정책’ 세미나 성료…“기업 인사·보상 전략 점검”",
+      "source": "경기일보 | https://news.google.com/rss/articles/CBMiW0FVX3lxTE02OEctZERMWjNIVWpXcE0tcnRTOHZobHJKZjFCNHVSVmNGTXNCeG5TRHhCTmRWNlMzNGVwNXU4eDZBaGlELXlId29zejRlZURPSVhwWjFpRXFBVkU?oc=5",
+      "summary": "법무법인 대륜이 2026년 노동정책 변화에 대한 기업의 선제적 대응을 위한 세미나를 개최했습니다. 기업은 다가올 노동정책에 맞춰 인사 및 보상 전략을 미리 점검하고 재정비해야 할 시점입니다.",
+      "novelty_impact": "현재 법규 준수 외에 2026년으로 예정된 미래 노동정책 변화에 대한 선제적 준비의 중요성을 강조합니다. 이는 단순한 법규 준수를 넘어 기업의 중장기적인 인사·보상 전략 수립에 대한 로드맵을 제시합니다.",
+      "action_point": [
+        "2026년 노동정책 변화에 대한 상세 동향을 지속적으로 모니터링하고 정보수집 계획을 수립합니다.",
+        "현재 운영 중인 인사 및 보상 제도(임금 체계, 복리후생, 평가 제도 등)가 다가올 정책 변화에 어떻게 영향을 받을지 분석하고 예상 시나리오를 작성합니다.",
+        "정책 변화에 대비한 인사·보상 전략 재정비 로드맵을 수립하고, 필요한 경우 내부 규정 개정 및 예산 확보 계획을 준비합니다."
+      ]
+    },
+    {
+      "title": "[고용노동부 정책] “동네 사장님, 힘내세요”…인사관리 플랫폼 이용료 180만원까지 지원",
+      "source": "농민신문 | https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEaUtpY244UV9ZWERJblh0eFVfc3NidXgybE5TbGZRRnFzN29GQTJGcmE5TXpOWm9zaTI5X21KV3VKWEstZ3NZR2pmYUJ6OEZxbGNYb3dIeGQ1QQ?oc=5",
+      "summary": "소상공인을 대상으로 인사관리 플랫폼 도입 및 운영 비용을 최대 180만원까지 지원하는 사업이 시행됩니다. 이는 영세 사업주의 인사관리 부담을 경감하고, 효율적인 인력 운영을 돕기 위한 고용노동부 정책의 일환입니다.",
+      "novelty_impact": "영세 사업주가 고비용 부담 없이 전문 인사관리 시스템을 도입할 수 있도록 직접적인 재정 지원을 제공한다는 점에서 기존의 간접적인 정보 제공 정책과 차별화됩니다. 이는 소상공인의 HR 관리 디지털 전환을 가속화하고, 주먹구구식 운영에서 벗어나 효율적인 인력 관리를 가능하게 할 것입니다.",
+      "action_point": [
+        "이용 중이거나 도입을 고려하는 HR 플랫폼이 지원 대상에 해당하는지 확인하고, 해당 프로그램의 상세 지원 요건 및 신청 방법을 즉시 파악해야 합니다.",
+        "내부적으로 지원 가능한 사업장(예: 관계사, 협력사 중 소상공인)이 있는지 파악하여 해당 제도를 적극 활용하도록 안내하고, 이를 통해 효율적인 HR 시스템 구축을 장려해야 합니다."
+      ]
+    }
+  ]
+}
