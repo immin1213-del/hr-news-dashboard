@@ -7,9 +7,13 @@ import difflib
 from google import genai
 from google.genai import types
 
-# HR 뉴스 종합 크롤러 (Gemini 2-Stage Pipeline)
-# 1단계(수집/정제): Gemini가 국내외 원문을 한국어 실무 인사이트로 정제/번역
-# 2단계(분류): Gemini가 카테고리를 최종 판단하여 분류
+# =========================================================
+#  HR 뉴스 종합 크롤러 (Gemini 멀티키 2-Stage Pipeline)
+#  - 여러 Gemini API 키를 환경변수로 받아 카테고리별로 분배
+#  - 무료 티어(키당 20건/일) 한도를 키 개수만큼 확장
+#  - 키가 429(한도초과)면 다음 사용 가능한 키로 자동 폴백
+#  ※ 키 값은 코드에 하드코딩하지 않고 환경변수 이름만 참조
+# =========================================================
 
 CATEGORIES = [
     "고용노동부 정책",
@@ -37,7 +41,65 @@ MAX_ARTICLES = 100
 GEMINI_MODEL = "gemini-2.5-flash"
 SLEEP_SEC = 4.5
 
-client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+
+def load_api_keys():
+    """환경변수에서 여러 Gemini 키를 수집한다.
+    지원 형식: GEMINI_API_KEY (단일), GEMINI_API_KEY_1 ~ GEMINI_API_KEY_20.
+    """
+    keys = []
+    single = os.environ.get("GEMINI_API_KEY")
+    if single:
+        keys.append(single)
+    for i in range(1, 21):
+        v = os.environ.get(f"GEMINI_API_KEY_{i}")
+        if v and v not in keys:
+            keys.append(v)
+    return keys
+
+
+class KeyPool:
+    """카테고리별로 키를 배정하고, 429 발생 시 다음 키로 폴백한다."""
+
+    def __init__(self, keys):
+        if not keys:
+            raise RuntimeError("사용 가능한 Gemini API 키가 없습니다. Secrets를 확인하세요.")
+        self.keys = keys
+        self.clients = [genai.Client(api_key=k) for k in keys]
+        self.exhausted = [False] * len(keys)
+        # 카테고리 -> 시작 키 인덱스 (라운드로빈 분배)
+        self.cat_index = {
+            cat: (idx % len(keys)) for idx, cat in enumerate(CATEGORIES)
+        }
+
+    def available_count(self):
+        return self.exhausted.count(False)
+
+    def generate(self, category, prompt):
+        """해당 카테고리의 기본 키부터 시작해 사용 가능한 키를 순회하며 호출."""
+        n = len(self.clients)
+        start = self.cat_index.get(category, 0)
+        for offset in range(n):
+            idx = (start + offset) % n
+            if self.exhausted[idx]:
+                continue
+            try:
+                resp = self.clients[idx].models.generate_content(
+                    model=GEMINI_MODEL,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        response_mime_type="application/json"
+                    ),
+                )
+                return json.loads(resp.text), idx
+            except Exception as e:
+                msg = str(e)
+                if "RESOURCE_EXHAUSTED" in msg or "429" in msg:
+                    print(f"[KEY {idx+1}] 일일 한도 소진 → 다음 키로 폴백")
+                    self.exhausted[idx] = True
+                    continue
+                print(f"[KEY {idx+1}] 호출 오류: {e}")
+                time.sleep(SLEEP_SEC)
+        return None, -1
 
 
 def load_existing_data(filepath):
@@ -53,26 +115,9 @@ def load_existing_data(filepath):
     return []
 
 
-def call_gemini_json(prompt, retries=2):
-    for attempt in range(retries + 1):
-        try:
-            response = client.models.generate_content(
-                model=GEMINI_MODEL,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json"
-                ),
-            )
-            return json.loads(response.text)
-        except Exception as e:
-            print(f"[API RETRY {attempt+1}] Gemini 오류: {e}")
-            time.sleep(SLEEP_SEC)
-    return None
-
-
-def refine_with_gemini(title, summary, region, hint):
+def build_prompt(title, summary, region, hint):
     cat_list = ", ".join(CATEGORIES)
-    prompt = f"""당신은 10년 차 대기업 인사팀장이자 노무사입니다.
+    return f"""당신은 10년 차 대기업 인사팀장이자 노무사입니다.
 다음 HR 관련 뉴스를 인사 실무자용 대시보드 데이터로 정제하세요.
 원문이 영어 등 외국어이면 반드시 한국어로 번역·요약하세요.
 
@@ -90,12 +135,6 @@ def refine_with_gemini(title, summary, region, hint):
   "novelty_impact": "이 뉴스의 실무적 임팩트나 차별점 1문장",
   "action_point": ["HR 담당자 점검/조치 가이드1", "가이드2"]
 }}"""
-    result = call_gemini_json(prompt)
-    if not result:
-        return None
-    if result.get("category") not in CATEGORIES:
-        result["category"] = hint
-    return result
 
 
 def is_similar(title1, title2, threshold=0.65):
@@ -103,7 +142,11 @@ def is_similar(title1, title2, threshold=0.65):
 
 
 def main():
-    print("[INFO] Gemini 2단계 HR 뉴스 종합 크롤러 가동...")
+    print("[INFO] Gemini 멀티키 HR 뉴스 종합 크롤러 가동...")
+    keys = load_api_keys()
+    print(f"[INFO] 로드된 Gemini 키 개수: {len(keys)}개 (이론상 최대 {len(keys)*20}건/일)")
+    pool = KeyPool(keys)
+
     output_path = os.path.join(
         os.path.dirname(os.path.abspath(__file__)), "../news_data.json"
     )
@@ -135,18 +178,23 @@ def main():
     all_combined = existing_articles.copy()
 
     for art in new_raw:
+        if pool.available_count() == 0:
+            print("[STOP] 모든 키의 일일 한도 소진 → 수집 중단")
+            break
         if art["link"] and any(art["link"] == item.get("link", "") for item in all_combined):
             continue
         if any(is_similar(art["title"], item.get("title", "")) for item in all_combined):
             continue
 
+        prompt = build_prompt(art["title"], art["summary"], art["region"], art["hint"])
         print(f"[AI 정제] ({art['region']}) {art['title'][:30]}...")
-        ai = refine_with_gemini(art["title"], art["summary"], art["region"], art["hint"])
+        ai, used_idx = pool.generate(art["hint"], prompt)
         if not ai:
-            time.sleep(SLEEP_SEC)
             continue
 
         category = ai.get("category", art["hint"])
+        if category not in CATEGORIES:
+            category = art["hint"]
         full = {
             "title": ai.get("clean_title", art["title"]),
             "category": category,
@@ -170,7 +218,7 @@ def main():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"[DONE] 신규 {unique_count} 추가".replace("{unique_count}", str(len(unique_articles))))
+    print(f"[DONE] 신규 {len(unique_articles)}개 추가 / 총 {len(final_articles)}개 저장 완료.")
 
 
 if __name__ == "__main__":
