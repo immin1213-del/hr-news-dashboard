@@ -4,6 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
 
+
 # 페이지 기본 설정
 st.set_page_config(
     page_title="HR 뉴스 모니터링",
@@ -11,6 +12,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed",
 )
+
 
 # 카테고리 표시 순서 (crawler 의 CATEGORIES 와 동일하게 유지)
 CATEGORY_ORDER = [
@@ -22,9 +24,10 @@ CATEGORY_ORDER = [
     "글로벌 HR 트렌드",
 ]
 
+
 CATEGORY_ICON = {
-    "고용노동부 정책": "🏛️",
-    "노동법/판례": "⚖️",
+    "고용노동부 정책": "🏛",
+    "노동법/판례": "⚖",
     "보상/평가": "💰",
     "채용/조직문화": "🤝",
     "HR테크/AI": "🤖",
@@ -32,27 +35,53 @@ CATEGORY_ICON = {
     "기타": "📰",
 }
 
-# 전역 CSS
+
+# 전역 CSS — McKinsey 풍의 절제된 모던 디자인
 st.markdown("""
 <style>
-.stApp { background-color: #F4F6FA; font-family: 'Noto Sans KR', -apple-system, sans-serif; }
-.hero-banner { background: linear-gradient(135deg, #0A2342 0%, #1A4A7A 60%, #2563B0 100%); border-radius: 16px; padding: 36px 48px; margin-bottom: 28px; color: white; display: flex; justify-content: space-between; align-items: center; }
-.hero-title { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; margin: 0 0 6px 0; }
-.hero-subtitle { font-size: 14px; opacity: 0.75; margin: 0; }
-.hero-right { text-align: right; }
-.hero-date { font-size: 13px; opacity: 0.7; margin-bottom: 4px; }
-.hero-count { font-size: 48px; font-weight: 800; line-height: 1; color: #7DD3FC; }
-.hero-count-label { font-size: 13px; opacity: 0.75; margin-top: 2px; }
-.category-header { font-size: 20px; font-weight: 700; color: #0A2342; margin: 32px 0 16px 0; padding-bottom: 8px; border-bottom: 2px solid #E2E8F0; }
-.badge { display: inline-block; background-color: #1A4A7A; color: #E0EFFF; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-right: 8px; letter-spacing: 0.3px; }
-.badge-global { background-color: #0E7490; }
-.section-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #64748B; margin: 14px 0 6px 0; }
-.summary-box { background-color: #F8FAFF; border-left: 4px solid #2563B0; border-radius: 0 8px 8px 0; padding: 14px 18px; font-size: 14.5px; line-height: 1.75; color: #1E293B; margin: 8px 0; }
-.impact-box { background-color: #FFFBEB; border-left: 4px solid #F59E0B; border-radius: 0 8px 8px 0; padding: 12px 18px; font-size: 14px; line-height: 1.7; color: #1E293B; margin: 8px 0; }
-.source-box { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #475569; margin: 10px 0 2px 0; }
-.source-box a { color: #2563B0; text-decoration: none; font-weight: 500; }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Libre+Franklin:wght@400;600;700&display=swap');
+
+.stApp { background-color: #FFFFFF; font-family: 'Noto Sans KR', -apple-system, sans-serif; color: #1A1A1A; }
+.block-container { max-width: 1080px; padding-top: 2.5rem; }
+#MainMenu, footer, header { visibility: hidden; }
+
+/* 헤더 */
+.masthead { border-top: 3px solid #051C2C; padding: 28px 0 22px 0; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: flex-end; }
+.mh-eyebrow { font-family: 'Libre Franklin', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase; color: #0066B2; margin: 0 0 14px 0; }
+.mh-title { font-size: 34px; font-weight: 900; letter-spacing: -0.8px; line-height: 1.18; color: #051C2C; margin: 0; }
+.mh-title .accent { color: #0066B2; }
+.mh-sub { font-size: 15px; font-weight: 400; color: #5A6B7B; margin: 12px 0 0 0; letter-spacing: -0.2px; }
+.mh-right { text-align: right; padding-bottom: 4px; min-width: 150px; }
+.mh-count { font-size: 52px; font-weight: 900; line-height: 1; color: #051C2C; letter-spacing: -1.5px; }
+.mh-count-label { font-family: 'Libre Franklin', sans-serif; font-size: 10.5px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #8A97A4; margin-top: 6px; }
+.mh-date { font-size: 12px; color: #8A97A4; margin-top: 10px; letter-spacing: 0.2px; }
+.masthead-rule { height: 1px; background: #E3E8EC; margin: 0 0 8px 0; }
+
+/* 카테고리 섹션 헤더 */
+.category-header { display: flex; align-items: baseline; gap: 12px; margin: 44px 0 14px 0; padding-bottom: 12px; border-bottom: 1px solid #E3E8EC; }
+.category-header .ch-icon { font-size: 18px; }
+.category-header .ch-name { font-size: 20px; font-weight: 700; color: #051C2C; letter-spacing: -0.4px; }
+.category-header .ch-count { font-family: 'Libre Franklin', sans-serif; font-size: 12px; font-weight: 600; color: #0066B2; letter-spacing: 0.5px; }
+
+/* 카드 / expander */
+div[data-testid="stExpander"] { border: 1px solid #E3E8EC !important; border-radius: 0 !important; box-shadow: none !important; margin-bottom: 0 !important; border-bottom: none !important; }
+div[data-testid="stExpander"]:last-child { border-bottom: 1px solid #E3E8EC !important; }
+div[data-testid="stExpander"] details { border: none !important; }
+div[data-testid="stExpander"] summary { padding: 16px 20px !important; font-size: 15.5px !important; font-weight: 500 !important; color: #1A2733 !important; transition: background 0.15s; }
+div[data-testid="stExpander"] summary:hover { background: #F7F9FB !important; color: #0066B2 !important; }
+
+/* 배지 */
+.badge { display: inline-block; background-color: #051C2C; color: #FFFFFF; font-family: 'Libre Franklin', sans-serif; font-size: 10px; font-weight: 600; padding: 3px 11px; border-radius: 2px; margin-right: 8px; letter-spacing: 1px; text-transform: uppercase; }
+.badge-global { background-color: #0066B2; }
+
+/* 라벨 / 박스 */
+.section-label { font-family: 'Libre Franklin', sans-serif; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; color: #0066B2; margin: 18px 0 6px 0; }
+.summary-box { background-color: #F7F9FB; border-left: 2px solid #0066B2; padding: 14px 18px; font-size: 14.5px; line-height: 1.8; color: #2A3744; margin: 6px 0; }
+.impact-box { background-color: #FBF9F5; border-left: 2px solid #C9A227; padding: 14px 18px; font-size: 14px; line-height: 1.75; color: #2A3744; margin: 6px 0; }
+.source-box { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: #5A6B7B; margin: 16px 0 4px 0; padding-top: 12px; border-top: 1px solid #EEF1F4; }
+.source-box a { color: #0066B2; text-decoration: none; font-weight: 600; }
 .source-box a:hover { text-decoration: underline; }
-.empty-state { text-align: center; padding: 60px 20px; color: #94A3B8; font-size: 15px; }
+.empty-state { text-align: center; padding: 80px 20px; color: #8A97A4; font-size: 15px; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -78,17 +107,18 @@ def get_category(item):
 def render_hero(news_count, last_updated):
     display_date = last_updated or datetime.now().strftime("%Y년 %m월 %d일 %H:%M KST")
     st.markdown(f"""
-    <div class="hero-banner">
-      <div class="hero-left">
-        <p class="hero-title">📋 HR 뉴스 모니터링 대시보드</p>
-        <p class="hero-subtitle">국내외 정책·판례·HR테크·글로벌 트렌드 — 인사 실무자를 위한 핵심 이슈 브리핑</p>
+    <div class="masthead">
+      <div class="mh-left">
+        <p class="mh-eyebrow">HR Intelligence Briefing</p>
+        <p class="mh-title">국내외 정책 · 판례 · HR테크 · <span class="accent">글로벌 트렌드</span><br>인사 실무자를 위한 핵심 이슈 브리핑</p>
       </div>
-      <div class="hero-right">
-        <p class="hero-date">🗓 최종 업데이트: {display_date}</p>
-        <p class="hero-count">{news_count}</p>
-        <p class="hero-count-label">수집된 뉴스 건수</p>
+      <div class="mh-right">
+        <div class="mh-count">{news_count}</div>
+        <div class="mh-count-label">Articles Tracked</div>
+        <div class="mh-date">{display_date}</div>
       </div>
     </div>
+    <div class="masthead-rule"></div>
     """, unsafe_allow_html=True)
 
 
@@ -132,7 +162,6 @@ def main():
         st.markdown('<div class="empty-state">아직 수집된 뉴스가 없습니다. 크롤러 실행 후 자동으로 채워집니다.</div>', unsafe_allow_html=True)
         return
 
-    # 카테고리별 그룹화
     grouped = defaultdict(list)
     for item in articles:
         grouped[get_category(item)].append(item)
@@ -143,7 +172,12 @@ def main():
         if not items:
             continue
         icon = CATEGORY_ICON.get(cat, "📰")
-        st.markdown(f'<div class="category-header">{icon} {cat} <span style="color:#94A3B8;font-size:14px;">({len(items)}건)</span></div>', unsafe_allow_html=True)
+        st.markdown(
+            f'<div class="category-header"><span class="ch-icon">{icon}</span>'
+            f'<span class="ch-name">{cat}</span>'
+            f'<span class="ch-count">{len(items)}건</span></div>',
+            unsafe_allow_html=True,
+        )
         for item in items:
             render_news_card(item)
 
