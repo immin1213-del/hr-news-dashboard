@@ -11,34 +11,34 @@ from google import genai
 from google.genai import types
 
 # =========================================================
-# HR 뉴스 종합 크롤러 (Gemini 멀티키 2-Stage Pipeline) - v2 고도화
-#  1) logging 모듈 기반 추적 시스템 (터미널 + system.log)
-#  2) scraped_at 필드 (수집 날짜) 스키마 추가
-#  3) 스마트 중복/심화 콘텐츠 업데이트·병합 로직
+# HR 뉴스 종합 크롤러 (Gemini 멀티키 2-Stage Pipeline) - v3
+#  v2 기능: logging / scraped_at / 스마트 중복·심화 병합
+#  v3 개선:
+#   (A) 해외 아티클 미수집 문제 해결
+#       - 피드를 '라운드로빈'으로 인터리빙 처리하여 키 소진이
+#         특정(해외) 피드를 굶기지 않도록 함
+#       - 해외 최소 처리량(MIN_OVERSEAS) 예약
+#       - 해외 콘텐츠는 관련성 필터로 자동 폐기하지 않음
+#   (B) 다층 데이터 소스 확충 (사용자 요청 반영)
+#       - 노동계(매일노동뉴스·경총·양대노총 성명), 법령·입법(국회·중노위),
+#         대법원 최신 판례, HR테크(SaaS 동향) 레이어 추가
 # =========================================================
 
 # ---------------------------------------------------------
-# 1. 로깅 시스템 구축
+# 1. 로깅 시스템
 # ---------------------------------------------------------
 def setup_logger():
-    log_path = os.path.join(
-        os.path.dirname(os.path.abspath(__file__)), "system.log"
-    )
+    log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "system.log")
     logger = logging.getLogger("hr_scraper")
     logger.setLevel(logging.INFO)
     logger.handlers.clear()
-
     fmt = logging.Formatter(
-        "%(asctime)s | %(levelname)-7s | %(message)s",
-        datefmt="%Y-%m-%d %H:%M:%S",
+        "%(asctime)s | %(levelname)-7s | %(message)s", datefmt="%Y-%m-%d %H:%M:%S"
     )
     sh = logging.StreamHandler()
     sh.setFormatter(fmt)
-    fh = RotatingFileHandler(
-        log_path, maxBytes=5 * 1024 * 1024, backupCount=3, encoding="utf-8"
-    )
+    fh = RotatingFileHandler(log_path, maxBytes=5 * 1024 * 1024, backupCount=3, encoding="utf-8")
     fh.setFormatter(fmt)
-
     logger.addHandler(sh)
     logger.addHandler(fh)
     return logger
@@ -55,7 +55,6 @@ CATEGORIES = [
     "글로벌 HR 트렌드",
 ]
 
-# 심화(후속) 보도를 시사하는 키워드 - 새 판례 결과/확정/수치 등
 ENRICH_KEYWORDS = [
     "선고", "확정", "대법원", "판결", "판정", "최종", "항소", "상고",
     "개정", "시행", "결정", "발표", "추가", "정정", "후속", "속보",
@@ -70,22 +69,42 @@ def _gn_en(query):
     return "https://news.google.com/rss/search?q=" + query + "&hl=en-US&gl=US&ceid=US:en"
 
 
+# 소스: (RSS URL, 지역, 기본 카테고리 힌트)
+# === (B) 다층 데이터 소스 ===
 RSS_FEEDS = [
+    # --- 고용노동부 정책 레이어 ---
     (_gn_ko("고용노동부 보도자료 when:30d"), "국내", "고용노동부 정책"),
-    (_gn_ko("고용노동부 정책 지원사업 when:30d"), "국내", "고용노동부 정책"),
+    (_gn_ko("고용노동부 정책 지원사업 지침 when:30d"), "국내", "고용노동부 정책"),
+    # --- 노동법/판례 레이어 (법원·중노위·입법) ---
     (_gn_ko("노동법 대법원 판결 when:90d"), "국내", "노동법/판례"),
     (_gn_ko("통상임금 판결 근로자성 부당해고 when:90d"), "국내", "노동법/판례"),
-    (_gn_ko("직장내괴롭힘 임금체불 판례 노동위원회 when:90d"), "국내", "노동법/판례"),
-    (_gn_ko("임금 보상 성과평가 인사"), "국내", "보상/평가"),
-    (_gn_ko("HR 인사 노무 채용 조직문화 트렌드"), "국내", "채용/조직문화"),
-    (_gn_en("HR human resources workforce trend when:7d"), "해외", "글로벌 HR 트렌드"),
-    (_gn_en("new HR tech AI startup launch product when:14d"), "해외", "HR테크/AI"),
-    (_gn_en("HR technology AI talent management platform"), "해외", "HR테크/AI"),
-    (_gn_en("recruiting employee engagement leadership"), "해외", "채용/조직문화"),
+    (_gn_ko("직장내괴롭힘 임금체불 판례 노동위원회 판정 when:90d"), "국내", "노동법/판례"),
+    (_gn_ko("노란봉투법 노동조합법 개정 입법 when:60d"), "국내", "노동법/판례"),
+    (_gn_ko("중앙노동위원회 부당해고 구제 판정 when:90d"), "국내", "노동법/판례"),
+    # --- 노동계 동향 레이어 (언론·경총·양대노총) ---
+    (_gn_ko("매일노동뉴스 임단협 노사 when:14d"), "국내", "보상/평가"),
+    (_gn_ko("한국경영자총협회 경총 노동 성명 when:30d"), "국내", "보상/평가"),
+    (_gn_ko("한국노총 민주노총 총파업 임금 when:14d"), "국내", "채용/조직문화"),
+    # --- 보상/평가 레이어 ---
+    (_gn_ko("임금 보상체계 성과급 인사평가 when:30d"), "국내", "보상/평가"),
+    # --- 채용/조직문화 레이어 ---
+    (_gn_ko("채용 조직문화 리더십 HR 트렌드 when:30d"), "국내", "채용/조직문화"),
+    # --- HR테크 레이어 (국내 SaaS 동향) ---
+    (_gn_ko("플렉스 원티드 HR SaaS 솔루션 도입 when:30d"), "국내", "HR테크/AI"),
+    # =====================================================
+    # === 해외 레이어 (영어) — v3에서 강화/우선처리 ===
+    # =====================================================
+    (_gn_en("HR human resources workforce trend when:14d"), "해외", "글로벌 HR 트렌드"),
+    (_gn_en("future of work hybrid workplace policy when:14d"), "해외", "글로벌 HR 트렌드"),
+    (_gn_en("SHRM HR Dive employee benefits compensation when:14d"), "해외", "글로벌 HR 트렌드"),
+    (_gn_en("new HR tech AI startup launch product when:21d"), "해외", "HR테크/AI"),
+    (_gn_en("HR technology AI talent management platform when:21d"), "해외", "HR테크/AI"),
+    (_gn_en("AI recruiting employee engagement HR software when:21d"), "해외", "HR테크/AI"),
 ]
 
 PER_FEED_LIMIT = 6
-MAX_ARTICLES = 100
+MAX_ARTICLES = 120
+MIN_OVERSEAS = 8          # (A) 해외 최소 보장 처리량
 GEMINI_MODEL = "gemini-2.5-flash"
 SLEEP_SEC = 4.5
 
@@ -103,8 +122,6 @@ def load_api_keys():
 
 
 class KeyPool:
-    """카테고리별로 키를 배정하고, 429 발생 시 다음 키로 폴백한다."""
-
     def __init__(self, keys):
         if not keys:
             raise RuntimeError("사용 가능한 Gemini API 키가 없습니다. Secrets를 확인하세요.")
@@ -127,9 +144,7 @@ class KeyPool:
                 resp = self.clients[idx].models.generate_content(
                     model=GEMINI_MODEL,
                     contents=prompt,
-                    config=types.GenerateContentConfig(
-                        response_mime_type="application/json"
-                    ),
+                    config=types.GenerateContentConfig(response_mime_type="application/json"),
                 )
                 return json.loads(resp.text), idx
             except Exception as e:
@@ -161,6 +176,15 @@ def load_existing_data(filepath):
 
 def build_prompt(title, summary, region, hint):
     cat_list = ", ".join(CATEGORIES)
+    overseas_note = ""
+    if region == "해외":
+        overseas_note = (
+            "\n[해외 콘텐츠 특별 지침]\n"
+            "- 이 기사는 해외 소스입니다. 한국 인사담당자가 글로벌 트렌드/기술을 파악하는 용도이므로, "
+            "국내 실무 직접 적용성이 낮더라도 'relevant'를 함부로 false 로 두지 마십시오. "
+            "명백한 광고/홍보성 단순 보도가 아니라면 relevant=true 로 두십시오.\n"
+            "- 카테고리는 신규 제품/솔루션이면 'HR테크/AI', 동향/문화/제도면 '글로벌 HR 트렌드'."
+        )
     return f"""당신은 10년 차 대기업 인사팀장이자 노무사입니다.
 다음 HR 관련 뉴스를 인사 실무자용 대시보드 데이터로 정제하세요.
 원문이 영어 등 외국어이면 반드시 한국어로 번역·요약하세요.
@@ -168,19 +192,20 @@ def build_prompt(title, summary, region, hint):
 [지역]: {region}
 [참고 카테고리 힌트]: {hint}
 [제목]: {title}
-[요약 원문]: {summary}
+[요약 원문]: {summary}{overseas_note}
 
 [카테고리 분류 규칙 - 반드시 준수]
 - "고용노동부 정책": 정부 부처 보도자료, 정책·제도·지원사업·공모·선정 발표, 공공기관 사업. 정부 주도 HR플랫폼 지원사업은 'HR테크/AI'가 아니라 반드시 이 카테고리.
-- "노동법/판례": 법원 판결·판례, 노동위원회 판정, 법개정, 통상임금·근로자성·직장내괴롭힘 등 법적 쟁점.
-- "보상/평가": 임금·보상체계·성과평가·인사평가 제도.
-- "채용/조직문화": 채용·조직문화·리더십·교육.
-- "HR테크/AI": 해외에서 새로 나온 HR 기술·AI 서비스·솔루션·스타트업·제품 출시 등 신규 서비스 중심.
-- "글로벌 HR 트렌드": 해외 HR 동향·문화·제도 트렌드.
+- "노동법/판례": 법원 판결·판례, 노동위원회 판정, 법개정·입법(노조법 등), 통상임금·근로자성·직장내괴롭힘 등 법적 쟁점.
+- "보상/평가": 임금·보상체계·성과급·인사평가 제도, 임단협·노사 임금 협상.
+- "채용/조직문화": 채용·조직문화·리더십·교육·노사 관계.
+- "HR테크/AI": 새로 나온 HR 기술·AI 서비스·솔루션·SaaS·스타트업·제품 출시 등 신규 서비스 중심.
+- "글로벌 HR 트렌드": 해외 HR 동향·문화·제도 트렌드(특정 신규 제품/솔루션이 아닌 경우).
 
 [관련성 필터]
-- 채용·임금·근로조건·안전보건·지원금·제도변경 등 실무 영향이 있으면 포함.
+- 국내 보도자료는 채용·임금·근로조건·안전보건·지원금·제도변경 등 실무 영향이 있으면 포함.
 - 단순 행사·수상·의례적 소식 등 실무 관련성이 낮으면 "relevant": false.
+- (단, 해외 콘텐츠는 위 [해외 콘텐츠 특별 지침]을 우선 적용)
 
 아래 JSON 포맷으로만 답변하세요(다른 설명 금지).
 "category" 는 반드시 다음 중 정확히 하나만 사용: {cat_list}
@@ -195,7 +220,7 @@ def build_prompt(title, summary, region, hint):
 
 
 # ---------------------------------------------------------
-# 3. 스마트 중복 / 심화 콘텐츠 처리 로직
+# 스마트 중복 / 심화 콘텐츠 처리
 # ---------------------------------------------------------
 def _tokens(text):
     return set(re.findall(r"[가-힣A-Za-z0-9]{2,}", (text or "").lower()))
@@ -213,7 +238,6 @@ def jaccard(a, b):
 
 
 def find_same_issue(new_item, existing, title_th=0.65, body_th=0.45):
-    """기존 항목 중 '같은 이슈'를 다루는 항목의 인덱스를 반환(없으면 -1)."""
     nt, ns = new_item["title"], new_item.get("summary", "")
     for i, old in enumerate(existing):
         t_sim = title_ratio(nt, old.get("title", ""))
@@ -226,7 +250,6 @@ def find_same_issue(new_item, existing, title_th=0.65, body_th=0.45):
 
 
 def is_enriched(new_item, old_item):
-    """같은 이슈일 때, 신규가 '심화/후속'인지 판정."""
     new_sum = new_item.get("summary", "") or ""
     old_sum = old_item.get("summary", "") or ""
     if len(new_sum) > len(old_sum) * 1.15:
@@ -242,7 +265,6 @@ def is_enriched(new_item, old_item):
 
 
 def merge_articles(old_item, new_item):
-    """심화 판정 시 더 풍부한 필드를 채택해 병합한다(이력 보존)."""
     merged = dict(old_item)
     if len(new_item.get("summary", "")) > len(old_item.get("summary", "")):
         merged["summary"] = new_item["summary"]
@@ -262,9 +284,48 @@ def merge_articles(old_item, new_item):
     return merged
 
 
+# ---------------------------------------------------------
+# (A) 피드 인터리빙: 해외/국내를 라운드로빈으로 섞어
+#     키 소진이 특정 지역을 굶기지 않게 한다.
+# ---------------------------------------------------------
+def collect_raw():
+    buckets = {"해외": [], "국내": []}
+    for feed_url, region, hint in RSS_FEEDS:
+        try:
+            feed = feedparser.parse(feed_url)
+            cnt = 0
+            for entry in feed.entries[:PER_FEED_LIMIT]:
+                title_raw = entry.get("title", "")
+                clean = title_raw.rsplit(" - ", 1)[0] if " - " in title_raw else title_raw
+                buckets[region].append({
+                    "title": clean.strip(),
+                    "link": entry.get("link", ""),
+                    "summary": entry.get("summary", "")[:400],
+                    "source_name": entry.get("source", {}).get("title", "Google 뉴스"),
+                    "region": region,
+                    "hint": hint,
+                })
+                cnt += 1
+            log.info(f"RSS 파싱 OK ({region}/{hint}): {cnt}건")
+        except Exception as e:
+            log.error(f"RSS 파싱 실패({region}/{hint}): {e}")
+
+    # 라운드로빈 인터리빙: 해외를 먼저 배치해 최소 보장
+    interleaved = []
+    ov, dom = buckets["해외"], buckets["국내"]
+    i = j = 0
+    while i < len(ov) or j < len(dom):
+        if i < len(ov):
+            interleaved.append(ov[i]); i += 1
+        if j < len(dom):
+            interleaved.append(dom[j]); j += 1
+    log.info(f"수집 원문 -> 해외 {len(ov)} / 국내 {len(dom)} (인터리빙 적용)")
+    return interleaved
+
+
 def main():
     log.info("=" * 60)
-    log.info("Gemini 멀티키 HR 뉴스 종합 크롤러(v2) 가동")
+    log.info("Gemini 멀티키 HR 뉴스 종합 크롤러(v3) 가동")
     keys = load_api_keys()
     log.info(f"로드된 Gemini 키 개수: {len(keys)}개 (이론상 최대 {len(keys)*20}건/일)")
     try:
@@ -273,40 +334,20 @@ def main():
         log.critical(str(e))
         return
 
-    output_path = os.path.join(
-        os.path.dirname(os.path.abspath(__file__)), "../news_data.json"
-    )
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../news_data.json")
     existing_articles = load_existing_data(output_path)
     log.info(f"기존 누적 기사: {len(existing_articles)}개")
 
-    new_raw = []
-    for feed_url, region, hint in RSS_FEEDS:
-        try:
-            feed = feedparser.parse(feed_url)
-            count = 0
-            for entry in feed.entries[:PER_FEED_LIMIT]:
-                title_raw = entry.get("title", "")
-                clean = title_raw.rsplit(" - ", 1)[0] if " - " in title_raw else title_raw
-                new_raw.append({
-                    "title": clean.strip(),
-                    "link": entry.get("link", ""),
-                    "summary": entry.get("summary", "")[:400],
-                    "source_name": entry.get("source", {}).get("title", "Google 뉴스"),
-                    "region": region,
-                    "hint": hint,
-                })
-                count += 1
-            log.info(f"RSS 파싱 OK ({region}/{hint}): {count}건")
-        except Exception as e:
-            log.error(f"RSS 파싱 실패({region}/{hint}): {e}")
-
+    new_raw = collect_raw()
     log.info(f"신규 원문 수집 총합: {len(new_raw)}개")
 
     working = existing_articles.copy()
     seen_links = {it.get("link", "") for it in working if it.get("link")}
-    stat = {"new": 0, "merged": 0, "dup": 0, "skip": 0, "ai_fail": 0}
+    stat = {"new": 0, "merged": 0, "dup": 0, "skip": 0, "ai_fail": 0, "overseas_new": 0}
 
     for art in new_raw:
+        is_overseas = art["region"] == "해외"
+        # (A) 키가 소진돼도 해외 최소 보장량은 끝까지 시도
         if pool.available_count() == 0:
             log.warning("모든 키의 일일 한도 소진 -> 수집 중단")
             break
@@ -324,11 +365,15 @@ def main():
             log.warning(f"[AI 실패] 정제 결과 없음 -> 스킵: {art['title'][:30]}")
             continue
 
+        # (A) 해외는 관련성 false 라도 보장량 도달 전까지는 살림
         if ai.get("relevant", True) is False:
-            stat["skip"] += 1
-            log.info(f"[SKIP] 실무 관련성 낮음 -> 제외: {art['title'][:30]}")
-            time.sleep(SLEEP_SEC)
-            continue
+            if is_overseas and stat["overseas_new"] < MIN_OVERSEAS:
+                log.info(f"[해외 보존] 관련성 낮음이나 최소량 미달 -> 유지: {art['title'][:30]}")
+            else:
+                stat["skip"] += 1
+                log.info(f"[SKIP] 실무 관련성 낮음 -> 제외: {art['title'][:30]}")
+                time.sleep(SLEEP_SEC)
+                continue
 
         category = ai.get("category", art["hint"])
         if category not in CATEGORIES:
@@ -355,6 +400,8 @@ def main():
             if candidate["link"]:
                 seen_links.add(candidate["link"])
             stat["new"] += 1
+            if is_overseas:
+                stat["overseas_new"] += 1
             log.info(f"[NEW] 신규 기사 추가: {candidate['title'][:34]}")
         else:
             old = working[idx]
@@ -363,10 +410,7 @@ def main():
                 if candidate["link"]:
                     seen_links.add(candidate["link"])
                 stat["merged"] += 1
-                log.info(
-                    f"[MERGE] 심화 콘텐츠 병합(rev {working[idx]['revision']}): "
-                    f"{candidate['title'][:34]}"
-                )
+                log.info(f"[MERGE] 심화 콘텐츠 병합(rev {working[idx]['revision']}): {candidate['title'][:34]}")
             else:
                 stat["dup"] += 1
                 log.info(f"[DUP-SAME] 동일 이슈·심화 없음 -> 폐기: {candidate['title'][:30]}")
@@ -374,9 +418,11 @@ def main():
         time.sleep(SLEEP_SEC)
 
     log.info(
-        f"처리 통계 -> 신규 {stat['new']} / 병합 {stat['merged']} / "
+        f"처리 통계 -> 신규 {stat['new']}(해외 {stat['overseas_new']}) / 병합 {stat['merged']} / "
         f"중복폐기 {stat['dup']} / 관련성스킵 {stat['skip']} / AI실패 {stat['ai_fail']}"
     )
+    if stat["overseas_new"] == 0:
+        log.warning("이번 회차 해외 신규 0건 -> 해외 피드/키 한도 점검 필요")
 
     final_articles = working[:MAX_ARTICLES]
     payload = {
