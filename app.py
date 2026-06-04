@@ -31,7 +31,7 @@ CATEGORY_ICON = {
     "기타": "📰",
 }
 
-# 전역 CSS — McKinsey 풍의 절제된 모던 디자인
+# 전역 CSS — McKinsey 풍의 절제된 모던 디자인 (본문 + 사이드바 통일)
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Libre+Franklin:wght@400;600;700&display=swap');
@@ -40,43 +40,75 @@ st.markdown("""
 .block-container { max-width: 1080px; padding-top: 2.5rem; }
 #MainMenu, footer, header { visibility: hidden; }
 
-/* 헤더 */
+/* ===================== 사이드바 모던 리디자인 ===================== */
+section[data-testid="stSidebar"] { background-color: #051C2C; border-right: none; }
+section[data-testid="stSidebar"] > div { padding-top: 0; }
+section[data-testid="stSidebar"] * { color: #DCE3EA; }
+
+/* 사이드바 브랜드 헤더 밴드 */
+.sb-brand { border-top: 3px solid #0066B2; padding: 22px 4px 18px 4px; margin-bottom: 6px; }
+.sb-brand .sb-eyebrow { font-family: 'Libre Franklin', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #4D9FD6; margin: 0 0 8px 0; }
+.sb-brand .sb-title { font-size: 17px; font-weight: 700; color: #FFFFFF; letter-spacing: -0.3px; margin: 0; }
+.sb-rule { height: 1px; background: rgba(255,255,255,0.12); margin: 4px 0 14px 0; }
+
+/* 사이드바 섹션 라벨 */
+.sb-label { font-family: 'Libre Franklin', sans-serif; font-size: 10.5px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #7E93A6; margin: 18px 0 8px 0; }
+
+/* 사이드바 미니 통계 카드 (지역 분포) */
+.sb-stats { display: flex; gap: 8px; margin: 2px 0 6px 0; }
+.sb-stat { flex: 1; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 4px; padding: 10px 8px; text-align: center; }
+.sb-stat .num { font-size: 20px; font-weight: 900; color: #FFFFFF; line-height: 1; letter-spacing: -0.5px; }
+.sb-stat .lab { font-family: 'Libre Franklin', sans-serif; font-size: 9px; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase; color: #7E93A6; margin-top: 5px; }
+
+/* 입력 위젯 톤 통일 */
+section[data-testid="stSidebar"] input,
+section[data-testid="stSidebar"] textarea { background-color: rgba(255,255,255,0.06) !important; color: #FFFFFF !important; border: 1px solid rgba(255,255,255,0.14) !important; border-radius: 4px !important; }
+section[data-testid="stSidebar"] input::placeholder { color: #6E8499 !important; }
+section[data-testid="stSidebar"] .stTextInput input:focus { border-color: #0066B2 !important; box-shadow: 0 0 0 1px #0066B2 !important; }
+
+/* multiselect 칩 */
+section[data-testid="stSidebar"] div[data-baseweb="select"] > div { background-color: rgba(255,255,255,0.06) !important; border: 1px solid rgba(255,255,255,0.14) !important; border-radius: 4px !important; }
+section[data-testid="stSidebar"] span[data-baseweb="tag"] { background-color: #0066B2 !important; border-radius: 3px !important; }
+section[data-testid="stSidebar"] span[data-baseweb="tag"] span { color: #FFFFFF !important; }
+
+/* 라디오 — 세그먼트 느낌 */
+section[data-testid="stSidebar"] div[role="radiogroup"] label { color: #DCE3EA !important; }
+section[data-testid="stSidebar"] .stRadio > label { color: #7E93A6 !important; }
+
+/* 캡션 */
+section[data-testid="stSidebar"] .sb-tip { font-size: 11.5px; color: #6E8499; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 12px; margin-top: 18px; }
+
+/* ===================== 본문(우측) ===================== */
 .masthead { border-top: 3px solid #051C2C; padding: 28px 0 22px 0; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: flex-end; }
 .mh-eyebrow { font-family: 'Libre Franklin', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase; color: #0066B2; margin: 0 0 14px 0; }
 .mh-title { font-size: 34px; font-weight: 900; letter-spacing: -0.8px; line-height: 1.18; color: #051C2C; margin: 0; }
 .mh-title .accent { color: #0066B2; }
-.mh-sub { font-size: 15px; font-weight: 400; color: #5A6B7B; margin: 12px 0 0 0; letter-spacing: -0.2px; }
 .mh-right { text-align: right; padding-bottom: 4px; min-width: 150px; }
 .mh-count { font-size: 52px; font-weight: 900; line-height: 1; color: #051C2C; letter-spacing: -1.5px; }
 .mh-count-label { font-family: 'Libre Franklin', sans-serif; font-size: 10.5px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #8A97A4; margin-top: 6px; }
 .mh-date { font-size: 12px; color: #8A97A4; margin-top: 10px; letter-spacing: 0.2px; }
 .masthead-rule { height: 1px; background: #E3E8EC; margin: 0 0 8px 0; }
 
-/* 결과 카운트 바 */
 .result-bar { font-family: 'Libre Franklin', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; color: #5A6B7B; margin: 18px 0 4px 0; text-transform: uppercase; }
 .result-bar b { color: #0066B2; }
 
-/* 카테고리 섹션 헤더 */
 .category-header { display: flex; align-items: baseline; gap: 12px; margin: 40px 0 14px 0; padding-bottom: 12px; border-bottom: 1px solid #E3E8EC; }
 .category-header .ch-icon { font-size: 18px; }
 .category-header .ch-name { font-size: 20px; font-weight: 700; color: #051C2C; letter-spacing: -0.4px; }
 .category-header .ch-count { font-family: 'Libre Franklin', sans-serif; font-size: 12px; font-weight: 600; color: #0066B2; letter-spacing: 0.5px; }
 
-/* 카드 / expander */
 div[data-testid="stExpander"] { border: 1px solid #E3E8EC !important; border-radius: 0 !important; box-shadow: none !important; margin-bottom: 0 !important; border-bottom: none !important; }
 div[data-testid="stExpander"]:last-child { border-bottom: 1px solid #E3E8EC !important; }
 div[data-testid="stExpander"] details { border: none !important; }
 div[data-testid="stExpander"] summary { padding: 16px 20px !important; font-size: 15.5px !important; font-weight: 500 !important; color: #1A2733 !important; transition: background 0.15s; }
 div[data-testid="stExpander"] summary:hover { background: #F7F9FB !important; color: #0066B2 !important; }
 
-/* 배지 */
 .badge { display: inline-block; background-color: #051C2C; color: #FFFFFF; font-family: 'Libre Franklin', sans-serif; font-size: 10px; font-weight: 600; padding: 3px 11px; border-radius: 2px; margin-right: 8px; letter-spacing: 1px; text-transform: uppercase; }
 .badge-global { background-color: #0066B2; }
 .badge-date { background-color: #EEF2F6; color: #5A6B7B; }
 .badge-new { background-color: #D6202B; color: #FFFFFF; }
 .badge-rev { background-color: #C9A227; color: #FFFFFF; }
 
-/* 라벨 / 박스 */
 .section-label { font-family: 'Libre Franklin', sans-serif; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; color: #0066B2; margin: 18px 0 6px 0; }
 .summary-box { background-color: #F7F9FB; border-left: 2px solid #0066B2; padding: 14px 18px; font-size: 14.5px; line-height: 1.8; color: #2A3744; margin: 6px 0; }
 .impact-box { background-color: #FBF9F5; border-left: 2px solid #C9A227; padding: 14px 18px; font-size: 14px; line-height: 1.75; color: #2A3744; margin: 6px 0; }
@@ -107,7 +139,6 @@ def get_category(item):
 
 
 def parse_scraped(item):
-    """scraped_at(신규) → collected_at(하위호환) 순으로 수집 시각을 파싱."""
     raw = item.get("scraped_at") or item.get("collected_at") or ""
     for fmt in ("%Y-%m-%d %H:%M", "%Y-%m-%d"):
         try:
@@ -118,7 +149,6 @@ def parse_scraped(item):
 
 
 def freshness_badges(item):
-    """수집 시각 기준 신선도 뱃지(NEW/날짜) + 심화 개정 뱃지 HTML 반환."""
     dt = parse_scraped(item)
     html = ""
     if dt:
@@ -133,7 +163,7 @@ def freshness_badges(item):
     return html
 
 
-def render_hero(news_count, total_count, last_updated):
+def render_hero(filtered_count, total_count, last_updated):
     display_date = last_updated or datetime.now().strftime("%Y년 %m월 %d일 %H:%M KST")
     st.markdown(f"""
     <div class="masthead">
@@ -207,46 +237,75 @@ def within_days(item, days):
         return True
     dt = parse_scraped(item)
     if dt is None:
-        return True  # 날짜 정보 없으면 보수적으로 포함
+        return True
     return (datetime.now() - dt) <= timedelta(days=days)
 
 
+def region_of(item):
+    r = item.get("region", "")
+    return r if r in ("국내", "해외") else "국내"
+
+
 # ---------------------------------------------------------
-# 4. PM 관점 자율 개선: 검색 · 다중 필터 · 정렬 사이드바
+# 모던 사이드바: 브랜드 헤더 + 지역 분포 통계 + 검색/필터/정렬
 # ---------------------------------------------------------
 def render_sidebar(articles):
-    st.sidebar.markdown("### 🔎 탐색 & 필터")
-    query = st.sidebar.text_input("키워드 검색", placeholder="예: 통상임금, AI 채용, 임금체불")
+    sb = st.sidebar
+    sb.markdown(
+        '<div class="sb-brand"><p class="sb-eyebrow">HR Intelligence</p>'
+        '<p class="sb-title">탐색 &amp; 큐레이션 콘솔</p></div>'
+        '<div class="sb-rule"></div>',
+        unsafe_allow_html=True,
+    )
 
+    dom = sum(1 for a in articles if region_of(a) == "국내")
+    ov = sum(1 for a in articles if region_of(a) == "해외")
+    sb.markdown('<p class="sb-label">Coverage</p>', unsafe_allow_html=True)
+    sb.markdown(
+        f'<div class="sb-stats">'
+        f'<div class="sb-stat"><div class="num">{dom}</div><div class="lab">국내</div></div>'
+        f'<div class="sb-stat"><div class="num">{ov}</div><div class="lab">해외</div></div>'
+        f'<div class="sb-stat"><div class="num">{len(articles)}</div><div class="lab">Total</div></div>'
+        f'</div>',
+        unsafe_allow_html=True,
+    )
+
+    sb.markdown('<p class="sb-label">검색</p>', unsafe_allow_html=True)
+    query = sb.text_input("키워드 검색", placeholder="예: 통상임금, AI 채용, 임금체불", label_visibility="collapsed")
+
+    sb.markdown('<p class="sb-label">카테고리</p>', unsafe_allow_html=True)
     cats_present = [c for c in CATEGORY_ORDER if any(get_category(a) == c for a in articles)]
     if any(get_category(a) == "기타" for a in articles):
         cats_present.append("기타")
-    sel_cats = st.sidebar.multiselect("카테고리", cats_present, default=cats_present)
+    sel_cats = sb.multiselect("카테고리", cats_present, default=cats_present, label_visibility="collapsed")
 
-    regions = sorted({a.get("region", "") for a in articles if a.get("region")})
-    sel_regions = st.sidebar.multiselect("지역", regions, default=regions)
+    sb.markdown('<p class="sb-label">지역</p>', unsafe_allow_html=True)
+    region_choice = sb.radio("지역", ["전체", "국내", "해외"], index=0, horizontal=True, label_visibility="collapsed")
 
-    period_map = {"전체": 0, "최근 7일": 7, "최근 30일": 30, "최근 90일": 90}
-    period = st.sidebar.radio("수집 기간", list(period_map.keys()), index=0)
+    sb.markdown('<p class="sb-label">수집 기간</p>', unsafe_allow_html=True)
+    period_map = {"전체": 0, "7일": 7, "30일": 30, "90일": 90}
+    period = sb.radio("수집 기간", list(period_map.keys()), index=0, horizontal=True, label_visibility="collapsed")
 
-    sort_newest = st.sidebar.radio("정렬", ["최신순", "오래된순"], index=0) == "최신순"
+    sb.markdown('<p class="sb-label">정렬</p>', unsafe_allow_html=True)
+    sort_newest = sb.radio("정렬", ["최신순", "오래된순"], index=0, horizontal=True, label_visibility="collapsed") == "최신순"
 
-    st.sidebar.markdown("---")
-    st.sidebar.caption("💡 키워드는 제목·요약·임팩트·체크포인트를 모두 검색합니다.")
-    return query, sel_cats, sel_regions, period_map[period], sort_newest
+    sb.markdown(
+        '<div class="sb-tip">💡 키워드는 제목·요약·실무 임팩트·체크포인트를 모두 검색합니다. '
+        '국내외 소스가 매일 자동 수집·병합됩니다.</div>',
+        unsafe_allow_html=True,
+    )
+    return query, sel_cats, region_choice, period_map[period], sort_newest
 
 
 def main():
     last_updated, articles = load_news()
+    query, sel_cats, region_choice, period_days, sort_newest = render_sidebar(articles)
 
-    query, sel_cats, sel_regions, period_days, sort_newest = render_sidebar(articles)
-
-    # 필터 적용
     filtered = [
         a for a in articles
         if matches_query(a, query)
         and get_category(a) in sel_cats
-        and (not a.get("region") or a.get("region") in sel_regions or not sel_regions)
+        and (region_choice == "전체" or region_of(a) == region_choice)
         and within_days(a, period_days)
     ]
 
@@ -265,10 +324,8 @@ def main():
         st.markdown('<div class="empty-state">조건에 맞는 뉴스가 없습니다. 검색어나 필터를 조정해 보세요.</div>', unsafe_allow_html=True)
         return
 
-    # 정렬: 수집 시각 기준 (날짜 없으면 맨 뒤)
     def sort_key(a):
-        dt = parse_scraped(a)
-        return dt or (datetime.min)
+        return parse_scraped(a) or datetime.min
 
     filtered = sorted(filtered, key=sort_key, reverse=sort_newest)
 
