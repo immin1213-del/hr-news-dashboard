@@ -7,6 +7,7 @@ from logging.handlers import RotatingFileHandler
 from datetime import datetime
 import feedparser
 import difflib
+from urllib.parse import quote
 from google import genai
 from google.genai import types
 
@@ -62,11 +63,11 @@ ENRICH_KEYWORDS = [
 
 
 def _gn_ko(query):
-    return "https://news.google.com/rss/search?q=" + query + "&hl=ko&gl=KR&ceid=KR:ko"
+    return "https://news.google.com/rss/search?q=" + quote(query) + "&hl=ko&gl=KR&ceid=KR:ko"
 
 
 def _gn_en(query):
-    return "https://news.google.com/rss/search?q=" + query + "&hl=en-US&gl=US&ceid=US:en"
+    return "https://news.google.com/rss/search?q=" + quote(query) + "&hl=en-US&gl=US&ceid=US:en"
 
 
 # 소스: (RSS URL, 지역, 기본 카테고리 힌트)
@@ -425,6 +426,17 @@ def main():
         log.warning("이번 회차 해외 신규 0건 -> 해외 피드/키 한도 점검 필요")
 
     final_articles = working[:MAX_ARTICLES]
+
+    # 신규/병합이 하나도 없으면 last_updated 만 바뀐 '가짜 성공 커밋'을 만들지 않는다.
+    changed = (stat["new"] + stat["merged"]) > 0
+    if not changed:
+        log.error(
+            "신규/병합 0건 -> news_data.json 미갱신. "
+            "RSS 파싱 실패 또는 키 소진 가능성. 로그를 확인하세요."
+        )
+        # 비정상 종료로 GitHub Actions 에 실패를 노출 (가짜 녹색 체크 방지)
+        raise SystemExit(1)
+
     payload = {
         "last_updated": datetime.now().strftime("%Y년 %m월 %d일 %H:%M KST"),
         "articles": final_articles,
@@ -435,6 +447,7 @@ def main():
         log.info(f"[DONE] 총 {len(final_articles)}개 기사 저장 -> {output_path}")
     except Exception as e:
         log.critical(f"파일 저장 I/O 에러: {e}")
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
