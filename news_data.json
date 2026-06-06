@@ -1,6 +1,256 @@
 {
-  "last_updated": "2026년 06월 06일 00:01 KST",
+  "last_updated": "2026년 06월 06일 23:58 KST",
   "articles": [
+    {
+      "title": "국가의 모범적 사용자 지위와 노동법적 함의",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xejhmV0VWaFZVTFNpMVFfWEZGNy02UWFEcWtvSTlVOGFQTmQxaDNnODY0SUlHRnRuZGRzM1o3eWxFT2ZvMFZ6aVBMVF83cGFuTnZjdDF1ajB5UFlfa1E?oc=5",
+      "source": "주간경향",
+      "summary": "본 아티클은 국가가 사회 전반의 사용자로서 모범적인 역할을 수행해야 한다는 법적, 사회적 기대를 다룹니다. 국가의 모범 사용자로서의 책임 범위와 이를 실현하기 위한 실제적인 노동법적 과제들을 분석하고 있습니다. 특히 공공기관 및 공기업의 근로조건이 민간 부문에 미치는 영향 등을 포괄적으로 다룰 것으로 예상됩니다.",
+      "novelty_impact": "국가의 사용자 책임을 노동법적 관점에서 깊이 있게 조명하며, 공공 및 민간 부문 HR 정책 수립과 기업의 사회적 책임에 대한 인식을 높이는 중요한 논의를 제공합니다.",
+      "action_point": [
+        "공공기관 및 국영기업의 HR 정책 및 근로조건 변화를 주시하여, 향후 민간 부문에 파급될 수 있는 노동법적 흐름이나 사회적 요구를 예측하고 대비할 것.",
+        "기업의 내부 규정 및 근로조건이 사회적 기대와 '모범적 사용자' 기준에 부합하는지 주기적으로 점검하고, 기업의 ESG 경영 관점에서 개선 방안을 모색할 것."
+      ],
+      "collected_at": "2026-06-06 23:58",
+      "scraped_at": "2026-06-06 23:58",
+      "revision": 0
+    },
+    {
+      "title": "MENA 지역 스타트업, HR테크 및 AI 분야 신규 투자 유치 활발",
+      "category": "HR테크/AI",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wRU1hVHJsWnN5U2o5dDdVaW96V1BRTUJJNEFtdms5NVBOeVNlUm1Ib3VJSk83VnhVdmQ4OWRBbWNDdENyNTl0RXBVV25TdVdac1V4c09VaGxIV2R3OS1FZU1kYw?oc=5",
+      "source": "Arab News PK",
+      "summary": "중동 및 북아프리카(MENA) 지역 스타트업들이 핀테크, HR테크, AI 분야에서 새로운 투자를 성공적으로 유치했습니다. 이는 해당 지역에서 기술 기반 혁신 스타트업에 대한 벤처 캐피탈 투자가 활발히 이루어지고 있음을 보여줍니다.",
+      "novelty_impact": "MENA 지역의 HR테크 및 AI 스타트업에 대한 투자는 글로벌 HR 솔루션 시장의 확장과 새로운 기술 도입의 잠재력을 시사하며, 이는 국내 HR 담당자들에게도 미래 기술 동향 파악에 중요한 지표가 됩니다.",
+      "action_point": [
+        "글로벌 HR테크 및 AI 분야의 최신 투자 동향을 지속적으로 모니터링하여 혁신적인 솔루션 도입 가능성을 탐색합니다.",
+        "MENA 등 신흥 시장의 HR테크 발전이 국내 HR 운영 및 전략에 미칠 영향을 예측하고 선제적 대응 방안을 강구합니다."
+      ],
+      "collected_at": "2026-06-06 23:58",
+      "scraped_at": "2026-06-06 23:58",
+      "revision": 0
+    },
+    {
+      "title": "대법원 노동법실무연구회 6월 정기세미나 개최",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52UnpnVWxFRjh2ZWtzMGo4OU5hLWxDV1RoQnFiRExhUjh1cExUQjhVcHBhMTEwUHd0VmVMalJ1MDRYRUxTSHhRMFlQZ0NzemxSdk5uWGk3dWgtRW5pZGhLak5fdkozcmlyVnZxb1dB0gFyQVVfeXFMUDJYcWlxcXdvS2hhOGFid2VfekRkMGZUbnVlQTJjY2ZRSTBOM0FFUUo0VWxCTGZmbGNTQVVpTlBjeWlnZVg3M3B4bWxxRTQzaThnQ25ZUXc5MDg4RFRFSXRTNlVRNERTZzhMQkI4X19aa2Fn?oc=5",
+      "source": "법률신문",
+      "summary": "대법원 노동법실무연구회가 6월 정기세미나를 개최하며, 최신 노동법 쟁점과 주요 판례에 대한 심도 깊은 논의가 이루어질 예정이다. 이는 기업의 인사 실무자들이 변화하는 노동법 환경에 대비하고 법적 리스크를 관리하는 데 중요한 정보를 제공할 기회가 될 것이다.",
+      "novelty_impact": "대법원 관련 연구회 주최로, 최신 노동법 쟁점과 판례 동향을 심층적으로 다룰 예정이므로 실무 적용에 중요한 통찰을 제공할 것이다.",
+      "action_point": [
+        "세미나 주요 안건 및 논의 내용을 주시하고, 관련 법률 및 판례 동향을 지속적으로 파악해야 합니다.",
+        "세미나에서 다루는 쟁점이 당사의 인사 정책 및 근로계약, 취업규칙 등에 미칠 영향을 사전에 검토하고 필요한 경우 선제적으로 대응 방안을 마련해야 합니다."
+      ],
+      "collected_at": "2026-06-06 23:58",
+      "scraped_at": "2026-06-06 23:58",
+      "revision": 0
+    },
+    {
+      "title": "HR테크의 미래 동향: Pitchfest 2026에서 공개될 핵심 기술",
+      "category": "HR테크/AI",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNblRYSjdYYl80eE9mRk9paGtuOVdGMkhNNzFwcDVoR3Q3VXAxS1hEckszNDdJSVlPSC1hNWNRSm43cjRDc3p4Z3VOUVZ2TURNZHdMVHhVUWQ3THpSM2tDU0NocmxfU3dGRjZtNDQ2bVVCZmdKNFp6WE4zbG4yZkFCSUpyVDFjLVNEbE9FWlpsRXNnMXlndTlaZ1NKNThDUXlscVowWF94TzExZzlSSkJmRUxjb1lNV3VnODJIYnNsMUxMMF9TWWtsazF4ZW1UcWNm?oc=5",
+      "source": "GlobeNewswire",
+      "summary": "2026년 Pitchfest에서 인사(HR) 기술 분야의 다음 혁신이 공개될 예정입니다. 이 행사는 미래 HR 시장을 주도할 핵심 기술과 솔루션을 소개하며, 인사 담당자들이 글로벌 HR테크 트렌드를 파악할 수 있는 기회를 제공합니다.",
+      "novelty_impact": "미래 HR테크 트렌드와 신규 솔루션을 선제적으로 파악하여 우리 회사 HR 전략 수립에 중요한 인사이트를 제공할 수 있습니다.",
+      "action_point": [
+        "글로벌 HR테크 동향 및 혁신 기술 발표를 지속적으로 모니터링하여 HR 시스템 고도화 방안을 구상합니다.",
+        "Pitchfest와 같은 주요 HR테크 행사에서 소개될 솔루션들을 참고하여 우리 조직에 도입 가능한 기술을 검토합니다.",
+        "미래 HR 환경 변화에 대비하여 HR 데이터 활용 및 자동화 전략을 수립하는 데 활용합니다."
+      ],
+      "collected_at": "2026-06-06 23:58",
+      "scraped_at": "2026-06-06 23:58",
+      "revision": 0
+    },
+    {
+      "title": "대법원, 단시간 근로자 상여금 미지급은 차별 판결",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSzM1eVEtRzdjeHNDOHRYd3ZVdUxjZ0xnZGdlREhzNXF1cDJmY2g0RmxqNVMya3B3cU9QcnFCYWREMGdsMHRUTVF1VENxQmFpb2xlaFFkajBnRk9Ub1hJQnotNHV4d0hYTWJ3RG1wWHhaN280R0wzS3JrUVhQM1J2dk9UazVHbXppQWVQVTZn?oc=5",
+      "source": "월간노동법률",
+      "summary": "대법원은 합리적인 이유 없이 단시간 근로자에게 상여금을 지급하지 않는 것은 차별이라고 판단했습니다. 이는 근로시간만을 이유로 단시간 근로자에게 보상에서 불이익을 주는 것을 금지하는 취지입니다.",
+      "novelty_impact": "단시간 근로자에 대한 보상 차별 기준을 명확히 한 판결로, 기업의 상여금 및 성과급 지급 규정 전반에 걸친 재검토가 필요합니다.",
+      "action_point": [
+        "현행 단시간 근로자 보상 체계(특히 상여금, 성과급)가 근로시간만을 이유로 불합리한 차별을 두는지 점검",
+        "동일·유사 업무 수행 시 단시간 근로자에게도 상여금 등 지급 기준을 적용하고, 필요시 비례 원칙에 따른 합리적인 차등 적용 방안 검토 및 규정 개정"
+      ],
+      "collected_at": "2026-06-06 23:57",
+      "scraped_at": "2026-06-06 23:57",
+      "revision": 0
+    },
+    {
+      "title": "HR 전문가에게 자격증은 필수인가?",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUmdFMmx2OW5KVk9WZWgydURfSmRISkFSRUJTd013ZkVGZ0JsYnkwX1BzN2p0ZzhHdmRXOUw0anB3WmdRNG9DV3NSa3JNakZjSnN2bXBNQUtXeTkyWDRhd2prelYwUG5jQ0d5M0Fad2RHVWZDX044WWMyWTZHMEVWMw?oc=5",
+      "source": "HR Dive",
+      "summary": "인사 실무자에게 전문성 강화를 위한 HR 자격증 취득의 필요성에 대한 논의가 활발합니다. 일부 전문가들은 실질적인 경험과 역량을 더 중요하게 여기는 반면, 다른 전문가들은 자격증이 전문성 증명과 네트워킹에 유용하다고 강조합니다.",
+      "novelty_impact": "이 기사는 HR 직무의 전문성 강화 방안으로서 자격증의 가치와 실효성에 대한 현재의 글로벌 동향을 파악할 수 있는 시사점을 제공합니다.",
+      "action_point": [
+        "HR 담당자 개인의 경력 개발 계획 수립 시, 자격증 취득의 ROI(투자 대비 효용)를 다각적으로 검토합니다.",
+        "팀/조직 차원에서 HR 전문가들의 역량 강화 프로그램 설계 시, 자격증 교육 지원 여부 및 방법론을 논의합니다.",
+        "해외 HR 시장에서 요구하는 전문 역량 및 자격 기준 변화를 지속적으로 모니터링하여 인사 전략에 반영할 여지를 탐색합니다."
+      ],
+      "collected_at": "2026-06-06 23:57",
+      "scraped_at": "2026-06-06 23:57",
+      "revision": 0
+    },
+    {
+      "title": "기술, AI, 인력 전략: 글로벌 인재 동향 브리핑",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLUpmTl8tSWRYdkhMODF0SVBONmgxUDRIM2RubmZGaHU3NVZ0RkpoR1ZJWmNTUWxHd1pGckQzQmY3MnJ1b3J0RVg4bU1QSGxUSUtTSlhkN21mVWhpd0I3bUM5X3hVZUlRQzBBazE1QS1HUWNZbkoyYlB3VThHVFhJVmJMZ2s1SWdnYjd2OQ?oc=5",
+      "source": "Mexico Business News",
+      "summary": "최신 글로벌 인재 동향은 기술 발전, 특히 AI 도입과 핵심 역량 변화에 중점을 둡니다. 기업들은 AI 활용, 직원 스킬 향상, 그리고 유연한 인력 전략 수립을 통해 미래 인재 확보 및 경쟁력 강화에 나서야 합니다.",
+      "novelty_impact": "AI와 핵심 기술 역량의 중요성을 강조하며, 미래 인력 수요 변화에 선제적으로 대응하기 위한 HR 전략 수립의 필요성을 일깨워줍니다.",
+      "action_point": [
+        "AI 기술이 HR 프로세스 및 직무에 미칠 영향을 분석하고 도입 계획 또는 대응 방안 수립",
+        "미래 핵심 역량 파악 및 직원들의 스킬 개발(Upskilling/Reskilling) 프로그램 강화",
+        "변화하는 업무 환경과 인재 니즈에 맞춰 유연하고 전략적인 인력 운영 방안 모색"
+      ],
+      "collected_at": "2026-06-06 23:57",
+      "scraped_at": "2026-06-06 23:57",
+      "revision": 0
+    },
+    {
+      "title": "고용노동부, 폭염 '기후 재난' 규정 및 노동자 건강보호 대책 강화",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwRzVjY0hic1V6bjRZd0pFNVktSjZGdGxDYk5oOV96Z04talBGWENQNnhmVVd0ZTJ3Z1Uwbi1lMFZZMFBMTDRFM2NkNmRURjBHQnUtbHY5Zk1PcTlqd2x5MUx1VFNKTDdkYzY0c3hSMA?oc=5",
+      "source": "세이프티퍼스트닷뉴스",
+      "summary": "고용노동부가 폭염을 '기후 재난'으로 공식 규정하며 노동자 건강 보호를 위한 대책을 강화합니다. 이는 사업장의 온열질환 예방 조치 의무를 명확히 하고, 폭염 발생 시 근로자 보호를 위한 적극적인 조치를 요구하는 것을 골자로 합니다.",
+      "novelty_impact": "정부 차원에서 폭염을 '기후 재난'으로 격상함으로써 기업의 온열질환 예방 의무가 더욱 강조되고, 관련 지침 위반 시 감독 강화 및 처벌 가능성이 높아져 실질적인 안전보건 관리가 필수적이 됩니다.",
+      "action_point": [
+        "고용노동부의 폭염 대비 노동자 건강보호 가이드라인 및 지침(물, 그늘, 휴식 제공 등) 준수 여부 점검 및 강화",
+        "사업장 내 폭염 대응 행동 요령 및 온열질환 예방 교육 실시",
+        "폭염 특보 발령 시 옥외 작업 중지 등 근로자 보호 조치 의무 및 실행 계획 수립 및 철저한 이행"
+      ],
+      "collected_at": "2026-06-06 23:57",
+      "scraped_at": "2026-06-06 23:57",
+      "revision": 0
+    },
+    {
+      "title": "2026 청년도전지원사업 참여자 모집 및 지원",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCbUpkd1lpY0pRbFBVNjRuVUJ4NFJnMkNZeFNaRmhDVkRRejVDV1lVS0phbUFDMHhPdU9oTjFuX1l0VDV3cDhtRjVZT2R5b1B0QkxVbHh6dzJqakE1SEZMMkdIVzRqT3psSjNHdg?oc=5",
+      "source": "대한민국 정책브리핑",
+      "summary": "고용노동부의 '2026 청년도전지원사업'은 구직 단념 청년 및 경제활동을 하지 않는 청년들이 취업에 성공하고 사회에 적응할 수 있도록 지원하는 프로그램입니다. 참여자에게는 맞춤형 교육, 상담, 멘토링은 물론 참여 수당 등 경제적 지원도 제공하여 청년들의 자립을 돕습니다.",
+      "novelty_impact": "본 사업은 기업들이 주목할 만한 정부의 청년층 노동시장 유입 지원 정책으로, 미래 인력 확보 관점에서 정부 지원을 받은 인재 풀을 간접적으로 기대할 수 있습니다.",
+      "action_point": [
+        "사업 세부 내용을 지속적으로 모니터링하여 지원받는 청년들의 역량과 특성을 파악해야 합니다.",
+        "미래 채용 계획 수립 시, 본 사업을 통해 성장한 청년 인재들을 잠재적 채용 후보군으로 고려할 수 있는지 검토해야 합니다.",
+        "향후 참여 청년을 채용하는 기업에 대한 추가 지원책 발표 여부를 주시하고, 관련 혜택을 활용할 방안을 모색해야 합니다."
+      ],
+      "collected_at": "2026-06-06 23:56",
+      "scraped_at": "2026-06-06 23:56",
+      "revision": 0
+    },
+    {
+      "title": "드롭박스, 하이브리드 근무의 역설적 단점 지적... '역설 관리 피로'가 원인",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORmVnajIyTXYwaWRZeXFySUFzUkFMSmtRV3YwbkpfYnZSeDhVV1lmM245N3VCU3o2VUR5OTlyanltWkxNUTRQMjNPR2hIM2NCZkNYQjZoZTZjMjVKazFNOFAyZ0tNQ2w4Y0pDSFAwTGpLanRUWFU3eWNsakVianBOU0VUdVo?oc=5",
+      "source": "Fortune",
+      "summary": "드롭박스는 하이브리드 근무를 '두 세계의 최악'이라고 평가했으며, 최근 연구에 따르면 이는 유연성과 통제라는 상충되는 요구사항을 관리하는 데서 오는 '역설 관리 피로(paradox management fatigue)' 때문으로 분석됩니다. 이러한 피로감은 직원들의 소진을 야기하고 조직 성과에 부정적 영향을 미칠 수 있음을 시사합니다.",
+      "novelty_impact": "하이브리드 근무의 고질적인 문제점을 '역설 관리 피로'라는 새로운 관점으로 설명하여, 단순한 운영 효율성을 넘어 직원들의 심리적 부담까지 고려한 HR의 전략적 접근이 필요함을 강조합니다.",
+      "action_point": [
+        "하이브리드 근무 모델 운영 시, 자율성과 명확한 가이드라인 간의 균형을 명확히 설정하여 '역설 관리 피로'를 최소화할 방안을 검토하십시오.",
+        "관리자급 리더십 교육을 강화하여, 하이브리드 환경에서 상충되는 직원 및 조직의 요구사항을 효과적으로 조율하고 심리적 지원을 제공하는 역량을 개발하십시오.",
+        "직원들의 피로도 및 소진 수준을 정기적으로 모니터링하고, 이에 대응하는 웰니스 프로그램이나 명확한 업무 원칙 수립 등 제도적 지원을 강화하는 방안을 강구하십시오."
+      ],
+      "collected_at": "2026-06-06 23:56",
+      "scraped_at": "2026-06-06 23:56",
+      "revision": 0
+    },
+    {
+      "title": "고용노동부 '직업공통능력' 개편, 수행형 교육으로 인재상 변화 예고",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTT0NYYjVqaGxPVVBPZFZaclhTX0NJemp5NnppNHlJa2pObUJjQi0wdHR4Y3pZal9GTGh5eENkbE1uUUhLcEJ1ZTUzWEZxdE85TVNsZmk3UWozRC1oVGpOYWJob21MVWduaXlDTw?oc=5",
+      "source": "베리타스알파",
+      "summary": "고용노동부가 추진하는 '직업공통능력' 개편에 발맞춰 교육기관들이 수행형 교육체계를 도입하고 있습니다. 이는 미래 산업 현장에서 요구되는 실질적인 문제 해결 능력과 실무 역량 강화를 목표로 하며, 향후 기업의 인재 채용 및 육성 방식에도 영향을 미칠 것으로 예상됩니다.",
+      "novelty_impact": "정부의 직업 능력 기준 변화에 따라 대학 교육 과정이 실무 역량 중심으로 재편되는 신호탄으로, 기업들은 미래 인재가 갖춰야 할 역량을 재정의하고 교육 시스템을 재정비해야 할 시점입니다.",
+      "action_point": [
+        "고용노동부의 새로운 '직업공통능력' 표준 및 세부 가이드라인 변화를 지속적으로 모니터링하여 인재 채용 및 육성 계획에 반영합니다.",
+        "내부 직무 분석 및 역량 모델을 검토하고, 수행형 교육 체계와 연계하여 실제 업무에 필요한 실질적인 역량 강화 방안을 모색합니다.",
+        "산학협력을 통해 변화하는 직업 교육 환경에 선제적으로 대응하며, 기업 맞춤형 인재 양성 프로그램을 개발하는 방안을 고려합니다."
+      ],
+      "collected_at": "2026-06-06 23:56",
+      "scraped_at": "2026-06-06 23:56",
+      "revision": 0
+    },
+    {
+      "title": "우버, HR 및 워크플레이스 부문 인력 23% 감축 단행",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOUGswQjBXTlA0TXhvbVpPQV9ZYXJRbXk0ak1BVkc5V3hSb0pua1k3Z3dfYXRhYXpVSkkwZE5kMGpnTEg5UGp1aE9rVjQzZkRwS1RVcXR3ZmZoQVFvQTNybDY1NUc0WlpkWWNibU82TGtZb0dOdGc?oc=5",
+      "source": "qz.com",
+      "summary": "글로벌 IT 기업 우버가 대규모 인력 감축을 단행하며, 특히 HR 및 워크플레이스(Workplace) 부서 인력의 23%를 감축했습니다. 이는 팬데믹 이후 급변하는 비즈니스 환경과 비용 효율성 강조에 따라 기업들이 핵심 지원 부서에 대해서도 강도 높은 구조조정을 진행하고 있음을 보여줍니다.",
+      "novelty_impact": "HR 부서 자체의 대규모 감축은 비용 절감과 HR 기능 효율화 압박이 심화되고 있음을 보여주며, 글로벌 기업의 HR 전략 변화를 예고합니다.",
+      "action_point": [
+        "글로벌 기업의 HR 기능 효율화 및 비용 절감 트렌드를 분석하고, 국내 HR 운영에 미칠 영향에 대해 선제적으로 검토합니다.",
+        "인력 감축 상황에서 HR 부서의 역할 변화와 핵심 역량 강화 방안을 모색하며, HR 테크 도입 등을 통한 업무 자동화 및 효율성 증대 가능성을 탐색합니다.",
+        "현재 HR 조직의 역할과 인력 구조를 점검하고, 비상시 HR 부서 운영의 지속가능성과 위기 대응 계획을 수립합니다."
+      ],
+      "collected_at": "2026-06-06 23:56",
+      "scraped_at": "2026-06-06 23:56",
+      "revision": 0
+    },
+    {
+      "title": "CFO를 위한 인적자본 트렌드 가이드: AI와 인간 협업",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOLUxlUHhfRGtKZk9yVGJJbmRaLWkwOER5SWNMc3N0ejM3N0NkSG9nRU1OaVQ2bXZXWmFZN01wcXlRanRiUFNDVW1lNFlDSW5jYzFYNFdwUzhBeUZYZDVWZkMyV2hhWGJTMTE5ZEVnT2VORTFJTWN6cng2QkoweW5BcUNEc1RoRkF0aTdYRDNDV2VfclJqZ0RMSmZRUEdqV05fclBETS1DNTJhTV85LTI2SF9Jc0FOMUZaYnB0VEtLM2YwWmh6bGdQNmJpVjJkWXJFMFc4LU9xYzNpUXZQWXc?oc=5",
+      "source": "Deloitte",
+      "summary": "이 기사는 CFO의 관점에서 AI와 인간의 협업이 미래 인적자본 전략에 미치는 핵심적인 영향에 대해 다룹니다. 재무 리더들이 단순히 비용 절감을 넘어 인력과 기술에 전략적으로 투자하여 비즈니스 가치를 창출하는 방법을 강조합니다.",
+      "novelty_impact": "기업의 재무 총괄 책임자(CFO) 관점에서 AI 및 인적자본 투자의 중요성을 제시하며, HR이 전략적 파트너로서 재무적 성과와 연계된 인력 운영 방안을 모색하는 데 중요한 시사점을 제공합니다.",
+      "action_point": [
+        "AI 도입 및 인적자본 투자 시 재무적 관점과 연계하여 HR 전략을 수립하고 CFO와 적극적으로 소통해야 합니다.",
+        "AI 기술 도입 시 단순히 비용 절감을 넘어, 생산성 향상 및 새로운 가치 창출을 위한 인간-AI 협업 모델을 설계하고 인력 역량 강화 방안을 모색하십시오.",
+        "미래 변화에 대비하여 AI 활용 능력 및 협업 역량을 갖춘 인재 육성 계획을 수립하고, 재교육 프로그램 도입을 검토해야 합니다."
+      ],
+      "collected_at": "2026-06-06 23:55",
+      "scraped_at": "2026-06-06 23:55",
+      "revision": 0
+    },
+    {
+      "title": "미 공병대, 채용 이후 HR 전문가의 전략적 역할 강조",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM0dTbDRjb3RKcW5ZblpPVW9zdVVrNU9JNEQ1MGo3Q1ZfMHRtV2VUY21UVF9QNXhWWEhRZEVfV3QwN0pRdjdnQWpudlZwRWpYNXFnelVPRXYxbV9pb05hd2o3aFU5engxaVhRd3M4QXlhVFZYS25zd3RxTkdsanotb05CTjVJTGJDQnByQUhuRUxibUVvaFJzSWFCd3NNMC1j0gGmAUFVX3lxTE8wdTM1V1hoRmtJS19MM0xjMTNFajFfdmdkOVJDX19QY0JxejgwQ3NteWFsR2pSVXotWjBnaGF6NVdMUnY1dkVIdUpZcUF0cTlWRUM5VWFjdktIY3NIZkEtdFU2TXdrcmhmc2F0bE91aWEwV010X01Ic3FXMGxJWkhxbXpLSnB4Mnh2M0sxS0xCdVpBb3ljLUk0QXJjTlMzZFRaUHR0LXc?oc=5",
+      "source": "army.mil",
+      "summary": "미국 육군 공병대(USACE)는 HR 전문가들이 단순 채용을 넘어 조직의 핵심 임무 달성에 필수적인 역할을 수행한다고 강조했습니다. 이들은 입사 후 직원의 성장과 유지, 전략적 인력 관리를 통해 조직의 장기적인 성공에 기여하고 있습니다. 이는 HR이 단순 지원 부서가 아닌 전략적 파트너로서 기능함을 보여줍니다.",
+      "novelty_impact": "HR의 역할을 단순 채용 및 행정 지원에서 조직의 핵심 미션 달성을 위한 전략적 파트너로 격상시켜, HR의 가치와 영향력을 높이는 해외 사례를 제시합니다.",
+      "action_point": [
+        "자사 HR 부서의 역할과 기여도를 채용 후 관점에서 재평가하고, 전략적 파트너로서의 기능을 강화할 방안을 모색한다.",
+        "인재 유지 및 개발 프로그램을 강화하여 장기적인 조직 목표 달성에 HR이 기여할 수 있도록 계획을 수립하고 실행한다.",
+        "타 부서와의 적극적인 협력을 통해 HR이 조직의 핵심 임무 달성에 어떻게 기여하는지 명확히 소통하고 가치를 증명한다."
+      ],
+      "collected_at": "2026-06-06 23:55",
+      "scraped_at": "2026-06-06 23:55",
+      "revision": 0
+    },
+    {
+      "title": "고용노동부 최신 정책 문서 공개",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPT1BrQUpxaGdSaXJtWUhNWTcta2FCOWxZWWtPS19TTjBEU3QzQWV5Wlg2bzBhbW15cmlVX3NBMEIxb0hLckRuZUpSMXlISmtMeEhLaGFZLW1HTDBqNm5oWWdhcUMtLUxBcGlxUEtDTy1oaE5raUhn?oc=5",
+      "source": "대한민국 정책브리핑",
+      "summary": "대한민국 정책브리핑을 통해 고용노동부의 새로운 정책 문서가 공개되었습니다. 이 문서는 기업의 인사담당자들이 필히 숙지해야 할 최신 고용 및 노동 관련 정책 방향과 구체적인 내용을 포함할 것으로 예상됩니다.",
+      "novelty_impact": "정부의 최신 HR 정책 방향과 제도 변경사항을 파악하고 실무에 즉시 적용하기 위한 필수적인 정보를 담고 있습니다.",
+      "action_point": [
+        "공개된 정책 문서를 상세히 검토하여 우리 회사에 미치는 영향 및 필요한 조치사항 분석",
+        "관련 부서와 내용을 공유하고, 변경된 정책에 맞춰 사내 규정 및 시스템 업데이트 방안 마련"
+      ],
+      "collected_at": "2026-06-06 23:55",
+      "scraped_at": "2026-06-06 23:55",
+      "revision": 0
+    },
     {
       "title": "관리자들, 육아 목적 원격근무를 덜 중요하게 인식한다는 연구 결과",
       "category": "글로벌 HR 트렌드",
