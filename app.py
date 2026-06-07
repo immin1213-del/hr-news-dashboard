@@ -345,8 +345,35 @@ def main():
             f'<span class="ch-count">{len(items)}건</span></div>',
             unsafe_allow_html=True,
         )
-        for item in items:
+        INITIAL_VISIBLE = 10
+        state_key = f"show_all_{cat}"
+        if state_key not in st.session_state:
+            st.session_state[state_key] = False
+
+        show_all = st.session_state[state_key]
+        visible_items = items if show_all else items[:INITIAL_VISIBLE]
+
+        for item in visible_items:
             render_news_card(item)
+
+        remaining = len(items) - INITIAL_VISIBLE
+        if remaining > 0:
+            if not show_all:
+                if st.button(
+                    f"＋ 더보기 ({remaining}개 더 보기)",
+                    key=f"more_{cat}",
+                    use_container_width=True,
+                ):
+                    st.session_state[state_key] = True
+                    st.rerun()
+            else:
+                if st.button(
+                    "− 접기",
+                    key=f"less_{cat}",
+                    use_container_width=True,
+                ):
+                    st.session_state[state_key] = False
+                    st.rerun()
 
 
 if __name__ == "__main__":
