@@ -196,7 +196,8 @@ def build_prompt(title, summary, region, hint):
 [요약 원문]: {summary}{overseas_note}
 
 [카테고리 분류 규칙 - 반드시 준수]
-- "고용노동부 정책": 정부 부처 보도자료, 정책·제도·지원사업·공모·선정 발표, 공공기관 사업. 정부 주도 HR플랫폼 지원사업은 'HR테크/AI'가 아니라 반드시 이 카테고리.
+- "고용노동부 정책": 오직 고용노동부(및 그 산하·소속기관: 근로복지공단, 산업안전보건공단, 고용센터 등)가 주체인 보도자료·정책·제도·지원사업·공모·선정 발표만 해당. 고용노동부가 주도하는 HR플랫폼 지원사업은 'HR테크/AI'가 아니라 반드시 이 카테고리.
+- [중요] 중소벤처기업부(중기부)·소상공인시장진흥공단 등 다른 부처/기관이 주체인 기사는 절대 "고용노동부 정책"로 분류하지 말 것. 채용·임금·근로조건 등 HR 실무 관련성이 있으면 내용에 맞는 다른 카테고리로, 단순 부처 홍보성이면 "relevant": false 로 둘 것.
 - "노동법/판례": 법원 판결·판례, 노동위원회 판정, 법개정·입법(노조법 등), 통상임금·근로자성·직장내괴롭힘 등 법적 쟁점.
 - "보상/평가": 임금·보상체계·성과급·인사평가 제도, 임단협·노사 임금 협상.
 - "채용/조직문화": 채용·조직문화·리더십·교육·노사 관계.
@@ -238,15 +239,24 @@ def jaccard(a, b):
     return len(ta & tb) / len(ta | tb)
 
 
-def find_same_issue(new_item, existing, title_th=0.65, body_th=0.45):
+def find_same_issue(new_item, existing, title_th=0.55, body_th=0.35):
     nt, ns = new_item["title"], new_item.get("summary", "")
+    nt_tok = _tokens(nt)
     for i, old in enumerate(existing):
-        t_sim = title_ratio(nt, old.get("title", ""))
+        ot = old.get("title", "")
+        t_sim = title_ratio(nt, ot)
         b_sim = jaccard(ns, old.get("summary", ""))
         if t_sim >= title_th:
             return i
-        if t_sim >= 0.45 and b_sim >= body_th:
+        if t_sim >= 0.40 and b_sim >= body_th:
             return i
+        # 보조 판정: 제목 핵심어가 많이 겹치면 같은 이슈로 간주
+        # (한국어 조사로 SequenceMatcher 점수가 낮게 나오는 경우 보완)
+        ot_tok = _tokens(ot)
+        if nt_tok and ot_tok:
+            key_overlap = len(nt_tok & ot_tok) / min(len(nt_tok), len(ot_tok))
+            if key_overlap >= 0.6 and (nt_tok & ot_tok):
+                return i
     return -1
 
 
