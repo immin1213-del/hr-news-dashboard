@@ -1,6 +1,57 @@
 {
-  "last_updated": "2026년 06월 08일 00:02 KST",
+  "last_updated": "2026년 06월 09일 00:00 KST",
   "articles": [
+    {
+      "title": "AI 활용 HR, 인간적인 가치를 잃지 않는 방법",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRGJjTjFkTFFXeXZPRm1haUdvSXctSFZua1dPNjhCdDRJNVozbGpSQVBpQm04c2oxNGs4V3FJTkY5NEJVUjZ1QjRKTV9MUU94T1VTSXhjeTBzMVl3cGg1a3hqNjBKTjlVUE12Tk9XUGI2ajdRZHV3WDlkSUZvUUhybDlqYjgtLWNVQTFFQzU5al9xQlFBZ2RiR1N4MkQtUzY2cTBB?oc=5",
+      "source": "SHRM",
+      "summary": "이 기사는 HR 부서가 인공지능(AI)을 도입하여 효율성을 극대화하면서도 사람 중심의 가치와 경험을 유지하는 다양한 전략을 제시합니다. AI를 활용한 데이터 기반 의사결정, 채용 프로세스 개선, 직원 경험 개인화 등과 동시에 공감과 소통을 통한 인간적인 상호작용의 중요성을 강조합니다.",
+      "novelty_impact": "AI 기술의 급속한 발전 속에서 HR 효율성을 추구하되, 조직의 핵심 가치인 인간적 연결과 공감 능력을 잃지 않는 균형 잡힌 AI 활용 방안을 제시한다는 점에서 HR 실무에 중요한 시사점을 제공합니다.",
+      "action_point": [
+        "AI 도입 시 단순 반복 업무 자동화를 넘어 HR의 전략적 가치를 높이고 직원 경험을 향상시키는 데 초점을 맞출 것.",
+        "AI가 대체하기 어려운 인간적 판단, 공감, 비판적 사고가 필요한 영역을 명확히 정의하고, HR 담당자의 역할을 재정립할 것.",
+        "AI 활용을 위한 HR 담당자의 디지털 리터러시 및 데이터 분석 역량 강화를 위한 교육 및 개발 프로그램을 검토하고 마련할 것."
+      ],
+      "collected_at": "2026-06-08 23:58",
+      "scraped_at": "2026-06-08 23:58",
+      "revision": 0
+    },
+    {
+      "title": "현대적 업무 경험을 재정의하는 HR-IT 5가지 주요 변화",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTjk5TnZ6b2tXZ2NsOC1SYXlmdjRzRldHeFFPSnFmaU44MnIwV3pad1R6blhjUElITzJYZlFRWnhLcVRqM0FOTUlXSlFfNjlJZTh3M3F2NUlVbDNsdElMVTdhNkV4d3BoMzdSZHFnNm9QbHRZUTVrQnp5T3hUQmprNV9UUGY4ZEpCZ01nTW94OTQ0X1ktbzd3V0RBMUJVZ0VCT2hZNHFmTmt6MGl2Zko4VGNIYzE?oc=5",
+      "source": "ADP",
+      "summary": "AI, 자동화, 데이터 분석 등 HR-IT 기술이 직원의 업무 경험과 HR 기능 자체를 근본적으로 변화시키고 있습니다. 맞춤형 직원 경험 제공, 데이터 기반 의사결정 강화, 하이브리드 근무 환경 지원 등이 주요 변화의 핵심입니다.",
+      "novelty_impact": "급변하는 기술 환경 속에서 HR 담당자가 미래 경쟁력을 확보하고 직원 경험을 혁신하기 위해 반드시 주목해야 할 핵심 동향입니다.",
+      "action_point": [
+        "현재 운영 중인 HR 시스템 및 IT 인프라를 점검하고, 미래지향적 HR 솔루션 도입 계획을 수립합니다.",
+        "AI, 자동화, 데이터 분석 등 신기술이 직원 경험 개선 및 HR 효율성 증대에 어떻게 기여할 수 있을지 적극적으로 모색합니다.",
+        "하이브리드 근무 환경에 최적화된 HR 테크 도입을 검토하여 분산된 인력 관리를 효율화하고 직원 연결성을 강화합니다.",
+        "HR 부서 내 기술 역량을 강화하기 위한 교육 투자 또는 외부 전문가 협력을 고려합니다."
+      ],
+      "collected_at": "2026-06-08 23:58",
+      "scraped_at": "2026-06-08 23:58",
+      "revision": 0
+    },
+    {
+      "title": "NMSU 글로벌 캠퍼스-SHRM, 인력 개발 확대를 위한 파트너십 체결",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbUotWUV2cy0zXzh3UHp2OU1Hay1kWDZ6SkNlR3N4YjBQSExuWFotTFdJUWFxLU9wdUFWWU9PaXJtV3J2d3JDYURIckJHNFdObi1Ub1FrcEJVdGszQ3UzclktNkR3VFZISGFheTI1U3I3cFhhOTlYNVoxSFBXbzFZTnR6MWE2RDZLUVd3Uk9jTi11ODc4U1VQVFRrWXIyTmNON1lQVzlVRXFXX00yTkEtbGRzbXpFWjRSbDNjcXNWcDctdkx1dkRnQUsxdm9nYm5DZDljX3FfTkgzcTVjTWFreHRjYWdNblhO?oc=5",
+      "source": "New Mexico State University",
+      "summary": "미국 뉴멕시코 주립대학교 글로벌 캠퍼스와 SHRM(인사관리협회) 중앙 뉴멕시코 지부가 협력하여 지역 인력의 역량 강화를 위한 교육 프로그램을 제공합니다. 이 파트너십은 기업의 수요에 맞는 맞춤형 교육 과정을 개발하고 재직자 및 구직자의 기술 습득을 지원하여 지역 경제 발전에 기여할 예정입니다.",
+      "novelty_impact": "교육기관과 HR 전문가 협회가 직접 협력하여 지역 인력 개발 프로그램을 기획하고 운영하는 것은 기업의 실제 인력 수요에 빠르게 대응할 수 있는 효과적인 모델입니다.",
+      "action_point": [
+        "국내에서도 교육기관, 산업협회, 지자체 간의 유사한 인력 개발 협력 모델을 검토하여 기업의 특정 직무 역량 강화 수요에 부합하는 교육 프로그램을 구축해야 합니다.",
+        "HR 담당자는 자사 직원들의 역량 부족 분야를 분석하고, 외부 교육기관과의 연계 또는 맞춤형 프로그램 개발을 통해 인력 개발 계획을 수립해야 합니다."
+      ],
+      "collected_at": "2026-06-08 23:56",
+      "scraped_at": "2026-06-08 23:56",
+      "revision": 0
+    },
     {
       "title": "픽셀로지 랩스-리크루트먼트브릭스, AI 채용 글로벌 시장 확장 전략적 파트너십",
       "category": "HR테크/AI",
@@ -723,19 +774,24 @@
       "revision": 0
     },
     {
-      "title": "노동부, 심각한 산업안전 위반 현장 적발 및 전담팀 수사 착수",
+      "title": "고용노동부, 산업현장 법 위반 전담팀 수사 착수",
       "category": "고용노동부 정책",
       "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBoMFRNY053bFk5YjlNNkp4R1pVeks3MDRVOEVmQkZGdnNRWnhyc2FoTlNQdndfR2tNTVoyZ1F5OE0xZGx4ZF9GR2ZGRXdiME0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CVC1YZk5iVHZVdk02TWNYbFloZ1BaOUVXLUxiVEJYRnJHNFlmWm1sU2tLQnJ0Z3FidE1rcVlvbVZWeTA1MGxxN0NkX01FQzc4d2c2dkZTa2dSM2M?oc=5",
       "source": "v.daum.net",
       "summary": "고용노동부가 현장 점검 중 심각한 산업안전보건법 위반 사항이 확인된 사업장에 대해 전담팀을 꾸려 수사에 착수했습니다. 이는 정부가 사업장의 안전 불감증에 강력히 대응하겠다는 의지를 보여주는 사례로, 기업들의 경각심이 요구됩니다.",
-      "novelty_impact": "노동부가 직접 현장을 포착하고 전담팀을 투입하여 수사에 나서는 것은 기업의 산업안전보건 의무 이행에 대한 정부의 강력한 의지를 나타내며, 향후 산업안전 감독 강화의 신호로 해석될 수 있습니다.",
+      "novelty_impact": "고용노동부가 전담팀을 꾸려 특정 현장을 수사하는 것은 해당 현장의 법 위반 심각성을 시사하며, 기업들의 노동법 준수 의무 강화 및 선제적인 리스크 관리가 필요함을 강조합니다.",
       "action_point": [
         "현재 사업장의 산업안전보건법 준수 여부 및 주요 위험성 평가 결과를 신속히 재점검하고 미비점을 보완해야 합니다.",
         "모든 임직원을 대상으로 하는 안전보건 교육을 강화하고, 안전 관리 시스템(위험성 평가 포함)이 실효성 있게 작동하는지 재점검하고 개선해야 합니다.",
-        "노동부의 현장 감독 및 수사 강화 추세에 대비하여, 관련 부서와 협력하여 선제적으로 법규 준수 태세를 확립하고 위법 요소는 없는지 면밀히 확인해야 합니다."
+        "노동부의 현장 감독 및 수사 강화 추세에 대비하여, 관련 부서와 협력하여 선제적으로 법규 준수 태세를 확립하고 위법 요소는 없는지 면밀히 확인해야 합니다.",
+        "산업안전보건법 및 근로기준법 등 관련 법규 준수 여부에 대한 전사적인 자체 점검을 실시하고, 잠재적 위험 요소를 즉시 개선하십시오.",
+        "고용노동부의 불시 점검 및 조사에 대비하여 근로계약서, 임금대장, 출퇴근 기록, 안전보건일지 등 모든 필수 서류를 철저히 관리하고 업데이트하십시오.",
+        "직장 내 괴롭힘, 임금 체불, 산업안전 위반 등 노동 관련 리스크를 사전에 파악하고 해결할 수 있도록 내부 고충 처리 시스템 및 신고 채널을 점검하고 활성화하십시오."
       ],
-      "collected_at": "2026-06-02 01:30"
+      "collected_at": "2026-06-02 01:30",
+      "updated_at": "2026-06-08 23:57",
+      "revision": 1
     },
     {
       "title": "고용노동부, 청년 첫걸음 보장 지원 확대 시행",
