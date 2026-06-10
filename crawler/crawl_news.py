@@ -180,6 +180,9 @@ MAX_ARTICLES = 120
 MIN_OVERSEAS = 8          # (A) 해외 최소 보장 처리량
 GEMINI_MODEL = "gemini-2.5-flash"
 SLEEP_SEC = 4.5
+CALL_INTERVAL_SEC = 4.0   # [v5] 분당 한도(RPM) 보호: 키 단위 호출 간 최소 간격
+MAX_RETRY_PER_KEY = 2     # [v5] 분당 한도/일시 오류 시 같은 키 재시도 횟수
+RETRY_WAIT_SEC = 30       # [v5] 분당 한도/503 발생 시 대기(초)
 
 
 def load_api_keys():
@@ -201,10 +204,31 @@ class KeyPool:
         self.keys = keys
         self.clients = [genai.Client(api_key=k) for k in keys]
         self.exhausted = [False] * len(keys)
+        self.last_call = [0.0] * len(keys)  # [v5] 키별 마지막 호출 시각(RPM 페이싱)
         self.cat_index = {cat: (idx % len(keys)) for idx, cat in enumerate(CATEGORIES)}
 
     def available_count(self):
         return self.exhausted.count(False)
+
+    @staticmethod
+    def _is_per_minute_limit(msg):
+        # 429 메시지가 분당 한도(RPM)인지 일일 한도(RPD)인지 구분
+        low = msg.lower()
+        compact = low.replace(" ", "")
+        per_day = ("perday" in compact or "requestsperday" in compact or
+                   "daily" in low or "/day" in low)
+        per_min = ("perminute" in compact or "requestsperminute" in compact or
+                   "/min" in low or "retrydelay" in compact)
+        # 일일 신호가 명시되면 일일로, 그 외 429는 보수적으로 분당으로 간주(키 보존)
+        if per_day and not per_min:
+            return False
+        return True
+
+    def _pace(self, idx):
+        # [v5] 분당 한도(RPM) 보호: 같은 키 호출 간 최소 간격 확보
+        wait = CALL_INTERVAL_SEC - (time.time() - self.last_call[idx])
+        if wait > 0:
+            time.sleep(wait)
 
     def generate(self, category, prompt):
         n = len(self.clients)
@@ -213,21 +237,39 @@ class KeyPool:
             idx = (start + offset) % n
             if self.exhausted[idx]:
                 continue
-            try:
-                resp = self.clients[idx].models.generate_content(
-                    model=GEMINI_MODEL,
-                    contents=prompt,
-                    config=types.GenerateContentConfig(response_mime_type="application/json"),
-                )
-                return json.loads(resp.text), idx
-            except Exception as e:
-                msg = str(e)
-                if "RESOURCE_EXHAUSTED" in msg or "429" in msg:
-                    log.warning(f"[KEY {idx+1}] 일일 한도 소진 -> 다음 키로 폴백")
-                    self.exhausted[idx] = True
-                    continue
-                log.error(f"[KEY {idx+1}] 호출 오류: {e}")
-                time.sleep(SLEEP_SEC)
+            for attempt in range(MAX_RETRY_PER_KEY + 1):
+                self._pace(idx)
+                try:
+                    resp = self.clients[idx].models.generate_content(
+                        model=GEMINI_MODEL,
+                        contents=prompt,
+                        config=types.GenerateContentConfig(response_mime_type="application/json"),
+                    )
+                    self.last_call[idx] = time.time()
+                    return json.loads(resp.text), idx
+                except Exception as e:
+                    self.last_call[idx] = time.time()
+                    msg = str(e)
+                    is_429 = ("RESOURCE_EXHAUSTED" in msg or "429" in msg)
+                    is_503 = ("UNAVAILABLE" in msg or "503" in msg)
+                    # 일일 한도(RPD)면 이 키는 회차 내내 폐기
+                    if is_429 and not self._is_per_minute_limit(msg):
+                        log.warning(f"[KEY {idx+1}] 일일 한도(RPD) 소진 -> 키 폐기 후 폴백")
+                        self.exhausted[idx] = True
+                        break
+                    # 분당 한도(RPM) 또는 일시적 503: 같은 키로 대기 후 재시도
+                    if (is_429 or is_503) and attempt < MAX_RETRY_PER_KEY:
+                        kind = "분당 한도(RPM)" if is_429 else "일시 오류(503)"
+                        log.warning(
+                            f"[KEY {idx+1}] {kind} -> {RETRY_WAIT_SEC}s 대기 후 재시도 "
+                            f"({attempt+1}/{MAX_RETRY_PER_KEY})"
+                        )
+                        time.sleep(RETRY_WAIT_SEC)
+                        continue
+                    # 재시도 소진 또는 기타 오류: 다음 키로 폴백
+                    log.error(f"[KEY {idx+1}] 호출 오류(폴백): {e}")
+                    time.sleep(SLEEP_SEC)
+                    break
         return None, -1
 
 
@@ -546,9 +588,18 @@ def main():
     # 신규/병합이 하나도 없으면 last_updated 만 바뀐 '가짜 성공 커밋'을 만들지 않는다.
     changed = (stat["new"] + stat["merged"]) > 0
     if not changed:
+        # [v5] 0건의 원인을 구분: 키 전량 소진(쿼터)이면 정상 무처리(exit 0),
+        #      키가 남아있는데 0건이면 진짜 실패(RSS 파싱 등)로 보고 exit 1.
+        keys_drained = pool.available_count() == 0
+        if keys_drained:
+            log.warning(
+                "신규/병합 0건 + 모든 키 한도 소진 -> news_data.json 미갱신(정상 무처리). "
+                "쿼터 회복 후 다음 실행에서 재수집됩니다."
+            )
+            raise SystemExit(0)
         log.error(
-            "신규/병합 0건 -> news_data.json 미갱신. "
-            "RSS 파싱 실패 또는 키 소진 가능성. 로그를 확인하세요."
+            "신규/병합 0건(키 잔여 있음) -> news_data.json 미갱신. "
+            "RSS 파싱 실패 등 실제 문제 가능성. 로그를 확인하세요."
         )
         # 비정상 종료로 GitHub Actions 에 실패를 노출 (가짜 녹색 체크 방지)
         raise SystemExit(1)
