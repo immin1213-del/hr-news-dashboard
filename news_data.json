@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026년 06월 10일 00:09 KST",
+  "last_updated": "2026년 06월 10일 10:18 KST",
   "articles": [
+    {
+      "title": "EU AI Act, 채용 AI 글로벌 표준에 영향",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdTdycW1obWpGSEpUYktXWGZKd0twOS1FOGNJWHJzaDVfWXl4eGh6NnJ0ZjlKck5oaVR4NE9QUUtaczQyZmlYeHJySm1hV0tHSXR3ODdJLVVqQXp4b1VQX0VpZjJfY0FIYXBwOHF4amdrU0pSTzdQU1ByRGwycTRqczM0dnN2ajByTks0cllLSGZFb1FyMHJ3dm9vVXoyYlluNlE?oc=5",
+      "source": "HR Executive",
+      "summary": "유럽연합(EU)의 AI 법안이 채용 과정에서 AI 사용에 대한 글로벌 표준을 형성할 것으로 예상됩니다. 이 법안은 AI 시스템의 위험 수준을 분류하고, 특히 채용 분야의 고위험 AI 시스템에 대해 엄격한 투명성, 설명 가능성, 데이터 품질 및 인적 감독 요건을 부과하여 기업의 AI 도입 전략에 큰 영향을 미칠 것입니다.",
+      "novelty_impact": "세계 최초의 포괄적인 AI 규제 프레임워크로, 기업들이 채용 AI 솔루션을 개발하고 도입할 때 윤리적이고 법적인 기준을 준수해야 하는 새로운 표준을 제시합니다.",
+      "action_point": [
+        "현재 사용 중이거나 도입 예정인 채용 AI 솔루션이 EU AI Act의 고위험군으로 분류될 가능성을 검토하고, 관련 법적 요건 준수 여부를 확인해야 합니다.",
+        "채용 AI 도입 시 데이터 편향성 검증, 알고리즘 설명 가능성 확보, 인적 개입 및 감독 체계 구축 등 법안이 요구하는 투명성과 책임성 요건을 충족할 방안을 선제적으로 마련해야 합니다.",
+        "글로벌 인재 채용을 고려하는 기업은 EU AI Act가 제시하는 AI 윤리 및 투명성 표준을 국내외 채용 AI 활용 가이드라인에 반영하여 미래 규제 환경 변화에 대비해야 합니다."
+      ],
+      "collected_at": "2026-06-10 07:11",
+      "scraped_at": "2026-06-10 07:11",
+      "revision": 0
+    },
+    {
+      "title": "HR테크 스타트업, AI 도입으로 직원당 매출 50% 증대 성공 (인력 감축 없이)",
+      "category": "HR테크/AI",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMk1iaDBhSFF6bm9oMlY2SXlXWjBvaFFNcEFnSnpOZ3VkMEJISWtLdk1mZzV3TkFXaU0tWm1mNGloeGRXamFxUHVTZ2x3bXlvUTFMaHpTa2ZRREZZZ0g4cEJTbWUzaXdYdkU4ai16cHZGX3c2dW1oNG9hVjFRbWhyQk90amlFTU9DVWZQOGpUMGZKamg0anVFSDBHS0ZjaDBCTjJ6WmZVWExEMmVnNXR5QmNvc1dxcTdIWmZIeVExUURiUGlTY2RXWjFUYjJ5ekZpd2FWNDNscw?oc=5",
+      "source": "People Matters Media",
+      "summary": "한 HR테크 스타트업이 자사 AI 솔루션 도입 후 직원 1인당 매출이 50% 증가했다고 발표했습니다. 특히, 이 성과는 인력 감축 없이 달성된 것으로, AI가 기업 생산성과 성장에 긍정적으로 기여할 수 있음을 보여줍니다.",
+      "novelty_impact": "AI가 인력 감축 없이도 기업 생산성과 직원당 매출을 혁신적으로 높일 수 있음을 보여주며, HR AI 도입의 긍정적인 비전을 제시합니다.",
+      "action_point": [
+        "사내 HR 기능 중 AI 도입 시 생산성 및 효율성 증대 가능성이 높은 영역(예: 채용, 성과관리, 교육)을 검토합니다.",
+        "AI 기반 HR 솔루션 도입이 인력 운영 및 성과에 미칠 긍정적 효과와 잠재적 리스크를 분석합니다.",
+        "직원들의 AI 활용 역량 강화를 위한 교육 및 업무 재설계 방안을 모색하여 AI 시대에 대비합니다."
+      ],
+      "collected_at": "2026-06-10 07:09",
+      "scraped_at": "2026-06-10 07:09",
+      "revision": 0
+    },
+    {
+      "title": "고용24-민간 플랫폼 연계 강화, 청년뉴딜 신청 간소화",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KaWZiX1N2NGVJV29oMFRHVXhVRkMyWGNXeDVHOU1TQW5DTGI2R3dSdEE2ZF91eURPbVVSUTc3NXpJOTdhRkxpR0N1Y2wzbkowRmVTTHNZLUV1bUR4V013dHVtVFlDWW5sQlhjQ0ZYSTFyODN0Q0ZVQ9IBeEFVX3lxTE9KaWZiX1N2NGVJV29oMFRHVXhVRkMyWGNXeDVHOU1TQW5DTGI2R3dSdEE2ZF91eURPbVVSUTc3NXpJOTdhRkxpR0N1Y2wzbkowRmVTTHNZLUV1bUR4V013dHVtVFlDWW5sQlhjQ0ZYSTFyODN0Q0ZVQw?oc=5",
+      "source": "뉴시스",
+      "summary": "고용노동부가 '청년뉴딜 사업' 참여 신청 절차를 간소화하고, 정부의 고용24 플랫폼과 사람인 등 주요 민간 취업 포털 간 연계를 강화한다. 이를 통해 청년 구직자들이 정부 지원 사업 정보를 더 쉽게 접하고 신청할 수 있도록 하여 청년 고용을 활성화하는 것이 목표이다.",
+      "novelty_impact": "정부의 청년 고용 지원 사업 접근성이 높아져 청년 인력 확보를 희망하는 기업들에게 채용 기회를 확대하고 행정 부담을 줄일 수 있는 변화이다.",
+      "action_point": [
+        "청년뉴딜 등 고용노동부의 청년 고용 지원 정책 내용 및 신청 절차 변화를 숙지하고, 자사 채용 계획과의 연계 가능성을 검토.",
+        "고용24 및 연계된 민간 채용 플랫폼(사람인 등)을 통해 청년 인재 채용 시 활용 가능한 지원금 및 혜택 정보를 확인하고 적극 활용.",
+        "청년 채용 관련 담당 부서에 해당 변경사항을 공유하여 채용 프로세스 개선 및 효율적인 인력 확보 방안 모색."
+      ],
+      "collected_at": "2026-06-10 07:08",
+      "scraped_at": "2026-06-10 07:08",
+      "revision": 0
+    },
+    {
+      "title": "고용노동부, '쉬었음 청년' 대상 청년뉴딜 사업 지원 강화",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91a3lmanBmbWExUUJGcFpSa2MxcmFfbmxiX2xJbnRJOHBmQlBVZ19LcmR3SnZjaVAzcGdEUWlGM01JenF1dFJWY1NBWW40dnc5ZFdzVlFwOWjSAVhBVV95cUxPdWt5ZmpwZm1hMVFCRnBaUmtjMXJhX25sYl9sSW50SThwZkJQVWdfS3Jkd0p2Y2lQM3BnRFFpRjNNSXpxdXRSVmNTQVluNHZ3OWRXc1ZRcDlo?oc=5",
+      "source": "아주경제",
+      "summary": "고용노동부가 경제활동을 하지 않고 '쉬었음' 상태인 청년들을 위한 청년뉴딜 사업 지원을 강화한다. 이는 청년들이 사회로 진입하고 취업 기회를 얻도록 돕기 위해 사업 정보 안내 및 신청 연계를 확대하는 것이 핵심이다.",
+      "novelty_impact": "기업은 해당 사업을 통해 구직 중이거나 사회 진출을 준비하는 청년 인재 정보를 얻거나, 정부 지원 제도를 통해 채용 후보군을 확대할 기회를 모색할 수 있다.",
+      "action_point": [
+        "고용노동부 청년뉴딜 사업의 세부 내용을 파악하고, 청년 고용 지원 제도 활용 방안을 검토한다.",
+        "회사의 채용 연계형 인턴십 또는 사회공헌 활동과 연계하여 '쉬었음 청년' 지원 사업 참여를 고려해 본다.",
+        "채용 담당자는 해당 사업 대상 청년들이 잠재적 인력 풀로 편입될 수 있음을 인지하고 채용 전략 수립 시 참고한다."
+      ],
+      "collected_at": "2026-06-10 07:08",
+      "scraped_at": "2026-06-10 07:08",
+      "revision": 0
+    },
+    {
+      "title": "AI 보안 스타트업 펜티, 조직 내 '문화적 코드' 보안 중요성 제기",
+      "category": "HR테크/AI",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY3pkU2NKVHlPcmdoS2szN3Y1NEUyNnJwaEh2TS1QU3daS1pxZ3pSM2x5akRWX1FQZTdDUnVRcm11RTZjYlpKVmZERnFLZkVpYmhWVnVkbXZSbF9jTTJ2ZXNSamFKVzk4RS1nT1RUWlNiTEhkU0JMTXpoZFFZYmVxMGtrNGgyczZrTl9ESFN0ZnhXalZ6Zm9mRQ?oc=5",
+      "source": "Refresh Miami",
+      "summary": "AI 보안 스타트업 펜티(Penti)는 기업의 '문화적 코드'나 팀 내 소통 방식과 같은 '바이브 코딩'이 단순한 데이터 보안을 넘어 보호되어야 한다고 주장합니다. 이는 AI를 활용하여 조직 내부의 미묘한 문화적 요소와 협업 패턴을 분석하고, 이를 잠재적인 보안 위협으로부터 지키려는 새로운 접근 방식을 의미합니다.",
+      "novelty_impact": "AI가 단순 기술적 보안을 넘어 조직 문화 및 내부 소통 방식의 보호까지 확장될 수 있음을 보여주며, HR 관점에서 새로운 보안 패러다임을 제시합니다.",
+      "action_point": [
+        "AI 기술을 활용한 조직 문화 및 내부 소통 방식의 보안 필요성을 인식하고, 기존 보안 정책과의 연계 방안을 모색해야 합니다.",
+        "AI 기반 솔루션 도입 시 발생할 수 있는 직원 프라이버시 침해, 감시 논란 등 윤리적 문제와 법적 쟁점을 사전에 검토하고 대비해야 합니다."
+      ],
+      "collected_at": "2026-06-10 07:03",
+      "scraped_at": "2026-06-10 07:03",
+      "revision": 0
+    },
     {
       "title": "싱크로니, 포춘 및 Great Place To Work 선정 뉴욕 최고의 직장 1위",
       "category": "글로벌 HR 트렌드",
