@@ -61,6 +61,73 @@ ENRICH_KEYWORDS = [
     "개정", "시행", "결정", "발표", "추가", "정정", "후속", "속보",
 ]
 
+# =========================================================
+# 중요(핵심) 뉴스 보호 + 정밀 중복 판정용 사전
+# v4: 포괄적 키워드로 누락 방지 + 이슈 시그니처로 중복 정밀화
+# =========================================================
+
+# (1) 주요 법령/제도 — 포괄적으로. 누락 시 여기에 한 줄만 추가하면 됨.
+IMPORTANT_LAWS = [
+    "근로기준법", "노동조합법", "노동조합 및 노동관계조정법", "노조법",
+    "노란봉투법", "최저임금법", "최저임금", "남녀고용평등법",
+    "기간제법", "파견법", "산업안전보건법", "산안법",
+    "중대재해처벌법", "중대재해 처벌법", "고용보험법", "고용보험",
+    "퇴직급여보장법", "퇴직연금", "근로자퇴직급여", "임금채권보장법",
+    "고령자고용법", "정년연장", "정년 연장", "외국인고용법",
+    "직장 내 괴롭힘", "직장내괴롭힘", "통상임금", "주 52시간", "주52시간",
+    "육아휴직", "모성보호", "일·가정 양립", "일가정양립", "노동법",
+]
+
+# (2) 입법/행정 '단계' 키워드 — 어느 단계의 뉴스인지 구분(중복 판정 핵심)
+LEGISLATION_STAGES = [
+    "발의", "상정", "소위", "법사위", "환노위", "상임위",
+    "본회의", "의결", "통과", "가결", "부결", "재의", "거부권",
+    "공포", "개정", "제정", "시행령", "시행규칙", "시행", "입법예고",
+]
+
+# (3) 그 외 보호 대상 일반 중요 시그널
+IMPORTANT_SIGNALS = [
+    "국회", "본회의", "대법원 전원합의체", "전원합의체", "헌법재판소",
+    "위헌", "합헌", "정부 발표", "고시", "행정해석",
+]
+
+# 보호 판정용 통합 키워드 집합
+IMPORTANT_KEYWORDS = IMPORTANT_LAWS + LEGISLATION_STAGES + IMPORTANT_SIGNALS
+
+
+def _imp_blob(item):
+    return " ".join([
+        item.get("title", "") or "",
+        item.get("summary", "") or "",
+        item.get("clean_title", "") or "",
+        item.get("clean_summary", "") or "",
+        item.get("novelty_impact", "") or "",
+    ])
+
+
+def is_important(item):
+    """중요(보호 대상) 기사 여부: 주요 법령 언급 또는 (입법단계어 + 국회/사법 시그널)."""
+    blob = _imp_blob(item)
+    has_law = any(k in blob for k in IMPORTANT_LAWS)
+    has_stage = any(k in blob for k in LEGISLATION_STAGES)
+    has_signal = any(k in blob for k in IMPORTANT_SIGNALS)
+    return has_law or (has_stage and has_signal)
+
+
+def issue_signature(item):
+    """중요 기사의 '사건 단위' 식별자: (법령명 집합, 단계 집합).
+    같은 법령의 같은 단계 = 같은 사건 -> 정밀 중복 처리."""
+    blob = _imp_blob(item)
+    laws = frozenset(k for k in IMPORTANT_LAWS if k in blob)
+    stages = frozenset(k for k in LEGISLATION_STAGES if k in blob)
+    return (laws, stages)
+
+
+def is_important_feed(region, hint):
+    """입법/정책성 피드(국내 노동법/판례, 고용노동부 정책)는 더 깊게 수집."""
+    return region == "국내" and hint in ("노동법/판례", "고용노동부 정책")
+
+
 
 def _gn_ko(query):
     return "https://news.google.com/rss/search?q=" + quote(query) + "&hl=ko&gl=KR&ceid=KR:ko"
@@ -77,6 +144,10 @@ RSS_FEEDS = [
     (_gn_ko("고용노동부 보도자료 when:30d"), "국내", "고용노동부 정책"),
     (_gn_ko("고용노동부 정책 지원사업 지침 when:30d"), "국내", "고용노동부 정책"),
     # --- 노동법/판례 레이어 (법원·중노위·입법) ---
+    # [v4] 핵심 입법 누락 방지: 국회 본회의 통과/주요 법령 개정 전용 쿼리
+    (_gn_ko("근로기준법 개정 국회 본회의 통과 when:30d"), "국내", "노동법/판례"),
+    (_gn_ko("국회 본회의 노동 법안 의결 통과 when:14d"), "국내", "노동법/판례"),
+    (_gn_ko("최저임금 중대재해처벌법 정년연장 노동법 개정 when:60d"), "국내", "노동법/판례"),
     (_gn_ko("노동법 대법원 판결 when:90d"), "국내", "노동법/판례"),
     (_gn_ko("통상임금 판결 근로자성 부당해고 when:90d"), "국내", "노동법/판례"),
     (_gn_ko("직장내괴롭힘 임금체불 판례 노동위원회 판정 when:90d"), "국내", "노동법/판례"),
@@ -104,6 +175,7 @@ RSS_FEEDS = [
 ]
 
 PER_FEED_LIMIT = 6
+IMPORTANT_FEED_LIMIT = 12  # [v4] 입법/정책 피드는 더 깊게 수집해 핵심 뉴스 누락 방지
 MAX_ARTICLES = 120
 MIN_OVERSEAS = 8          # (A) 해외 최소 보장 처리량
 GEMINI_MODEL = "gemini-2.5-flash"
@@ -242,8 +314,29 @@ def jaccard(a, b):
 def find_same_issue(new_item, existing, title_th=0.55, body_th=0.35):
     nt, ns = new_item["title"], new_item.get("summary", "")
     nt_tok = _tokens(nt)
+    new_important = is_important(new_item)
+    new_sig = issue_signature(new_item) if new_important else None
     for i, old in enumerate(existing):
         ot = old.get("title", "")
+
+        # [v4] 중요 기사: 이슈 시그니처(법령+단계)로 정밀 비교
+        if new_important and is_important(old):
+            new_laws, new_stages = new_sig
+            old_laws, old_stages = issue_signature(old)
+            if new_laws & old_laws:
+                # 단계가 양쪽에 있는데 서로 겹치지 않으면 서로 다른 사건이므로 병합 금지
+                if new_stages and old_stages and not (new_stages & old_stages):
+                    continue
+                # 같은 법령 + 같은 단계면 제목 표현이 달라도 같은 사건
+                if new_stages and (new_stages & old_stages):
+                    return i
+                # 같은 법령 + 한쪽 단계 미상 + 제목/본문 어느 정도 유사면 같은 사건
+                if title_ratio(nt, ot) >= 0.40 or jaccard(ns, old.get("summary", "")) >= 0.25:
+                    return i
+            # 중요 기사끼리는 느슨한 토큰 겹침 규칙 미적용(과잉 병합 방지)
+            continue
+
+        # 일반 기사: 기존 로직 유지
         t_sim = title_ratio(nt, ot)
         b_sim = jaccard(ns, old.get("summary", ""))
         if t_sim >= title_th:
@@ -305,7 +398,8 @@ def collect_raw():
         try:
             feed = feedparser.parse(feed_url)
             cnt = 0
-            for entry in feed.entries[:PER_FEED_LIMIT]:
+            feed_limit = IMPORTANT_FEED_LIMIT if is_important_feed(region, hint) else PER_FEED_LIMIT
+            for entry in feed.entries[:feed_limit]:
                 title_raw = entry.get("title", "")
                 clean = title_raw.rsplit(" - ", 1)[0] if " - " in title_raw else title_raw
                 buckets[region].append({
@@ -354,7 +448,7 @@ def main():
 
     working = existing_articles.copy()
     seen_links = {it.get("link", "") for it in working if it.get("link")}
-    stat = {"new": 0, "merged": 0, "dup": 0, "skip": 0, "ai_fail": 0, "overseas_new": 0}
+    stat = {"new": 0, "merged": 0, "dup": 0, "skip": 0, "ai_fail": 0, "overseas_new": 0, "important": 0}
 
     for art in new_raw:
         is_overseas = art["region"] == "해외"
@@ -376,9 +470,15 @@ def main():
             log.warning(f"[AI 실패] 정제 결과 없음 -> 스킵: {art['title'][:30]}")
             continue
 
-        # (A) 해외는 관련성 false 라도 보장량 도달 전까지는 살림
+        # [v4] 중요 기사 여부: 원문 + AI 정제 결과 모두 반영
+        merged_for_check = {**art, **(ai or {})}
+        important = is_important(merged_for_check)
+
+        # (A) 관련성 false 처리: 해외 최소보장 + (v4) 국내 핵심 입법/정책 보존
         if ai.get("relevant", True) is False:
-            if is_overseas and stat["overseas_new"] < MIN_OVERSEAS:
+            if important:
+                log.info(f"[중요 보존] 관련성 낮음이나 핵심 입법/정책 -> 유지: {art['title'][:30]}")
+            elif is_overseas and stat["overseas_new"] < MIN_OVERSEAS:
                 log.info(f"[해외 보존] 관련성 낮음이나 최소량 미달 -> 유지: {art['title'][:30]}")
             else:
                 stat["skip"] += 1
@@ -413,6 +513,8 @@ def main():
             stat["new"] += 1
             if is_overseas:
                 stat["overseas_new"] += 1
+            if important:
+                stat["important"] += 1
             log.info(f"[NEW] 신규 기사 추가: {candidate['title'][:34]}")
         else:
             old = working[idx]
@@ -421,6 +523,8 @@ def main():
                 if candidate["link"]:
                     seen_links.add(candidate["link"])
                 stat["merged"] += 1
+                if important:
+                    stat["important"] += 1
                 log.info(f"[MERGE] 심화 콘텐츠 병합(rev {working[idx]['revision']}): {candidate['title'][:34]}")
             else:
                 stat["dup"] += 1
@@ -429,11 +533,13 @@ def main():
         time.sleep(SLEEP_SEC)
 
     log.info(
-        f"처리 통계 -> 신규 {stat['new']}(해외 {stat['overseas_new']}) / 병합 {stat['merged']} / "
-        f"중복폐기 {stat['dup']} / 관련성스킵 {stat['skip']} / AI실패 {stat['ai_fail']}"
+        f"처리 통계 -> 신규 {stat['new']}(해외 {stat['overseas_new']}, 중요 {stat['important']}) / "
+        f"병합 {stat['merged']} / 중복폐기 {stat['dup']} / 관련성스킵 {stat['skip']} / AI실패 {stat['ai_fail']}"
     )
     if stat["overseas_new"] == 0:
         log.warning("이번 회차 해외 신규 0건 -> 해외 피드/키 한도 점검 필요")
+    if stat["important"] == 0:
+        log.warning("이번 회차 핵심 입법/정책(중요) 기사 0건 -> RSS 쿼리/키 한도 점검 필요")
 
     final_articles = working[:MAX_ARTICLES]
 
