@@ -215,13 +215,26 @@ class KeyPool:
         # 429 메시지가 분당 한도(RPM)인지 일일 한도(RPD)인지 구분
         low = msg.lower()
         compact = low.replace(" ", "")
-        per_day = ("perday" in compact or "requestsperday" in compact or
-                   "daily" in low or "/day" in low)
-        per_min = ("perminute" in compact or "requestsperminute" in compact or
-                   "/min" in low or "retrydelay" in compact)
-        # 일일 신호가 명시되면 일일로, 그 외 429는 보수적으로 분당으로 간주(키 보존)
-        if per_day and not per_min:
+        # 강한 일일 신호: Gemini quotaId/메트릭에 들어오는 PerDay 계열은 명시적 일일 한도.
+        # (예: GenerateRequestsPerDayPerProjectPerModel-FreeTier, *_per_day,
+        #  free_tier_requests 일일 카운터) -> retryDelay 힌트보다 우선.
+        strong_per_day = ("perday" in compact or "requestsperday" in compact or
+                          "perdayperproject" in compact or
+                          "free_tier_requests" in compact or
+                          "freetierrequests" in compact)
+        if strong_per_day:
             return False
+        # 강한 분당 신호
+        strong_per_min = ("perminute" in compact or "requestsperminute" in compact or
+                          "perminuteperproject" in compact or "/min" in low)
+        if strong_per_min:
+            return True
+        # 약한 신호(일일/분당 키워드만 등장)
+        weak_per_day = ("daily" in low or "/day" in low)
+        weak_per_min = ("retrydelay" in compact or "retry in" in low)
+        if weak_per_day and not weak_per_min:
+            return False
+        # 그 외 모호한 429: 보수적으로 분당으로 간주(키 보존)
         return True
 
     def _pace(self, idx):
