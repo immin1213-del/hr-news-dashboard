@@ -8,7 +8,7 @@ from datetime import datetime
 import feedparser
 import difflib
 from urllib.parse import quote
-from google import genai
+from google import genaih
 from google.genai import types
 
 # =========================================================
@@ -176,11 +176,11 @@ RSS_FEEDS = [
 
 PER_FEED_LIMIT = 6
 IMPORTANT_FEED_LIMIT = 12  # [v4] 입법/정책 피드는 더 깊게 수집해 핵심 뉴스 누락 방지
-MAX_ARTICLES = 120
+MAX_ARTICLES = 200
 MIN_OVERSEAS = 8          # (A) 해외 최소 보장 처리량
-GEMINI_MODEL = "gemini-2.0-flash"
-SLEEP_SEC = 4.5
-CALL_INTERVAL_SEC = 4.0   # [v5] 분당 한도(RPM) 보호: 키 단위 호출 간 최소 간격
+GEMINI_MODEL = "gemini-2.5-flash"
+SLEEP_SEC = 0.5
+CALL_INTERVAL_SEC = 0.5   # [v6] 유료 티어 전환: RPM 여유로 페이싱 단축
 MAX_RETRY_PER_KEY = 2     # [v5] 분당 한도/일시 오류 시 같은 키 재시도 횟수
 RETRY_WAIT_SEC = 30       # [v5] 분당 한도/503 발생 시 대기(초)
 
