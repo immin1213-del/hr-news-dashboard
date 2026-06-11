@@ -8,7 +8,7 @@ from datetime import datetime
 import feedparser
 import difflib
 from urllib.parse import quote
-from google import genaih
+from google import genai
 from google.genai import types
 
 # =========================================================
