@@ -176,9 +176,10 @@ RSS_FEEDS = [
 
 PER_FEED_LIMIT = 6
 IMPORTANT_FEED_LIMIT = 12  # [v4] 입법/정책 피드는 더 깊게 수집해 핵심 뉴스 누락 방지
-MAX_ARTICLES = 200
+MAX_ARTICLES = 120
 MIN_OVERSEAS = 8          # (A) 해외 최소 보장 처리량
 GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL_FALLBACK = "gemini-2.5-flash-lite"  # [v8] 503 과부하 시 대체 모델
 SLEEP_SEC = 0.5
 CALL_INTERVAL_SEC = 0.5   # [v6] 유료 티어 전환: RPM 여유로 페이싱 단축
 MAX_RETRY_PER_KEY = 2     # [v5] 분당 한도/일시 오류 시 같은 키 재시도 횟수
@@ -251,37 +252,47 @@ class KeyPool:
             idx = (start + offset) % n
             if self.exhausted[idx]:
                 continue
-            for attempt in range(MAX_RETRY_PER_KEY + 1):
-                self._pace(idx)
-                try:
-                    resp = self.clients[idx].models.generate_content(
-                        model=GEMINI_MODEL,
-                        contents=prompt,
-                        config=types.GenerateContentConfig(response_mime_type="application/json"),
-                    )
-                    self.last_call[idx] = time.time()
-                    return json.loads(resp.text), idx
-                except Exception as e:
-                    self.last_call[idx] = time.time()
-                    msg = str(e)
-                    is_429 = ("RESOURCE_EXHAUSTED" in msg or "429" in msg)
-                    is_503 = ("UNAVAILABLE" in msg or "503" in msg)
-                    # 일일 한도(RPD)면 이 키는 회차 내내 폐기
-                    if is_429 and not self._is_per_minute_limit(msg):
-                        log.warning(f"[KEY {idx+1}] 일일 한도(RPD) 소진 -> 키 폐기 후 폴백")
-                        self.exhausted[idx] = True
+            give_up_key = False
+            # [v8] 503(모델 과부하)는 키가 아니라 모델 문제 -> 기본 실패 시 라이트로 폴백
+            for model in (GEMINI_MODEL, GEMINI_MODEL_FALLBACK):
+                last_was_503 = False
+                for attempt in range(MAX_RETRY_PER_KEY + 1):
+                    self._pace(idx)
+                    try:
+                        resp = self.clients[idx].models.generate_content(
+                            model=model,
+                            contents=prompt,
+                            config=types.GenerateContentConfig(response_mime_type="application/json"),
+                        )
+                        self.last_call[idx] = time.time()
+                        return json.loads(resp.text), idx
+                    except Exception as e:
+                        self.last_call[idx] = time.time()
+                        msg = str(e)
+                        is_429 = ("RESOURCE_EXHAUSTED" in msg or "429" in msg)
+                        is_503 = ("UNAVAILABLE" in msg or "503" in msg)
+                        last_was_503 = is_503
+                        if is_429 and not self._is_per_minute_limit(msg):
+                            log.warning(f"[KEY {idx+1}] 일일 한도(RPD) 소진 -> 키 폐기 후 폴백")
+                            self.exhausted[idx] = True
+                            give_up_key = True
+                            break
+                        if (is_429 or is_503) and attempt < MAX_RETRY_PER_KEY:
+                            wait_sec = RETRY_WAIT_SEC if is_429 else RETRY_BASE_SEC * (2 ** attempt)
+                            kind = "분당 한도(RPM)" if is_429 else "일시 오류(503)"
+                            log.warning(f"[KEY {idx+1}] {kind}[{model}] -> {wait_sec}s 대기 후 재시도 ({attempt+1}/{MAX_RETRY_PER_KEY})")
+                            time.sleep(wait_sec)
+                            continue
+                        log.error(f"[KEY {idx+1}] 호출 오류[{model}]: {e}")
                         break
-                    # 분당 한도(RPM) 또는 일시적 503: 같은 키로 대기 후 재시도
-                    if (is_429 or is_503) and attempt < MAX_RETRY_PER_KEY:
-                        wait_sec = RETRY_WAIT_SEC if is_429 else RETRY_BASE_SEC * (2 ** attempt)
-                        kind = "분당 한도(RPM)" if is_429 else "일시 오류(503)"
-                        log.warning(f"[KEY {idx+1}] {kind} -> {wait_sec}s 대기 후 재시도 ({attempt+1}/{MAX_RETRY_PER_KEY})")
-                        time.sleep(wait_sec)
-                        continue
-                    # 재시도 소진 또는 기타 오류: 다음 키로 폴백
-                    log.error(f"[KEY {idx+1}] 호출 오류(폴백): {e}")
-                    time.sleep(0.3)   # [v7] 폴백 전 짧은 대기
+                if give_up_key:
                     break
+                if last_was_503 and model == GEMINI_MODEL:
+                    log.warning(f"[KEY {idx+1}] 503 과부하 지속 -> 대체 모델({GEMINI_MODEL_FALLBACK}) 전환")
+                    time.sleep(0.3)
+                    continue
+                time.sleep(0.3)
+                break
         return None, -1
 
 
