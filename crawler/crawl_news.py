@@ -182,7 +182,8 @@ GEMINI_MODEL = "gemini-2.5-flash"
 SLEEP_SEC = 0.5
 CALL_INTERVAL_SEC = 0.5   # [v6] 유료 티어 전환: RPM 여유로 페이싱 단축
 MAX_RETRY_PER_KEY = 2     # [v5] 분당 한도/일시 오류 시 같은 키 재시도 횟수
-RETRY_WAIT_SEC = 30       # [v5] 분당 한도/503 발생 시 대기(초)
+RETRY_WAIT_SEC = 8        # [v7] 분당 한도(RPM/429) 시 대기(초)
+RETRY_BASE_SEC = 2        # [v7] 503(모델 과부하) 지수 백오프 기본값(초)
 
 
 def load_api_keys():
@@ -272,16 +273,14 @@ class KeyPool:
                         break
                     # 분당 한도(RPM) 또는 일시적 503: 같은 키로 대기 후 재시도
                     if (is_429 or is_503) and attempt < MAX_RETRY_PER_KEY:
+                        wait_sec = RETRY_WAIT_SEC if is_429 else RETRY_BASE_SEC * (2 ** attempt)
                         kind = "분당 한도(RPM)" if is_429 else "일시 오류(503)"
-                        log.warning(
-                            f"[KEY {idx+1}] {kind} -> {RETRY_WAIT_SEC}s 대기 후 재시도 "
-                            f"({attempt+1}/{MAX_RETRY_PER_KEY})"
-                        )
-                        time.sleep(RETRY_WAIT_SEC)
+                        log.warning(f"[KEY {idx+1}] {kind} -> {wait_sec}s 대기 후 재시도 ({attempt+1}/{MAX_RETRY_PER_KEY})")
+                        time.sleep(wait_sec)
                         continue
                     # 재시도 소진 또는 기타 오류: 다음 키로 폴백
                     log.error(f"[KEY {idx+1}] 호출 오류(폴백): {e}")
-                    time.sleep(SLEEP_SEC)
+                    time.sleep(0.3)   # [v7] 폴백 전 짧은 대기
                     break
         return None, -1
 
