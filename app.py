@@ -15,6 +15,7 @@ st.set_page_config(
 CATEGORY_ORDER = [
     "고용노동부 정책",
     "노동법/판례",
+    "노사관계/노동계",
     "보상/평가",
     "채용/조직문화",
     "HR테크/AI",
@@ -24,12 +25,30 @@ CATEGORY_ORDER = [
 CATEGORY_ICON = {
     "고용노동부 정책": "🏛",
     "노동법/판례": "⚖",
+    "노사관계/노동계": "✊",
     "보상/평가": "💰",
     "채용/조직문화": "🤝",
     "HR테크/AI": "🤖",
     "글로벌 HR 트렌드": "🌐",
     "기타": "📰",
 }
+
+# 정책·입법 통합 슬롯: 고용노동부 정책 + 국회 입법/노동법은 HR 실무 필수 영역으로 최상단 묶음 표시
+POLICY_SLOT_CATEGORIES = ("고용노동부 정책", "노동법/판례")
+
+# 국회 입법 '통과/확정' 신호 — 매일 아침 확인해 별도 배지로 강조
+LEGISLATION_PASSED_KEYWORDS = ("본회의", "의결", "가결", "통과", "공포", "국회 통과", "법사위 통과")
+
+def is_legislation_passed(item):
+        """국회 본회의 통과·의결·공포 등 입법 확정 단계 기사인지 판정."""
+        blob = " ".join([
+                    str(item.get("title", "")),
+                    str(item.get("summary", "")),
+                    str(item.get("novelty_impact", "")),
+        ])
+        has_assembly = ("국회" in blob) or ("본회의" in blob) or ("법사위" in blob) or ("환노위" in blob)
+        has_passed = any(k in blob for k in ("의결", "가결", "통과", "공포"))
+        return has_assembly and has_passed
 
 # 전역 CSS — McKinsey 풍의 절제된 모던 디자인 (본문 + 사이드바 통일)
 st.markdown("""
@@ -108,6 +127,8 @@ div[data-testid="stExpander"] summary:hover { background: #F7F9FB !important; co
 .badge-date { background-color: #EEF2F6; color: #5A6B7B; }
 .badge-new { background-color: #D6202B; color: #FFFFFF; }
 .badge-rev { background-color: #C9A227; color: #FFFFFF; }
+.badge-pass { background-color: #B91C1C; color: #FFFFFF; }
+.badge-policy { background-color: #065F46; color: #FFFFFF; }
 
 .section-label { font-family: 'Libre Franklin', sans-serif; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; color: #0066B2; margin: 18px 0 6px 0; }
 .summary-box { background-color: #F7F9FB; border-left: 2px solid #0066B2; padding: 14px 18px; font-size: 14.5px; line-height: 1.8; color: #2A3744; margin: 6px 0; }
@@ -160,6 +181,8 @@ def freshness_badges(item):
     rev = int(item.get("revision", 0) or 0)
     if rev > 0:
         html += f'<span class="badge badge-rev">↑ 심화 업데이트 ×{rev}</span>'
+        cat = item.get("category", "")
+        html += '<span class="badge badge-pass">🏛 입법통과</span>' if is_legislation_passed(item) else ('<span class="badge badge-policy">📌 정책</span>' if cat == "고용노동부 정책" else "")
     return html
 
 
