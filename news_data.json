@@ -497,22 +497,6 @@
       "revision": 0
     },
     {
-      "title": "소상공인 정책 알림톡, 지자체 사업 신청 20배↑",
-      "category": "채용/조직문화",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHZGc1emN4ck91enhuek8yOEJQc1lPU2J3aGFPYm1idXVxTFJhMml3YTA0WGxzZnZES1RQRXdVcl93VmZPbnNZbzRVcXU1eldjbTdNRmVEUkREYTY5VEFFYWt4V081VTlJeTBiY01PVUg?oc=5",
-      "source": "신아일보",
-      "summary": "소상공인을 대상으로 한 정책 알림톡 서비스가 지자체 지원 사업 신청률을 20배 이상 높이며 정책 접근성을 획기적으로 개선했습니다. 이는 소상공인의 경영 안정에 크게 기여하고 있으며, 지역 경제 및 고용 시장 활성화에도 긍정적인 간접 효과를 미칠 것으로 예상됩니다.",
-      "novelty_impact": "디지털 알림 서비스를 활용하여 정부 및 지자체 정책의 사각지대를 해소하고 소상공인 지원 효과를 극대화하는 새로운 정책 전달 및 신청 활성화 모델을 제시했습니다.",
-      "action_point": [
-        "대기업 HR 관점에서는 직접적인 사규/제도 변경 사안은 아니나, 국내 고용 및 경제 동향 분석 시 소상공인 지원 정책의 효과를 인력 시장의 간접 요인으로 참고할 것.",
-        "협력사 등 사업 파트너 중 소상공인이 있다면, 해당 알림톡 서비스의 인지도를 높여 동반 성장을 위한 정보 공유 및 상생 협력 기회 발굴에 활용 가능성 검토."
-      ],
-      "collected_at": "2026-06-16 00:16",
-      "scraped_at": "2026-06-16 00:16",
-      "revision": 0
-    },
-    {
       "title": "AI 시대, HR의 이중적 역할과 과제",
       "category": "HR테크/AI",
       "region": "해외",
@@ -694,7 +678,7 @@
     },
     {
       "title": "노조의 성과급 요구, 성과급 분배 기준 및 투명성 논의 재점화",
-      "category": "보상/평가",
+      "category": "노사관계/노동계",
       "region": "국내",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PN2NxVENDRExNT3ExOWxtRzQ1OFEzTWdjYTNUVDdXNW9iSkdyeG1QYkNxMmdJNm5IVjlLOFpUQV9Oc051Z21wckJYeHl3ODZjcVcwMTF2SFB6Y3FiWEh2c0g4RUNjWVV1dHfSAW5BVV95cUxObHFZV2F5TWRVRHB4OVpGemsyQzlUM1pNQ1Z1UVBCMWZMRFJFTVJpMUtZOTNVQmZubHhrMUNXcEVrSmRTZkIxVXNVOXI1XzJZeW9YbTNOWTRpVHZuejgyZVhCVG9tbWhhNUZ6c2lidw?oc=5",
       "source": "조선일보",
@@ -711,7 +695,7 @@
     },
     {
       "title": "민주노총, 이재명 정부 노동정책 1년 평가 '70점' 간담회",
-      "category": "채용/조직문화",
+      "category": "노사관계/노동계",
       "region": "국내",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5FanUwS29HN0Z2STA1RjJ2cUs5Z0FZcTBNWFBDRE40ZkFFM0JQMmRfckNVdy1vUUMtLUg5QTVoWVhMUzBLMndNTWl6cERXTXRr?oc=5",
       "source": "문화일보",
@@ -728,7 +712,7 @@
     },
     {
       "title": "레미콘운송노조 파업, 수도권 건설 현장 마비 위기",
-      "category": "채용/조직문화",
+      "category": "노사관계/노동계",
       "region": "국내",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yY0wxLThBNThTV3Ewd3NXQjQ5S1FJbElaTHZ4ZXFwOTgyMTBBOXFQcnU3MFNpTUxQRGFqdGlra2pMd3NUR0hOb0gtNzNDUjhsQ3kyRkpLM0hob0R1YUxkWmdxanJlLTBDSmfSAW9BVV95cUxNTk5vOUduaWF1S2dJWklWUjdqMmwycTI0T0Z0cjRnSnUycHNsNmFNV3BXYVRiRGI0UkVVakx5d2VoN085djgyeFBqVHh3ckhmS0xaMFRjQ3hIVzRaZDZ3eVFmZnZUQWU3T2FKUkpEZnM?oc=5",
       "source": "머니투데이",
@@ -765,7 +749,7 @@
     },
     {
       "title": "민주노총, 정부 비판하며 7월 15일 총파업 예고",
-      "category": "채용/조직문화",
+      "category": "노사관계/노동계",
       "region": "국내",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZQmF1Qk50NlpDVU4wclpfZmVBNm9ubGY1NTAzazBPRm14ZTVaQjc0dFdLRTVRdkozQU55cGRxYmI0ZVV4dDJlSHM5OA?oc=5",
       "source": "v.daum.net",
@@ -782,7 +766,7 @@
     },
     {
       "title": "파업만능주의 현실화, 기업 노사관계 리스크 심화",
-      "category": "채용/조직문화",
+      "category": "노사관계/노동계",
       "region": "국내",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYm90aFdvUks1eldJeE5waEs4NzVva1lHSHp5QmViZGNpd1lrNVJnalRDMlA0VGk2WWh0Mkw2aFFhLWx1a2c3U2ZYZ1ZQbDFXX0laMnFtQk9YNFhRU1FSSmhYSmxPLWJySkQzaFdzNl9MRGhWX2FieXBwcU9Xa2dXZnotWElISDFG0gGcAUFVX3lxTE9uZ1lWblpkLU15dkl4dm1aWWR0NGtKYUNUR3c3OEFTckotY1VqUkY2QzdZN0k3TjFsUTJTNlpZanRIYkVjRGZXUUJxa2dnNW1iT1dwaHpkOG03OFRIUXFJdDZGa1gwYTJXdU16S2RkVWxIMmlzdVNpOXlOUy1fMEJIeXNfZkh3THNiSUg2Um1sMXpUSjBRdVNGUE5hOA?oc=5",
       "source": "Chosunbiz",
@@ -799,7 +783,7 @@
     },
     {
       "title": "경총, '무리한 성과급 요구는 기업 성장 저해' 경고",
-      "category": "보상/평가",
+      "category": "노사관계/노동계",
       "region": "국내",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0weUZXNTdiRF90SXAxamxIQ0hlN2lIOHBpTWpHWFU2VUZFeU42NzhsY2hVT1dkVk9vVEtCSE1BbmZYREkzdzJibDE0Yw?oc=5",
       "source": "v.daum.net",
@@ -1654,7 +1638,7 @@
     },
     {
       "title": "한국노총 주요 인사발령 및 향후 활동 방향",
-      "category": "채용/조직문화",
+      "category": "노사관계/노동계",
       "region": "국내",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4tdUNub25ZazY2czc4Qk5BZFUzVHkzRU56MEdLTHh4M3VRMVVyUU1nWDRnTWdSMkJzXzhDb0c3WlFvNDN6aFRIcA?oc=5",
       "source": "inochong.org",
@@ -1923,7 +1907,7 @@
     },
     {
       "title": "삼성 성과급 갈등, 산업 전반 확산 경총 우려",
-      "category": "보상/평가",
+      "category": "노사관계/노동계",
       "region": "국내",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GUDFmUTVmck1ySExxWmF5Mm5zbDA4RDdIWUx5WjBDZ0lwV1Z4VzBoLVpkRWMtVHRvYjUtc3AxWEtyWlBSUE1paXl6YVpiclk?oc=5",
       "source": "v.daum.net",
@@ -1956,7 +1940,7 @@
     },
     {
       "title": "현대차·기아, AI/로봇 확대에 따른 노조 고용 불안 우려",
-      "category": "채용/조직문화",
+      "category": "노사관계/노동계",
       "region": "국내",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CTFVKbDRSdnk0clVFTVozUFVrdjdPdE5ZQXNwRlFYUUZDUm9lNWNrQTRxdU84Qk1hY29UeWFvQmp5VDByeTdSZDlueXN6enh3aWJYZDZ5UHF4U091Y3h1Xw?oc=5",
       "source": "네이트",
@@ -1973,7 +1957,7 @@
     },
     {
       "title": "포스코 임단협, 본교섭 시작부터 노사 갈등 조짐",
-      "category": "보상/평가",
+      "category": "노사관계/노동계",
       "region": "국내",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PMEkyVllIeFVHT3lWcHZVVnN1b0FzRWw4MlFnM3JOTGJ4X1VzUURFZmcwcmFUVFZkV2ZwU2pqZno0eVprbzRLXy1qX1pEVVR4TV9HdGZzSm5acXdYR21jWg?oc=5",
       "source": "네이트",
@@ -1990,7 +1974,7 @@
     },
     {
       "title": "현대차 임단협 협상 결렬, 노조 파업 절차 돌입",
-      "category": "보상/평가",
+      "category": "노사관계/노동계",
       "region": "국내",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9FU1VhdmJ2OGZtR2J0RG82YUNDQVpna190SXQtek9MR29BMkM4YXBWNUFCV1UweXkxekZFNWpJZzZmemRSYUk4b0NXajZDeEdXNm9VSWVTdm53Y2Zhd2lfMmVMTm1pYzM1Rklv?oc=5",
       "source": "네이트",
