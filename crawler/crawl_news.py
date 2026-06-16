@@ -57,6 +57,37 @@ CATEGORIES = [
     "글로벌 HR 트렌드",
 ]
 
+# =========================================================
+# [v10] 분류 후처리 가드: 집단적 노사관계(노조·파업·임단협·경총 등) 기사가
+# 다른 카테고리로 새는 것을 코드 레벨에서 강제 교정한다.
+# (AI 프롬프트의 최우선 배타 규칙을 결정적 키워드로 한 번 더 보장)
+# =========================================================
+# 노사관계 '활동/주체' 신호 — 이게 핵심이면 무조건 '노사관계/노동계'
+LABOR_RELATIONS_KEYWORDS = (
+    "노동조합", "노조", "민주노총", "한국노총", "양대노총", "산별노조",
+    "총파업", "파업", "쟁의", "단체교섭", "단체협약", "임단협",
+    "노사 갈등", "노사갈등", "집회", "결의대회", "경총",
+)
+# 법원/입법 '쟁점' 신호 — 이게 핵심이면 노조 언급이 있어도 '노동법/판례' 유지
+LEGAL_PRECEDENCE_KEYWORDS = (
+    "대법원", "전원합의체", "판결", "판례", "선고", "헌법재판소", "헌재",
+    "위헌", "합헌", "법원", "노동위원회 판정",
+)
+
+def enforce_labor_relations_category(category, blob):
+    """집단적 노사관계 활동이 핵심인 기사를 '노사관계/노동계'로 강제 교정.
+    단, 법원 판결·판례·입법 쟁점이 핵심이면 '노동법/판례'를 존중한다."""
+    if category == "노사관계/노동계":
+        return category
+    has_lr = any(k in blob for k in LABOR_RELATIONS_KEYWORDS)
+    if not has_lr:
+        return category
+    # 법령/판례가 본질이면(노동법/판례로 분류된 경우 한정) 교정하지 않음
+    if category == "노동법/판례" and any(k in blob for k in LEGAL_PRECEDENCE_KEYWORDS):
+        return category
+    return "노사관계/노동계"
+
+
 ENRICH_KEYWORDS = [
     "선고", "확정", "대법원", "판결", "판정", "최종", "항소", "상고",
     "개정", "시행", "결정", "발표", "추가", "정정", "후속", "속보",
@@ -564,6 +595,18 @@ def main():
         category = ai.get("category", art["hint"])
         if category not in CATEGORIES:
             category = art["hint"]
+
+        # [v10] 노조·파업·임단협·경총 등 집단적 노사관계 기사 강제 교정
+        _lr_blob = " ".join([
+            ai.get("clean_title", art["title"]) or "",
+            ai.get("clean_summary", art["summary"]) or "",
+            art.get("title", "") or "",
+            art.get("summary", "") or "",
+        ])
+        _fixed = enforce_labor_relations_category(category, _lr_blob)
+        if _fixed != category:
+            log.info(f"[분류 교정] {category} -> {_fixed}: {art['title'][:30]}")
+            category = _fixed
 
         now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
         candidate = {
