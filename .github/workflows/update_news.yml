@@ -43,13 +43,20 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add news_data.json
-          if git diff --staged --quiet; then
+          if git diff --quiet news_data.json; then
             echo "No changes to commit."
           else
-            git commit -m "[Auto] Update news_data.json"
-            git pull --rebase origin main
-            git push
+            cp news_data.json /tmp/news_data.json
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/news_data.json news_data.json
+            git add news_data.json
+            if git diff --staged --quiet; then
+              echo "No changes after sync."
+            else
+              git commit -m "[Auto] Update news_data.json"
+              git push origin HEAD:main
+            fi
           fi
 
       - name: Upload crawler log
