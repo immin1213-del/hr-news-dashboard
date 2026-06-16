@@ -302,6 +302,9 @@ def render_sidebar(articles):
         cats_present.append("기타")
     sel_cats = sb.multiselect("카테고리", cats_present, default=cats_present, label_visibility="collapsed")
 
+    sb.markdown('<p class="sb-label">고용노동부 전용</p>', unsafe_allow_html=True)
+    moel_only = sb.toggle("🏛 고용노동부 정책만 보기", value=False, key="moel_only")
+
     sb.markdown('<p class="sb-label">지역</p>', unsafe_allow_html=True)
     region_choice = sb.radio("지역", ["전체", "국내", "해외"], index=0, horizontal=True, label_visibility="collapsed")
 
@@ -317,12 +320,12 @@ def render_sidebar(articles):
         '국내외 소스가 매일 자동 수집·병합됩니다.</div>',
         unsafe_allow_html=True,
     )
-    return query, sel_cats, region_choice, period_map[period], sort_newest
+    return query, sel_cats, region_choice, period_map[period], sort_newest, moel_only
 
 
 def main():
     last_updated, articles = load_news()
-    query, sel_cats, region_choice, period_days, sort_newest = render_sidebar(articles)
+    query, sel_cats, region_choice, period_days, sort_newest, moel_only = render_sidebar(articles)
 
     filtered = [
         a for a in articles
@@ -330,6 +333,7 @@ def main():
         and get_category(a) in sel_cats
         and (region_choice == "전체" or region_of(a) == region_choice)
         and within_days(a, period_days)
+        and (not moel_only or get_category(a) == "고용노동부 정책")
     ]
 
     render_hero(len(filtered), len(articles), last_updated)
@@ -351,6 +355,48 @@ def main():
         return parse_scraped(a) or datetime.min
 
     filtered = sorted(filtered, key=sort_key, reverse=sort_newest)
+
+    # === 고용노동부 전용 보기: 보도자료 / 지원사업·지침 / 기타 정책으로 하위 그룹화 ===
+    if moel_only:
+        def _moel_subgroup(item):
+            blob = " ".join([
+                str(item.get("title", "")),
+                str(item.get("summary", "")),
+                str(item.get("novelty_impact", "")),
+            ])
+            if any(k in blob for k in ("보도자료", "발표", "브리핑", "해명", "설명자료")):
+                return "보도자료"
+            if any(k in blob for k in ("지원사업", "지침", "지원금", "장려금", "공모", "모집", "신청", "사업 시행", "운영지침")):
+                return "지원사업·지침"
+            return "기타 정책"
+
+        sub_order = ["보도자료", "지원사업·지침", "기타 정책"]
+        sub_icon = {"보도자료": "📰", "지원사업·지침": "📋", "기타 정책": "🏛"}
+        moel_grouped = defaultdict(list)
+        for item in filtered:
+            moel_grouped[_moel_subgroup(item)].append(item)
+
+        st.markdown(
+            '<div class="category-header"><span class="ch-icon">🏛</span>'
+            '<span class="ch-name">고용노동부 전용 보기</span>'
+            f'<span class="ch-count">{len(filtered)}건</span></div>',
+            unsafe_allow_html=True,
+        )
+        for sub in sub_order:
+            sub_items = moel_grouped.get(sub)
+            if not sub_items:
+                continue
+            icon = sub_icon.get(sub, "🏛")
+            st.markdown(
+                f'<div class="category-header"><span class="ch-icon">{icon}</span>'
+                f'<span class="ch-name">{sub}</span>'
+                f'<span class="ch-count">{len(sub_items)}건</span></div>',
+                unsafe_allow_html=True,
+            )
+            for item in sub_items:
+                render_news_card(item)
+        return
+
 
     grouped = defaultdict(list)
     for item in filtered:
