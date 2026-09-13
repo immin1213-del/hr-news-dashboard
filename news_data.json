@@ -1,6 +1,783 @@
 {
-  "last_updated": "2026년 09월 12일 01:14 KST",
+  "last_updated": "2026년 09월 13일 01:04 KST",
   "articles": [
+    {
+      "title": "잡플래닛, 2026 하반기 '일하기 좋은 기업' 발표... SK하이닉스 대상 수상",
+      "category": "채용/조직문화",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5yVmhRbV9KWjlpOXZHMllrQ2xuaF96T2hXbHlhWXV0N2FXdWNZdEZ0THRnMUlvYUVTdHQ0NFpXOWlIQ3Y5SEk1Nm1hQzlzTjVLNHpCZVJxWWx2NUh0NkNacw?oc=5",
+      "source": "뉴스스페이스",
+      "summary": "잡플래닛이 2026년 하반기 '산업·직무별 일하기 좋은 기업' TOP80을 선정하여 발표했으며, SK하이닉스가 영예의 대상을 차지했습니다. 이번 어워즈는 직원의 만족도와 기업 리뷰를 기반으로 조직문화 및 근무 환경을 종합적으로 평가한 결과입니다.",
+      "novelty_impact": "기업들은 이번 발표를 통해 자사의 고용 브랜딩 전략을 재점검하고, 조직문화 및 근무 환경 개선을 위한 벤치마크 자료로 활용할 수 있습니다.",
+      "action_point": [
+        "자사 조직문화 현황을 객관적으로 평가하고, '일하기 좋은 기업'으로 선정된 타사 사례를 벤치마킹하여 개선점을 도출합니다.",
+        "직원 만족도 조사 결과와 잡플래닛 등 외부 평가 데이터를 비교 분석하여, 채용 브랜딩 및 인재 유지 전략에 반영할 요소를 파악합니다."
+      ],
+      "collected_at": "2026-09-13 01:04",
+      "scraped_at": "2026-09-13 01:04",
+      "revision": 0
+    },
+    {
+      "title": "AgriS, 2030년 전략 목표 달성을 위한 조직 역량 강화 추진",
+      "category": "채용/조직문화",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWmdTUnZTdnA0d0o5eEctVWNVblppVWlGLXVHV3JCbWNzcnhHamt6RzFBOUZoTjZHWHpMc2EwVUFnV0dyQmdTVDA1SHM4ZTZiRndOaW10WVhGOFJRd2RKWkpDdlV4bFFQMUsycXRKdEs3LWNMNU1wYkg3cFhrTC1pb0F0RjJwdVIzRGxWT3d4a1E?oc=5",
+      "source": "vietnam.vn",
+      "summary": "AgriS는 2030년까지 기업의 장기적인 전략 목표를 성공적으로 달성하기 위해 조직의 전반적인 역량을 강화하는 데 집중하고 있습니다. 이는 인재 개발, 조직 문화 개선, 리더십 역량 향상 등 다각적인 HR 노력을 통해 이루어질 예정입니다.",
+      "novelty_impact": "기업의 장기적인 비전과 전략 목표 달성을 위해 HR 역할이 핵심적인 중요성을 가지며, 조직 역량 강화를 위한 선제적인 투자와 실행 계획이 필요함을 시사합니다.",
+      "action_point": [
+        "자사 HR 전략이 기업의 중장기 비전 및 사업 목표와 얼마나 유기적으로 연계되어 있는지 점검하고 Gap 분석을 실시합니다.",
+        "2030년 등 미래 목표 달성에 필요한 핵심 역량을 정의하고, 현 조직의 역량 수준을 진단하여 Gap을 줄이기 위한 구체적인 인재 육성 계획을 수립합니다.",
+        "리더십 개발 프로그램, 조직 문화 개선 이니셔티브, 핵심 인재 확보 및 유지 전략 등 조직 역량 강화를 위한 세부 HR 실행 방안을 검토하고 예산을 확보합니다."
+      ],
+      "collected_at": "2026-09-13 01:04",
+      "scraped_at": "2026-09-13 01:04",
+      "revision": 0
+    },
+    {
+      "title": "체감형 복지몰로 직원 만족도 및 매출 증대 효과를 본 풀무원 사례",
+      "category": "채용/조직문화",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pbUZReWFxRk5Hdng2bmFZTTV6Q3lnYXhWZnZGV1d2V0YxdmdxcWVPWmc5eTV1M1VCOE1kT3M2SFNzdUxqUGU1Z1B2N1N6QTc4TjFDSGJTNHJ6bDcyeTAwQ3N0Q3ZJNjAxR3JYX1FqeFFvQVE?oc=5",
+      "source": "오늘경제",
+      "summary": "풀무원이 직원들이 직접 체감할 수 있는 여행, 레저, 문화생활 등 맞춤형 복지 콘텐츠를 제공하는 복지몰을 통해 직원 만족도를 크게 높였다. 이는 복지몰 이용률 및 회사 매출 증대로 이어졌으며, 여러 기업이 직원 경험을 중시하는 체감형 복지 도입을 적극 검토하는 추세다.",
+      "novelty_impact": "직원의 실제 만족도와 회사 성과로 이어지는 체감형 복지의 중요성을 강조하며, 단순 제공을 넘어 직원 개개인에게 '닿는' 복지 설계의 새로운 방향성을 제시한다.",
+      "action_point": [
+        "현재 운영 중인 복지 제도의 직원 체감도와 만족도를 점검하고, 설문조사 등을 통해 직원들의 실제 필요와 선호를 정확히 파악해야 함.",
+        "직원 개개인의 라이프스타일과 연령대에 맞는 맞춤형 복지 콘텐츠(예: 여행, 레저, 교육, 건강관리 등) 도입을 검토하여 복지 제도의 실효성을 높이는 방안을 모색해야 함.",
+        "복지 제도를 단순히 비용이 아닌, 직원 몰입도 및 생산성 향상, 궁극적으로는 기업 성과에 기여할 수 있는 전략적 투자로 인식하고 장기적인 관점에서 설계 및 운영 계획을 수립해야 함."
+      ],
+      "collected_at": "2026-09-13 01:03",
+      "scraped_at": "2026-09-13 01:03",
+      "revision": 0
+    },
+    {
+      "title": "IBK기업은행, 디지털·금융 전문인력 15명 수시채용",
+      "category": "채용/조직문화",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaT3FZM2Z3RzFmMWlSUF9pQ3hIbUpRZGVFcFgzRW9qYXZjU3RiMHB4eGRqXzBidi1LUGxzUF90ZXpQM0RyaHdMRVVHMTZwbmpJRWljd0lNV2dxUdIBWEFVX3lxTFB5WXpHVlNyWTBHVW5fcWliVHZYWDR1M2VrOFdSNHZTSmE5Mkt0amV6aWVpa09laE1sOEtPX3dYWDVjM1dqNGt1SlJLWFVKVnlNSEltQTBWbU4?oc=5",
+      "source": "아주경제",
+      "summary": "IBK기업은행이 디지털 전환 및 금융 경쟁력 강화를 위해 디지털 및 금융 분야 전문인력 15명을 수시 채용합니다. 이는 핵심 사업 분야의 인재를 적시에 확보하고 빠르게 변화하는 경영 환경에 대응하기 위한 전략적 인력 충원의 일환입니다.",
+      "novelty_impact": "주요 시중은행의 디지털 및 금융 전문인력 수시 채용은 금융권뿐 아니라 전 산업에서 핵심 인재 확보 경쟁 심화와 상시 채용 확산 트렌드를 보여줍니다.",
+      "action_point": [
+        "자사의 핵심 성장 동력과 연관된 전문 인력 수요를 예측하고, 선제적인 채용 전략 수립을 검토합니다.",
+        "경쟁력 있는 인재 유치를 위해 상시/수시 채용 시스템 도입 또는 고도화 방안을 모색하고, 채용 프로세스의 효율성을 점검합니다.",
+        "타겟 전문 인력에게 매력적인 보상, 성장 기회, 유연한 조직문화 등 비금전적 가치 제공 방안을 평가합니다."
+      ],
+      "collected_at": "2026-09-13 01:03",
+      "scraped_at": "2026-09-13 01:03",
+      "revision": 0
+    },
+    {
+      "title": "채용 기업은 증가했으나, 선별 채용으로 실제 채용 인원 감소",
+      "category": "채용/조직문화",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xNGVmTTJqU1lpa2tlQnBwLWJrT25IZ0JRaUlCdVJ0OWtHc05RcDdxR1dvVkpsM19iR1BKUjFGOU9FYkk2NWN4eUF4NHBLVDA?oc=5",
+      "source": "v.daum.net",
+      "summary": "최근 기업들의 채용 계획 및 공고 수는 증가하고 있으나, 실제 채용으로 이어지는 인원은 오히려 감소하는 추세입니다. 이는 경영 불확실성 속에서 기업들이 인재를 채용할 때 더욱 엄격하고 신중한 선별 채용 방식을 택하고 있음을 의미합니다.",
+      "novelty_impact": "경기 불확실성 속 기업들의 인재 선별 기준이 높아지고 있어, 채용 전략 및 인재상 재정립이 필요한 시점임을 시사합니다.",
+      "action_point": [
+        "채용 포지션별 핵심 역량 및 요구 스펙을 재점검하고, 후보자 평가 기준을 더욱 명확히 수립하여 선별 채용에 대비합니다.",
+        "경쟁 우위 확보를 위해 기업의 인재상과 핵심가치를 반영한 채용 브랜딩 전략을 강화하고, 우수 인재 유치 방안을 다각도로 검토합니다."
+      ],
+      "collected_at": "2026-09-13 01:02",
+      "scraped_at": "2026-09-13 01:02",
+      "revision": 0
+    },
+    {
+      "title": "금융노조, 총파업 결의대회 개최 및 주요 임원 참석",
+      "category": "노사관계/노동계",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FNVRxTjBLLWstWGl3RVhLZUY5WWR5bWlUb0pUX0RCVmhmOVQ2eHBJcXowSVlENFZDYXN1SDd0MmNWRC1kSHZvRkZLMkJmdE5xNGsycVlWcXQ3UVBCM3p5ZGZ0Tm5kVVJuWjhtY29xbE_SAXRBVV95cUxOaUV4Nzl3OWFUTWFPcXI5ZkJ6NUR1cDFaV3ViUVpkQ2dsNXhZNm5fWV9IVUozdTJQZDZGT1dZWjZkd2hyRF94Z1NESnpMR0hFWl9CalZMWjlmZklXNGVpS1N4TmRNLW5FbEE4WXZoaHBGWXd4YQ?oc=5",
+      "source": "이뉴스투데이",
+      "summary": "금융산업 노동조합이 총파업 결의대회를 개최하며 주요 임원진이 참석, 파업 의지를 표명했습니다. 이는 금융권 노사 갈등이 고조되고 있음을 나타내며, 향후 실제 쟁의행위로 이어질 가능성을 시사합니다.",
+      "novelty_impact": "금융산업 내 집단적 노사관계의 긴장 고조를 알리는 신호탄으로, 파업 현실화 시 산업 전반에 미칠 영향에 대비해야 합니다.",
+      "action_point": [
+        "금융노조의 총파업 관련 추가 동향을 면밀히 주시하고, 실제 쟁의행위 돌입 시 예상되는 사업장 영향을 분석합니다.",
+        "자사 노동조합의 경우, 이번 사태가 내부 교섭이나 쟁의에 미칠 영향을 사전 검토하고 소통 전략을 수립합니다.",
+        "비상 상황 발생 시를 대비하여 대체 인력 확보 및 필수 업무 유지 방안 등 비상 계획을 점검하고 보완합니다."
+      ],
+      "collected_at": "2026-09-13 00:56",
+      "scraped_at": "2026-09-13 00:56",
+      "revision": 0
+    },
+    {
+      "title": "직장 내 코인 채굴 및 예산 유용 직원의 해고 정당성 분쟁",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QZURFdDdnT2NqUmxSRmplaF9iZDdHZVFxR3Z3SzFLUWYxSGRaVzNzZm1Jang1X2xHaVNTcFlYbndWZVcxdFRFbExuTE1CTTRvZi15TGhoQ3dUa1ZESTZmV2FfUkJzdkI5NnhSSjVlUdIBc0FVX3lxTE8td1IxQ3B6UjB3QjY1QXRKQTZDbXlLWjA5Qjg3UndFbzBPbGF3emNCLUd5RnlUZzMwOC1KdHA3U0JTcm9TTWZNZFdZTTAzck5UdG91a2tFRDNqYlV3ZkVkRTBndzlyTmlSd09zdXdNMDRQa0U?oc=5",
+      "source": "시사저널",
+      "summary": "한 공공기관 직원이 근무 중 회사 PC를 이용해 가상화폐를 채굴하고 기관 예산까지 부당하게 사용한 사실이 적발되어 해고됐다. 해당 직원은 이에 불복하여 부당해고를 주장하며 해고의 정당성 여부에 대한 법적 분쟁이 예상된다. 이번 사례는 직원의 근무지 이탈 및 재산상 손해 발생을 야기하는 행위에 대한 징계의 적정성 판단 기준을 시사한다.",
+      "novelty_impact": "최신 기술(가상화폐 채굴)을 활용한 직장 내 비위 행위와 이에 따른 해고의 정당성 판단이 중요한 실무적 쟁점으로 부각되고 있다.",
+      "action_point": [
+        "취업규칙 내 회사 자산(PC, 네트워크, 전력 등) 사적 이용 및 영리 행위 금지 조항의 명확성 및 구체적인 징계 기준을 점검하고 필요시 개정한다.",
+        "예산 부정 사용 및 회사 재산상 손실을 야기하는 행위에 대한 징계 수위가 적절히 규정되어 있는지 확인하고, 유사 사례 발생 시 증거 확보 및 징계 절차의 적법성을 철저히 준수한다.",
+        "임직원 대상 정보보안 및 윤리 규정 교육을 강화하여 신종 비위 행위 예방에 힘쓴다."
+      ],
+      "collected_at": "2026-09-13 00:56",
+      "scraped_at": "2026-09-13 00:56",
+      "revision": 0
+    },
+    {
+      "title": "대법원, '정년 후 재고용 관행 있다면 거부 부당' 판결",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1VGhrLVdULUFQVkRRcW9lRkNxdUFiRjJaQ2tCN09DYnJpaGZVTC1taEZjUUJGWkJhT3J0d1Z3UHBZWHBmUHpWQVpwRTcwQ0lDelBMXzFR?oc=5",
+      "source": "중앙일보",
+      "summary": "대법원은 정년퇴직 후에도 근로자를 재고용해 온 일관된 관행이 있는 기업에서 근로자의 재고용을 거부하는 것은 부당해고에 해당한다고 판결했다. 이는 사용자의 재고용 기대권 형성 및 신의칙상 의무를 인정한 것으로, 기업의 정년 후 인력 운용 및 재고용 정책 수립에 중요한 기준을 제시한다.",
+      "novelty_impact": "정년 후 재고용 관행이 있는 기업의 경우, 재고용 거부가 부당해고로 판단될 수 있다는 법적 기준을 제시하여 인사 실무에 미치는 영향이 크며, 기존 재고용 관행에 대한 점검이 필수적이다.",
+      "action_point": [
+        "정년 후 재고용 제도를 운영하거나 관련 관행이 있는 기업은 현재의 재고용 기준, 절차, 사유 등을 명확히 규정하고 취업규칙에 반영하여 부당해고 리스크를 최소화해야 합니다.",
+        "재고용 심사 시 적용하는 평가 기준을 객관적이고 공정하게 마련하고, 거부 사유가 발생하는 경우 해당 사유를 명확히 근로자에게 고지하는 절차를 수립해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:56",
+      "scraped_at": "2026-09-13 00:56",
+      "revision": 0
+    },
+    {
+      "title": "중앙노동위원회, 방송사 프리랜서 PD 근로자성 인정 판정",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnS1ZSbHVDQmZNTEdvU2VaTFUzZnIxUUNKOXpIV2pqYjBpTjZmcERZeTVDZjg1N3luUmtIVUdWYTdsYTF1MnJtemVZU0pPUy1vc0pnbXRPTjFkM3JCVzhXU25yN2xLUG1FTTctTGp1TDA?oc=5",
+      "source": "매일노동뉴스",
+      "summary": "중앙노동위원회가 넷플릭스 다큐멘터리 제작에 참여한 방송사 프리랜서 PD의 근로자성을 인정하며 정규직 근로자로 봐야 한다고 판정했습니다. 이는 노동위원회에서 넷플릭스 등 OTT 콘텐츠 제작 프리랜서의 근로자성을 인정한 첫 사례로, 방송·콘텐츠 업계의 근로 형태에 중요한 선례가 될 것으로 보입니다.",
+      "novelty_impact": "OTT 콘텐츠 제작 프리랜서의 근로자성을 인정한 첫 노동위원회 판정으로, 유사 산업군 및 프리랜서 고용이 많은 기업의 근로 형태 점검 필요성을 높이는 중요한 판례입니다.",
+      "action_point": [
+        "프리랜서, 촉탁직 등 비정규직 근로자의 계약 내용 및 실제 근무 형태를 면밀히 분석하여 근로기준법상 근로자성에 해당하는지 여부를 점검해야 합니다.",
+        "특히 방송, IT, 콘텐츠 제작 등 프리랜서 활용이 많은 업종의 경우, 도급 계약 형태라 하더라도 지휘·감독 여부, 전속성, 업무 대체 가능성 등을 종합적으로 고려하여 근로계약 전환 및 4대보험 가입 등 적법한 고용 형태로 전환을 검토해야 합니다.",
+        "근로자성 인정 시 퇴직금, 연차휴가수당 등 미지급된 법정 수당 발생 가능성이 있으므로, 리스크 예방을 위한 내부 규정 및 계약서 정비가 시급합니다."
+      ],
+      "collected_at": "2026-09-13 00:56",
+      "scraped_at": "2026-09-13 00:56",
+      "revision": 0
+    },
+    {
+      "title": "중앙노동위원회 재심 판정 반박 논리 및 대응 방안",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12aXJLMndlSV9hTUxVMXNYaVBXX1ZQSVhra0REWFdtOHMtVUhSLVJIaDJ2aFBIaDMxakxRdy1mZldLVy1CQmVSSlJaM0lVYlM1NW1zRV83ZTJUX2lmUVBveEM3M2NULVk?oc=5",
+      "source": "법률저널",
+      "summary": "이 기사는 중앙노동위원회 재심 판정이 초심 판정과 다를 때, 어떤 법률적 논리로 반박하고 대응할 수 있는지 노동법 실무 관점에서 해설합니다. 재심 판정의 핵심 쟁점과 이를 해석하는 방법을 다루어, 기업의 노무 리스크 관리 역량을 강화하는 데 기여합니다.",
+      "novelty_impact": "노동위원회 판정 절차의 이해를 넘어, 불리한 재심 판정에 대한 법적 분석 및 효과적인 대응 전략 수립에 실질적인 도움을 줍니다.",
+      "action_point": [
+        "중앙노동위원회 재심 판정 사례 분석을 통해, 유사 사건 발생 시 사내 노무 대응 매뉴얼을 업데이트하고 법적 준비 태세를 강화합니다.",
+        "재심과 초심 판정의 차이점을 면밀히 분석하고, 해당 판정의 법적 구속력과 사내 규정(취업규칙, 인사규정)에 미치는 영향을 검토하여 필요시 개정을 준비합니다.",
+        "재심 판정에 불복할 경우 행정소송 진행 가능성을 염두에 두고, 관련 증거자료와 법리적 주장을 체계적으로 준비하는 프로세스를 점검합니다."
+      ],
+      "collected_at": "2026-09-13 00:56",
+      "scraped_at": "2026-09-13 00:56",
+      "revision": 0
+    },
+    {
+      "title": "9개월치 임금 체불, 사업주에게 돌아온 '임금 폭탄' 사례 분석",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nbkRSTGtvYklwajBQWUlJTU1GN2FEdFZMY0pBT0s1VWptTFZQLWxWdFk5d2NrdlpEckM3cHhGMUZ5Q1llWF9XQ3JQOHo4UDZZR1M0Q2xFOUFmZw?oc=5",
+      "source": "한국경제",
+      "summary": "사업주가 근로자에게 9개월치 임금을 체불하여 거액의 임금 지급 부담을 떠안게 된 사례가 보도되었습니다. 이는 임금체불 시 발생하는 법적 책임과 지연 이자, 더 나아가 형사처벌 가능성 등 사업주가 감당해야 할 막대한 리스크를 보여주는 중요한 판례입니다.",
+      "novelty_impact": "임금체불은 단순한 민사적 분쟁을 넘어 사업주에게 심각한 재정적 부담과 법적 책임을 초래할 수 있음을 경고하며, 사전에 철저한 관리가 필요함을 강조합니다.",
+      "action_point": [
+        "임금 지급일 준수 여부를 상시 점검하고, 임금체불 발생 시에는 지연 이자 및 법적 분쟁 확대를 막기 위해 즉시 해결 방안을 모색해야 합니다.",
+        "급여 관리 시스템을 정비하고, 근로계약서, 취업규칙 등에 명시된 임금 지급 규정을 재확인하여 임금 관련 분쟁의 소지를 최소화해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:56",
+      "scraped_at": "2026-09-13 00:56",
+      "revision": 0
+    },
+    {
+      "title": "중노위, 노동법 개정 후 사건 폭증에 '즉결심판' 도입 검토",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9OYk9KelI4ZmRyY29zTk5DMm9PaHR6N2oycmRjUlpCLUxfNVBIUUJvaDh3T2FXNlVzTGlGMEhoR0k1cV9vUWpPMTE2d01HM3EtSU1IRm1ONXQ2SmRUYzhFaG1zbzVpT3VzRjZr0gFwQVVfeXFMUG5QamhDbTRlOFRVVFBpaFFhUW5jUEVGc0dzUUpFLWlHdEcwUmdabnBwb21OZFY5QnhIdGFPY3RDTko2OHRnMG85SGlwQTRSZzFaQThzZkZySE8wUDBiWXlhbXV2dF9EN3R6VUZ2Y0szVg?oc=5",
+      "source": "머니투데이",
+      "summary": "최근 노동법 개정 이후 중앙노동위원회에 접수되는 사건이 급증하자, 중노위가 사건 처리의 효율성과 신뢰성을 높이기 위해 '즉결심판' 제도 도입을 검토하고 있습니다. 이는 신속한 노동 분쟁 해결을 목표로 하는 조치입니다.",
+      "novelty_impact": "노동위원회 사건 처리 속도 향상으로 기업의 노사 분쟁 대응 전략 및 내부 시스템 정비에 영향을 미칠 수 있습니다.",
+      "action_point": [
+        "중앙노동위원회의 '즉결심판' 제도 도입 여부 및 구체적인 절차를 지속적으로 모니터링하여 노동 분쟁 대응 전략을 점검해야 합니다.",
+        "제도 도입 시, 부당해고 등 개별 근로관계 관련 사건 처리 속도 가속화에 대비하여 내부 분쟁 해결 절차 및 증빙 자료 준비 체계를 정비해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:55",
+      "scraped_at": "2026-09-13 00:55",
+      "revision": 0
+    },
+    {
+      "title": "노동위원회 외국인 근로자 통역 미지원 문제",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMSmVrRlJWMnFZdTVLeHFVQndocm4tbjhGTks4VmRRdVFVdXp3MERqSjItQjZMLUlFNENFM0dYOHB0ejFLSVM2M25jY1BWX2VrM0JGb3JBTFpyZ21uaUJadlR4LTJjbnE4YmlwMWV30gFyQVVfeXFMTlhSUkdJck1lNld2ejZkakVrX2VmYm9QcVQxMzNLcjJFbE40Sy13MlFObXNadS1KZlptaXVRNTJyRmpNM0c5SktxZHpWODRyWkViR2FCOHFTZnMzeUg2Q1hrcWlzUjZPMElxbGc4THpGUnJR?oc=5",
+      "source": "법률신문",
+      "summary": "노동위원회 심문 과정에서 외국인 근로자를 위한 통역 지원이 부족하여, 이들이 자신의 권리를 충분히 주장하거나 방어하기 어려운 상황이 발생하고 있습니다. 이는 절차적 공정성 문제로 이어져, 언어 장벽이 정당한 권리 구제를 저해할 수 있다는 우려를 낳고 있습니다.",
+      "novelty_impact": "외국인 근로자의 노동위원회 접근성과 절차적 공정성 확보에 대한 중요성을 환기시키고, 기업의 외국인 근로자 인권 보호 및 분쟁 해결 지원 의무에 대한 HR의 역할을 강조하는 사례입니다.",
+      "action_point": [
+        "외국인 근로자 대상 노동 분쟁 발생 시, 노동위원회 절차 참여에 필요한 언어 지원(내부 통역 또는 외부 통번역 서비스 안내) 방안을 사전 검토하고 안내해야 합니다.",
+        "외국인 근로자가 부당해고 등 노동위원회 사건에 연루될 경우, 관련 법률 및 절차를 명확히 이해하고 대응할 수 있도록 정확한 정보를 제공하고, 필요한 경우 전문 노무법인 등 외부 기관 연계를 고려해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:53",
+      "scraped_at": "2026-09-13 00:53",
+      "revision": 0
+    },
+    {
+      "title": "플랫폼 종사자 근로자성 판단 및 소득 분류 논쟁 심화",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TMjBOb0xWNHJhMVZLWmh3NVhhZDBMREVMZXRlQ2hMOG5iTTV2VDVrTkFOYU55ZUhXdjRUd1luRk0zNHVwX3RfM3BhSzktZ2x5LVM2NWtCTFlzQmE3V2FNTW5GZmxtTDc4ZzRrZtIBbEFVX3lxTE9TMjBOb0xWNHJhMVZLWmh3NVhhZDBMREVMZXRlQ2hMOG5iTTV2VDVrTkFOYU55ZUhXdjRUd1luRk0zNHVwX3RfM3BhSzktZ2x5LVM2NWtCTFlzQmE3V2FNTW5GZmxtTDc4ZzRrZg?oc=5",
+      "source": "bloter.net",
+      "summary": "플랫폼 배달 라이더 등 플랫폼 종사자의 소득 분류(근로소득 vs. 사업소득)에 대한 논란이 재점화되고 있습니다. 이는 플랫폼 종사자의 세금 부담, 사회보험 적용 및 노동법상 보호 범위에 중대한 영향을 미치는 법적 쟁점입니다. 정부와 사법부는 플랫폼 경제의 특성을 고려하면서도 종사자 보호를 위한 합리적인 근로자성 판단 기준 마련에 고심하고 있습니다.",
+      "novelty_impact": "플랫폼 종사자의 근로자성 인정 범위 확대 가능성이 대두되며, 이는 기업의 비정형 근로자 활용 방식 및 관련 리스크 관리에 변화를 요구합니다.",
+      "action_point": [
+        "비정형 근로자(프리랜서, 용역 등)와의 계약서 및 실제 업무 수행 방식에 대한 근로자성 판단 리스크를 재점검합니다.",
+        "대법원 및 노동위원회의 근로자성 관련 최근 판례 동향을 면밀히 분석하고, 사내 규정 및 가이드라인에 반영합니다.",
+        "만약 독립 사업자로 분류된 인원이 근로자로 인정될 경우 발생할 수 있는 4대보험 소급 적용, 퇴직금, 연차수당 등 재정적, 법적 리스크를 사전에 평가하고 대응 방안을 마련합니다."
+      ],
+      "collected_at": "2026-09-13 00:53",
+      "scraped_at": "2026-09-13 00:53",
+      "revision": 0
+    },
+    {
+      "title": "근로자성 판단: 명함상 직책보다 실질적 사용종속관계가 핵심",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByTWRsS2U4d3VrZmJVdS1La2tkTmxMRjNCSEhZandMM1hZYWthUUVEX0xQMEZvVmZBUnRrbUlDcXlTQUNtMHB0a0NQWFVxa0JtUVF6NkdXU0ZXdw?oc=5",
+      "source": "한국경제",
+      "summary": "법원 또는 노동위원회는 근로기준법상 근로자인지 여부를 판단할 때 명함에 기재된 직책이나 회사 직급보다는 실제 근무 형태, 지휘·감독 여부, 업무 내용 등 '사용종속관계'의 실질을 중시한다는 내용입니다. 이는 형식적인 명칭만으로 근로자성을 부정할 수 없음을 강조하며, 근로계약 관계의 실질을 들여다보는 중요한 법적 판단 기준을 제시합니다.",
+      "novelty_impact": "직책과 무관하게 근로자성 판단의 핵심 기준은 실질적인 지휘·감독 여부에 있음을 명확히 하여, 인사 실무에서 근로계약 및 직무 설계를 신중히 할 필요성을 제기합니다.",
+      "action_point": [
+        "회사 내 임원, 팀장 등 직책 부여 방식과 무관하게 실제 업무 지시, 보고 체계, 근무 시간 통제 등 사용종속관계 요소를 종합적으로 검토하여 근로기준법 적용 대상 여부를 재확인해야 합니다.",
+        "고문, 위촉직 등 비정규직 및 특수형태근로자의 계약 시 명확한 업무 범위와 독립성 확보 방안을 명시하고, 근로자성 오인 소지가 없도록 계약서 및 실제 운영 가이드라인을 정비해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:52",
+      "scraped_at": "2026-09-13 00:52",
+      "revision": 0
+    },
+    {
+      "title": "정리해고 정당성 인정 판례: 한국옵티칼 2심 승소, 고용승계 의무 없음",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQWI0VGlvVUR1ZXd2NklOT2p3ZjZQMEpwdGtmMHdKaW5XY1I0eDdjOXdNaXZPMGh6czI4SjlvZ0VwOUtJdGtuZFFkanJ1LVl3dDE0S0xaNEg2Nkx3cllPUVJXOURscVhkQWZTeVRMVzZMN2FQZEp5Ukh6U2J0Q0dVNjFOZ05zVVlqUEFfMER3?oc=5",
+      "source": "월간노동법률",
+      "summary": "서울고등법원은 한국옵티칼의 정리해고가 정당하다고 판단, 1심 판결을 유지했습니다. 특히, 한국옵티칼이 청산절차를 밟은 경우 후속으로 설립된 니토옵티칼에는 고용승계 의무가 없다고 보아, 경영상 해고의 정당성을 재차 인정한 판결입니다.",
+      "novelty_impact": "기업 구조조정 시 정리해고의 정당성 요건과 청산 법인의 고용승계 의무 부재를 명확히 한 판례로, M&A 및 사업 재편 시 HR 전략 수립에 중요한 기준을 제시합니다.",
+      "action_point": [
+        "정리해고의 ‘긴박한 경영상 필요’ 및 ‘해고회피 노력’ 등 정당성 요건에 대한 최신 판례 경향을 숙지하고, 사내 정리해고 규정 및 절차를 재점검해야 합니다.",
+        "기업 구조조정(청산, 합병, 영업양도 등) 시 고용승계 의무 발생 여부에 대한 법적 판단 기준을 명확히 이해하고, 관련 HR 리스크를 사전에 검토해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:52",
+      "scraped_at": "2026-09-13 00:52",
+      "revision": 0
+    },
+    {
+      "title": "국회선서 거부의 근로기준법 위반 논란: 적용 범위 법적 해석",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE96RWtlYTJhZGFMaGdqN3ZycTBrWDFCeDF6THF3Zk5HbG8xekpIUmdNR2FCdkRmaGVhR2N4NHowZmlydWdyczdFTVVhNDhqM1k0?oc=5",
+      "source": "문화일보",
+      "summary": "국회 선서 거부 행위가 근로기준법 위반에 해당하는지에 대한 논란이 제기된 가운데, 노무사 박상용 변호사는 해당 고발이 근로기준법의 적용 범위를 벗어난 '엉터리 고발'이라고 주장했습니다. 본 사안은 근로기준법이 규정하는 '근로관계'의 특성과 그 법률의 적용 범위를 둘러싼 법적 해석의 중요성을 보여줍니다.",
+      "novelty_impact": "이 뉴스는 근로기준법이 적용되는 근로관계의 범위를 재확인하며, 법률의 적용 여부가 모호한 비전형적 상황에 대한 HR의 법률적 판단 기준을 환기시킵니다.",
+      "action_point": [
+        "HR 담당자는 근로기준법의 적용 대상과 범위를 명확히 이해하고, 기업 내부 규정 및 근로계약서가 일반적인 근로관계를 기반으로 명확하게 구성되었는지 점검해야 합니다.",
+        "법적 쟁점이 발생할 수 있는 비정형적인 상황에 대해서는 근로기준법 적용 여부 판단을 위해 반드시 법률 전문가의 자문을 구하는 절차를 마련해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:52",
+      "scraped_at": "2026-09-13 00:52",
+      "revision": 0
+    },
+    {
+      "title": "택배노조, CJ 원청교섭 거부 대법원 판결 규탄",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SeXJZc05DbWFUOUpmc2hjMVdXU2kwczc4MkNZYVc2UzVqdkJISjhCWlVOaExvM0IyZDhsOUNmYnFoS2h4dUhBeTdycEpTZElDaG9laERsOU1ac0toN3QxUG1nTDZ5R19heVlPRC1obw?oc=5",
+      "source": "진일보",
+      "summary": "대법원이 CJ대한통운의 택배노조 원청교섭 거부가 부당노동행위가 아니라는 판결을 내리자, 택배노조는 이를 대기업 편들기라며 강하게 규탄했습니다. 이번 판결은 원청 사용자의 교섭의무 범위를 제한적으로 해석한 것으로, 간접고용 형태의 노조 교섭권에 대한 중요한 법적 선례가 될 전망입니다.",
+      "novelty_impact": "대법원의 이번 판결은 간접고용 관계에서 원청의 단체교섭 의무 인정 여부에 대한 새로운 법적 기준을 제시하여, 향후 유사 사례 발생 시 노사관계 및 법적 대응에 중대한 영향을 미칠 것입니다.",
+      "action_point": [
+        "간접고용(도급, 하도급 등) 형태의 근로자를 사용하는 사업장은 원청의 단체교섭 의무 범위에 대한 대법원의 이번 해석을 면밀히 검토하여 노사관계 전략에 반영해야 합니다.",
+        "현재 간접고용 근로자 관련 노조의 교섭 요구가 있거나 예상되는 경우, 해당 판례를 바탕으로 법적 리스크를 분석하고 노무법인 등 법률 전문가와 협의하여 대응 방안을 수립해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:52",
+      "scraped_at": "2026-09-13 00:52",
+      "revision": 0
+    },
+    {
+      "title": "주요 법원 판결의 HR 실무 의미와 시사점",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1oVk9WV1Y2QlhKVDdLVEp3Q2pVRm5yLU1TM2ExWkRhdFVfcGVBMUxsTzI1T3dGRU5iNnA1RUN3Q0d0bUhyRXFnbjFNUG9hYXM?oc=5",
+      "source": "v.daum.net",
+      "summary": "최근 선고된 역사적인 법원 판결이 국내 노동법 해석에 중대한 변화를 가져올 것으로 예상됩니다. 이 판결은 기업의 인사 실무 전반에 걸쳐 새로운 기준을 제시하며, 향후 유사 사례에 대한 중요한 선례가 될 것입니다.",
+      "novelty_impact": "이번 판결은 기존 판례를 뒤집거나 새로운 법리를 확립하여, 향후 노동 관련 분쟁 해결 및 기업의 인사 정책 수립에 결정적인 영향을 미칠 중대한 의미를 갖습니다.",
+      "action_point": [
+        "이번 판결의 구체적인 내용과 적용 범위를 면밀히 분석하여, 현재 사규, 취업규칙, 근로계약서 등 관련 규정 및 양식의 개정 필요성을 검토해야 합니다.",
+        "유사 소송 가능성이 있는 기존 사례 또는 진행 중인 분쟁에 대한 법적 리스크를 재평가하고 대응 전략을 수립해야 합니다.",
+        "판결의 주요 내용을 전파하고, HR 담당자 및 관리자를 대상으로 관련 법규 및 실무 변경사항에 대한 교육을 실시하여 법규 준수 역량을 강화해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:51",
+      "scraped_at": "2026-09-13 00:51",
+      "revision": 0
+    },
+    {
+      "title": "무기계약직 '사회적 신분' 인정 및 노동판결의 기업 실무 영향",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51LWVvNjVmT2hKblM1QXF4X0trcWtfOEJxeWc3ZmI2UGhIX29oZ0xMS0d4TTZNT1Z5dUhkOXlNS0llNUF5SHBpSlQ1alhPM3d5eEhLZUhXSmFtM2pOOVgzMUhJV1Q?oc=5",
+      "source": "법률방송뉴스",
+      "summary": "최근 노동 관련 판결 3건이 무기계약직을 '사회적 신분'으로 인정하며 기업의 인사 실무에 중대한 변화를 예고하고 있습니다. 이는 무기계약직에 대한 차별적 처우가 '신분 차별'로 해석될 수 있음을 의미하며, 기업들은 채용, 직무 배치, 보상 등 전반적인 인사 관리에서 법적 리스크에 직면할 수 있습니다.",
+      "novelty_impact": "무기계약직을 '사회적 신분'으로 판단한 것은 노동법 해석의 새로운 지평을 열었으며, 기존에 비정규직 및 무기계약직에 대한 차별 이슈를 넘어 더 광범위한 평등 원칙 적용을 요구하게 될 것입니다.",
+      "action_point": [
+        "무기계약직 근로자의 근로조건(임금, 복리후생, 승진, 직무 전환 등)에 대한 차별적 요소를 전면 재검토하고, 차별적 처우 금지 원칙이 실현되도록 사규 및 취업규칙을 개정해야 합니다.",
+        "무기계약직 채용 시 직무기술서, 근로계약서, 평가 체계 등 HR 시스템 전반에서 차별 요소가 없는지 점검하고, 필요한 경우 직무급 도입 등 공정한 보상 체계를 구축하는 방안을 검토해야 합니다.",
+        "정규직과 무기계약직 간의 직무 분석 및 평가를 통해 합리적인 차등 근거를 마련하거나, 차등이 불가피할 경우 그 사유와 범위에 대해 법률 검토를 진행해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:51",
+      "scraped_at": "2026-09-13 00:51",
+      "revision": 0
+    },
+    {
+      "title": "우재준 의원, N% 성과급은 이익 공유, 노동 대가는 임금으로 요구해야",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kVWZrdW9BSTBUUEJrSHVDM0Fza1IzZFJ4YTNXRkJ2Wk1GTU5xWVFoRG1neS1GN2RzUWNKeDVwX0FHTWJnTGRzOFozUkY0OW5mTHhmb1dyekFyY3FTVWRR?oc=5",
+      "source": "스마트투데이",
+      "summary": "우재준 의원은 N% 방식으로 지급되는 성과급을 기업 이익 공유의 성격으로 보며, 이는 근로의 대가인 '임금'과는 구별되어야 한다고 주장했습니다. 그는 노동에 대한 대가는 명확히 임금으로 요구하고, 성과급은 기업의 성과에 대한 이익 공유 차원에서 접근해야 한다고 강조했습니다.",
+      "novelty_impact": "성과급의 법적 성격을 임금과 이익 공유로 명확히 구분하려는 시각을 제시하며, 기업의 보상 체계 설계 및 평균임금 산정 방식에 대한 중요한 시사점을 제공합니다.",
+      "action_point": [
+        "현재 운영 중인 성과급 지급 기준 및 성격이 '임금'으로 해석될 여지가 있는지, 아니면 '이익 공유'로 명확히 구분되는지 취업규칙 및 보상 규정을 검토해야 합니다.",
+        "성과급이 임금으로 인정될 경우 발생할 수 있는 평균임금 및 퇴직금 재산정 리스크를 분석하고, 필요한 경우 관련 규정 보완 방안을 마련해야 합니다.",
+        "향후 새로운 성과급 제도 도입 또는 기존 제도 개편 시, 성과급의 법적 성격(임금성 여부)을 명확히 정의하여 노사 분쟁 발생 가능성을 최소화하도록 설계해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:51",
+      "scraped_at": "2026-09-13 00:51",
+      "revision": 0
+    },
+    {
+      "title": "노동시장 경직성 심화, 국가 경쟁력 위협 경고 재점화",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XTnY5dl9mRFRJeHRXdVZPY3dsUG9tMTd4WGFfTjFrbjJUa2p0Z0p6ek5SZzl0NHRtdGdXWDdheTZBUWk5ZkxHaEJrdEdzRDg0QUtyX1N5NzQyZw?oc=5",
+      "source": "한국경제",
+      "summary": "본 기사는 국내 노동시장의 경직성 심화가 국가 경쟁력을 저해하고 있다는 경고음을 1년 만에 다시 제기했습니다. 특히, 국내 노동법규 및 제도의 개혁 지연이 기업 활동에 미치는 부정적 영향을 지적하며, 경쟁국 대비 뒤처질 수 있다는 위기감을 강조합니다.",
+      "novelty_impact": "노동시장 경직성 문제가 국가 경쟁력에 미치는 부정적 영향을 재조명하여, HR 담당자들에게 현행 노동법규의 경제적 파급효과에 대한 이해와 제도 개선의 필요성을 환기시킵니다.",
+      "action_point": [
+        "노동법 개정 논의 및 노동시장 유연화 정책 동향을 면밀히 주시하고, 기업 운영에 미칠 영향에 대비합니다.",
+        "현재 사내 근로시간 운영, 임금체계 등 인사 제도의 유연성을 검토하고, 법적 리스크를 최소화하면서 생산성을 높일 수 있는 개선 방안을 모색합니다.",
+        "노동법 관련 리스크 진단 및 선제적 대응을 위해 법무팀 또는 외부 노무법인과 협력하여 자문 및 교육을 강화합니다."
+      ],
+      "collected_at": "2026-09-13 00:50",
+      "scraped_at": "2026-09-13 00:50",
+      "revision": 0
+    },
+    {
+      "title": "박해철 의원, 발전5사 통합 ‘한국발전공사법’ 발의",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUVXFRZFduTF83cDBMWDJNdGNrYk5rUVlUYkVTanFqRTBjelNqbUZZajZJRHU1bmxOUUlKaFBJRl93SGRoWWlkTUl0UHYwTDlvTHplRVM2cVU1cDljWUJiaGFORzVtaU5u?oc=5",
+      "source": "ecojournal.co.kr",
+      "summary": "박해철 의원이 5개 발전사를 통합하여 '한국발전공사'를 설립하는 법안을 발의했습니다. 이 법안은 공공성 강화 및 산업 재편을 목표로 하며, 통과 시 발전 산업 내 인력 및 조직 구조에 중대한 변화를 가져올 수 있습니다.",
+      "novelty_impact": "국회에서 논의되는 발전사 통합 법안은 대상 기업들의 대규모 조직 및 인력 구조 개편을 예고하며, 통합에 따른 인력 운영 및 노사관계 재정립의 필요성을 부각합니다.",
+      "action_point": [
+        "발전사 통합 법안의 국회 통과 여부 및 논의 경과를 지속적으로 모니터링해야 합니다.",
+        "통합이 현실화될 경우, 대상 기업들의 고용 승계, 직무 재배치, 임금 및 복리후생 제도 통합 방안 등 HR 측면의 영향 분석 및 선제적 대응 계획 수립을 검토해야 합니다.",
+        "통합 대상 기업의 노동조합 구조 변화 및 단체협약 승계/재교섭 필요성 등 노사관계 측면의 쟁점을 사전에 파악하고 대비해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:50",
+      "scraped_at": "2026-09-13 00:50",
+      "revision": 0
+    },
+    {
+      "title": "의료법인, 중소기업기본법 개정으로 중소기업 지원 혜택 적용",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMSEFJYzBYa3dVXzFnNGx6UjVmOU1Ob2s1MUZfOWJINTRES0gzY1RHc3V1TUhyMWkzNmtWZmJ5Nk5wZmYzYVgxNmxJZ1VzcENQWm9Vb3oxbVoxUy1UQndxTGd4VjRmUEhvT1U0bktNXzY?oc=5",
+      "source": "팍스메디컬뉴스",
+      "summary": "국회에서 중소기업기본법 개정안이 통과됨에 따라 기존에 제한적이었던 의료법인도 중소기업으로 인정받아 다양한 정부 지원 혜택을 받을 수 있게 되었습니다. 이는 의료기관의 안정적인 운영과 고용 환경 개선에 긍정적인 영향을 미칠 것으로 예상됩니다.",
+      "novelty_impact": "의료법인이 중소기업 지원 대상에 포함됨으로써 인건비 지원, 고용 창출 보조금 등 HR 관련 정부 지원 혜택 접근성이 크게 확대됩니다.",
+      "action_point": [
+        "소속 의료법인의 중소기업 인정 여부를 확인하고, 고용노동부 및 중소벤처기업부의 중소기업 대상 지원 사업(예: 인건비 지원, 교육훈련 보조금, 청년내일채움공제 등) 중 적용 가능한 프로그램을 즉시 검토해야 합니다.",
+        "법 개정에 따른 세부 시행령 및 지원 사업 공고를 지속적으로 모니터링하여 변화하는 제도에 대한 선제적 대응 계획을 수립해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:50",
+      "scraped_at": "2026-09-13 00:50",
+      "revision": 0
+    },
+    {
+      "title": "직원 유지 관리(리텐션) 소프트웨어 주요 9가지",
+      "category": "HR테크/AI",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX3NZWG1yRUs3cVI2d3ZMVXNUQ1BuRk1JOGtTYkR4NW83cUhRWkpJOUwtQkhwUEV2clJnYTdUNHEtRVhYMldVNUZDcHJSVTYyc3V5YnVPdmNlaTdCbTRoYThaSmF4R01JRE9VU3gtM3hOWjVSNzZTaVJQMy1LUE9VVHNDbW1vRnBEaVRQakNXcVlYRE40bkNv0gGfAUFVX3lxTE5Ndno2X1N0WFFtS2JvNkJLUk1adld1M2JablNKYk1XdF9yUGp2VDRoUHFJSEZpdDUteVdKM0lUdlNjX1hvRWk0OVdfNFV4ZkthSFZYZm02dG1JNDhrTUdSLUhjUGFUX0hZTFJSekt5YktLNzhuMGd0MXVqRGE5UnlqZWRTZlhJYy1RaE9ST0xvOWNFR0ljYTM1VzFmak5LRQ?oc=5",
+      "source": "TechTarget",
+      "summary": "직원 이탈 방지는 기업의 핵심 과제로, 다양한 HR 테크 솔루션들이 이를 지원하고 있습니다. 본 기사는 직원 유지 관리(리텐션)에 효과적인 상위 9가지 소프트웨어 옵션을 소개하며, 데이터 분석 및 직원 참여도 향상을 통해 인재 유출을 방지하는 방안을 제시합니다.",
+      "novelty_impact": "HR 담당자가 실제 직원 이탈 방지를 위한 구체적인 기술 솔루션을 탐색하고 도입하는 데 실질적인 정보를 제공합니다.",
+      "action_point": [
+        "현행 직원 유지 관리 현황 및 이탈 요인 분석: 현재 직원의 이탈률 및 주요 원인을 파악하고, HR테크 도입을 통해 개선할 수 있는 영역을 식별한다.",
+        "본 뉴스에서 소개된 솔루션들의 주요 기능, 비용, 도입 효과 등을 검토하여 우리 회사에 적합한 리텐션 소프트웨어 도입을 고려한다.",
+        "기존 HR 시스템(HRIS, PMS 등)과의 연동 가능성 및 데이터 활용 방안을 사전 점검하고, 도입 시 개인정보 보호 및 데이터 보안 문제에 대한 대책을 수립한다."
+      ],
+      "collected_at": "2026-09-13 00:50",
+      "scraped_at": "2026-09-13 00:50",
+      "revision": 0
+    },
+    {
+      "title": "미성년 아이돌 근로시간 규제 및 노동법 적용 한계 논란",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84QmVBTVp4bFJ3WUtLdmc5WDhjVjdLbHpLdlBuMzRUV0t4alNYRjFtXzJtc2dweE5rbjU4LTd0MFI1cXFzQk5xcTVnSXk2SWRnX2ptVV9CNG9xNWZtN3NCYmQ5SFlwX25SWlYyOWxDQlE?oc=5",
+      "source": "이슈인사이트",
+      "summary": "엔터테인먼트 산업에서 미성년 아이돌의 평균 데뷔 연령이 낮아지고 있음에도 불구하고, 이들의 근로시간 상한이 주 46시간으로 설정되어 있어 과도한 스케줄 및 노동법 보호 사각지대에 대한 우려가 제기되고 있습니다. 이는 미성년 근로자에 대한 현행 노동법 규제와 엔터테인먼트 산업의 특수성 사이의 이중 기준 및 적용 한계에 대한 논의를 촉발하고 있습니다.",
+      "novelty_impact": "이 기사는 엔터테인먼트 산업 내 미성년 근로자(아이돌)의 근로시간 규제 및 법적 보호에 대한 현행 노동법의 실질적인 적용 쟁점을 부각하며, 사회적 관심과 법적 검토의 필요성을 제기합니다.",
+      "action_point": [
+        "엔터테인먼트 산업 관련 기업은 소속 미성년 아티스트의 근로계약서 및 스케줄 관리 체계가 현행 근로기준법상 연소근로자 보호 규정(근로시간, 야간·휴일근로 제한 등)을 준수하는지 점검해야 합니다.",
+        "아티스트의 '근로자성' 판단 기준을 명확히 하고, 근로자로 인정될 경우 근로기준법에 따른 모든 의무를 이행하고 있는지 법률 전문가와 함께 검토해야 합니다.",
+        "향후 미성년 연예인의 근로조건 보호를 위한 법 개정 또는 가이드라인 발표 가능성에 대비하여 관련 동향을 지속적으로 모니터링하고, 내부 규정 및 실무에 반영할 준비를 해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:49",
+      "scraped_at": "2026-09-13 00:49",
+      "revision": 0
+    },
+    {
+      "title": "노동시간 규제완화 시도 속 근로자대표제 투명성 문제",
+      "category": "노사관계/노동계",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZRUtfRGVGSWFOeTJ3d0hFOUdHSmloWXBqUWVHSU1wLVJONUh5dVBlSUhtcm9GTzVCd3RiTFk5dDVLTHduMk1GZzBsV0hWNlhMSG8wVGpLMVlKRzFISThlS1RNRV9jRWtUOEhNcDREQTg?oc=5",
+      "source": "매일노동뉴스",
+      "summary": "정부의 노동시간 규제 완화 시도가 계속되는 가운데, 근로시간 변경 합의 등 중요 사안을 결정하는 근로자대표 선출 방식 및 활동의 투명성이 부족하다는 비판이 제기되었습니다. 현재의 '깜깜이 근로자대표제'는 제도의 실효성과 대표성에 대한 의문을 키워 노사 갈등의 소지를 남기고 있습니다.",
+      "novelty_impact": "노동시간 유연화 제도 도입 시 근로자대표 선출 및 합의 과정의 적법성·대표성 확보가 기업의 핵심 노무 리스크로 대두될 수 있음을 경고합니다.",
+      "action_point": [
+        "근로시간 관련 제도의 도입 또는 변경을 위해 근로자대표와 서면 합의 시, 근로자대표의 적법한 선출 절차(직접·비밀·무기명 투표 등) 준수 여부를 철저히 확인하고 관련 증빙 자료를 보관해야 합니다.",
+        "현행 취업규칙 및 근로계약서에 근로자대표와의 합의로 운영되는 근로시간 관련 조항이 있다면, 해당 근로자대표의 선출 과정 및 합의의 유효성에 대한 법적 쟁점 발생 가능성을 사전에 검토하고 필요한 경우 보완 조치를 마련해야 합니다.",
+        "근로자대표 선출 및 활동에 대한 사내 규정을 재정비하여 투명성을 강화하고, 근로자대표의 권한과 의무를 명확히 하여 잠재적인 법적 분쟁을 예방해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:49",
+      "scraped_at": "2026-09-13 00:49",
+      "revision": 0
+    },
+    {
+      "title": "글로벌 HR 기술 시장, 2034년까지 지속 성장 전망",
+      "category": "HR테크/AI",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSlBfV1V5cWJoRDl2Q0VvTkJ0bjJCWGt2Z2lzY05iblVNUG42NGNlOGpDQzk1NWtxa3pOSjF6alZ5dlJESGtDVFRmSDVlWXJxY0wwYldtT0tyR0xxNGg5Vi1taWVXXzJTZ2ZCTHB2QmotTkpmazUwOWdiUzJITFlXN2NBMTNORV9qNnc?oc=5",
+      "source": "Fortune Business Insights",
+      "summary": "글로벌 HR 기술 시장이 2034년까지 연평균 성장률 12.3%를 기록하며 꾸준히 성장할 것으로 예측됩니다. 이는 기업의 디지털 전환 가속화와 인재 관리 효율성 증대에 대한 니즈가 맞물린 결과로, AI 및 자동화 기술이 HR 테크 시장 성장을 견인할 주요 요인으로 분석됩니다.",
+      "novelty_impact": "향후 10년 가까이 이어질 HR 기술 시장의 장기적인 성장 전망은 HR 부문의 디지털 혁신과 전략적 투자가 기업의 핵심 경쟁력이 될 것임을 시사합니다.",
+      "action_point": [
+        "현재 기업의 HR 시스템 현황을 진단하고, 글로벌 HR 테크 트렌드를 반영한 중장기 디지털 전환 전략 및 로드맵 수립을 검토해야 합니다.",
+        "AI 기반 채용, 성과 관리, 직원 경험 솔루션 등 최신 HR 테크 도입을 위해 시장 동향을 지속적으로 파악하고, 투자 우선순위를 결정하는 것이 필요합니다."
+      ],
+      "collected_at": "2026-09-13 00:48",
+      "scraped_at": "2026-09-13 00:48",
+      "revision": 0
+    },
+    {
+      "title": "대법원 CJ대한통운 판결, 노조법상 사용자 범위 및 손해배상 책임 논의 촉발",
+      "category": "노사관계/노동계",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hZGtUcGZ1T0J0dm12a205NUlQbGlTNGRmdmVlUTZfdVNUTzg4QWVwVUZmNng0SkJaN1U2N2Zka2lsUE5fNEtVald5T3hNbHdLeVZHa2NUcU1xU002SkY0Q3djWHZFVG9IcmVveG5IcEJLcms?oc=5",
+      "source": "서울Pn",
+      "summary": "대법원이 CJ대한통운 판결을 통해 노동조합 및 노동관계조정법(노조법)상 '사용자'의 범위와 쟁의행위 시 손해배상 책임에 대한 새로운 해석의 여지를 남겼습니다. 이번 판결은 특수고용형태 종사자에 대한 원청의 책임 인정 여부와 노란봉투법(개정 노조법 2·3조)의 사법적 해석 방향에 중대한 영향을 미칠 것으로 예상됩니다. HR 실무자들은 하급심 판결 동향 및 관련 법률 전문가의 의견을 주시해야 합니다.",
+      "novelty_impact": "이 판결은 특수고용형태 종사자에 대한 사용자의 책임 범위 확대 가능성과 노동조합의 쟁의행위에 대한 손해배상청구 제한이라는 개정 노조법의 핵심 쟁점에 대한 사법부의 입장을 가늠할 수 있는 중요한 선례가 될 것입니다.",
+      "action_point": [
+        "현재 성과급 관련 단체협약 또는 노사합의 조항이 쟁의행위의 대상이 될 수 있는지 법률 자문을 통해 면밀히 검토하고 잠재적 리스크를 파악해야 합니다.",
+        "정부의 노동조합법 시행지침에 대한 추가적인 유권해석, 행정해석, 법원 판례 등 관련 동향을 지속적으로 모니터링하여 노사관계 전략에 반영해야 합니다.",
+        "노란봉투법 관련 쟁의행위 시 사용자 범위 및 손해배상 책임과 관련한 내부 규정 및 쟁의 대응 매뉴얼을 검토하고 업데이트를 준비합니다.",
+        "노동조합과의 단체교섭 및 쟁의 발생 시 변경된 지침 내용을 정확히 파악하고 법률 자문 및 노무사 검토를 통해 대응 방안을 수립합니다.",
+        "이번 대법원 판결의 구체적인 내용과 향후 하급심 판결 동향을 면밀히 분석하여, 사업장의 노사관계 리스크 관리 방안을 재검토해야 합니다.",
+        "노조법상 '사용자' 범위 확대 가능성에 대비하여, 특수고용형태 종사자 또는 하청업체 근로자와 관련된 노무 관리 실태를 점검하고 잠재적 법률 리스크를 식별해야 합니다.",
+        "노동조합의 쟁의행위에 대한 손해배상청구 가능성 및 범위에 대해 재검토하고, 관련 법률 전문가와 상담하여 사내 규정 및 대응 전략을 업데이트해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:48",
+      "scraped_at": "2026-09-13 00:48",
+      "revision": 2,
+      "updated_at": "2026-09-13 00:54"
+    },
+    {
+      "title": "부산도시공사, 건설 현장 다국어 안전 현수막 설치",
+      "category": "채용/조직문화",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8yVHFMYXNFWEJXM0RWVUNOaEUxZUdiTzZDT1JTS1Q1OVlGYXZZVTRldGFRQ01OUjY3d0dMQTlWZnZRN0NSa0h2cVRpRGVCR2lKTGY2UEk1RFA0UGUySzBuSlB0YTJ0Y0ZYa0VTOVZaOTNPNG5wbXU1aU9rT1M?oc=5",
+      "source": "busan.com",
+      "summary": "부산도시공사가 에코델타시티 건설 현장에 외국인 근로자를 위한 다국어 안전 현수막을 설치했습니다. 이는 언어 장벽으로 인한 안전사고를 예방하고 모든 근로자가 안전 수칙을 명확히 인지할 수 있는 쾌적한 작업 환경을 조성하기 위한 노력의 일환입니다.",
+      "novelty_impact": "국내 건설 현장의 외국인 근로자 증가 추세에 맞춰 안전 소통 방식을 다각화함으로써 산업안전보건법상 사업주의 안전보건 조치 의무를 실질적으로 이행하고 사고 예방에 기여할 수 있는 모범 사례입니다.",
+      "action_point": [
+        "사업장 내 외국인 근로자 현황 및 주요 언어를 파악하여, 안전보건 교육 및 게시물(안전 수칙, 경고 표지 등)의 다국어 지원 필요성을 검토하고 실제 적용 방안을 마련해야 합니다.",
+        "산업안전보건법에 따른 유해위험 작업 및 물질에 대한 경고, 작업 방법 등의 정보를 외국인 근로자가 이해하기 쉬운 언어로 제공함으로써 언어적 접근성을 확보하고 안전사고 예방을 위한 실질적인 조치를 강구해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:48",
+      "scraped_at": "2026-09-13 00:48",
+      "revision": 0
+    },
+    {
+      "title": "미래 기업 설립을 위한 2026년 가이드",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vUnlLSkRWaVl3MXRlR3BJaXdlOGJZbXQycU1abkFKNGxHRFEyYjVGbEFFRDdtUVY3ZnFCd3JPN3dMdXhhaFNZVGdVdWlKVy1CeVZEQm9RSXV5MTMtTUQ0NnB3em1KUWlHN09HdXJfdEcxdw?oc=5",
+      "source": "Forbes",
+      "summary": "Forbes가 제시하는 2026년 창업 가이드는 미래 비즈니스 환경에서 성공적인 기업 설립을 위한 핵심 요소를 다룹니다. 이 가이드는 AI, 자동화 등 기술 발전과 변화하는 인재상, 유연한 조직 문화 구축의 중요성을 강조하며, 초기 단계부터 지속 가능한 성장과 경쟁력 확보를 위한 HR 전략 수립의 필요성을 시사합니다.",
+      "novelty_impact": "미래 기업의 성공 공식과 HR 전략 방향을 예측하여, 기존 기업들도 급변하는 시장 환경에 맞춰 인재 운영 및 조직 설계 방식을 재고할 수 있는 통찰을 제공합니다.",
+      "action_point": [
+        "미래 비즈니스 모델 변화에 따른 요구 역량을 예측하고, 내부 인재 개발 계획 및 채용 전략에 반영해야 합니다.",
+        "새로운 기업들의 유연한 조직 문화 및 인재 유치 전략을 분석하여 우리 회사에 적용 가능한 HR 혁신 방안을 모색해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:45",
+      "scraped_at": "2026-09-13 00:45",
+      "revision": 0
+    },
+    {
+      "title": "농식품부, 농촌 활력 제고를 위한 기본소득 및 사회연대경제 정책 추진",
+      "category": "보상/평가",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1fVk5mS2I0ZFE5LTJpWlZLYmVLcXB1QmJTTkJfcUxEempQdGllSTUyMzVvVmhMQ1VkdEI3dk5BcDZ4ZVFNenJKMDdvRWk?oc=5",
+      "source": "시사일보",
+      "summary": "농림축산식품부가 농촌 지역의 인구 감소 및 경제 침체에 대응하여 농어촌 기본소득 도입과 사회연대경제 활성화를 추진합니다. 이 정책은 농촌의 경제적 기반을 강화하고 지속 가능한 공동체를 형성하여, 궁극적으로 지역 주민의 소득 안정화 및 생활 환경 개선을 목표로 합니다.",
+      "novelty_impact": "농촌 지역에 기본소득을 도입하여 주민의 소득 안정성을 높이는 정부 정책으로, 이는 해당 지역의 전반적인 노동 시장 임금 수준 및 근로자의 보상 기대치에 간접적인 영향을 미칠 수 있습니다.",
+      "action_point": [
+        "농촌 지역 인력 채용 및 유지 시, 기본소득 제도 도입이 임금 및 복리후생 정책에 미칠 장기적 영향 분석",
+        "지역의 기본소득 정책이 전체적인 인력 수급과 보상 기대치에 미치는 영향 검토 및 HR 전략에 반영"
+      ],
+      "collected_at": "2026-09-13 00:44",
+      "scraped_at": "2026-09-13 00:44",
+      "revision": 0
+    },
+    {
+      "title": "Oracle 26C 로드맵: AI 에이전트, 에이전트 앱 및 AI 스튜디오 스킬 도입",
+      "category": "HR테크/AI",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zU1BYWXFWV1pKeTlLdjBLc0k0OUp1eV81ZWdieW4yZXdZMm1kV040YlhOWFZmb2xfZzNLWFpScTlFeXliMnhfTEZnV1A1X24yMFhQMXh5VjBFZjA?oc=5",
+      "source": "Oracle Blogs",
+      "summary": "오라클이 26C 로드맵을 통해 AI 에이전트, 에이전트 앱, AI 스튜디오 스킬 등 차세대 AI 기능을 선보일 예정입니다. 이는 기업 애플리케이션 전반에 걸쳐 자율적이고 지능적인 AI 역량을 통합하여 HR을 포함한 다양한 업무의 자동화 및 효율성을 극대화하는 것을 목표로 합니다.",
+      "novelty_impact": "HR 분야를 포함한 기업 솔루션 전반에 걸쳐 더욱 고도화된 AI 에이전트와 맞춤형 AI 스킬 도입을 예고하며, AI 기반 업무 자동화 및 인텔리전트 애플리케이션 활용의 새로운 시대를 열 것으로 기대됩니다.",
+      "action_point": [
+        "글로벌 HR 테크 트렌드 중 AI 에이전트 및 자율형 AI 솔루션 도입 동향을 주시하고, 향후 HR 업무(예: 채용, 온보딩, 직원 지원) 적용 가능성 및 기대 효과를 검토하십시오.",
+        "HR 시스템에 AI 기능 도입 시, 데이터 보안, 개인정보 보호 및 AI 윤리적 활용 방안에 대한 선제적인 내부 논의를 시작하고 가이드라인을 수립하십시오.",
+        "AI 기반 솔루션 도입에 따른 HR 담당자의 역할 변화 및 필요한 역량(예: AI 도구 활용, 프롬프트 엔지니어링) 강화를 위한 교육 및 개발 계획을 수립하십시오."
+      ],
+      "collected_at": "2026-09-13 00:43",
+      "scraped_at": "2026-09-13 00:43",
+      "revision": 0
+    },
+    {
+      "title": "2026년 이스라엘 하이테크 기업 투자 유치 현황",
+      "category": "HR테크/AI",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hV1d2c0FZTk5qeF85dGpPZE95SndRQVhRRTJySkh6NjJwNklHenJzNHFKSGlodUJndy0ydzBobVYycGt3TUxHZ1k1VC0zcTI5OVdOOXhhN0JOTWpiaTJFeEpvM24yeGs?oc=5",
+      "source": "calcalistech.com",
+      "summary": "이스라엘 하이테크 부문의 2026년 주요 투자 유치 목록이 공개되었습니다. 이 목록은 글로벌 기술 혁신 허브인 이스라엘의 활발한 스타트업 생태계와 기술 성장 동력을 보여줍니다.",
+      "novelty_impact": "글로벌 기술 혁신을 주도하는 이스라엘의 투자 동향을 통해 HR테크를 포함한 미래 기술의 성장 방향을 예측하고, 관련 분야의 인재 확보 전략 수립에 참고할 수 있습니다.",
+      "action_point": [
+        "글로벌 HR테크 시장의 성장 분야와 유망 기업을 파악하기 위해 이스라엘 등 주요 기술 허브의 투자 동향을 주기적으로 모니터링합니다.",
+        "새로운 기술 영역에서 요구되는 인재상 변화를 예측하고, 이에 맞는 국내외 인재 확보 및 육성 전략을 검토합니다."
+      ],
+      "collected_at": "2026-09-13 00:43",
+      "scraped_at": "2026-09-13 00:43",
+      "revision": 0
+    },
+    {
+      "title": "고용노동부 지침의 비구속성 및 법원 판결과의 괴리 문제",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE84RjZQVXExdUY3bGF3M1ZtcFAtd3VQNmV0TFd5U3FXU2tyZk96bE9iajZVZ0tJUmRWNXU3bjFUS01BaXNTMjBNWGFUVFF3aF9UNWVkSA?oc=5",
+      "source": "v.daum.net",
+      "summary": "고용노동부의 행정지침이 법적 구속력이 없어 기업이 이를 따르더라도 법원 판결에 따라 뒤집힐 수 있는 문제점을 지적합니다. 이로 인해 기업은 혼란을 겪고, 지침을 신뢰했던 기업에 대한 법적 책임 소재가 불분명해질 수 있다는 우려가 제기됩니다.",
+      "novelty_impact": "고용노동부의 행정지침만으로 법적 리스크를 완전히 해소하기 어렵다는 점을 상기시키며, 실무 적용 시 법적 검토의 중요성을 강조하는 시사점을 제공합니다.",
+      "action_point": [
+        "고용노동부 지침 준수 외에 주요 인사 쟁점은 반드시 법률 전문가의 자문을 통해 법적 리스크를 검토해야 합니다.",
+        "기업 내 취업규칙, 근로계약서 등 인사 규정이 고용노동부 지침과 법원 판례 중 어느 쪽에 더 부합하는지 주기적으로 점검하고, 필요한 경우 선제적으로 개정해야 합니다.",
+        "관련 쟁점에 대한 법원 판결 동향을 지속적으로 모니터링하여 인사 실무에 반영할 준비를 합니다."
+      ],
+      "collected_at": "2026-09-13 00:40",
+      "scraped_at": "2026-09-13 00:40",
+      "revision": 0
+    },
+    {
+      "title": "데이터 센터 숙련직 부족 심화: 글로벌 인재 확보 전략 재고 필요",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZUpibVpoMDVWQ1BzMVNnYTNLQnRtQUwxZURlZkZUektvWWxKSWo5MTc0ZEp5VXhrd1ZDWjRraGxYU3g4ZkQzR1l5eWZBNmdEdnJBR1VjZDdpd0tRYktPREE4UFRQcm9uS2ZaX0hYTWV0bzRMcHhwaFVVR1NLMEFVRXBHdDFLVlBqbUR2SUJlQnBXTC1pbUplZHRJSDc?oc=5",
+      "source": "hrdive.com",
+      "summary": "전 세계 데이터 센터 산업이 숙련된 인력 부족에 직면했으며, 이는 산업 성장을 저해하는 주요 요인으로 지적되었습니다. 보고서에 따르면 데이터 센터 운영에 필수적인 엔지니어, 기술자 등 핵심 직무에서 심각한 인력난을 겪고 있어, 기업들은 장기적인 인재 확보 및 육성 전략을 시급히 재고해야 합니다.",
+      "novelty_impact": "전 세계 디지털 전환 가속화에 따라 핵심 인프라인 데이터 센터의 인력난은 관련 산업뿐 아니라 전반적인 IT 및 기술 부문 기업에도 인재 전략 수립에 중요한 시사점을 제공합니다.",
+      "action_point": [
+        "글로벌 인재 시장의 변화와 핵심 산업별 인력 수급 불균형 추이를 지속적으로 모니터링하고, 중장기 인재 확보 전략에 반영합니다.",
+        "미래 성장 동력 산업 및 직무에 필요한 역량 개발을 위한 내부 교육 훈련 프로그램을 강화하고, 직무 전환 교육 기회를 적극적으로 제공하여 인력의 역량 전환을 유도합니다.",
+        "숙련된 인재 유치 및 유지를 위해 경쟁력 있는 보상 및 복지 제도, 유연한 근무 환경 조성 방안을 검토하고, 기업의 HR 브랜딩 전략을 수립합니다.",
+        "해외 사업 확장을 계획 중인 경우, 진출 국가 및 산업의 인력 수급 상황을 면밀히 분석하여 현지 맞춤형 채용 및 인재 관리 전략을 수립해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:39",
+      "scraped_at": "2026-09-13 00:39",
+      "revision": 0
+    },
+    {
+      "title": "경제 불안정성이 임원 보상 결정의 핵심 요소로 부상",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUWFVamhHTklRcUpRaWVWUkViS0wyNXJBVVpkMkF2TDJmdWYtNE9VNVlLd24tYlFjN3ZLNmRELWJIb2dXaUtNUmVkczhka1poRnlfMTlPWHYxWTV5NGhhUC13VXg2THVYa2E3NXNLM0c0UU8xMFA5THFNb1ZJdGxMMjJLN2k1Y1p5S25XZWJrbG5RRDNobE8zMWt3VDQ0NUtWRllXU19CTTFGRklUOFE?oc=5",
+      "source": "hrdive.com",
+      "summary": "글로벌 기업들이 경제 불확실성이 심화됨에 따라 임원 보상 및 혜택 결정 시 경기 상황을 핵심 고려 사항으로 삼고 있습니다. 이는 임원진의 동기 부여와 리스크 관리를 동시에 만족시키기 위해 기존 보상 체계를 재검토하고 유연성을 강화하는 추세로 해석됩니다.",
+      "novelty_impact": "변동성 높은 경제 환경에서 임원 보상 전략을 어떻게 가져갈지 고민하는 글로벌 기업들의 최신 트렌드를 보여줍니다.",
+      "action_point": [
+        "불안정한 경제 환경에 대비하여 국내외 경제 지표와 전망을 주기적으로 모니터링하고, 임원 보상 체계에 미칠 영향을 분석해야 합니다.",
+        "변동성이 큰 시기에도 임원진의 동기 부여와 기업 성과를 연계할 수 있는 유연한 보상 설계(성과 연동 보너스 조정, 주식 보상 활용 등) 방안을 검토해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:39",
+      "scraped_at": "2026-09-13 00:39",
+      "revision": 0
+    },
+    {
+      "title": "고용노동부, 청년 지원사업 우수사례 공모",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OMndjd19yZGpiWW4xV2lQeDNRcjNaUXlTVVBwXzNYcjRoRnN1ZFI5QXhPMnZxMFl2OFZkVERIYzNzdkhaMDRFel80VGd6VU5wOXBMZ3oxeV80V1dH?oc=5",
+      "source": "국악타임즈",
+      "summary": "고용노동부가 '청년도전 지원사업'과 '청년성장 프로젝트'의 우수사례를 접수합니다. 이 사업은 구직 단념 청년에게 맞춤형 프로그램을 제공하여 경제활동 참여를 돕고, 청년의 직무 역량 강화 및 기업 적응을 지원하는 것을 목표로 합니다. 선정된 우수사례는 향후 정부 정책의 효과적인 홍보 및 확산에 활용될 예정입니다.",
+      "novelty_impact": "정부가 청년 고용 활성화를 위한 지원사업의 성과를 공유하고 확산하는 기회를 제공하며, 기업 입장에서는 우수 고용 사례를 대외적으로 인정받을 수 있는 기회입니다.",
+      "action_point": [
+        "고용노동부의 청년 지원 사업 공고(예: 청년고용장려금, 국민취업지원제도 연계 프로그램)를 주기적으로 확인하여 우리 회사에 해당하는 지원금 또는 인력 양성 프로그램 활용 가능성을 검토해야 합니다.",
+        "특히 채용 및 교육 담당자는 청년 내일채움공제 등 청년 지원 제도에 대한 이해를 높여 신규 채용 청년 근로자에게 안내하고 혜택을 받을 수 있도록 적극 지원해야 합니다.",
+        "우리 회사가 고용노동부의 청년 지원사업(청년도전 지원사업, 청년성장 프로젝트 등)에 참여하여 성공적인 사례가 있다면, 대외 홍보 및 기업 이미지 제고를 위해 우수사례 제출을 적극 검토할 것.",
+        "정부의 청년 고용 지원사업 동향을 파악하고, 향후 유사 사업 참여 또는 연계 가능한 HR 프로그램을 기획할 때 우수사례 분석 결과를 참고하여 활용할 것."
+      ],
+      "collected_at": "2026-09-13 00:38",
+      "scraped_at": "2026-09-13 00:38",
+      "revision": 1,
+      "updated_at": "2026-09-13 00:39"
+    },
+    {
+      "title": "고용노동부, 경영성과급 등 노동쟁의 대상 판단 지침 발표",
+      "category": "노사관계/노동계",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBIV0JYVGRtVEs4M281d2RQTV9YWmxhUkNoS29maURJeWctUHVuVVNrdUxHSVpMMHlfbDFBMHVWNDJqclV5aVJES2UxSlVPa2lkNHJhVk1TX3JOLVI4dnRGUzVNV0tQRVlRQi1Ic0N30gFyQVVfeXFMTjhCc29UR0ZRSUNuSDRpRElmdjZiS05HR2NnMUl4emZITXBfY3RXbFhUakMwN3g2M1JpVGNSTVFCSFh1ZDhSRXJPZHRlU0hRbGV2bE5OZnJBdUI3bWNfRGNIQ3A1dG5BVE80NDdoS1RqY2FR?oc=5",
+      "source": "법률신문",
+      "summary": "고용노동부가 경영성과급이 노동쟁의 대상이 되는지 여부를 판단하는 새로운 시행지침을 발표했습니다. 본 지침은 기업의 경영성과급 지급이 재량에 기반한 경우와 단체협약 등에 명시된 기준에 따른 경우를 구분하여 노동쟁의 가능 여부를 명확히 했습니다. 이는 경영성과급을 둘러싼 노사 간의 오랜 갈등과 법적 불확실성을 해소하려는 목적을 가집니다.",
+      "novelty_impact": "경영성과급이 노동쟁의 대상이 될 수 있는 경우를 구체적으로 제시함으로써, 노사 간 임금 및 보상 관련 집단적 교섭과 분쟁 해결 과정에 중요한 기준점을 제시합니다.",
+      "action_point": [
+        "단체협약 및 취업규칙 내 경영성과급 관련 조항을 검토하여 노동쟁의 대상이 될 수 있는 여지를 파악하고, 필요시 사규 개정 및 보완 계획 수립.",
+        "성과급 지급 기준 및 재량권 행사에 대한 내부 프로세스 및 커뮤니케이션 전략을 점검하여 잠재적 노사 분쟁을 예방.",
+        "향후 임단협 시 경영성과급을 둘러싼 노조의 요구에 대비한 대응 방안 마련 및 법률 검토를 통해 분쟁 리스크 최소화."
+      ],
+      "collected_at": "2026-09-13 00:38",
+      "scraped_at": "2026-09-13 00:38",
+      "revision": 0
+    },
+    {
+      "title": "고용부, 직무 중심 인사관리 확산 위한 경력 정보 통합 지원",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRms1UzV2OU4zT29MUjhheTNtTnVkVk8zSlFSRE5JNk1rcHpDRWNqa0NhbnliZGt3cUp2b0R5VkJBY3B3XzdRZG5lbzlIRjBOSjhPWVduRFlLRWlkMGgwNE1MU2FRNGJsVkxXbHo0UUVYS19yWFp0NnloY09xQnN0MGlaT0R2YmJOQ3U2ZGs4SGVwQQ?oc=5",
+      "source": "대한민국 정책브리핑",
+      "summary": "고용노동부가 근로자의 흩어진 경력 정보를 한눈에 볼 수 있도록 통합 관리 시스템을 구축하고, 기업들이 직무 중심 인사관리 체계를 도입할 수 있도록 지원하는 정책을 추진합니다. 이는 노동시장 내 인력 불균형을 해소하고 기업 생산성을 높이는 데 기여할 것으로 기대됩니다.",
+      "novelty_impact": "정부가 직무 중심 인사관리 도입을 적극 장려하고 경력 정보 통합 시스템을 지원함으로써, 기업의 HR 시스템 변화와 인재 활용 방식 개선에 직접적인 영향을 미칠 것입니다.",
+      "action_point": [
+        "기존 직무기술서(Job Description) 및 직무 분석 체계를 점검하고, 직무 중심 인사 체계로의 전환 가능성을 검토해야 합니다.",
+        "정부의 경력 정보 통합 시스템 활용 방안을 모색하고, 인재 채용 및 경력 개발에 반영할 준비가 필요합니다.",
+        "직무급 도입 등 보상체계 개편 필요성을 검토하고, 관련 사규 및 취업규칙 개정 계획을 수립합니다."
+      ],
+      "collected_at": "2026-09-13 00:37",
+      "scraped_at": "2026-09-13 00:37",
+      "revision": 0
+    },
+    {
+      "title": "대한민국을 세운 손, 미래를 이끌다",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1IX09pSEh4WS1QWEhZSWU3V3Yxa0R1dUhXb0E3VzN4Qm5id0ZIYmdNbWxRRXR6RTdMT0dwYnBuUmFpUVk3UGdnNV9KRkg3V19jTEVFVmxJY3VJeWw3NHFGRElBRnp6UDZUN1diNGwwS2hReE0y?oc=5",
+      "source": "대한민국 정책브리핑",
+      "summary": "고용노동부에서 과거 노동자들의 헌신을 기리고 미래 세대를 위한 노동 환경을 구축하기 위한 새로운 정책 비전을 발표했습니다. 이는 노동의 가치를 재조명하고, 변화하는 산업 환경 속에서 근로자의 권익 보호 및 지속 가능한 일자리 창출을 목표로 합니다.",
+      "novelty_impact": "정부의 중장기적인 노동 정책 방향성을 명확히 제시하며, 향후 발표될 구체적인 근로자 지원 제도 및 고용 관련 법규 개정의 기조를 이해하는 중요한 자료가 됩니다.",
+      "action_point": [
+        "고용노동부에서 발표할 후속 정책 및 세부 시행 방안을 면밀히 모니터링하여 우리 회사에 미칠 영향을 분석합니다.",
+        "정부의 노동 정책 방향성에 맞춰 사내 근로조건, 복지 제도, 채용 및 교육 프로그램 등에 대한 선제적인 검토 및 개선 방안을 논의할 준비를 합니다.",
+        "특히 고용 형태 다변화 및 미래 노동 시장 변화에 대비한 내부 규정 정비 필요성을 검토합니다."
+      ],
+      "collected_at": "2026-09-13 00:37",
+      "scraped_at": "2026-09-13 00:37",
+      "revision": 0
+    },
+    {
+      "title": "재택근무 복귀(RTO) 움직임이 여성에게 미치는 영향",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb25EQWoweHIzZDRuUzFNN3pWWks0cTdlQ1ZtY0k4M0V6eDN4Y1JyLTBkNzhZalhtdmZseVFfdERUeWI1c25jbV9fbE1pSlBnYnZzSkhiRTZHekU4Z3pSX1Z1bDVNbmpBQjltOFM3QjBXVUlVdWNEWGZTbzJHZGNMc0dJODJEVElQTGxRY042ZEpTcUQtdW5VTVZFWlpGVmV1TXZfVmhFb3c?oc=5",
+      "source": "Deseret News",
+      "summary": "재택근무에서 사무실 복귀(RTO) 움직임이 여성 근로자에게 특히 부정적인 영향을 미치고 있다는 의견이다. 이는 주로 육아 및 가사 부담이 여성에게 집중된 현실 때문으로, 원격근무의 유연성이 사라지면서 여성의 경력 유지 및 발전에 어려움이 가중될 수 있다. 결과적으로 직장 내 성별 형평성 진전에 제동을 걸 수 있다는 지적이다.",
+      "novelty_impact": "RTO가 단순히 근무 형태의 변화를 넘어 여성의 경력 단절 및 성별 불평등 문제를 야기할 수 있음을 보여주는 심층 분석.",
+      "action_point": [
+        "기업의 RTO 정책 수립 시 여성 근로자, 특히 워킹맘의 특수성을 고려한 유연근무 제도(하이브리드, 탄력근무 등)를 병행하여 검토.",
+        "DEI(다양성, 형평성, 포용성) 관점에서 RTO가 특정 집단에 미칠 수 있는 영향 분석 및 정책 수립 시 해당 요소 반영.",
+        "사무실 복귀가 불가피할 경우, 여성 근로자가 직면할 수 있는 육아 및 가사 부담 완화를 위한 사내 지원 방안(예: 긴급 보육 지원, 유연한 출퇴근 시간) 마련 검토."
+      ],
+      "collected_at": "2026-09-13 00:35",
+      "scraped_at": "2026-09-13 00:35",
+      "revision": 0
+    },
+    {
+      "title": "고양시, 고용노동부 장관상 2년 연속 수상으로 고용 정책 우수성 인정",
+      "category": "고용노동부 정책",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XdU9Rc1p4X1FYWElUZmtvTWkwa1ZoOXZiem9faS1xd0xHcHg0aVdEV3pEYnNMXzlmdWZKbjFFaXNySkxlUEJra280Q1NrVXVDaDZOLU5DT3BCUnluNjJJSmFHM0pIVTdoeGxrajdnZUs?oc=5",
+      "source": "인천일보",
+      "summary": "고양시가 고용노동부 주관 시상식에서 2년 연속 고용노동부 장관상을 수상했습니다. 이는 고양시가 지역 내 일자리 창출과 고용 활성화를 위한 정책 추진에 있어 우수한 성과를 지속적으로 인정받았음을 의미합니다.",
+      "novelty_impact": "고용노동부가 지자체의 고용 정책 성과를 지속적으로 평가하고 우수 사례를 장려하는 정책 방향을 보여주며, 기업의 지역 고용 지원 프로그램 참여 및 협력 가능성을 시사합니다.",
+      "action_point": [
+        "고용노동부의 지역 고용 활성화 정책 방향을 파악하고, 당사 사업장이 소재한 지자체의 고용지원 프로그램(예: 청년/중장년 고용 인센티브, 일자리 매칭 사업) 참여 또는 연계 방안을 검토합니다.",
+        "고양시의 수상 요인이 구체적으로 무엇인지 분석하여, 기업의 사회적 책임(CSR) 활동이나 지역사회 상생 협력 프로그램 기획 시 참고할 만한 우수 사례가 있는지 파악합니다."
+      ],
+      "collected_at": "2026-09-13 00:32",
+      "scraped_at": "2026-09-13 00:32",
+      "revision": 0
+    },
+    {
+      "title": "기업 성장 계획에도 인력난 압박 가중: 해외 HR 동향",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSUxXMjh4bUhIVW0tbWItZHREVTl0T0w2SGtRZE9oZ2MycDZrRzhlX0VycW01MXQ0Z0RWUDJFSHMtRjY4SlBWWlJObTNnTnBjdVI1eC1vbWtuaU4wV2VkbkZMN2dQd3BjQkNNNjJOekk0bkRQWE1CamNiY2hXRklRYTdjZHlnbER1LTBOa3dSWHlVTFhmdUxlTkFfbjJLa3RncVJxUUlKYTEwT2Vsa2huR3h2VzNvRmd6NU82OG80aw?oc=5",
+      "source": "PR Newswire",
+      "summary": "해외 기업들은 성장을 계획하고 있지만, 숙련된 인재 확보, 직원 유지, 인건비 상승 및 조직 개편 압력으로 인해 인력 운영에 대한 부담이 계속 커지고 있습니다. 이러한 복합적인 인력 압력은 생산성 저하와 성장 둔화로 이어질 수 있어, 기업들은 더욱 정교하고 장기적인 인력 전략 수립이 필요합니다.",
+      "novelty_impact": "글로벌 기업들이 성장을 추구하면서도 인재 확보 및 유지를 둘러싼 복합적인 압력에 직면하고 있다는 점은, 국내 기업들 역시 인력 계획 및 관리를 더욱 전략적으로 접근해야 함을 시사합니다.",
+      "action_point": [
+        "글로벌 인재 시장의 변화를 인지하고, 현재의 인력 계획(Workforce Planning) 및 채용 전략이 미래 성장에 적합한지 주기적으로 재점검하십시오.",
+        "인재 유출 방지를 위해 보상 경쟁력과 유연한 조직 문화, 경력 개발 기회를 선제적으로 검토하고 핵심 인재 유지 전략을 강화하십시오.",
+        "미래 성장을 위한 핵심 역량 부족에 대비하여, 기존 직원의 재교육(Reskilling) 및 역량 향상(Upskilling) 프로그램을 적극적으로 기획하고 실행하십시오."
+      ],
+      "collected_at": "2026-09-13 00:31",
+      "scraped_at": "2026-09-13 00:31",
+      "revision": 0
+    },
+    {
+      "title": "AI 및 디지털 도구 활용 확산에 따른 직무 변화: 인재 육성 전략 재검토 필요",
+      "category": "채용/조직문화",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcEZjVHRKbTdrVnlONEthM1VRVXp2NWE5eXVMbS1mallPQ2RyVDRueVNaR0dyaU9RWHR5M0dvM0pLWW1ybElsR0R0b2JKT2N3MHVWcHU2Qy1UenNHVHJCWldJLUQ1MmFYZk5Ec3h2b19WWTJCaU1xX2ZhNlVwcHVPYV9XQ2VyYVhSekVN?oc=5",
+      "source": "대한민국 정책브리핑",
+      "summary": "치과의사의 ChatGPT 활용, 방송작가의 유튜브 이용 사례처럼 다양한 직무에서 인공지능(AI)과 디지털 도구 활용이 보편화되고 있습니다. 이러한 기술 도입은 기존 직무의 업무 방식과 요구 역량을 변화시키므로, 기업은 이에 맞춰 사내 교육 및 인재 육성 전략을 선제적으로 재편해야 합니다.",
+      "novelty_impact": "특정 직무를 넘어 광범위한 분야에서 AI 및 디지털 도구 활용이 심화되며, 기존 직무 정의와 요구 역량에 대한 재검토 및 HR 전략 변화의 필요성을 강조합니다.",
+      "action_point": [
+        "현재 직무별 AI 및 디지털 도구 활용 현황 및 잠재적 영향을 진단하고, 이에 따른 직무 기술서 업데이트를 검토한다.",
+        "직무별 디지털 리터러시 및 AI 활용 역량 강화를 위한 사내 교육 프로그램 또는 외부 위탁 교육 도입을 계획한다.",
+        "미래 핵심 역량을 고려한 인재 육성 로드맵을 수립하고, 재직자 전환배치 및 재교육(Reskilling/Upskilling) 기회를 마련한다."
+      ],
+      "collected_at": "2026-09-13 00:31",
+      "scraped_at": "2026-09-13 00:31",
+      "revision": 0
+    },
+    {
+      "title": "2026년 인사팀이 직면할 8가지 주요 도전과제 및 대응 전략",
+      "category": "글로벌 HR 트렌드",
+      "region": "해외",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNW0wWW9BQ2dSbFNOOTdNTW9ldW1wQWladUNnOVdoVXlodnRsajdpeXBBRFY4Y3VQZDVJWDA1bngycktmcl9PbnN5TUZsc1lKb2ZCbWlZYzBPQURKTTZjLTQtcWxQc08zMTlpV1h4TW9oRGdSdWpZZmphY0hkWkVXNTh3MlJwdEt3ekdVMDNILTNRTXJJ?oc=5",
+      "source": "Business.com",
+      "summary": "2026년까지 HR 부서가 마주할 주요 8가지 도전 과제를 제시하며, 변화하는 노동 시장 트렌드와 함께 실질적인 해결책 및 활용 가능한 HR 테크 도구들을 소개합니다. 본 기사는 미래 인재 관리, 조직 문화 혁신, HR 기술 도입 등에 대한 글로벌 인사 동향을 파악하고 선제적으로 대응하기 위한 실무 가이드라인을 제공합니다.",
+      "novelty_impact": "현재 당면한 과제뿐만 아니라 2026년이라는 특정 시점까지의 미래 HR 도전 과제와 구체적인 대응 방안을 제시하여, 전략적 인사 기획에 실질적인 통찰력을 제공합니다.",
+      "action_point": [
+        "각 사업장의 현지 노동법 및 HR 관련 규제 변화를 지속적으로 모니터링하고, 사내 정책 및 취업규칙에 반영하는 프로세스를 점검합니다.",
+        "정기적인 HR 규제 준수 내부 감사를 실시하여 잠재적 리스크를 식별하고, 비즈니스 연속성을 위한 대응 계획을 수립합니다.",
+        "규제 준수 프로세스 자동화 및 효율적인 데이터 관리를 위해 HR 테크 솔루션 도입 또는 활용 확대를 검토합니다.",
+        "미래 인력 운영 전략: 유연근무, 하이브리드 근무 등 변화하는 근무 형태에 맞춰 조직의 인력 운영 전략을 재검토하고 유연성을 확보해야 합니다.",
+        "핵심 인재 확보 및 유지: 2026년 예상되는 인재 확보 및 유출 과제에 대비하여 차별화된 채용 전략, 보상 시스템, 경력 개발 프로그램을 구상해야 합니다.",
+        "HR 기술 로드맵 수립: 미래 HR 트렌드에 대응하기 위한 AI 기반 채용 솔루션, 성과 관리 시스템 등 HR 테크 도구 도입을 위한 중장기 로드맵을 검토해야 합니다.",
+        "조직 문화 및 리더십 개발: 포용적인 조직 문화 조성, 직원 복지 강화, 리더십 역량 강화를 통해 미래 조직의 적응력과 생산성을 높이는 방안을 모색해야 합니다."
+      ],
+      "collected_at": "2026-09-13 00:28",
+      "scraped_at": "2026-09-13 00:28",
+      "revision": 1,
+      "updated_at": "2026-09-13 00:34"
+    },
     {
       "title": "관광공사, K-휴가문화 확산으로 기업 경쟁력 및 인재 유치 강조",
       "category": "채용/조직문화",
@@ -166,20 +943,29 @@
       "revision": 0
     },
     {
-      "title": "노동법으로 인한 투자 저해 및 분쟁 발생 우려, 노동법 개정 논의 본격화",
+      "title": "대법원, 노란봉투법 이전 CJ대한통운의 택배노조 교섭의무 불인정 판결",
       "category": "노동법/판례",
       "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GZHcwM3FGR1gtTWJsX09kOHRnVjJtMjJGQ2poa2h4eWprZ0NnS25sUzdxRnJSTmJReFZBVk0zTGxMc0dBSlh2azMxOU1lTFFDZGJCUl9R?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wbnNyZWlWMTM5WGU3dzhab1RRcnRqRFRoN3JoNFQ3WHdBM3JIYm8tRjZpTFJwLWtfdU5LQkVrUHk4S3hPeGI0blFGaVpCbjR0b0JVdER5ckhsakd4UDN6cXF5S1Q?oc=5",
       "source": "매일경제",
-      "summary": "이재명 더불어민주당 대표가 현행 노동법이 국내 첨단 산업 투자(팹 투자)를 저해하고 노사 분쟁을 유발하고 있다고 지적하며, 노동법 개정의 필요성을 강하게 시사했습니다. 이는 국내 투자를 활성화하고 법적 안정성을 확보하기 위해 현행 노동법 체계를 전반적으로 검토하고 개선해야 한다는 사회적 요구가 커지고 있음을 보여줍니다.",
-      "novelty_impact": "주요 정치인이 노동법이 기업 투자 및 운영에 미치는 부정적 영향을 공식적으로 언급하며 개정 논의를 촉발했다는 점에서, 향후 HR 정책 및 법적 환경에 중대한 변화 가능성을 시사합니다.",
+      "summary": "HD현대중공업 대법원 전원합의체 판결이 노조의 쟁의행위로 인한 손해배상 책임 범위와 관련하여 '노란봉투법'(노동조합 및 노동관계조정법 개정안)의 필요성을 다시금 부각시켰습니다. 학계에서는 이번 판결을 계기로 간접고용 관계의 사용자 책임 범위 및 쟁의행위 정당성 기준 등 후속 입법을 통한 제도 개선의 목소리가 커지고 있습니다. 이는 기업의 노무 관리와 노조와의 관계 설정에 중대한 영향을 미칠 수 있는 법적 쟁점입니다.",
+      "novelty_impact": "본 판결은 노란봉투법 이전 시점의 간접고용 관계에 대한 원청의 단체교섭 의무 유무를 다룬 대법원의 첫 판단이라는 점에서 중요한 선례가 되며, 향후 유사 쟁점에 대한 법적 판단의 기준이 될 수 있습니다.",
       "action_point": [
         "현행 노동법규(근로기준법, 파견법 등)가 기업의 투자 및 운영에 미치는 잠재적 리스크 요소를 내부적으로 재검토하고, 관련 법 개정 동향을 면밀히 모니터링해야 합니다.",
-        "노동법 개정 논의의 주요 쟁점과 방향을 예측하여, 사업장 내 근로조건, 고용 형태, 분쟁 예방 시스템 등 HR 제도 변화 가능성에 선제적으로 대비해야 합니다."
+        "노동법 개정 논의의 주요 쟁점과 방향을 예측하여, 사업장 내 근로조건, 고용 형태, 분쟁 예방 시스템 등 HR 제도 변화 가능성에 선제적으로 대비해야 합니다.",
+        "국회에서 논의 중인 노란봉투법(노동조합법 개정안)의 최종 입법 내용과 통과 시점을 지속적으로 모니터링해야 합니다.",
+        "법안 통과 시 노조의 쟁의행위 관련 손해배상 책임 및 업무방해죄 적용 범위 등에 변화가 예상되므로, 단체협약 및 쟁의행위 관련 사내 규정(예: 쟁의행위 준칙)의 수정 필요성을 검토하고 대비해야 합니다.",
+        "HD현대중공업 판결의 구체적인 내용과 대법원이 제시한 쟁의행위 정당성 및 손해배상 책임 판단 기준을 면밀히 검토하여, 사내 취업규칙 및 단체협약상 쟁의행위 관련 조항의 적법성을 재확인하고 필요한 경우 개정을 검토해야 합니다.",
+        "'노란봉투법' 입법 동향을 지속적으로 주시하고, 법안 통과 시 예상되는 사용자 범위 확대 및 손해배상 청구 제한 등의 변화에 대비하여 노사 관계 전략 및 위기 대응 매뉴얼을 사전 점검해야 합니다.",
+        "특히 협력업체 등 간접고용 관계에 있는 기업은 이번 판결 및 관련 입법 논의가 '사용자' 개념 확장에 미칠 영향을 분석하고, 책임 범위 변동 가능성에 대비한 리스크 관리 방안을 수립해야 합니다.",
+        "현재 사업장 내 플랫폼 종사자, 특수고용형태근로자 등 간접고용 관계에 있는 근로자 집단과의 교섭 관련 법적 의무 및 리스크를 재점검해야 합니다.",
+        "노란봉투법(노동조합법 개정안)의 향후 입법 진행 상황 및 실제 적용 시점에 따른 단체교섭 의무 확대 가능성을 지속적으로 모니터링하고 대비해야 합니다.",
+        "간접고용 근로자성 관련 판례 변화에 대한 이해를 바탕으로 HR 운영 방침 및 협력사 관리 방안을 검토하여 잠재적 노사관계 리스크를 예방해야 합니다."
       ],
       "collected_at": "2026-09-12 01:09",
       "scraped_at": "2026-09-12 01:09",
-      "revision": 0
+      "revision": 3,
+      "updated_at": "2026-09-13 00:51"
     },
     {
       "title": "노란봉투법(노조법 개정안) 입법 쟁점과 노사 수용성 제고 방안",
@@ -1080,20 +1866,24 @@
       "updated_at": "2026-09-12 01:10"
     },
     {
-      "title": "징계위원회 정족수 미달 시 해고는 무효",
+      "title": "징계위원회 불참 위원의 녹취록 의결, 법원 '정족수 위반 해고 무효' 판결",
       "category": "노동법/판례",
       "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pYWh0VFRfbkdRckpfNmVsaTNLOFBjd21UNFdOM0ozdVYwRjk2bUV5YlRfY0lFWEhvWldid240eWlob3JibFBMTElQVWFab1dPdTd1SWthRDdqLWhDdnJ1SVYyd1A3Smw0cUVldnFn0gFyQVVfeXFMTXgxVjV0Mm5hWm0zbG13cVlKQzl0OVBoLUYzdi1Ha01jS2JSVTBRSGJZdkhWa3M3UlZDZWJEMEM5VVR0MTdQVWFLcTA2blBIUHJxWmlGUjN1Tl9BWlJacjNHelBTMUpmZk92aTlVbDVjN1hn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB5UUpwX1ktMU9NcGJxenFmSjdyQVRRb245cFJwX2FjUkcwbE9aelJJTXdrbTB0RVFiemVFSVZyTXpEal9yMEw4RkY3RnNBQmJENWpDX2x6THlHQXdFdzk4MtIBeEFVX3lxTFBHR2NqdFdhaklzUkJNZTdHYVlXNUdLOTY3aGFvMktFVU5xM29wRHNHaVQtWnFZdXhBNThFNHl0bzN4ekZXUzRvbXlqcDRWOHhhY2tyb2ZwRmd4aG50RmtROEpHXzFnOGJrSlhGQlRjSUM0cTZ0bFJJcw?oc=5",
       "source": "법률신문",
-      "summary": "징계위원회의 정족수 요건을 충족하지 않은 상태에서 이루어진 해고는 무효라는 법원 판결이 나왔습니다. 이는 징계 절차의 적법성이 해고의 유효성을 결정하는 중요한 요소임을 재차 강조합니다.",
-      "novelty_impact": "징계 절차의 형식적 요건, 특히 징계위원회 정족수 준수가 해고의 정당성을 판단하는 핵심 기준임을 명확히 한 판결로, 인사 실무에 있어 절차적 하자 방지의 중요성을 부각시킵니다.",
+      "summary": "법원은 징계위원회 위원이 실제 회의에 불참하고 녹취록만으로 의결에 참여한 것은 정족수 미달로 무효라고 판결했습니다. 이로 인해 해당 직원에 대한 해고는 절차상 하자로 인정되어 부당해고로 판단되었습니다.",
+      "novelty_impact": "징계위원회 개최 시 위원의 물리적 참석 여부가 정족수 판단에 핵심적이며, 단순히 자료(녹취록 등) 검토만으로는 정족수를 충족할 수 없음을 명확히 한 중요한 판례입니다.",
       "action_point": [
         "HR 담당자는 현행 취업규칙 및 징계규정에 명시된 징계위원회 구성원 및 정족수 요건을 즉시 재점검하고, 미비점이 있다면 개정을 검토해야 합니다.",
-        "향후 징계위원회 개최 시에는 반드시 규정된 정족수를 충족한 상태에서 회의를 진행하고, 회의록에 참석자 명단 및 의결 내용을 명확히 기록하여 절차적 적법성을 확보해야 합니다."
+        "향후 징계위원회 개최 시에는 반드시 규정된 정족수를 충족한 상태에서 회의를 진행하고, 회의록에 참석자 명단 및 의결 내용을 명확히 기록하여 절차적 적법성을 확보해야 합니다.",
+        "징계위원회 운영 규정 및 취업규칙 내 위원들의 회의 참석 기준과 정족수 조항을 면밀히 검토하고 필요시 보완합니다.",
+        "징계위원회 위원들은 회의에 직접 참석하여 심의 및 의결에 참여해야 하며, 단순 녹취록 청취만으로는 정족수를 충족할 수 없음을 모든 위원에게 교육하고 주지시킵니다.",
+        "향후 징계위원회 진행 시, 위원의 물리적 참석 여부를 철저히 확인하여 절차상 하자로 인한 징계 무효 판결을 미연에 방지합니다."
       ],
       "collected_at": "2026-09-11 00:55",
       "scraped_at": "2026-09-11 00:55",
-      "revision": 0
+      "revision": 1,
+      "updated_at": "2026-09-13 00:56"
     },
     {
       "title": "대법원, 헤어디자이너 '근로자성' 인정 판결",
@@ -1171,20 +1961,24 @@
       "revision": 0
     },
     {
-      "title": "현대중공업 중대재해 반복, 안전대책 원점 재검토 촉구",
+      "title": "수사지휘 없는 노동감독관의 중대재해 수사 적법성 논란",
       "category": "노동법/판례",
       "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OWWFzbFI1MG9adWxuYWM1b3RCY0hRZW13SWNUSFNCQy1YUzhvWGhXWTN5SF9OcDlTZnVDLVFFamNYN2ZoRXdxQ3RnQ0xrTmxpZFVQWWxCeWR4VzBZeGpfVGw2VjVBekxVUnRTR0lyTDVFRms?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41RlcyYnhkRkhNcmtfeHFYbnRET053OGZRQkNBSWZnbmczZHRDQnhGMHJhSjF0aEhhczd5Tk9HakZuVHMyVE1Cb0pYTDZuR2U3ekU5c3k3NUJxbktoYUUtajh6THhlei1pMFVteFZIaEU?oc=5",
       "source": "울산종합일보",
-      "summary": "김태선 의원이 현대중공업의 반복되는 중대재해 발생에 대해 우려를 표하며, 현재 안전대책을 원점에서 재검토해야 한다고 촉구했습니다. 이는 중대재해처벌법 시행 이후 기업의 안전보건 의무 이행에 대한 사회적 압력이 커지고 있음을 보여줍니다.",
-      "novelty_impact": "중대재해처벌법 시행 이후에도 반복되는 중대재해 발생 기업에 대한 정치권 및 사회의 감시가 강화되고 있음을 시사하며, 기업의 안전보건 관리 책임에 대한 경각심을 높입니다.",
+      "summary": "노동감독관이 중대재해 사건을 수사할 때 검사의 수사지휘가 없어 수사 적법성 및 실효성에 대한 논란이 제기되고 있습니다. 이는 중대재해처벌법 시행 이후 발생하는 중대재해 수사 과정에서 절차적 정당성 확보에 대한 문제를 야기하며, 법 개정 및 유권해석을 통한 명확화가 필요하다는 지적이 나옵니다.",
+      "novelty_impact": "중대재해 발생 시 노동감독관의 수사 절차에 대한 법적 쟁점을 부각하며, 향후 수사 결과의 유효성 및 기업의 대응 전략에 중대한 영향을 미칠 수 있는 사안입니다.",
       "action_point": [
         "산업안전보건법 및 중대재해처벌법 준수 여부와 현행 안전보건 관리체계의 실효성을 전면 재검토하고 보완책을 마련해야 합니다.",
-        "중대재해 발생 시 책임자 처벌 및 기업 이미지 손상 등 광범위한 리스크에 대비하여 선제적인 안전투자 및 교육 강화 방안을 검토하십시오."
+        "중대재해 발생 시 책임자 처벌 및 기업 이미지 손상 등 광범위한 리스크에 대비하여 선제적인 안전투자 및 교육 강화 방안을 검토하십시오.",
+        "중대재해 발생 시 노동감독관의 수사 진행 방식 및 절차에 대한 현행법 및 판례 동향을 지속적으로 모니터링하여 법적 리스크를 관리해야 합니다.",
+        "사업장 내 중대재해 발생 시 수사 과정에서의 기업의 대응 매뉴얼을 점검하고, 적법한 절차에 따른 정보 제공 및 소명 준비 역량을 강화해야 합니다.",
+        "관련 법규(중대재해처벌법 등) 및 수사 절차 관련 법리 변화에 따라 내부 산업안전보건 규정 및 절차의 재검토 필요성을 검토합니다."
       ],
       "collected_at": "2026-09-11 00:51",
       "scraped_at": "2026-09-11 00:51",
-      "revision": 0
+      "revision": 1,
+      "updated_at": "2026-09-13 00:50"
     },
     {
       "title": "HD현대중공업 전원합의체 판결과 노조법 개정안(노란봉투법) 분석",
@@ -1267,788 +2061,6 @@
       ],
       "collected_at": "2026-09-11 00:49",
       "scraped_at": "2026-09-11 00:49",
-      "revision": 0
-    },
-    {
-      "title": "Octopyd, AI 기반 직무 매칭 서비스 'RoleMatch' 출시",
-      "category": "HR테크/AI",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa1E1SjVOZXBTeVlseVZpeldDYWF2b1gxODFEZWs1cG40WUF2YWpodjl4RjExMUpVSnpyeWpyeTFZV0dYcnh2cFh3ekxxcmdVSkxvT2RBNVJtWWs2U3pUS24yYmZGVk1zN1lpU1JNdVRRbUVJLUJiQTRQWjYyUy1GWGNIZlJsSGgza0UxWk03VTJFQlVURk9kcEptM1B0VEVLaHZFVzM2Vk0yYlNXbDF6X0tBSkIzNVA4a25XRE5sWDNmRlc1Ykg5REF2VjRpMnpobVBqdA?oc=5",
-      "source": "HRTech Series",
-      "summary": "HR 스타트업 옥토피드(Octopyd)가 인공지능 기반의 새로운 직무 매칭 서비스 'RoleMatch'를 선보였습니다. 이 서비스는 후보자가 단 한 번의 이력서 업로드만으로 자신의 역량에 가장 적합한 직무를 찾고 지원할 수 있도록 돕습니다. 기업은 이를 통해 인재 발굴 및 채용 프로세스를 효율화할 수 있습니다.",
-      "novelty_impact": "후보자의 이력서 데이터를 AI로 분석하여 최적의 직무를 추천함으로써 채용의 비효율성을 줄이고 인재 매칭 정확도를 높일 수 있는 잠재력을 가진 솔루션입니다.",
-      "action_point": [
-        "글로벌 채용 시장에서 AI 기반 매칭 기술의 발전 동향을 파악하고, 국내 기업의 채용 프로세스에 도입 가능한 HR테크 솔루션에 대한 벤치마킹을 고려합니다.",
-        "자사 채용 과정에서 이력서 분석 및 직무 매칭의 비효율성을 개선하기 위해 AI 활용 방안을 모색하고, 잠재적 도입 효과를 검토합니다."
-      ],
-      "collected_at": "2026-09-11 00:49",
-      "scraped_at": "2026-09-11 00:49",
-      "revision": 0
-    },
-    {
-      "title": "Workday HR 솔루션 분석: 주요 기능, 가격 및 장단점",
-      "category": "HR테크/AI",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZSnRscEE5RzRCYllKTS1ZTmZvaGZpNTJOeUZ3dVJJZVlnNnl0cE9icy1LWnR6S2NnQl9ZNy1XVTExZ2hHYXhsNl95dmJZYXhsXzVhaTlyUURYT1dmNlNFSURn?oc=5",
-      "source": "TechRepublic",
-      "summary": "이 기사는 글로벌 기업에서 널리 사용되는 클라우드 기반 HR 및 재무 관리 솔루션인 Workday의 주요 기능, 가격 책정 모델, 그리고 도입 시 발생할 수 있는 장단점을 심층적으로 분석합니다. HR 담당자가 Workday 도입을 고려할 때 필요한 다각적인 정보를 제공하여 전략적 의사결정을 돕습니다.",
-      "novelty_impact": "글로벌 시장의 대표적인 HR 솔루션인 Workday에 대한 상세한 분석을 통해, 국내 기업의 차세대 HR 시스템 도입 검토 시 글로벌 HR테크 트렌드 이해와 실질적인 솔루션 비교 평가에 활용될 수 있습니다.",
-      "action_point": [
-        "Workday와 같은 글로벌 HR테크 솔루션 도입 검토 시, 우리 기업의 규모, 비즈니스 특성, 현 HR 프로세스에 대한 Workday의 적합성을 면밀히 분석하고, 필요 모듈 및 커스터마이징 가능성을 평가해야 합니다.",
-        "Workday의 모듈별 기능(인재관리, 급여, 성과관리 등)과 가격 정책을 타 HRIS/HRMS 솔루션과 비교하여, 총 소유 비용(TCO: Total Cost of Ownership) 및 장기적 효용성을 종합적으로 평가할 필요가 있습니다."
-      ],
-      "collected_at": "2026-09-11 00:49",
-      "scraped_at": "2026-09-11 00:49",
-      "revision": 0
-    },
-    {
-      "title": "농어업회의소법 재추진: 과거 '거부권' 논란 딛고 부활",
-      "category": "노동법/판례",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKWTNxOElBWllfeEt1VmpPM1ZMOU1fT1daQWZqMEZ6YTJibW1hdUktRHRIaXN2LXVsMm1uVHdfYTJyZ0xONlR4RXRKTENGRDBJUEVpMFFYLUhrQQ?oc=5",
-      "source": "농민신문",
-      "summary": "과거 대통령 거부권 행사로 제정이 무산되었던 농어업회의소법이 다시 국회에서 추진됩니다. 이 법안은 농어업인의 권익 보호와 자치 기반 강화를 목적으로 하며, 2026년 9월 7일로 명시된 시점에 맞춰 향후 입법 과정에 대한 관심이 커지고 있습니다.",
-      "novelty_impact": "대통령 거부권으로 폐기되었던 법안이 재추진된다는 점에서 향후 입법 과정의 결과와 국내 농어업 관련 산업 및 근로자에게 미칠 잠재적 영향에 대한 지속적인 모니터링이 필요합니다.",
-      "action_point": [
-        "해당 법안의 국회 통과 여부 및 최종 확정될 내용, 시행 시기를 지속적으로 모니터링합니다.",
-        "농어업 관련 사업장이 있는 경우, 법안의 세부 내용을 검토하여 해당 분야 근로자의 고용 형태, 권익 보호, 단체 활동 등에 미칠 잠재적 영향을 사전 분석하고, 필요한 경우 HR 규정 및 가이드라인 변경을 준비합니다."
-      ],
-      "collected_at": "2026-09-11 00:48",
-      "scraped_at": "2026-09-11 00:48",
-      "revision": 0
-    },
-    {
-      "title": "석탄화력 폐지지역 지원 특별법 국회 통과",
-      "category": "노동법/판례",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmYmF2TzFFNzM2MXh1QVFKZFBCY1ZPM01fdDVleGFkLWlHNUNpOUJIMU9wdmk4bFE3eklJTV9oN1g3YjRUVDZiQ2stSk9GS0gyZExiVi1RT21ZMEhpLXQxblFoVnJUZGVtbVB5YURR?oc=5",
-      "source": "taeannews.co.kr",
-      "summary": "석탄화력발전소 폐쇄로 영향을 받는 지역과 근로자들의 ‘정의로운 전환’을 지원하기 위한 특별법이 국회를 통과했습니다. 이 법은 일자리 전환, 직업훈련, 지역경제 활성화 등 산업 구조 변화에 따른 고용 및 지역사회 안정을 목적으로 합니다.",
-      "novelty_impact": "탈탄소 전환 과정에서 발생하는 산업 구조 변화에 따른 근로자 보호 및 지역 경제 지원을 위한 새로운 법적 기반이 마련되어, 관련 기업의 인력 운영 및 지원금 활용에 중요한 변화를 가져올 것입니다.",
-      "action_point": [
-        "법안의 구체적인 내용(지원 대상, 지원 범위, 지원 절차 등)을 면밀히 파악하여, 사업장 또는 협력업체가 관련 지역에 있거나 영향을 받는 경우 활용 가능한 정부 지원책을 검토해야 합니다.",
-        "에너지 전환 정책 및 산업 재편에 따른 인력 운영 계획(직무 전환 교육, 재배치, 퇴직 지원 등) 수립 시, 본 특별법에서 제공하는 프로그램을 활용할 방안을 모색해야 합니다.",
-        "해당 법이 시행된 후 고용노동부 등 관계부처의 후속 지침이나 세부 시행령을 지속적으로 모니터링하여 HR 제도에 반영할 준비를 해야 합니다."
-      ],
-      "collected_at": "2026-09-11 00:48",
-      "scraped_at": "2026-09-11 00:48",
-      "revision": 0
-    },
-    {
-      "title": "석탄화력 폐지지역 지원 특별법 국회 통과",
-      "category": "노동법/판례",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FS0J0WWZCWDIwbDNyVUlMNjdJSmlMV2ppUGFwZHRXQW0xM0QwX29KV2ppbkV3c2toOUdWMHBna2Y3WXkxZTN2NXRmRmFDT1JUMjNSUU1tTC1ZR182RmZsbE1KUQ?oc=5",
-      "source": "환경포커스",
-      "summary": "석탄화력발전소 폐쇄로 인한 피해지역의 일자리 감소 및 지역경제 침체 문제 해결을 위해 특별법이 국회를 통과했습니다. 이 법은 해당 지역의 고용 유지와 경제 활성화를 위한 국가 차원의 지원을 명문화하여, 산업 전환에 따른 고용 위기에 선제적으로 대응합니다.",
-      "novelty_impact": "산업 구조 변화로 인한 특정 지역의 고용 불안정 문제에 대해 국가가 직접 개입하여 지원하는 법적 근거가 마련되어, 관련 기업의 인력 운영 계획 및 재배치 전략에 영향을 미칠 수 있습니다.",
-      "action_point": [
-        "해당 특별법 적용 대상 지역 내 사업장을 둔 기업은 법의 시행령 및 구체적인 지원 내용을 파악하여, 고용 유지 및 재취업 프로그램 활용 방안을 검토해야 합니다.",
-        "정부 및 유관기관에서 발표될 지원 사업(예: 직업훈련, 전직 지원금)에 대해 지속적으로 모니터링하고, 필요 시 사내 규정 또는 근로계약서 개정 여부를 검토해야 합니다.",
-        "특히 대규모 인력 변동이 예상되는 기업은 해당 법률이 제시하는 지원 방안을 활용하여 인력 운영 리스크를 관리하고, 노사 협의 시 근거 자료로 활용할 수 있습니다."
-      ],
-      "collected_at": "2026-09-11 00:48",
-      "scraped_at": "2026-09-11 00:48",
-      "revision": 0
-    },
-    {
-      "title": "아시아 태평양 HR테크 시장 보고서 분석",
-      "category": "HR테크/AI",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV3FScTEwajd4OFVEejA2RDZDUWNlRDJiZllyemZvcExuTGtrSnlyazRYTVFlS0EzR3cyNVR2MGZLeWQ4ZjI3ZElyMk53eGZYSjRjYV9OcGg5R2VHWVZUTmQxeE1nbVBVWHVpbkpXUFdlR3ExWlJ3LUtpbDI3MV81dGZ3a2Vaei0yV2xLaTJhazlob2I0eFlwbjhWbw?oc=5",
-      "source": "Market Data Forecast",
-      "summary": "아시아 태평양 지역의 HR 기술 시장 성장세와 주요 동향, 미래 전망을 심층 분석한 보고서입니다. 클라우드 기반 솔루션, AI 및 자동화 기술 도입 확산 등 구체적인 시장 데이터를 통해 지역별 HR테크 시장의 특징과 기회를 제시합니다.",
-      "novelty_impact": "아시아 태평양 지역의 HR 기술 시장 트렌드를 파악하여 미래 HR 시스템 도입 및 투자 전략 수립에 중요한 인사이트를 제공합니다.",
-      "action_point": [
-        "아시아 태평양 지역의 HR테크 시장 성장 동향을 파악하고, 우리 회사에 적합한 최신 HR 솔루션 도입을 검토할 것.",
-        "클라우드, AI 기반 HR 기술 도입 시 지역별 특성을 고려한 벤더 및 솔루션 선정 전략을 수립할 것.",
-        "HR 시스템 투자 계획 수립 시 아시아 태평양 시장의 성숙도와 경쟁 구도를 참고하여 중장기 로드맵에 반영할 것."
-      ],
-      "collected_at": "2026-09-11 00:48",
-      "scraped_at": "2026-09-11 00:48",
-      "revision": 0
-    },
-    {
-      "title": "경주 청년·중장년 맞춤형 채용행사 개최",
-      "category": "고용노동부 정책",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LWFp0aWVJQ09ZLXFUdUZ2X0FpNjl0MEE2dS1SYzdmYV96NDlEcWtkdnRBVTFDbW9kcEdLeUFRY2gzLUxWVFRNV0dVMEFTbDlCOHlpOXo5Qk85SWhDeVRIb2NNcDk5N0p2ZHc?oc=5",
-      "source": "hidomin.com",
-      "summary": "고용노동부 및 지자체가 경주 지역 청년 및 중장년층 구직자의 취업 지원을 위해 맞춤형 채용행사를 개최합니다. 이번 행사는 지역 기업과 구직자 간 직접 연계를 통한 일자리 매칭을 목표로 하며, 정부의 고용 촉진 정책 방향과 부합합니다.",
-      "novelty_impact": "정부 및 지자체의 특정 계층(청년, 중장년) 구직자 대상 직접 지원 및 고용 촉진 의지를 보여주는 행사로, 관련 기업의 인력 확보 기회이자 정부 지원금 연계 가능성을 시사합니다.",
-      "action_point": [
-        "경주 지역에 사업장을 둔 기업 중 청년·중장년 인력 채용 계획이 있다면, 채용행사 참여를 통해 적합 인재를 발굴하고 관련 정부 지원금(예: 고용촉진장려금, 고령자 계속고용장려금 등) 수혜 가능성을 검토하십시오.",
-        "행사를 통해 채용된 근로자에 대한 정부 지원금 요건 및 신청 절차를 사전에 확인하여 채용 계획 및 예산에 반영하고, 관련 규정을 준수하여 지원금을 신청하십시오."
-      ],
-      "collected_at": "2026-09-11 00:47",
-      "scraped_at": "2026-09-11 00:47",
-      "revision": 0
-    },
-    {
-      "title": "정부 '노동쟁의 지침' 발표에 민주노총 반발, 사회수석 면담",
-      "category": "노사관계/노동계",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WLXBudlZyak8wNFhrTl9zY1BmakFEOVJhTjVTaldnZU12b2NjYU1lMWpKd0JpY1BUbG1EOG5RQ0lNU1hCQm5KMHF0bzVxeVRlSFVTM09na0UzbkdpSU5WZnJoT0w?oc=5",
-      "source": "한겨레",
-      "summary": "정부가 '노동쟁의 지침'을 발표하자, 민주노총이 사회수석을 만나 정책의 일방적 추진에 강하게 반발하며 지침 철회를 요구했습니다. 이는 노동계가 정부의 노동정책 방향에 대한 우려를 표명하고 대화를 통한 재검토를 촉구하고 있음을 보여줍니다.",
-      "novelty_impact": "정부의 새로운 노동정책 기조에 대한 노동계의 강력한 반발이 표면화된 사건으로, 향후 노정 관계 및 전반적인 노사관계에 상당한 긴장과 불확실성을 가중시킬 수 있는 중요한 동향입니다.",
-      "action_point": [
-        "고용노동부의 '노동쟁의 지침' 최종 확정 여부 및 구체적인 내용 변화를 지속적으로 모니터링하여, 향후 쟁의 발생 시 기업의 대응 전략에 미칠 영향을 분석합니다.",
-        "정부와 노동계 간의 갈등 상황이 장기화될 경우, 우리 회사의 노사관계 안정화를 위한 노조와의 선제적 대화 및 소통 채널 강화 방안을 검토합니다.",
-        "민주노총 등 상급 단체의 움직임과 정부 정책 추진 상황을 주시하여, 다가오는 단체교섭이나 임금협상에 발생할 수 있는 잠재적 영향 요소를 사전 분석하고 대비합니다."
-      ],
-      "collected_at": "2026-09-11 00:47",
-      "scraped_at": "2026-09-11 00:47",
-      "revision": 0
-    },
-    {
-      "title": "세종시, 투자유치·AI·문화산업 중심 조직개편 추진",
-      "category": "채용/조직문화",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lMG0wUzVJWXIxM0l5Vy1YanE1RGtyMUdJNEljRERrTmVwbXBHV19QOGthbUtfaXprSTNtV21fLVNyVzMzY193dXFCcDVhVFE0TDB6VVNqRV9fek92X2ZCYdIBYEFVX3lxTE1lMG0wUzVJWXIxM0l5Vy1YanE1RGtyMUdJNEljRERrTmVwbXBHV19QOGthbUtfaXprSTNtV21fLVNyVzMzY193dXFCcDVhVFE0TDB6VVNqRV9fek92X2ZCYQ?oc=5",
-      "source": "연합뉴스",
-      "summary": "세종시가 투자유치, 인공지능(AI), 문화산업을 핵심 축으로 하는 조직개편 밑그림을 발표했습니다. 이는 도시 경쟁력을 높이고 미래 성장 동력을 확보하기 위한 전략으로, 관련 분야의 인력 운용 및 조직 효율성에 변화가 예상됩니다.",
-      "novelty_impact": "지자체 차원에서 AI 및 특정 산업 분야에 대한 집중적인 조직 개편을 통해 미래 성장 동력을 확보하려는 트렌드를 보여줍니다.",
-      "action_point": [
-        "세종시와 협력 가능성이 있는 기업은 관련 산업 분야(투자유치, AI, 문화산업)의 변화를 주시하고, 필요한 인재 육성 또는 영입 전략을 검토할 것.",
-        "정부 및 지자체의 인력 운용 및 조직 재편 방향성을 파악하여 HR 전략 수립 시 참고하고, 채용 시장의 변화를 예측할 것."
-      ],
-      "collected_at": "2026-09-11 00:46",
-      "scraped_at": "2026-09-11 00:46",
-      "revision": 0
-    },
-    {
-      "title": "AI 기반 자산 관리 플랫폼 'Sav', 350만 달러 투자 유치",
-      "category": "HR테크/AI",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUWlDMVBsZG9pY194Z0Q3eGRoSHBjQXlRaWg0U1I3LUFWYXpEbUtPUXd5RFBwSmJuM3Z0eUgtMlJDaXFzWEhfWFpUd3ppOC1hSmgtRFc4WFlZNENEU25JREI3RVR0cjRXenBYQ0w5eEZaQnhOQXItejB5R0V5LUt1akduTF94aWx0NUNHcXpoOUgyOV9hd0pkMjdCX29NaFEyTUJlQjVrc1lhZ2hfSk5pOW9SZw?oc=5",
-      "source": "FF News",
-      "summary": "AI 기반의 개인 맞춤형 자산 관리 플랫폼 Sav가 중동 걸프협력회의(GCC) 회원국 주재 외국인을 위한 서비스 확장을 위해 350만 달러(약 47억 원)의 프리 시리즈 A 투자를 유치했습니다. 이 플랫폼은 AI 기술을 활용해 사용자의 재정 목표에 맞춰 자산 증식을 돕는 솔루션을 제공하며, 특히 해외 주재원들의 재무 관리 니즈를 충족시키는 데 중점을 둡니다.",
-      "novelty_impact": "AI 기술을 활용하여 해외 주재원 등 특정 그룹의 재정 건강(Financial Wellness) 관리를 지원하는 솔루션의 등장을 보여주며, 기업의 복리후생 제도 설계 시 새로운 시사점을 제공합니다.",
-      "action_point": [
-        "해외 주재원 등 해외 파견 인력의 금융 복지 및 자산 관리 지원 방안에 대해 검토하고, 유사 솔루션 도입 가능성을 모색합니다.",
-        "직원의 재정 건강(Financial Wellness)이 업무 성과에 미치는 영향을 고려하여, AI 기반의 개인 맞춤형 금융 솔루션을 활용한 복리후생 제도 도입을 장기적인 관점에서 검토합니다."
-      ],
-      "collected_at": "2026-09-11 00:45",
-      "scraped_at": "2026-09-11 00:45",
-      "revision": 0
-    },
-    {
-      "title": "해외 HR 테크 기업 투자 유치 동향: Ours Privacy, Arintra, Happy Health",
-      "category": "HR테크/AI",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
-      "source": "Fierce Healthcare",
-      "summary": "해외 건강 관리 및 프라이버시 기술 분야의 Ours Privacy, Arintra, Happy Health가 최근 투자 유치에 성공하며 관련 시장의 성장을 가속화하고 있습니다. 이 기업들은 각각 데이터 프라이버시, AI 기반 분석, 직원 건강 관리 플랫폼 등 HR과 연관될 수 있는 혁신적인 솔루션을 제공하고 있습니다. 이러한 투자는 글로벌 HR 테크 시장의 활발한 동향을 반영합니다.",
-      "novelty_impact": "글로벌 시장에서 직원 프라이버시 보호, AI 기반 HR 분석, 그리고 직원 건강 관리를 위한 HR 테크 스타트업들이 활발하게 투자를 유치하며 성장하고 있음을 보여줍니다.",
-      "action_point": [
-        "직원 데이터 프라이버시 보호 강화를 위해 최신 HR테크 솔루션 동향을 주시하고, 국내외 서비스 도입 가능성을 검토해야 합니다.",
-        "직원 복리후생 중 건강 및 웰빙 관련 프로그램 고도화를 위해 해외의 혁신적인 헬스케어 기술 도입 사례를 벤치마킹할 필요가 있습니다.",
-        "AI 기반의 인재 관리 및 조직 효율성 증대 솔루션 동향을 파악하고, 사내 HR 데이터 활용 방안을 지속적으로 모색해야 합니다."
-      ],
-      "collected_at": "2026-09-11 00:45",
-      "scraped_at": "2026-09-11 00:45",
-      "revision": 0
-    },
-    {
-      "title": "농어촌 일자리 연계형 기본소득 지원, 우수 지자체 인센티브 제공",
-      "category": "고용노동부 정책",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9DcHdhWndwX25ybk8yUEU4cTRUbjA5SUZERjlObVdaOTRVdkZqMkNtTVhGN3NNU3JYc0VoeVBsZC1WVU1KbXdwRjIzUEJnR1FzUDJON1g1RXRaYmRIdzNGOVc2NmZmTjl3UVpHZnFkRDVvbUdQZ3lRMNIBeEFVX3lxTE9DcHdhWndwX25ybk8yUEU4cTRUbjA5SUZERjlObVdaOTRVdkZqMkNtTVhGN3NNU3JYc0VoeVBsZC1WVU1KbXdwRjIzUEJnR1FzUDJON1g1RXRaYmRIdzNGOVc2NmZmTjl3UVpHZnFkRDVvbUdQZ3lRMA?oc=5",
-      "source": "뉴시스",
-      "summary": "정부가 농어촌 지역의 소득 안정과 고용 창출을 목표로 기본소득을 지역 일자리 및 서비스와 연계하는 정책을 추진합니다. 이 정책은 지역 경제 활성화를 도모하며, 우수한 성과를 보인 지자체에는 인센티브를 제공하여 참여를 독려할 예정입니다.",
-      "novelty_impact": "농어촌 인구 감소와 고령화 문제에 대응하여 소득 지원과 일자리 창출을 통합적으로 접근함으로써, 지역 맞춤형 고용 활성화에 기여하고 기업의 농어촌 지역 인력 채용에 간접적인 긍정적 영향을 줄 것으로 기대됩니다.",
-      "action_point": [
-        "농어촌 지역에 사업장을 두거나 신규 투자를 고려하는 기업은 본 정책과 연계된 지자체의 고용 지원 사업 및 인센티브 정보를 면밀히 주시하고, 채용 계획 수립 시 활용 가능성을 검토해야 합니다.",
-        "지자체 지원 프로그램을 통해 인력을 채용할 경우, 해당 지원금 수혜 자격 및 고용 유지 조건(예: 의무 고용 기간)을 사전에 확인하여 근로계약 및 취업규칙 등에 반영할 사항이 있는지 점검해야 합니다.",
-        "정부 정책 방향에 따라 농어촌 지역 내 신규 고용 창출 시 인건비 지원 혜택 등이 발생할 수 있으므로, 관련 정보 파악을 통해 인력 운영 및 예산 계획에 반영하고 기업의 사회적 책임 활동으로 연결할 수 있습니다."
-      ],
-      "collected_at": "2026-09-11 00:45",
-      "scraped_at": "2026-09-11 00:45",
-      "revision": 0
-    },
-    {
-      "title": "미국 기업들, 2027년 직원 기본급 예산 평균 3.3% 인상 계획",
-      "category": "글로벌 HR 트렌드",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTjN3NWxhX3NGQWRVdlFWc2VRQnFOMUE5VUtDNjFBcmFhc1pWTFJnMlo0U2cxZmdacnM2ZU8yd0xXUnhoT0dRWUs5M0x3ZGhvRlNfakgzM3VZcXJXbmFpekZZTlVia3UtUlBjOTRuM1ROUDBjVlRfeUFDc2hscXlBRU5EVTVGT0NMaVFsUGRpdWVXQkhfeTVxT3lNQ1BYUkhUSzczUzI3eDlET1RUUmc?oc=5",
-      "source": "HR Dive",
-      "summary": "미국 기업들이 2027년에 직원 기본급 예산을 평균 3.3% 인상할 계획이라는 조사 결과가 나왔다. 이는 최근 인플레이션 둔화와 경제 불확실성을 반영한 장기적인 임금 인상률 전망치로, 기업들이 안정적인 보상 전략을 모색하고 있음을 시사한다.",
-      "novelty_impact": "글로벌 인플레이션 및 경제 상황 변화에 따른 주요국의 장기적인 임금 인상 동향을 파악하여, 국내 기업의 글로벌 경쟁력 확보를 위한 보상 전략 수립에 참고 자료가 된다.",
-      "action_point": [
-        "글로벌 인건비 추세와 자사 임금 인상률을 비교하여 보상 경쟁력 진단 및 개선 방향 모색",
-        "해외 시장 진출 또는 해외 법인 인력 운영 계획 시, 해당 국가의 중장기 임금 인상률 전망을 참고하여 예산 계획에 반영",
-        "글로벌 경제 상황 변화가 국내 임금 인상률에 미칠 잠재적 영향에 대한 지속적인 모니터링 체계 구축"
-      ],
-      "collected_at": "2026-09-11 00:45",
-      "scraped_at": "2026-09-11 00:45",
-      "revision": 0
-    },
-    {
-      "title": "외국인근로자 사업장 변경 횟수 및 구직 기간 연장",
-      "category": "고용노동부 정책",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAyeVprems3N3JCMTdWamFrdEZpQzJWTjZEaVNXZmdoRnpSWUNVdzFCZE5XNHh3dFRQdUkxM3RhOHkyWGZJY253VWdvTnBxZHp4MVJUek4xdHdCSFEwUFhROVpsM2N4RDVlcDVSeE5iM2dEb29zMXQ0?oc=5",
-      "source": "대한민국 정책브리핑",
-      "summary": "고용노동부가 '외국인근로자의 고용 등에 관한 법률 시행령' 개정안을 입법 예고했습니다. 이 개정안은 외국인근로자의 사업장 변경 허용 횟수를 추가하고 구직 기간을 기존 2개월에서 3개월로 1개월 연장하는 내용을 담고 있습니다. 이는 외국인근로자의 고용 안정성을 높이고, 인력난을 겪는 사업주의 인력 확보에도 도움을 줄 것으로 기대됩니다.",
-      "novelty_impact": "외국인근로자를 고용 중이거나 채용 계획이 있는 기업은 변경되는 외국인 고용 제도에 맞춰 인력 운영 및 관리 계획을 점검해야 합니다.",
-      "action_point": [
-        "외국인근로자 고용 사업장은 개정될 시행령 내용을 확인하고, 외국인 근로자 인력 운영 및 관리 지침에 반영하여야 합니다.",
-        "외국인 근로자의 사업장 변경 및 구직 기간 관련 사내 규정이나 안내 자료가 있다면 개정 내용에 맞춰 업데이트해야 합니다."
-      ],
-      "collected_at": "2026-09-11 00:44",
-      "scraped_at": "2026-09-11 00:44",
-      "revision": 0
-    },
-    {
-      "title": "AI 도입 관련 기업의 공허한 말, 직원 신뢰 저해 우려",
-      "category": "글로벌 HR 트렌드",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZzZaUTBfRUpnQUNTdUJiY0tndHByVXI5bWRJLWlXLUNHWTJzdHFjSk52Rks4V3pHWFROMXdtUWFYNDNRLWEya291MjVLUE5KTGRTQmlPWW9YaTQ5TlVqVF9UbHlDNFI5STlNRWlkeGp6eEpRWENEM2tDRlhIT1gyUGJMMWVYZDZGbTF5S3E2WVJncjA2T3pNZTlwS3JXZlI5WjNudHZR?oc=5",
-      "source": "HR Dive",
-      "summary": "기업이 AI 도입에 대해 구체적인 계획과 실행 없이 단순히 효율성만을 강조하면 직원들의 신뢰를 잃을 수 있습니다. 직원들은 AI가 업무에 미칠 영향, 필요한 교육, 그리고 잠재적 직업 안정성에 대한 명확한 소통과 지원을 기대합니다. 이러한 기대를 충족시키지 못할 경우 AI 기술 도입에 대한 회의감과 저항을 초래할 수 있습니다.",
-      "novelty_impact": "AI 도입 성공은 기술적 측면뿐만 아니라, 직원 신뢰 관리와 투명한 소통이 핵심임을 강조하며, 단순한 기술 도입을 넘어선 HR의 전략적 접근을 요구합니다.",
-      "action_point": [
-        "AI 도입 및 활용 계획 수립 시, 직무 변화 및 재교육 기회 등 직원들에게 미칠 영향을 투명하게 소통하고 신뢰 구축 방안을 마련해야 합니다.",
-        "AI 도입으로 인한 직무 전환 및 역량 변화에 대비하여 직원 재교육 및 업스킬링 프로그램을 적극적으로 설계하고 제공해야 합니다.",
-        "AI 윤리 가이드라인 및 데이터 활용 정책을 명확히 수립하여 직원의 불안감을 해소하고 공정한 AI 사용 환경을 조성해야 합니다."
-      ],
-      "collected_at": "2026-09-11 00:44",
-      "scraped_at": "2026-09-11 00:44",
-      "revision": 0
-    },
-    {
-      "title": "직원들은 웰니스보다 재정적 혜택을 더 원한다",
-      "category": "글로벌 HR 트렌드",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ1k1Qks3X25xT0h0VUx2NnZuQVYtNnhfZEt4NVRnQnNFU0Z1c3BKM25hV29NMUdvYWxGU3V3MmFyMXBCYWZueDBOS2lDdmZKUk93Q0JSYW5EOGRKXzlhUUx2emdjQ3hzRkJzYWI4dzdKY2g3c1kzeWw2eGdkc25CRnlkNEs0ZUl5dEE?oc=5",
-      "source": "HR Dive",
-      "summary": "물가 상승으로 인해 직원들이 기업 복리후생 중 웰니스 프로그램보다 직접적인 재정적 지원을 더 선호하는 경향이 강화되고 있습니다. 이는 직원들이 경제적 어려움에 직면하면서, 기업이 제공하는 혜택의 실질적인 가치를 재정적 관점에서 평가하기 시작했음을 시사합니다.",
-      "novelty_impact": "기존의 웰니스 중심 복지 트렌드에서 재정적 지원으로의 전환 가능성을 보여주며, 글로벌 기업들이 직원 복지 전략을 재고하고 실제 직원 니즈에 맞춰 혜택을 재구성해야 할 필요성을 제기합니다.",
-      "action_point": [
-        "현재 제공 중인 복리후생 프로그램 중 재정적 지원(예: 급여 보전, 금융 교육, 대출 지원 등) 항목의 강화 및 확대 방안을 검토한다.",
-        "직원들의 실제 복리후생 니즈 파악을 위해 설문조사 또는 포커스 그룹 인터뷰를 실시하여 혜택 선호도를 분석한다.",
-        "글로벌 HR 트렌드 변화에 맞춰 복리후생 예산 배분 및 프로그램 구성을 유연하게 조정하는 전략을 수립하고, 장기적인 관점에서 복지제도의 지속가능성을 검토한다."
-      ],
-      "collected_at": "2026-09-11 00:43",
-      "scraped_at": "2026-09-11 00:43",
-      "revision": 0
-    },
-    {
-      "title": "고용보험 가입자 27.8만명 증가, 제조업 15개월 만에 고용 증가 전환",
-      "category": "고용노동부 정책",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYTWVLWHI2MXVhaElEVGY5Q0xlb1NwSzJmZlQ3NWNUcHZvRUxzTDFhbVgwaUd0UTVoUERieGtDMzd2aHI1SkFzcUozcGJPcDBRUkVRUUhIbWFjWlpFazhkTm1XV2tuVTF2Qm9LVNIBcEFVX3lxTE1XNHhTSXAySkh0Z1JmQXNzdVV3NUFfSTR0bFZkbWVGOFZrZTdjWVhRNHdHVUk3Uk1SaDBvMnpOeVJmTXpiMFpiUG14M2JqMm9NaDBLMmQ4ZzBOeUFxSi0wdmYxQnd4UmoxeWQzbUI1QnI?oc=5",
-      "source": "전기신문",
-      "summary": "고용보험 가입자가 전년 동월 대비 27.8만명 증가하며 고용시장이 전반적으로 개선되고 있습니다. 특히 제조업 분야의 고용이 15개월 만에 증가세로 전환되어, 정부의 고용 관련 주요 지표에서 긍정적인 변화가 감지됩니다.",
-      "novelty_impact": "고용보험 가입자 증가는 고용시장의 활력을 나타내며, 제조업 회복세는 주요 산업의 인력 수급 및 정부의 고용 정책 방향에 중요한 영향을 미칠 수 있는 신호입니다.",
-      "action_point": [
-        "고용노동부의 고용 동향 발표 및 고용보험 관련 통계를 지속적으로 모니터링하여, 향후 고용안정 및 직업훈련 등 관련 지원 정책의 변화 가능성을 예측해야 합니다.",
-        "기업의 채용 및 인력 운영 계획 수립 시, 제조업을 포함한 주요 산업의 고용 증가 추세를 고려하여 정부의 고용 지원 사업 활용 여부를 검토하고 유연한 인력 확보 전략을 수립해야 합니다."
-      ],
-      "collected_at": "2026-09-11 00:43",
-      "scraped_at": "2026-09-11 00:43",
-      "revision": 0
-    },
-    {
-      "title": "해외 친환경 플러그인 하이브리드 SUV 비교를 통한 기업 ESG 경영 및 직원 복지 트렌드 분석",
-      "category": "글로벌 HR 트렌드",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYnF2aUdid05PLTB4MGprU2Rud3BoMFF6TzU5UjlkYXZBR3hSYlVGZ21NeWY2dnM2ckVBa0RHeFZBY295YmdIUDRZTDN2ZV9Eb3VCVVIwX2NfSVhwcmd3T1R4VGtWMkhNOGJZSmJUNVp6cnNFUEtvSlhtMlMxU1hzOVNlbWJqYVVqN3BqZTV4c1BCRTJxS1hxYTRJdDNPTWNFT2IxTHZiYjZjOUkwMENzekFrR1Y2Y3RnbWtpaTZxeDhRRElJSVRNQ3hVSnZXQQ?oc=5",
-      "source": "The Washington Post",
-      "summary": "해외 매체 에드먼즈(Edmunds)에서 도요타 RAV4와 현대 투싼의 플러그인 하이브리드 SUV 모델을 비교했습니다. 이 비교는 기업의 ESG 경영 강화 및 친환경 차량 도입 트렌드에 대한 인사이트를 제공하며, 직원 복지 차원에서 친환경 이동 수단 제공을 고려하는 HR 전략 수립에 활용될 수 있습니다.",
-      "novelty_impact": "기업의 지속가능성 목표 달성과 직원 만족도 향상을 위해 친환경 차량 도입이 주요 복지 및 운영 트렌드로 부상하고 있음을 보여주는 사례로, HR 부서의 역할 확대를 시사합니다.",
-      "action_point": [
-        "기업 차량 운영 정책 또는 임직원 복지 프로그램에 친환경 차량(예: 플러그인 하이브리드) 도입 가능성을 검토하고, 관련 예산 및 충전 인프라 구축 계획을 수립합니다.",
-        "임직원의 친환경 차량 선호도를 조사하여 복지 혜택 설계 시 반영하고, ESG 경영 목표와 연계한 HR 전략을 수립합니다."
-      ],
-      "collected_at": "2026-09-11 00:42",
-      "scraped_at": "2026-09-11 00:42",
-      "revision": 0
-    },
-    {
-      "title": "노사발전재단, 몽골 노동자 한국 정착 전방위 지원",
-      "category": "고용노동부 정책",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObktwc3FGeHpHczB5SVJqdTNEaERuUnk4QzhubGN5djNaU2dfSmk3d1ViZURybDdlUG5pdnQ3bHhXd2w3TURoTWI4ck5QYU52YXdHN2QyUTZhS1BxMGRsOUhEVVpJU1NnOTh4dmdSS295WTJkaU9zWS1Da3VrZmFJQUd6RjViYXVES2NQS21mRmVQUDFo?oc=5",
-      "source": "대한민국 정책브리핑",
-      "summary": "노사발전재단이 몽골 노동자의 한국 정착을 돕기 위해 입국 전 한국 생활 안내부터 입국 시 공항 마중, 초기 정착 지원까지 전방위적인 지원 사업을 전개합니다. 이는 외국인 노동자의 안정적인 한국 사회 적응을 돕고 고용 기업의 안정적인 인력 운영에도 기여할 것으로 기대됩니다.",
-      "novelty_impact": "외국인 노동자의 국내 정착 초기 단계부터 종합적이고 체계적인 지원이 강화되어, 외국인 인력 활용 기업은 노동자의 조기 이탈 방지 및 생산성 향상에 간접적인 도움을 받을 수 있습니다.",
-      "action_point": [
-        "HR 담당자는 외국인 근로자(특히 몽골 국적 근로자)를 대상으로 노사발전재단의 지원 프로그램(입국 전 정보, 초기 정착 지원 등)을 안내하여 이들의 한국 생활 적응을 돕고 고용 안정성을 높이십시오.",
-        "외국인 근로자의 고용 안정성 및 만족도 제고를 위해 회사 내 외국인 근로자 지원 정책을 점검하고, 재단 프로그램과의 연계 방안을 모색하십시오."
-      ],
-      "collected_at": "2026-09-11 00:42",
-      "scraped_at": "2026-09-11 00:42",
-      "revision": 0
-    },
-    {
-      "title": "HRCI, 전면적인 사무실 복귀(RTO) 의무화 전 파일럿 프로그램 도입 촉구",
-      "category": "글로벌 HR 트렌드",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQXp6OFg5MTRkdzVrT0hNdmJhZ1hpamFvWEJieVdZRjVzbnF6czJPTlY2cjE3TkNVV2c3WDlrNFU4d3otSU90cmFvLVR4bUd4Nkhsc0tZdUJJb3UxWXBvdFBwTHoza2dtMGk2RFBQZ3FvVUxRQno1TUxuQUtxT0FkMVczQ3AycGFyNFdsWnhB?oc=5",
-      "source": "quasa.io",
-      "summary": "HRCI(HR 인증 협회)는 기업들이 전면적인 사무실 복귀(RTO)를 의무화하기 전에 파일럿 프로그램을 통해 신중하게 접근할 것을 권고했습니다. 이는 직원들의 의견을 수렴하고 유연 근무의 장점을 유지하면서 점진적으로 최적의 근무 모델을 찾아야 한다는 의미입니다. 직원의 만족도와 생산성 저하를 방지하기 위한 HR 전문가 단체의 제언입니다.",
-      "novelty_impact": "글로벌 HR 전문가 단체가 RTO 전략에 있어 일방적인 지시보다 데이터 기반의 유연한 접근을 강조하며, 향후 국내 기업의 RTO 정책 수립에도 중요한 시사점을 제공합니다.",
-      "action_point": [
-        "RTO(사무실 복귀) 정책 재검토 시, 전면적 의무화 대신 파일럿 프로그램 도입을 통한 점진적 운영 방안을 모색한다.",
-        "파일럿 프로그램 운영 시 직원 의견 수렴 채널을 확보하고, 유연근무 제도와의 조화를 고려하여 최적의 근무 형태를 설계한다.",
-        "직원들의 생산성과 만족도를 유지하면서 RTO를 성공적으로 안착시킬 수 있는 단계별 전략 수립을 검토한다."
-      ],
-      "collected_at": "2026-09-11 00:41",
-      "scraped_at": "2026-09-11 00:41",
-      "revision": 0
-    },
-    {
-      "title": "고용노동부, 공공부문 200곳 대상 비정규직 근로조건 집중 감독",
-      "category": "고용노동부 정책",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9RU2MzUWNtLTB6LXV1SDJKamRFX3QyT3Nkbkd3NGNoRUdCZlpjQVBjMUxaRnlBTmhpMHpkNmpqM1FWS0ptSGtoU25maw?oc=5",
-      "source": "전기신문",
-      "summary": "고용노동부가 공공부문 200개 기관을 대상으로 비정규직 근로자의 근로조건 전반에 대한 집중 감독을 실시합니다. 이는 기간제 및 파견 근로자에 대한 차별 금지, 휴게·휴가 부여, 연장근로 수당 지급 등 근로기준법 및 관련 법규 준수 여부를 중점적으로 점검하기 위함입니다.",
-      "novelty_impact": "공공부문 내 비정규직 근로조건 개선에 대한 정부의 강력한 의지를 보여주는 조치로, 향후 민간 부문으로의 감독 확대 가능성을 시사하여 기업들의 선제적인 점검이 필요합니다.",
-      "action_point": [
-        "비정규직 근로자(기간제, 단시간, 파견 등)의 근로계약서, 임금, 복리후생, 차별금지 조항 등이 관련 법규(기간제법, 파견법 등) 및 사규에 따라 적절하게 운영되는지 전반적으로 점검해야 합니다.",
-        "동일·유사 업무 수행 비정규직과 정규직 근로자 간 임금 및 복리후생 등 처우에 차별적 요소가 없는지 확인하고, 필요 시 합리적인 개선 방안을 모색해야 합니다.",
-        "당사 내 비정규직(기간제, 파견, 용역 등) 근로자의 근로계약서 및 취업규칙을 전반적으로 검토하여 차별 금지 원칙 준수 여부를 확인하고, 관련 규정을 재정비합니다.",
-        "비정규직 근로자의 실제 근무 형태(휴게시간, 연장근로, 휴가 사용 등)와 급여 지급 내역을 점검하여 근로기준법 및 관련 법규 위반 소지가 없는지 확인하고, 미비점이 있다면 즉시 개선 조치합니다.",
-        "공공부문 감독 결과 발표 시 시사점을 분석하여 민간 기업에도 적용될 수 있는 가이드라인이나 중점 감독 사항을 미리 파악하고 대비합니다."
-      ],
-      "collected_at": "2026-09-11 00:41",
-      "scraped_at": "2026-09-11 00:41",
-      "revision": 1,
-      "updated_at": "2026-09-11 00:42"
-    },
-    {
-      "title": "우버, 자율주행 사업 집중 위해 3,300명 감원 및 사무실 복귀 정책 강화",
-      "category": "글로벌 HR 트렌드",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeC1zc3NkUDhCZmJTWjAwUmptT2dNTWVJVU1iMGNyMmlyX0FMVHA2NnpsMTd0SDVuUVN1VHBqWUQ4ZjBLdG8xejJOQWpvbDZMa0VkTUltUDNCWGZNY0hYTFJmbG1DUnJfamh1SHh6SExTZlp0UFNibzhqYU40WWRLaWRzbEktMExsUjFkTTh2VTBoOW9naWZ5MnpieDdxb0RtYUNiaGN4bmVjQ2ZLR2cxVzBFaFIxc2J4XzdzX29B?oc=5",
-      "source": "The Federal",
-      "summary": "우버는 자율주행 미래 사업에 집중하기 위한 전략적 전환의 일환으로 3,300명을 감원합니다. 또한, 기존 원격근무 유연성에서 벗어나 더욱 엄격한 사무실 복귀 정책을 시행합니다. 이는 주요 기술 기업이 변화하는 사업 우선순위에 맞춰 인력 구조와 근무 모델을 재편하는 글로벌 동향을 보여줍니다.",
-      "novelty_impact": "이 뉴스는 대규모 테크 기업이 핵심 사업 전환에 맞춰 인력 구조조정 및 근무 정책을 재편하는 글로벌 HR 트렌드를 보여주며, 팬데믹 이후의 원격/하이브리드 근무 정책 변화 가능성을 시사합니다.",
-      "action_point": [
-        "글로벌 사업 전략 변화에 따른 국내 사업장의 인력 운영 및 근무 방식 재검토 필요성 점검",
-        "사무실 복귀 정책 강화 추세에 발맞춰 국내 기업의 유연근무 제도 운영 현황 및 효과성 분석",
-        "미래 성장 동력 확보를 위한 인력 재배치 및 역량 개발 계획 수립 시 참고"
-      ],
-      "collected_at": "2026-09-11 00:41",
-      "scraped_at": "2026-09-11 00:41",
-      "revision": 0
-    },
-    {
-      "title": "국가 고용서비스 혁신 방안 발표",
-      "category": "고용노동부 정책",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxV0NIUEVUQ0ItM0V6NXh5Y0U1LXRYUFBJVWJIblVNOFN6eDdOVFNTdWhJZ1RQTGp4ZU9GYm5nbG1Pdm1SbEppUkdweS1JZ1hxMDY5NkpKSG1tdHNpSHhkRU1nbWR2SlE4Zm50QzlDXzExZDhYRHJj?oc=5",
-      "source": "고용노동부",
-      "summary": "고용노동부가 구직자와 기업에 대한 맞춤형 고용지원 강화, 직업훈련 효율성 증대, 그리고 디지털 전환에 대응하는 새로운 고용 서비스 모델 도입 등을 포함하는 국가 고용서비스 혁신 방안을 발표했습니다. 이번 혁신 방안은 전반적인 고용서비스의 질과 접근성을 높이는 데 중점을 둡니다.",
-      "novelty_impact": "정부의 고용서비스 개선 방향을 제시함으로써, 기업은 채용 및 인재 개발 시 활용할 수 있는 새로운 정부 지원 제도나 변화된 서비스 접근 방식을 선제적으로 모색할 기회를 얻게 됩니다.",
-      "action_point": [
-        "고용노동부의 혁신 방안에 따라 기업이 활용할 수 있는 채용지원금, 직업훈련 지원, 고용서비스 연계 프로그램 등의 변경 사항을 확인하고, 신규 제도를 적극 검토하여 HR 전략에 반영해야 합니다.",
-        "고용센터 등 정부기관을 통한 채용 및 인재 확보 계획이 있는 경우, 서비스 이용 방식 변화에 대한 세부 내용을 파악하여 실무에 적용할 준비를 해야 합니다."
-      ],
-      "collected_at": "2026-09-11 00:40",
-      "scraped_at": "2026-09-11 00:40",
-      "revision": 0
-    },
-    {
-      "title": "고용노동부, 내년 예산 38.9조 편성…AI 전환 및 안전 일터 집중",
-      "category": "고용노동부 정책",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBlMVpobGNzMFFrYU5uZklKT2drcm5TRVlNQTcweVREaG90c1p2cXlvZzE2d2ltUFhjWEtmdkhjMDFhRTdjOEJlQ3RlODNfYVU?oc=5",
-      "source": "v.daum.net",
-      "summary": "고용노동부가 2024년 예산으로 38.9조원을 편성하고, 'AI 대전환'을 통한 노동시장 혁신과 '안전한 일터' 조성에 중점 투자합니다. 이는 디지털 전환과 산업재해 예방 관련 기업 지원 사업 및 정책 변화로 이어질 수 있습니다.",
-      "novelty_impact": "정부의 AI 기술 도입 확산 및 산업 안전 규제 강화 기조에 맞춰, 기업들은 관련 정부 지원 사업 활용 및 선제적인 조직 변화와 안전 관리 시스템 구축의 필요성이 증대됩니다.",
-      "action_point": [
-        "HR 담당자는 AI 기반 직업훈련, 고용 컨설팅 등 고용노동부의 AI 관련 지원 사업을 면밀히 파악하고, 사내 인력 재배치 및 교육 훈련 계획 수립에 반영해야 합니다.",
-        "산업 안전 관리자는 중대재해처벌법 등 강화된 안전 규제 준수를 위한 사내 안전보건 관리체계와 매뉴얼을 재점검하고, 관련 예산 및 인력 확충 방안을 모색해야 합니다."
-      ],
-      "collected_at": "2026-09-11 00:40",
-      "scraped_at": "2026-09-11 00:40",
-      "revision": 0
-    },
-    {
-      "title": "HR 리더의 EDI 성과 측정 전략: 반발 극복과 실질적 기여 입증",
-      "category": "글로벌 HR 트렌드",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQUkySEhXM25NQks0eERhTkppaVc3aEN2NVdWSkplU0h4cXlIYzRnY2hRZDFsN0RfSG5GUWZzajRWcnlBMUxBaFplazdVanpjVmNMV0s1MURoNGYyUFVfMC0wbldoQzBaVml0cVFLZGZpZDVHemJINWRoOHJBeERpc2hTY0ZVODZCQ1pydDRDWXBuczB1Qm5KTjBvcWVfSXI4VFN5UzE5R195RlRYZDQzUmsxSmVySnJ5N09ucWxTUQ?oc=5",
-      "source": "hcamag.com",
-      "summary": "이 기사는 HR 리더들이 다양성, 형평성, 포용성(EDI) 프로그램의 성과를 측정함에 있어 단순한 준수 여부를 넘어 실질적인 비즈니스 임팩트를 입증하는 방법을 제시합니다. 외부 비판이나 내부 저항 속에서도 EDI 이니셔티브의 긍정적 효과를 정량적, 정성적으로 분석하고 효과적으로 소통하는 전략의 중요성을 강조합니다. 이를 통해 EDI 활동이 조직의 핵심 가치 및 성과와 어떻게 연결되는지 명확히 보여줄 수 있습니다.",
-      "novelty_impact": "단순한 EDI 프로그램 도입을 넘어, 그 효과를 측정하고 비즈니스 성과와 연계하여 조직 전체의 공감대를 형성하는 실질적인 접근법을 제시합니다.",
-      "action_point": [
-        "현재 운영 중인 다양성, 형평성, 포용성(EDI) 프로그램의 측정 지표를 검토하고, 단순 참여율을 넘어 실제 비즈니스 성과(직원 몰입도, 생산성, 혁신 등)에 미치는 영향을 측정할 수 있는 지표를 추가 발굴합니다.",
-        "EDI 활동의 정량적, 정성적 성과 데이터를 확보하고, 이를 바탕으로 경영진 및 전체 직원에 EDI의 긍정적 임팩트와 비즈니스 기여도를 설득력 있게 소통할 수 있는 전략을 수립합니다.",
-        "EDI 이니셔티브 추진 시 발생할 수 있는 내부 또는 외부의 잠재적 반발 요인을 사전에 분석하고, 이에 대한 효과적인 소통 및 대응 계획을 준비하여 EDI 프로그램의 지속 가능성을 확보합니다."
-      ],
-      "collected_at": "2026-09-11 00:40",
-      "scraped_at": "2026-09-11 00:40",
-      "revision": 0
-    },
-    {
-      "title": "고용노동부-쿠팡풀필먼트서비스, 물류업 안전문화 실천 캠페인 공동 추진",
-      "category": "고용노동부 정책",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2MGlWLVMyc2ZZVElneU5jQ2RRUG1XWGtOdkdlTlpFNmQ1bUFRNE1EcDNpXzlOQ0xjLWRTbE03OTNHTkNDQlY3TWpUQXc2QXJ3R2c?oc=5",
-      "source": "쿠팡 뉴스룸",
-      "summary": "고용노동부 부천지청이 쿠팡풀필먼트서비스와 함께 물류업 안전문화 확산을 위한 릴레이 캠페인을 추진한다. 이는 물류업 종사자의 안전 의식을 높이고 중대재해 예방을 위한 노력을 강화하는 데 목적이 있다.",
-      "novelty_impact": "물류업계의 안전 문제에 대한 고용노동부와 대기업의 공동 대응으로, 유사 업종의 안전문화 확산에 대한 기대를 높이는 선제적 노력임.",
-      "action_point": [
-        "사업장 내 안전문화 실태를 점검하고, 안전보건 교육 및 캠페인 계획을 수립하여 중대재해 예방 노력을 강화할 것.",
-        "고용노동부의 물류업 안전보건 지침 및 우수사례를 참고하여 내부 규정 및 작업 절차에 반영 가능한 부분을 검토할 것."
-      ],
-      "collected_at": "2026-09-11 00:39",
-      "scraped_at": "2026-09-11 00:39",
-      "revision": 0
-    },
-    {
-      "title": "자동화 및 AI를 활용한 인력 관리 혁신 동향",
-      "category": "글로벌 HR 트렌드",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORGlNWUx1R1ktVS1OSjFJYkZ4X0FyTmJMdzdmZHViUlYwUEFSQUxVS3VyMllNSWNEUkpwRzRFaEpnbF9aZlRhaUhCLWxHUDFCS3hBRGI3eDBCS2dEVld5NmxmMFRxczRqZUVTUlFxVkVFRDVNdmt0TXhCNEF1V2xuR1A3NFJLWC1HYkdQZlNWLTI4T0N6c3h4Qk9wQQ?oc=5",
-      "source": "Mexico Business News",
-      "summary": "해외 기업들이 인력 관리(Workforce Management)의 효율성을 극대화하고 전략적 의사결정을 지원하기 위해 자동화와 인공지능(AI) 기술을 적극적으로 도입하고 있습니다. 이는 반복적인 HR 업무를 줄이고 데이터 기반의 인사 운영으로 전환하여 조직 전체의 생산성 향상에 기여하는 글로벌 트렌드입니다.",
-      "novelty_impact": "인력 관리에 AI와 자동화를 적용하는 것이 단순한 효율성 증대를 넘어, HR의 전략적 역할 강화 및 미래 인력 계획의 핵심 동력으로 부상하고 있음을 보여줍니다.",
-      "action_point": [
-        "글로벌 인력 관리 트렌드 및 HR 테크 동향을 지속적으로 모니터링하여 국내 기업에의 적용 가능성을 검토합니다.",
-        "사내 반복적인 HR 업무 중 자동화 도입을 통해 효율성을 높일 수 있는 영역을 파악하고, AI 기반 솔루션 도입을 중장기적으로 검토합니다.",
-        "데이터 기반의 인력 운영 및 의사결정을 위한 HR 데이터 시스템 구축 및 관련 HR 담당자 역량 강화 계획을 수립합니다."
-      ],
-      "collected_at": "2026-09-11 00:39",
-      "scraped_at": "2026-09-11 00:39",
-      "revision": 0
-    },
-    {
-      "title": "고용노동부 주요 정책 업데이트 및 HR 실무 적용 가이드",
-      "category": "고용노동부 정책",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NUjhxaGFMQ0J4bmV1N0JoUnhjZ1VwUTV6WHRxOHdVU0dtVkJGWWJQcjYyWFpscWpyU0JQNFRldFZaNGlGYzkyaDg5T05kZWtST2IxNXVNY1ZSUFlDQndoZy1YNEpHZWVUNzBuR9IBcEFVX3lxTE1YaXhHak1oblVJZUpvV2o5VlV4Z2V0S0NmODVuTXZTMHlLb2JNbFdJakRKQmlmX3J2SmZvUkFVTFhCQnBRQUlJeVQ0MThaTjU1ZUNoRzZ5WUZfVFhINnNhTWZKNUhvc1NfdDhIVElkanc?oc=5",
-      "source": "전기신문",
-      "summary": "고용노동부가 최근 기업의 고용 환경 개선 및 주요 노동 현안 해결을 위한 새로운 정책 방향을 발표했습니다. 이번 발표에는 인력난 해소, 유연근무 확산 지원, 안전한 일터 조성 등 다양한 HR 관련 지침 및 지원 사업 내용이 포함되었습니다.",
-      "novelty_impact": "고용노동부의 정책 변화는 기업의 인사 운영 전반에 영향을 미치므로, 최신 정책 내용을 정확히 이해하고 실무에 반영하는 것이 중요합니다.",
-      "action_point": [
-        "발표된 고용노동부 정책 및 지원 사업의 세부 내용을 즉시 확인하고 우리 회사에 적용 가능한 부분을 검토할 것.",
-        "유연근무 제도 도입 또는 확대 계획이 있다면 관련 가이드라인 및 정부 지원책을 면밀히 분석하고 사내 규정 개정을 준비할 것.",
-        "산업안전보건 관련 새로운 지침이 포함되었는지 확인하고, 필요시 안전보건 관리체계 및 교육 프로그램을 업데이트할 것."
-      ],
-      "collected_at": "2026-09-11 00:39",
-      "scraped_at": "2026-09-11 00:39",
-      "revision": 0
-    },
-    {
-      "title": "2026년 글로벌 인적 자본 트렌드: 미래 HR 전략 방향",
-      "category": "글로벌 HR 트렌드",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNlo5VHRtWC04Y2ctb0R4X2hkY25ZWFA4SGRMaGRwZTBmUVBwdmluM0dfc3FmTkEtcFFFNzk2VFI1ZE44NHNrQVhiN0NUZ3FBMkNiUVBKNkstcmpFQ19vZnVsZkdnQmJKdE5ucGxwdEhLZF9RaWVGcXdfcTZlb2JyQUVqci16NVJwN2RN?oc=5",
-      "source": "deloitte.com",
-      "summary": "딜로이트가 발표한 '2026 글로벌 인적 자본 트렌드' 보고서는 미래 업무 환경과 인재 관리에 영향을 미칠 주요 동향을 제시합니다. 이 보고서는 AI의 부상, 스킬 기반 조직으로의 전환, 리더십 변화 등 HR 담당자가 주목해야 할 전략적 시사점을 포함하고 있습니다.",
-      "novelty_impact": "미래 인재 관리 및 조직 전략 수립에 필요한 거시적 관점과 선제적 대응 방안을 파악할 수 있는 유용한 인사이트를 제공합니다.",
-      "action_point": [
-        "미래 HR 전략 수립 시 글로벌 트렌드를 참고하여 국내 기업 환경에 맞는 인재 확보 및 육성 계획을 재검토",
-        "AI 및 신기술 도입에 따른 업무 변화와 요구되는 스킬 변화를 예측하고, 직원 역량 강화 프로그램 설계 시 반영",
-        "새로운 리더십 모델 및 조직 문화 구축 방안을 고민하여 변화하는 시대에 적합한 조직 유연성 확보"
-      ],
-      "collected_at": "2026-09-11 00:38",
-      "scraped_at": "2026-09-11 00:38",
-      "revision": 0
-    },
-    {
-      "title": "한국철도공사 강원본부, 경영진·직원 라운드테이블로 조직문화 개선 논의",
-      "category": "채용/조직문화",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fQWxoU2IwUWN4T3B0c1E2Nm52cnYtamlVM1Z6U3NSbXh3V3RSMjNUS2JCRW1yWWpOWGc5MmdobjkwNHlNZGw2eURUamhVcGREYkpyODY1TEY2aHVDa0M0TWY2M3A?oc=5",
-      "source": "entv.kr",
-      "summary": "한국철도공사 강원본부가 경영진과 직원이 함께 참여하는 라운드테이블을 개최했습니다. 이 행사는 조직문화의 문제점을 파악하고, 수평적 소통을 기반으로 건강하고 유연한 기업 문화를 구축하기 위한 개선 방안을 논의하는 자리였습니다. 현장 직원들의 애로사항 청취 및 경영진의 답변을 통해 상호 이해를 높이는 계기가 되었습니다.",
-      "novelty_impact": "경영진과 현장 직원이 직접 소통하며 조직문화 개선 방안을 모색하는 모범적인 내부 소통 사례로, 참여와 공감 기반의 문화 혁신을 시도했다는 점이 주목할 만합니다.",
-      "action_point": [
-        "자사의 조직문화 현황을 진단하고 개선하기 위해 경영진과 직원 간 정기적인 소통 채널(예: 라운드테이블, 타운홀 미팅, 익명 설문) 도입을 검토해야 합니다.",
-        "소통 채널을 통해 수렴된 직원들의 의견을 바탕으로 실제 조직문화 개선 로드맵을 수립하고, 구체적인 실행 과제를 도출하여 추진하는 후속 계획을 수립해야 합니다."
-      ],
-      "collected_at": "2026-09-10 01:01",
-      "scraped_at": "2026-09-10 01:01",
-      "revision": 0
-    },
-    {
-      "title": "롯데, 9월부터 '예측 가능한 수시채용' 도입 및 AI 인재 확보 강화",
-      "category": "채용/조직문화",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5NkFDUVlURWk2THREbHJBUjZ1MFRRUTZNX2ZwY2pfd2laYmdJcG5XLUJjbFotUzNFMEl6ejZkLWdzSVk3QTZQeUxybGdwdw?oc=5",
-      "source": "전자신문",
-      "summary": "롯데는 9월부터 AI 인재 확보를 위해 '예측 가능한 수시채용' 제도를 도입합니다. 이는 기존 수시채용의 유연성을 유지하면서도 채용 공고 시점과 인력 수요를 예측하여 지원자에게 채용 일정을 미리 제공함으로써 지원자 편의를 높이는 방식입니다.",
-      "novelty_impact": "수시채용의 장점인 유연성과 정기 공채의 예측 가능성을 결합하여 지원자 경험을 개선하고, AI 등 핵심 기술 인재 확보에 더욱 전략적으로 접근하는 새로운 채용 방식입니다.",
-      "action_point": [
-        "자사 채용 프로세스 전반을 점검하고, '예측 가능한 수시채용' 모델 도입 가능성 및 효율성을 검토하여 지원자 만족도와 채용 브랜드를 높일 방안을 모색해야 함.",
-        "AI 등 특정 핵심 직무 인재 확보를 위한 맞춤형 채용 전략 수립 및 해당 인재 유치를 위한 채널 다변화 방안을 구체적으로 수립해야 함."
-      ],
-      "collected_at": "2026-09-10 01:01",
-      "scraped_at": "2026-09-10 01:01",
-      "revision": 0
-    },
-    {
-      "title": "대기업 채용 방식 변화: 공채 줄고 수시/두 자릿수 선발 증가",
-      "category": "채용/조직문화",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiYkN3SmcwcHpSVWFFblkyZ0dMYWhzVDY1QUNFNEZ1cE41NE1YaDE4M2ZBX20wNDNmNnZ4SXdQVEs3VTJSbW9lRjVldmdoVkFXNEg5eG95YURkSnNhZlFKSDQ1N3d0M2pW?oc=5",
-      "source": "더쎈뉴스",
-      "summary": "최근 대기업들의 채용 방식이 변화하며 전통적인 공개 채용 규모는 줄고, 수시 채용 및 특정 직무 중심의 두 자릿수 규모 선발이 늘어나는 추세입니다. 이는 기업들이 보다 전문화되고 즉시 전력화 가능한 인재를 확보하려는 전략 변화를 반영합니다.",
-      "novelty_impact": "과거 대규모 공채 중심에서 벗어나, 기업별 특성과 직무 수요에 맞춘 유연한 채용 방식의 확산은 신입 채용 시장의 경쟁 환경 변화와 함께 조직 문화에도 영향을 미칠 수 있습니다.",
-      "action_point": [
-        "회사의 현재 채용 방식(공채, 수시, 경력 등)과 비중을 점검하고, 향후 변화될 인재 확보 전략에 맞춰 조정할 필요가 있는지 검토합니다.",
-        "수시 채용 증가 추세에 맞춰 직무별 핵심 역량 정의 및 평가 방식 고도화 방안을 마련합니다."
-      ],
-      "collected_at": "2026-09-10 01:01",
-      "scraped_at": "2026-09-10 01:01",
-      "revision": 0
-    },
-    {
-      "title": "대기업 10곳 중 7곳 채용 예정, 규모는 축소 경향",
-      "category": "채용/조직문화",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Id2M3blBCanJhZDk2SC1EbTBIU3dLQTh4c1VNVy1ZYUVYUXNuUHp1d0pLLUhUdlJ2S0dxVHNUMklGNDJJdmpkd0M0cW0yLXNqRjF1RnNZdEd6WGVDdy1HTUJxcVA5bmxiWFBwckNWcjZ1cWNURHfSAWZBVV95cUxPdy1ycm5JQml2TEZNQkM3N09DaG5OWmMzeFEtb1hOZXM0c0lmYTcwZjJBY2Z4QVQzM2JGTFZMU2xld2xGWHF1dTZtSXUtWlFYa0RTMEVqUE90LVVBSTBHMHFhOEVUU3c?oc=5",
-      "source": "동아일보",
-      "summary": "주요 대기업 10곳 중 7곳이 올해 하반기 채용을 확정했으나, 채용 규모는 예년보다 줄어들 것으로 예상됩니다. 이는 경기 불확실성 속에서 기업들이 보수적인 채용 기조를 유지하고 있기 때문으로 풀이됩니다.",
-      "novelty_impact": "대기업의 하반기 채용 규모 축소는 신입 및 경력직 구직자들에게 취업 경쟁 심화와 기회 축소로 이어질 수 있으며, 기업 입장에서는 채용 전략 재점검의 필요성을 시사합니다.",
-      "action_point": [
-        "신규 채용 규모 및 일정에 대한 내부 목표 재확인 및 필요시 조정",
-        "채용 축소에 따른 조직 충원 계획 및 인력 운영 방안 검토",
-        "경쟁사 채용 동향 모니터링 및 인재 확보 전략 점검"
-      ],
-      "collected_at": "2026-09-10 01:01",
-      "scraped_at": "2026-09-10 01:01",
-      "revision": 0
-    },
-    {
-      "title": "채용 기업 수는 늘었지만, 채용 인원은 줄어드는 '선별 채용' 확산",
-      "category": "채용/조직문화",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9DaHhrMFQwUmstQmpUUElYaUd0SS0xS05tVGZ6WGU0VlFDaC13Rkh5WENxVVdTdTQtYmhndGx2TzFYWHdDMnc?oc=5",
-      "source": "v.daum.net",
-      "summary": "최근 채용 공고를 내는 기업은 증가하는 추세지만, 실제 채용 규모는 줄어들고 있어 기업들이 핵심 인재 확보를 위한 '선별 채용'에 집중하는 경향이 뚜렷해지고 있습니다. 이는 구직자들에게는 경쟁 심화를, 기업에게는 인재 확보의 어려움을 야기할 수 있습니다.",
-      "novelty_impact": "불확실한 경제 상황 속에서 기업들이 채용 규모를 줄이고 인재 선별 기준을 강화하는 추세는 채용 시장 전반의 경쟁을 심화시키고, 구직자들의 취업 난이도를 높이는 주요 요인이 되고 있습니다.",
-      "action_point": [
-        "회사의 핵심 직무 및 인재상 재정립을 통해 선별 채용 전략에 대한 내부 검토를 진행하십시오.",
-        "채용 프로세스 효율화 및 지원자 경험 개선 방안을 모색하여 우수 인재 확보 경쟁력을 강화하십시오.",
-        "장기적인 관점에서 기업의 성장 동력이 될 수 있는 잠재력 있는 인재 발굴 및 육성 방안을 고려하십시오."
-      ],
-      "collected_at": "2026-09-10 01:00",
-      "scraped_at": "2026-09-10 01:00",
-      "revision": 0
-    },
-    {
-      "title": "대기업 하반기 채용, 74% 진행하나 규모는 축소 전망",
-      "category": "채용/조직문화",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5obFZPcUlLN2NSUnhBbVBIZ1FiQk8zaEtqMDNRc21waUQwUW5hU1d3a3ZPN3BWdkJJdmpvdm9uWWNYUjdxVWt1LXliR0ZzWDVoRnNJajhnR0liRmvSAWBBVV95cUxQcy1NZWY2czh3c1VISnp6UWhSM2VPVDZKMTZvM3ExNFVNNk9qRDRrRGZlT25ESjQtU1JETlZzVmo1bHpoZ2lmSGh5MW0yeVdoUnpsbUdiNW5VNjFNZU5WbGs?oc=5",
-      "source": "연합뉴스",
-      "summary": "국내 대기업의 74%가 올해 하반기 신규 채용 계획을 가지고 있지만, 전반적인 채용 규모는 지난해보다 축소될 것으로 예상됩니다. 이는 대내외 경기 불확실성 증대로 인해 기업들이 채용에 보수적인 태도를 보이는 것으로 분석됩니다.",
-      "novelty_impact": "대기업 전반의 채용 기조가 보수적으로 전환되고 있어, 채용 시장의 경쟁 심화와 효율적인 인력 운영 계획 수립의 중요성이 커지고 있습니다.",
-      "action_point": [
-        "하반기 채용 계획 및 예산안을 재점검하고, 필수 인력 위주로 채용 포지션의 우선순위를 조정합니다.",
-        "채용 시장 경쟁 심화에 대비하여 우수 인재 확보를 위한 채용 브랜딩 강화 및 채널 다변화 전략을 검토합니다."
-      ],
-      "collected_at": "2026-09-10 01:00",
-      "scraped_at": "2026-09-10 01:00",
-      "revision": 0
-    },
-    {
-      "title": "카카오 노조, 인적분할 반발 및 책임 경영 요구",
-      "category": "노사관계/노동계",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxMFJMZFgxZk92NUExM2FzMkFOeVhuOWhiQWdsN1RERU9hTFZDNWt3T1RaUmRYZm05QzRHWVhNOE5mZi1sWk9VbDlyZkhLYXdaNm84bGNQM2lLMEVBY3o0V1RFdFE1WTVHVEFqWUcxWVHSAXRBVV95cUxQLXAtLTE4bi1lN3d5UFBIMFIzV1VkQUhITVhlS1ZEOU5lV2dhWTdSMXJ5U3pHb3V0ZFJ3SmtrQUE2dDlpWEZrdlJ6ZFdPdS10d1ZqTzdERzNMLUIzUGlhTGg2RHd6MkFMWUhMUHRMaGl4REZBbA?oc=5",
-      "source": "IT조선",
-      "summary": "카카오 노동조합이 회사의 인적분할 결정에 대해 강력히 반발하며 '회사는 쪼개도 책임은 못 쪼갠다'는 입장을 표명했습니다. 노조는 인적분할이 고용 불안정과 처우 저하로 이어질 수 있음을 우려하며, 분할 이후에도 기업의 사회적 책임과 직원 고용에 대한 책임을 다할 것을 요구하고 있습니다.",
-      "novelty_impact": "기업의 인적분할 등 지배구조 재편 과정에서 노조가 적극적으로 목소리를 내며 경영 의사결정에 개입하려는 최근 동향을 보여주며, 이는 향후 유사 사례 발생 시 중요한 선례가 될 수 있습니다.",
-      "action_point": [
-        "기업 구조 개편(인적분할 등) 추진 시 노조 및 근로자 대표와의 사전 협의 의무 및 절차를 재확인하고, 충분한 소통을 통해 노사 갈등을 예방해야 합니다.",
-        "인적분할이 고용 안정성, 직무 변화, 처우 등에 미치는 영향을 면밀히 분석하고, 발생 가능한 리스크에 대한 노사 합의 기반의 보호 및 보상 방안을 선제적으로 검토합니다.",
-        "조직 개편 시 직원들의 동요를 최소화하고 신뢰를 유지하기 위한 명확한 커뮤니케이션 전략을 수립하고 실행해야 합니다."
-      ],
-      "collected_at": "2026-09-10 01:00",
-      "scraped_at": "2026-09-10 01:00",
-      "revision": 0
-    },
-    {
-      "title": "SK하이닉스, '성과 셰어링' 새 보상안 도입 논의",
-      "category": "보상/평가",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0tVURydDhvY2l5ZW44ZzRBOW1wN2tCVW1WRlpZUjlYWFVkZ2N6bGRjU2JvRldvV0JYRXBXbUFGX2ZuaURtSHNzSUFGdFFXOU1jSVZj?oc=5",
-      "source": "Nate News",
-      "summary": "SK하이닉스가 새로운 성과급 제도인 '성과 셰어링' 도입을 논의 중입니다. 이 보상안은 연봉 외 성과급을 회사의 재무 성과와 연동하여 직원들과 공유하는 방식으로, 만약 성과급이 7억 원이라도 현금 지급액은 2.8억 원 수준으로 조정될 수 있어 제도 설계와 직원 합의 과정이 핵심 쟁점입니다.",
-      "novelty_impact": "대기업의 고액 성과급 지급 방식 변화를 모색하며, 현금 보상 비중 조절 및 성과 공유 모델 도입이라는 점에서 타 기업의 보상 체계 설계 및 인센티브 전략에 중요한 벤치마킹 사례를 제공합니다.",
-      "action_point": [
-        "자사의 성과급 제도 및 보상 체계가 현재 시장 상황과 직원 동기 부여에 효과적인지 현황을 점검하고 벤치마킹합니다.",
-        "고액 성과급 발생 시 현금과 비현금(주식 등) 보상의 적정 비율을 고려하여 자사 상황에 맞는 보상 전략을 수립을 검토합니다.",
-        "성과 관리 시스템과 연계하여 보상의 투명성 및 공정성을 제고할 수 있는 방안을 논의합니다."
-      ],
-      "collected_at": "2026-09-10 01:00",
-      "scraped_at": "2026-09-10 01:00",
-      "revision": 0
-    },
-    {
-      "title": "소정근로시간 176시간 확정 판결 미준수 논란",
-      "category": "노동법/판례",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00Ym1CZ2h4Z2FCMVdoNmN4S3c4X3A3MGRQSlNoMUstUzRGdTZncGN6MENDcWFOYW4zRmZsSlNsT1hLd09wRDJBVXBaR3dBS25rWS0xR2o3UzlqYU1IT0M3RmVBOW9lVXhBUTZFLXJYelE?oc=5",
-      "source": "labortoday.co.kr",
-      "summary": "법원의 소정근로시간 176시간에 대한 '확정 판결'이 존재함에도 불구하고, 일부 사업장에서 해당 판결의 취지를 제대로 준수하지 않거나 해석에 이견을 보여 논란이 제기되고 있습니다. 이는 근로시간 관리 및 임금 산정의 법적 기준 준수와 직결되는 중요한 사안입니다.",
-      "novelty_impact": "법원의 확정 판결에 대한 미준수 논란은 기업의 근로시간 및 임금 산정 시스템의 법적 리스크를 재확인하게 하며, HR 실무자들에게 법규 준수에 대한 더욱 철저한 검토를 요구합니다.",
-      "action_point": [
-        "회사의 취업규칙, 근로계약서, 임금규정 등에서 소정근로시간 및 연장근로수당 산정 기준이 법원 판례 및 관련 법규에 부합하는지 즉시 점검해야 합니다.",
-        "특히 포괄임금제 등 특수 근로시간 운영 형태를 가진 경우, 실제 근로시간과 소정근로시간의 차이를 면밀히 분석하여 미지급 임금 발생 가능성을 예방해야 합니다.",
-        "소정근로시간 관련 법적 쟁점 발생 시 즉각적인 대응을 위해 사내 근로감독관 교육 및 외부 노무 전문가 자문 체계를 구축해야 합니다."
-      ],
-      "collected_at": "2026-09-10 00:59",
-      "scraped_at": "2026-09-10 00:59",
-      "revision": 0
-    },
-    {
-      "title": "금융노조 총파업: 지방 이전 문제로 노사 갈등 고조",
-      "category": "노사관계/노동계",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85ZTNGbkVjRnFRWFhJTGtfUWROeUUyS3l6Zk1Nc3N3NHlzblVqcDktaWpZT0FzZVU3dDhyMXhwaVR1QVlmMGctd1VCSWJMM29BRm1sTmt2NF8wd1JucGhnUkozUmY0amUwNmRZWWtUb08?oc=5",
-      "source": "labortoday.co.kr",
-      "summary": "금융노조가 정부의 공공기관 지방 이전 정책으로 인한 고용 불안정 및 근로조건 변화에 반발하며 총파업을 진행했습니다. 이는 노사 간의 핵심 쟁점으로 부상하여 향후 유사한 정책 추진 시 기업의 노사관계에 중대한 영향을 미칠 것으로 예상됩니다.",
-      "novelty_impact": "정부 정책이 개별 기업의 노사관계에 직접적인 갈등을 유발하고 대규모 쟁의행위로 이어질 수 있음을 보여주는 사례로, 외부 환경 변화가 HR 전략에 미치는 영향을 예측하는 데 중요한 시사점을 제공합니다.",
-      "action_point": [
-        "정부의 공공기관 이전 정책 등 외부 요인으로 인한 사업장 이전에 대비하여, 노동조합 및 직원들과의 사전 정보 공유 및 협의 프로세스를 구축하고 있는지 점검해야 합니다.",
-        "단체협약 내 쟁의행위 관련 조항, 특히 파업 시 필수 유지 업무 범위 및 인력 운영 계획을 재확인하고, 사내 비상 대응 체계를 점검하여 업무 공백 및 혼란을 최소화할 방안을 강구해야 합니다.",
-        "사업장 이전에 따른 근로자 배치 전환, 근로조건 변경, 전직 지원 등 인사제도 운영 시 노동법 및 취업규칙 준수 여부를 법률 전문가와 함께 검토하고, 발생 가능한 법적 쟁점에 대비해야 합니다."
-      ],
-      "collected_at": "2026-09-10 00:59",
-      "scraped_at": "2026-09-10 00:59",
-      "revision": 0
-    },
-    {
-      "title": "서울시버스노조, 16일 총파업 예고로 대중교통 차질 우려",
-      "category": "노사관계/노동계",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mSUVnNFVWQ25BNXZ4cjdacl9hNWhNbzVuOUZ4V09ueEx3SWhHNGxxSjE1ZC1Va3E1M2FlNi1WWmFGQ1hTZWQwbWFpb0hINVkyc281cEFxVHhYbDlkUFVkSkFySEhaMlZFZVNPcW9XUFc?oc=5",
-      "source": "labortoday.co.kr",
-      "summary": "서울시버스노동조합이 16일부터 총파업 돌입을 예고했습니다. 이는 사측과의 임금 및 단체협상 교섭에서 의견 차이를 좁히지 못한 데 따른 것으로, 실제 파업이 진행될 경우 서울시 대중교통 이용에 큰 불편이 예상됩니다.",
-      "novelty_impact": "수도권 대중교통 서비스 마비 가능성을 야기하는 대규모 파업 예고로, 시민 불편 및 기업 임직원 출퇴근에 직접적인 영향을 미 미칠 수 있습니다.",
-      "action_point": [
-        "총무팀 및 관련 부서와 협의하여 임직원 출퇴근 비상 대책(셔틀버스, 유연근무 등)을 수립하고 안내를 준비하십시오.",
-        "우리 사업장 내 노조가 있다면, 이번 파업 동향이 향후 단체교섭 및 쟁의행위 시나리오에 미칠 영향을 분석하고 대비 계획을 점검하십시오.",
-        "파업 진행 상황 및 협상 경과를 지속적으로 모니터링하여 필요한 후속 조치를 강구하십시오."
-      ],
-      "collected_at": "2026-09-10 00:58",
-      "scraped_at": "2026-09-10 00:58",
-      "revision": 0
-    },
-    {
-      "title": "보건의료노조, 사용자성 인정에도 집단교섭 중단 선언",
-      "category": "노사관계/노동계",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FUl94dFlHVU1zZlJnY1A1cEZkNENUTUZGWlpZU01waU5ZMERYc0F4S2tJSWU5X0lYRTZDclpMUWc5b1doUE02TTFURnlzMy02RWU4WTA0QU01NUJIeU11WUVEYjFRREo0VU5kcXpLX3g?oc=5",
-      "source": "labortoday.co.kr",
-      "summary": "전국보건의료산업노동조합이 사용자성 인정에도 불구하고 사용자 측과의 집단교섭을 중단한다고 밝혔다. 이는 실질적인 교섭 진전이 없어 논의가 제자리걸음이라는 판단에 따른 것으로, 향후 보건의료산업 노사관계의 불확실성이 증대될 전망이다.",
-      "novelty_impact": "노동조합의 사용자성 인정이 곧 실질적인 교섭 진전으로 이어지지 않는 현실을 보여주며, 복합적인 사용자 구조를 가진 사업장의 노사관계에 중요한 시사점을 던집니다.",
-      "action_point": [
-        "유사하게 복잡한 사용자성 관련 쟁점이 있는 사업장의 경우, 노조와의 교섭 전략을 재점검하고 법률 전문가 자문을 통해 잠재적 리스크에 대비해야 합니다.",
-        "보건의료노조의 향후 쟁의행위 등 추가 동향을 면밀히 모니터링하고, 산업 전반에 미칠 영향을 분석하여 대응 방안을 마련해야 합니다.",
-        "사용자성 인정 판례 및 고용노동부의 관련 지침 변화를 지속적으로 학습하여 교섭 실무에 반영하고, 내부 사용자 범위에 대한 법률 검토를 선제적으로 실시해야 합니다."
-      ],
-      "collected_at": "2026-09-10 00:58",
-      "scraped_at": "2026-09-10 00:58",
-      "revision": 0
-    },
-    {
-      "title": "민주노총, 경총의 '성과급 쟁의대상 제외' 주장에 반발",
-      "category": "노사관계/노동계",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE05Q2I2UFhSVE9uaHNPa1hrcXZkTng0ZF91cnVTTlNBQTIwcGZ0Si1jRlNtbTRuYjVnSktsZGtESFR1Z2I4RG1WbElzTUU4cFJtOXpLUQ?oc=5",
-      "source": "연합뉴스",
-      "summary": "한국경영자총협회(경총)가 성과급을 단체협약의 쟁의 대상으로 삼지 않도록 노동조합법 개정을 요구하자, 민주노총은 이에 대해 강력히 반발하며 '노동개악' 시도라고 규정했습니다. 민주노총은 성과급 역시 단체교섭 및 쟁의 대상이 될 수 있는 근로조건의 일종임을 강조하며, 경총의 요구가 기업의 일방적인 인사권 및 경영권을 확대하려는 시도라고 비판했습니다. 이는 향후 노사관계 및 단체교섭 환경에 주요 쟁점으로 부상할 전망입니다.",
-      "novelty_impact": "성과급의 쟁의 대상 포함 여부를 둘러싼 노사 양측의 첨예한 대립은 향후 노사관계 법제 및 단체교섭의 주요 쟁점으로 부상할 전망입니다.",
-      "action_point": [
-        "노조가 있는 기업의 HR 담당자는 성과급 관련 단체협약 및 노조와의 협상 범위에 대한 경영계와 노동계의 입장을 이해하고 대응 전략을 수립해야 합니다.",
-        "성과급 지급 기준 및 평가 방식 변경 시 노조와의 사전 협의 및 쟁의 가능성을 염두에 두고 신중하게 접근해야 합니다.",
-        "성과급 제도 운영 시 현행 단체협약 및 관행을 면밀히 검토하고, 추후 성과급 관련 쟁의 발생 가능성을 고려하여 대비책을 마련해야 합니다.",
-        "성과급 지급 기준 및 절차를 명확히 하고, 관련 정보를 투명하게 공유하여 노조의 불필요한 오해를 줄이는 노력이 필요합니다.",
-        "성과급 관련 노사 갈등 발생 시 법적 리스크를 최소화하기 위해 노동법 전문가와 상의하여 대응 전략을 수립해야 합니다.",
-        "현재 회사의 단체협약에 성과급 관련 조항 및 쟁의 대상 범위가 어떻게 명시되어 있는지 점검하고, 향후 노조법 개정 논의 동향을 면밀히 주시하여 대비해야 합니다.",
-        "성과급 제도 운영 시 발생할 수 있는 노사 갈등을 최소화하기 위해 노조와의 사전 소통 및 협의 채널을 강화하고, 성과 평가 및 보상 체계의 공정성과 투명성을 제고하는 방안을 검토해야 합니다."
-      ],
-      "collected_at": "2026-09-10 00:58",
-      "scraped_at": "2026-09-10 00:58",
-      "revision": 2,
-      "updated_at": "2026-09-11 00:57"
-    },
-    {
-      "title": "HD현대중공업 노조, 임단협 첫 제시안 거부…순환파업 돌입",
-      "category": "노사관계/노동계",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JZ2xGZmxtV3dhOTV6Ymxld2dDdVF3dWtsM3o2UXhqX0VTRThkS29NTXR0SlNTcV9iQWsyd0ZBbEQ1cDVuWDQ0bE9EVzRqXy1TVDBtZXNsV0JrLWxBcUpZemsyQ0VjODE0OFJB?oc=5",
-      "source": "해사신문",
-      "summary": "HD현대중공업 노조가 사측의 임금 및 단체협약 첫 제시안을 거부하고 2일부터 순환파업에 돌입했습니다. 이는 올해 임단협 협상 난항을 예고하며, 생산 차질 및 추가 교섭에 대한 압박으로 작용할 것으로 보입니다.",
-      "novelty_impact": "임단협 초기 단계에서의 파업 돌입은 향후 교섭에 상당한 압박으로 작용하며, 유사 상황 발생 시 기업의 위기 대응 전략 수립에 참고할 만한 사례입니다.",
-      "action_point": [
-        "파업 기간 중 필수 유지 업무 확인 및 비조합원 근로자 보호, 안전 관리 계획 점검",
-        "향후 노사 협상 재개를 위한 회사 측의 추가 협상 전략 및 시나리오를 수립하고 준비",
-        "파업 장기화에 대비하여 임금 지급, 대체 인력 운영 등 관련 법규 준수 여부 검토",
-        "자사 노사관계 동향을 면밀히 주시하고, 임단협 진행 상황 및 예상 쟁점을 사전에 파악하여 대비합니다.",
-        "파업 발생 시 업무 연속성 유지 계획(BCP)을 점검하고, 필수 인력 운영 및 비상대응 체계를 재확인합니다.",
-        "근로자들에게 관련 상황 및 회사의 입장을 투명하게 소통하여 오해를 방지하고 안정적인 조직 분위기를 유지하도록 노력합니다.",
-        "해당 기업의 파업 진행 상황 및 노사간 추가 교섭 동향을 지속적으로 모니터링하여 시사점 도출",
-        "쟁의행위 발생 시 생산 차질 최소화 및 필수 업무 유지를 위한 비상 계획 점검 및 업데이트",
-        "유사 상황 발생 가능성을 대비하여 노조와의 협상 전략 및 내부 커뮤니케이션 방안 사전 검토"
-      ],
-      "collected_at": "2026-09-10 00:57",
-      "scraped_at": "2026-09-10 00:57",
-      "revision": 2,
-      "updated_at": "2026-09-12 01:11"
-    },
-    {
-      "title": "금융노조, 광화문서 '지방 강제전보 반대' 총파업 개최",
-      "category": "노사관계/노동계",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wWVIwbkxjTEtPc21mR2V1allWRERkRUxtd2tMYjJLcDAyeE5IR1BzUXFPaUxKV08waEdPY21kY2FyZ3dTQWVrNF9oc1dzbWZzc0JiUE5kQzV1UDZ4T1N3TkZVMUpfT3NGMUZ5UWpHT1LSAXRBVV95cUxOR1JvYTRCY3ZtUE5wSVVOYXM5NUdaM2RCaFJ3TUZGMkpDVDAycmpOdGhJM2VNcTBETnh1R3NUQ0pXejR3MGcxcVd6TlJWOTV1NEpiMEFjRi1PVmZtSGFMUm9LVjNsdk9JUk42Z2J6S1E5RWJvTw?oc=5",
-      "source": "이뉴스투데이",
-      "summary": "금융노조가 정부의 공공기관 지방 이전 정책에 반발하여 광화문에서 대규모 총파업 집회를 열었습니다. 노조는 정부 정책이 사실상 강제 전보를 유발하며 직원들의 삶을 파괴한다고 비판하며 정책 철회를 강력히 요구했습니다. 이는 정부의 지방 균형 발전 정책과 노동자들의 근로 조건 및 주거권 간의 충돌 양상을 보여줍니다.",
-      "novelty_impact": "정부의 공공기관 지방 이전 정책에 대한 노동계의 조직적인 반발이 구체적인 총파업으로 가시화된 사례로, 향후 유사한 정책 추진 시 노사관계에 미칠 파급효과와 기업의 인력 운용 전략 수립에 중요한 영향을 미칠 수 있습니다.",
-      "action_point": [
-        "금융권 전반의 노사관계 동향을 주시하고, 임단협 진행 상황 및 쟁의 발생 가능성에 대한 정보를 확보해야 합니다.",
-        "파업 등 쟁의행위 발생 시 사업장 운영 지속 및 필수 업무 유지를 위한 비상 계획을 수립 및 점검해야 합니다.",
-        "내부 커뮤니케이션 채널을 통해 직원들에게 관련 상황을 투명하게 안내하고, 동요 방지 및 연대 움직임 발생 여부를 면밀히 관찰해야 합니다.",
-        "총파업 등 노동계의 대규모 집회 동향을 주시하고, 소속 사업장 또는 관계사의 노사관계에 미칠 잠재적 영향을 면밀히 분석해야 합니다.",
-        "유사한 정부 정책 기조가 확산될 경우 발생할 수 있는 내부 직원들의 동요나 불만에 대비하여 선제적인 HR 커뮤니케이션 전략 및 지원 방안을 검토하십시오."
-      ],
-      "collected_at": "2026-09-10 00:57",
-      "scraped_at": "2026-09-10 00:57",
-      "revision": 1,
-      "updated_at": "2026-09-12 01:10"
-    },
-    {
-      "title": "대기발령 거부 및 장기 무단결근 직원의 해고, 대법원 '부당해고' 판결",
-      "category": "노동법/판례",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Hbm9fU09FMW9YNFZCZFdIcHlSN1Q4WkVtWlQxeFdCMkotdFMyWnYydGlTbXh4V1dTVHNJZEFod2lUUlduRWFENzBWeEt1Z05rUW56Nmd3anNxZXVhWmh6eUk0Rkl0NUlfbnE4NzFIZw?oc=5",
-      "source": "월간노동법률",
-      "summary": "직원이 대기발령을 거부하고 927일간 무단결근하여 해고된 사안에 대해, 대법원은 해당 해고를 부당해고로 판결했습니다. 대법원은 무단결근이 장기간 이어졌다 하더라도 그 원인이 회사의 부당한 대기발령과 관련이 있다면 해고의 정당성을 인정하기 어렵다고 판단했습니다.",
-      "novelty_impact": "직원의 장기 무단결근 등 중대 비위가 있다 하더라도, 그 비위의 발생 원인에 회사의 귀책 사유가 있는지, 징계 절차가 적법하게 진행되었는지를 종합적으로 판단해야 한다는 점에서 해고의 정당성 인정 범위에 대한 법원의 엄격한 기준을 보여줍니다.",
-      "action_point": [
-        "대기발령 등 인사명령 시 정당한 사유와 필요성을 명확히 하고, 근로자에게 충분히 설명하여 예측 가능성을 높일 수 있도록 절차를 강화해야 합니다.",
-        "장기 무단결근 등 중대 비위 발생 시에도 해고 전 근로자에게 소명 기회를 충분히 부여하고, 징계 사유의 객관성 및 징계 양정의 비례 원칙을 법리 및 관련 판례에 따라 철저히 검토 후 결정해야 합니다.",
-        "취업규칙 내 대기발령, 무단결근 및 징계 관련 규정을 최신 판례 경향에 맞춰 정비하고, 인사 담당자의 관련 법률 지식 함양을 위한 교육을 정기적으로 실시해야 합니다."
-      ],
-      "collected_at": "2026-09-10 00:56",
-      "scraped_at": "2026-09-10 00:56",
-      "revision": 0
-    },
-    {
-      "title": "공공기관 직원 코인 무단 채굴, 법원 '해고 정당' 판결",
-      "category": "노동법/판례",
-      "region": "국내",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85M1p5cHppTC1GU1ZIaVo4WEJ1MnlPNGhKXzhvMUQtQ2xQMFBjZm96TGJfdHZwc19WaVJla2JOZEJJd3JILW8xS0o1SmFoR1hUcFdRUWZzRWg2SFXSAWBBVV95cUxQeXU4NV9Eak5SRFdpLVV4dzVPUWdMVEZ2R2xMQmhtZnR1aXA2Yk5FaUVmRGZVRm5rZnMtWGROWGt2VmZTMmJ4R2IxVmpLT0dYdXNjRGVDRHBPWks2NHlscnA?oc=5",
-      "source": "연합뉴스",
-      "summary": "공공기관 직원이 회사 자원을 이용해 무단으로 가상자산(코인)을 채굴하다 적발되어 해고된 사건에 대해 법원이 해당 해고가 부당하지 않다고 판결했습니다. 법원은 직원의 행위가 회사에 대한 신뢰를 훼손하고 자산 보호 의무를 위반한 중대한 비위라고 판단했습니다. 이는 회사의 자원 무단 사용에 대한 징계 정당성을 확인한 판례입니다.",
-      "novelty_impact": "기업 자원을 사적으로 유용하여 코인 채굴 등 영리 활동을 하는 직원에 대한 징계 해고의 정당성을 인정한 최신 판례로, 관련 사규 정비 및 징계 양정 기준 마련에 중요한 참고가 될 수 있습니다.",
-      "action_point": [
-        "취업규칙, 정보통신망 사용 규정 등에 회사 자원(PC, 네트워크 등)을 활용한 개인 영리 활동(가상자산 채굴 등) 금지 및 위반 시 징계 조치에 대한 명확한 근거를 마련하거나 개정해야 합니다.",
-        "임직원 대상으로 회사 자원의 올바른 사용과 정보 보안 교육을 강화하고, 사규 위반 시 발생할 수 있는 징계 수위(해고 포함)를 명확히 고지하여 경각심을 높여야 합니다."
-      ],
-      "collected_at": "2026-09-10 00:56",
-      "scraped_at": "2026-09-10 00:56",
       "revision": 0
     }
   ]
