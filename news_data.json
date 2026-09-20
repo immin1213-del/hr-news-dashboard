@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026년 09월 14일 00:47 KST",
+  "last_updated": "2026년 09월 20일 01:12 KST",
   "articles": [
+    {
+      "title": "정부, 노조의 과도한 요구에 대한 법적·제도적 대응 검토",
+      "category": "노사관계/노동계",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tSDdSTW9ZdElCOUdrT0p0eTROY01BSWFyU3owRWl5MTNTU2cwaHE0endxcTVlUDByMldsVjk2UU90d1RFVUZ2YzEwUmE2bVlXWHhNdGpxbnlMVU0?oc=5",
+      "source": "에너지경제신문",
+      "summary": "이정부(李정부)가 영업이익의 일정 비율을 요구하는 등 노동계의 '묻지마식' 과도한 요구에 대해 법적·제도적 대응 방안을 검토한다. 이는 단체교섭 및 노동계 요구에 대한 합리성과 공정성 확보를 위한 정부 정책 방향 전환을 시사한다.",
+      "novelty_impact": "노조의 무리한 요구에 대한 정부의 개입 의지를 보여주며, 향후 단체교섭의 방식 및 범위, 그리고 단체협약 내용에 중대한 영향을 미칠 수 있다.",
+      "action_point": [
+        "HR 담당자는 정부의 노동계 요구 관련 법·제도 개선 추진 동향을 면밀히 모니터링해야 합니다.",
+        "향후 단체협약 체결 시 노동조합의 요구사항이 법적 한도 및 사회적 합리성을 벗어나지 않도록 교섭 전략을 재검토하고 대비해야 합니다."
+      ],
+      "collected_at": "2026-09-20 00:56",
+      "scraped_at": "2026-09-20 00:56",
+      "revision": 0
+    },
     {
       "title": "조직 주도 성장으로의 전환: CEO 중심에서 조직 역량 강화로",
       "category": "채용/조직문화",
@@ -2027,23 +2043,6 @@
         "글로벌 호텔 산업의 HR 최신 트렌드(HR테크, 직원 경험, 유연근무 등)를 파악하고, 국내 서비스업 HR 전략에 적용할 수 있는 방안을 검토하십시오.",
         "인력 수급이 어려운 직무나 이직률이 높은 부서의 경우, 인재 유치 및 유지율 개선을 위해 새로운 HR 솔루션 도입이나 제도 개선 가능성을 논의하십시오.",
         "직원들의 웰빙과 개인 성장을 지원하는 프로그램을 강화하여, 서비스 품질 향상과 함께 장기 근속을 유도할 수 있는 방안을 모색하십시오."
-      ],
-      "collected_at": "2026-09-12 01:03",
-      "scraped_at": "2026-09-12 01:03",
-      "revision": 0
-    },
-    {
-      "title": "직원 참여도 설문조사에서 드러나지 않는 숨겨진 인력 리스크 관리",
-      "category": "HR테크/AI",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVjNabmhNaVBEQW1sT1BDdmJXNnpUMXV2OVpFTnliZkJxZW90bGlVRU1iOEdoTlNfTUtkZFh6dHVIRG9UUDNLWUNNcWt1RHFvd0NlWU9GMGVJeFhLU19OYzc2aEdycXNtd1YxU1pfUnZoYTBFSHlRanlfR1VGYngtNnhzeGEzUEJGd0k5bGFad1VHQVU?oc=5",
-      "source": "HR Executive",
-      "summary": "기존의 직원 참여도 설문조사만으로는 번아웃, 기술 격차, 조용한 퇴사 등 조직에 큰 영향을 미칠 수 있는 잠재된 인력 리스크를 파악하기 어렵습니다. 이러한 숨겨진 위험은 생산성, 혁신 및 인재 유지에 치명적인 영향을 줄 수 있으므로 새로운 접근 방식이 필요합니다.",
-      "novelty_impact": "이 뉴스는 기존 참여도 설문조사의 한계를 지적하며, 인력 리스크를 사전에 파악하고 관리하기 위한 새로운 HR 분석 기법과 데이터 활용의 중요성을 강조합니다.",
-      "action_point": [
-        "현재 직원 참여도 설문 외에 성과 데이터, 근태 기록, 사내 시스템 활용 데이터 등 다양한 사내 데이터를 통합 분석하여 잠재적 리스크 신호를 파악하십시오.",
-        "HR 분석 솔루션 또는 AI 기반 도구를 도입하여 인력 리스크 예측 및 조기 경보 시스템을 구축하는 방안을 검토하십시오.",
-        "관리자 및 HRBP를 대상으로 번아웃, 조용한 퇴사 등 직원 이탈의 미묘한 징후를 식별하고 선제적으로 대응하는 교육을 실시하여 리스크 관리 역량을 강화하십시오."
       ],
       "collected_at": "2026-09-12 01:03",
       "scraped_at": "2026-09-12 01:03",
