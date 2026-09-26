@@ -1,6 +1,23 @@
 {
-  "last_updated": "2026년 09월 20일 01:12 KST",
+  "last_updated": "2026년 09월 26일 01:50 KST",
   "articles": [
+    {
+      "title": "CJ제일제당, 직원 부당해고 판정으로 이행강제금 부과",
+      "category": "노동법/판례",
+      "region": "국내",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JNEtiTi1lRE1vYkhaVVNVMmhJWkZmSUxlOWk1SERuc1hwLTMyOHJLQ2xPYWRnVzEyYlRfZDFVSUc4aTdORzUxaWJTMEp1T3NhR1I2UDZvUlB0cld6WHIycGJ3?oc=5",
+      "source": "이코노미스트",
+      "summary": "CJ제일제당이 직원을 해고한 사건에 대해 노동위원회가 부당해고 판정을 내렸습니다. 이에 따라 회사는 해고 기간 동안의 임금 상당액 지급과 함께 이행강제금까지 부과받게 되었습니다. 이번 판정은 해고의 정당성을 충분히 확보하지 못할 경우 기업이 겪게 될 법적 및 재정적 리스크를 다시 한번 보여주는 사례입니다.",
+      "novelty_impact": "부당해고 판정 시 금전적 보상 외에 이행강제금까지 부과되어, 기업의 해고 정당성 확보와 적법한 절차 준수가 매우 중요함을 강조하는 사례입니다.",
+      "action_point": [
+        "직원 해고 시 정당한 해고 사유(예: 업무 능력 미달, 징계 사유)가 객관적으로 입증 가능한지, 그리고 적법한 절차(예: 징계위원회 개최, 소명 기회 부여)를 철저히 준수했는지 반드시 재점검해야 합니다.",
+        "취업규칙 및 징계규정이 최신 노동법 기준에 부합하는지 주기적으로 검토하고, 필요한 경우 개정하여 법적 분쟁 발생 소지를 최소화해야 합니다.",
+        "부당해고 판정 시 발생할 수 있는 이행강제금, 백 임금 지급 등 직접적인 비용 외에 기업 이미지 손상, 소송 장기화에 따른 비용까지 고려하여 해고 전 충분한 검토와 사전 예방 조치에 집중해야 합니다."
+      ],
+      "collected_at": "2026-09-26 01:35",
+      "scraped_at": "2026-09-26 01:35",
+      "revision": 0
+    },
     {
       "title": "정부, 노조의 과도한 요구에 대한 법적·제도적 대응 검토",
       "category": "노사관계/노동계",
@@ -2029,23 +2046,6 @@
       ],
       "collected_at": "2026-09-12 01:04",
       "scraped_at": "2026-09-12 01:04",
-      "revision": 0
-    },
-    {
-      "title": "호텔 산업 인사관리(HR)의 진화 동향",
-      "category": "글로벌 HR 트렌드",
-      "region": "해외",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbDl5NnJmdDJEVklnSGhPbDZWblVwQV9jcDVjQ2pUazl3dm1hcURNOXRZbFBRZHV6VzhQRTZ5ZFNibkVma0RBSjZ4bl9QOWFUTUROZzhwMlh1cHNPbV9BbFp2NUxpUV9UR1JBOFNoRDBtTUNiUmppZTRjZnFTRDVzcFFCQjJNeW84Z3ZhRzNsS21ydUNidE1QZmdRVQ?oc=5",
-      "source": "CoStar",
-      "summary": "호텔 산업의 HR 기능이 급변하며 인재 유치, 유지, 관리에 새로운 접근 방식이 요구되고 있습니다. 팬데믹 이후 인력난과 직원 경험의 중요성이 커지면서, HR테크 도입과 더불어 유연한 근무 형태, 개인화된 교육 훈련, 직원의 웰빙 지원 등 전략적 HR 역할이 강조되고 있습니다. 이는 서비스 산업 전반의 HR 변화를 시사합니다.",
-      "novelty_impact": "숙박 산업의 고질적인 인력난과 높은 이직률 문제에 대응하기 위한 HR의 변화 방향을 구체적으로 제시하며, HR테크 활용 및 직원 경험 중심 접근의 중요성을 강조하고 있습니다.",
-      "action_point": [
-        "글로벌 호텔 산업의 HR 최신 트렌드(HR테크, 직원 경험, 유연근무 등)를 파악하고, 국내 서비스업 HR 전략에 적용할 수 있는 방안을 검토하십시오.",
-        "인력 수급이 어려운 직무나 이직률이 높은 부서의 경우, 인재 유치 및 유지율 개선을 위해 새로운 HR 솔루션 도입이나 제도 개선 가능성을 논의하십시오.",
-        "직원들의 웰빙과 개인 성장을 지원하는 프로그램을 강화하여, 서비스 품질 향상과 함께 장기 근속을 유도할 수 있는 방안을 모색하십시오."
-      ],
-      "collected_at": "2026-09-12 01:03",
-      "scraped_at": "2026-09-12 01:03",
       "revision": 0
     }
   ]
